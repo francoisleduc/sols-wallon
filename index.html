@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Sols wallons</title>
+<meta name="description" content="Suivi indépendant de l'artificialisation des sols en Wallonie, par commune et par bassin, à partir des données cadastrales ouvertes.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230e1216'/%3E%3Cpath d='M0 11 6 5l4 4 6-5' fill='none' stroke='%23fff' stroke-width='1.6'/%3E%3C/svg%3E">
+<script>
+  /* Appliqué avant l'affichage, pour éviter un éclair de l'autre thème. */
+  (function () {
+    var choix = "light";
+    try { if (localStorage.getItem("sols-theme") === "dark") choix = "dark"; } catch (e) {}
+    document.documentElement.dataset.theme = choix;
+  })();
+</script>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/en.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<a class="evitement" href="#vue">Aller au contenu</a>
+<div class="cadre">
+  <nav class="rail" aria-label="Pages">
+    <a class="rail-marque" href="#accueil" aria-label="Sols wallons, accueil">SW</a>
+    <a class="rail-lien" href="#accueil" data-page="accueil">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5 9 4l6 2.5L21 4v13.5L15 20l-6-2.5L3 20zM9 4v13.5M15 6.5V20"/></svg>
+      <span>Carte</span>
+    </a>
+    <a class="rail-lien" href="#bassins" data-page="bassins">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 5v5l8 3 8-3V5M4 14l8 3 8-3M4 18l8 3 8-3"/></svg>
+      <span>Bassins</span>
+    </a>
+    <a class="rail-lien" href="#communes" data-page="communes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 10h18M3 14.5h18M9 5v14"/></svg>
+      <span>Communes</span>
+    </a>
+    <a class="rail-lien" href="#methode" data-page="methode">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l4 4v14H6zM15 3v4h4M9 12h7M9 16h7"/></svg>
+      <span>Méthode</span>
+    </a>
+  </nav>
+  <aside class="index" id="index" aria-label="Bassins et communes"></aside>
+  <div class="colonne">
+    <header class="entete">
+      <p class="fil-global" id="fil-global"><b>Sols wallons</b></p>
+      <div class="recherche" role="search">
+        <label class="invisible" for="champ-recherche">Chercher une commune</label>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+        <input id="champ-recherche" type="search" placeholder="Votre commune, par exemple Ciney" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="resultats-recherche" aria-autocomplete="list">
+        <ul id="resultats-recherche" class="resultats" role="listbox" aria-label="Communes trouvées" hidden></ul>
+      </div>
+      <p class="mention">Étude indépendante</p>
+      <button type="button" class="bouton-theme" id="bouton-theme" aria-label="Changer de thème">
+        <svg class="ico-lune" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+        <svg class="ico-soleil" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/></svg>
+        <span>Sombre</span>
+      </button>
+      <button type="button" class="bouton-theme" id="bouton-langue" aria-label="Read in English" lang="en"><span>EN</span></button>
+    </header>
+    <main id="vue" class="vue" tabindex="-1">
+      <p class="chargement">Chargement des données…</p>
+    </main>
+    <footer class="pied">
+      <p>Étude indépendante. L'IWEPS, le SPF Finances, Statbel, la CPDT et la Région wallonne ne sont pas associés à ce portail et ne l'ont pas validé.</p>
+      <p>Données : SPF Finances et Statbel (CC BY 4.0), IWEPS (CC0), SDT 2024. <a href="#methode">Sources et méthode</a>.</p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

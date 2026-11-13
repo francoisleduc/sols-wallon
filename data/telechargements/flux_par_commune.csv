@@ -1,0 +1,3916 @@
+﻿code_ins,commune,bassin,annee,flux_net_ha,signalement,flux_corrige_ha,provisoire
+25005,Beauvechain,Brabant wallon,2011,0.78,,0.78,False
+25005,Beauvechain,Brabant wallon,2012,3.21,,3.21,False
+25005,Beauvechain,Brabant wallon,2013,2.82,,2.82,False
+25005,Beauvechain,Brabant wallon,2014,11.77,,11.77,False
+25005,Beauvechain,Brabant wallon,2015,2.32,,2.32,False
+25005,Beauvechain,Brabant wallon,2016,9.97,,9.97,False
+25005,Beauvechain,Brabant wallon,2017,2.3,,2.3,False
+25005,Beauvechain,Brabant wallon,2018,1.58,,1.58,False
+25005,Beauvechain,Brabant wallon,2019,8.7,,8.7,False
+25005,Beauvechain,Brabant wallon,2020,-0.53,,-0.53,False
+25005,Beauvechain,Brabant wallon,2021,1.74,,1.74,False
+25005,Beauvechain,Brabant wallon,2022,2.99,,2.99,False
+25005,Beauvechain,Brabant wallon,2023,0.49,,0.49,False
+25005,Beauvechain,Brabant wallon,2024,1.54,,1.54,False
+25005,Beauvechain,Brabant wallon,2025,1.41,,1.41,True
+25014,Braine-l'Alleud,Brabant wallon,2011,11.55,,11.55,False
+25014,Braine-l'Alleud,Brabant wallon,2012,0.75,,0.75,False
+25014,Braine-l'Alleud,Brabant wallon,2013,5.19,,5.19,False
+25014,Braine-l'Alleud,Brabant wallon,2014,12.69,,12.69,False
+25014,Braine-l'Alleud,Brabant wallon,2015,4.51,,4.51,False
+25014,Braine-l'Alleud,Brabant wallon,2016,0.8,,0.8,False
+25014,Braine-l'Alleud,Brabant wallon,2017,41.36,saut,6.33,False
+25014,Braine-l'Alleud,Brabant wallon,2018,7.08,,7.08,False
+25014,Braine-l'Alleud,Brabant wallon,2019,6.34,,6.34,False
+25014,Braine-l'Alleud,Brabant wallon,2020,3.21,,3.21,False
+25014,Braine-l'Alleud,Brabant wallon,2021,2.89,,2.89,False
+25014,Braine-l'Alleud,Brabant wallon,2022,-7.54,reclassement,2.81,False
+25014,Braine-l'Alleud,Brabant wallon,2023,29.19,,29.19,False
+25014,Braine-l'Alleud,Brabant wallon,2024,12.99,,12.99,False
+25014,Braine-l'Alleud,Brabant wallon,2025,6.32,,6.32,True
+25015,Braine-le-Château,Brabant wallon,2011,6.45,,6.45,False
+25015,Braine-le-Château,Brabant wallon,2012,4.73,,4.73,False
+25015,Braine-le-Château,Brabant wallon,2013,29.1,saut,4.75,False
+25015,Braine-le-Château,Brabant wallon,2014,2.88,,2.88,False
+25015,Braine-le-Château,Brabant wallon,2015,3.19,,3.19,False
+25015,Braine-le-Château,Brabant wallon,2016,11.89,,11.89,False
+25015,Braine-le-Château,Brabant wallon,2017,5.04,,5.04,False
+25015,Braine-le-Château,Brabant wallon,2018,12.81,,12.81,False
+25015,Braine-le-Château,Brabant wallon,2019,3.05,,3.05,False
+25015,Braine-le-Château,Brabant wallon,2020,4.75,,4.75,False
+25015,Braine-le-Château,Brabant wallon,2021,0.85,,0.85,False
+25015,Braine-le-Château,Brabant wallon,2022,5.06,,5.06,False
+25015,Braine-le-Château,Brabant wallon,2023,3.69,,3.69,False
+25015,Braine-le-Château,Brabant wallon,2024,5.98,,5.98,False
+25015,Braine-le-Château,Brabant wallon,2025,3.81,,3.81,True
+25018,Chaumont-Gistoux,Brabant wallon,2011,11.0,,11.0,False
+25018,Chaumont-Gistoux,Brabant wallon,2012,6.64,,6.64,False
+25018,Chaumont-Gistoux,Brabant wallon,2013,7.05,,7.05,False
+25018,Chaumont-Gistoux,Brabant wallon,2014,2.15,,2.15,False
+25018,Chaumont-Gistoux,Brabant wallon,2015,3.2,,3.2,False
+25018,Chaumont-Gistoux,Brabant wallon,2016,8.57,,8.57,False
+25018,Chaumont-Gistoux,Brabant wallon,2017,1.6,,1.6,False
+25018,Chaumont-Gistoux,Brabant wallon,2018,10.76,,10.76,False
+25018,Chaumont-Gistoux,Brabant wallon,2019,4.89,,4.89,False
+25018,Chaumont-Gistoux,Brabant wallon,2020,5.06,,5.06,False
+25018,Chaumont-Gistoux,Brabant wallon,2021,5.97,,5.97,False
+25018,Chaumont-Gistoux,Brabant wallon,2022,1.89,,1.89,False
+25018,Chaumont-Gistoux,Brabant wallon,2023,2.42,,2.42,False
+25018,Chaumont-Gistoux,Brabant wallon,2024,6.8,,6.8,False
+25018,Chaumont-Gistoux,Brabant wallon,2025,6.87,,6.87,True
+25023,Court-Saint-Etienne,Brabant wallon,2011,2.2,,2.2,False
+25023,Court-Saint-Etienne,Brabant wallon,2012,3.64,,3.64,False
+25023,Court-Saint-Etienne,Brabant wallon,2013,2.33,,2.33,False
+25023,Court-Saint-Etienne,Brabant wallon,2014,3.14,,3.14,False
+25023,Court-Saint-Etienne,Brabant wallon,2015,1.12,,1.12,False
+25023,Court-Saint-Etienne,Brabant wallon,2016,0.08,,0.08,False
+25023,Court-Saint-Etienne,Brabant wallon,2017,2.36,,2.36,False
+25023,Court-Saint-Etienne,Brabant wallon,2018,1.31,,1.31,False
+25023,Court-Saint-Etienne,Brabant wallon,2019,1.11,,1.11,False
+25023,Court-Saint-Etienne,Brabant wallon,2020,2.39,,2.39,False
+25023,Court-Saint-Etienne,Brabant wallon,2021,3.29,,3.29,False
+25023,Court-Saint-Etienne,Brabant wallon,2022,3.76,,3.76,False
+25023,Court-Saint-Etienne,Brabant wallon,2023,0.98,,0.98,False
+25023,Court-Saint-Etienne,Brabant wallon,2024,3.47,,3.47,False
+25023,Court-Saint-Etienne,Brabant wallon,2025,1.98,,1.98,True
+25031,Genappe,Brabant wallon,2011,4.27,,4.27,False
+25031,Genappe,Brabant wallon,2012,5.46,,5.46,False
+25031,Genappe,Brabant wallon,2013,9.86,,9.86,False
+25031,Genappe,Brabant wallon,2014,7.03,,7.03,False
+25031,Genappe,Brabant wallon,2015,6.51,,6.51,False
+25031,Genappe,Brabant wallon,2016,5.99,,5.99,False
+25031,Genappe,Brabant wallon,2017,14.68,,14.68,False
+25031,Genappe,Brabant wallon,2018,10.06,,10.06,False
+25031,Genappe,Brabant wallon,2019,4.26,,4.26,False
+25031,Genappe,Brabant wallon,2020,-41.84,negatif,6.32,False
+25031,Genappe,Brabant wallon,2021,1.57,,1.57,False
+25031,Genappe,Brabant wallon,2022,2.43,,2.43,False
+25031,Genappe,Brabant wallon,2023,6.14,,6.14,False
+25031,Genappe,Brabant wallon,2024,7.11,,7.11,False
+25031,Genappe,Brabant wallon,2025,12.86,,12.86,True
+25037,Grez-Doiceau,Brabant wallon,2011,10.15,,10.15,False
+25037,Grez-Doiceau,Brabant wallon,2012,6.52,,6.52,False
+25037,Grez-Doiceau,Brabant wallon,2013,8.57,,8.57,False
+25037,Grez-Doiceau,Brabant wallon,2014,11.77,,11.77,False
+25037,Grez-Doiceau,Brabant wallon,2015,2.19,,2.19,False
+25037,Grez-Doiceau,Brabant wallon,2016,10.7,,10.7,False
+25037,Grez-Doiceau,Brabant wallon,2017,0.11,,0.11,False
+25037,Grez-Doiceau,Brabant wallon,2018,9.65,,9.65,False
+25037,Grez-Doiceau,Brabant wallon,2019,7.95,,7.95,False
+25037,Grez-Doiceau,Brabant wallon,2020,3.59,,3.59,False
+25037,Grez-Doiceau,Brabant wallon,2021,8.9,,8.9,False
+25037,Grez-Doiceau,Brabant wallon,2022,7.64,,7.64,False
+25037,Grez-Doiceau,Brabant wallon,2023,3.74,,3.74,False
+25037,Grez-Doiceau,Brabant wallon,2024,6.11,,6.11,False
+25037,Grez-Doiceau,Brabant wallon,2025,4.84,,4.84,True
+25043,Incourt,Brabant wallon,2011,2.32,,2.32,False
+25043,Incourt,Brabant wallon,2012,3.24,,3.24,False
+25043,Incourt,Brabant wallon,2013,3.22,,3.22,False
+25043,Incourt,Brabant wallon,2014,3.92,,3.92,False
+25043,Incourt,Brabant wallon,2015,2.63,,2.63,False
+25043,Incourt,Brabant wallon,2016,2.21,,2.21,False
+25043,Incourt,Brabant wallon,2017,10.28,,10.28,False
+25043,Incourt,Brabant wallon,2018,1.6,,1.6,False
+25043,Incourt,Brabant wallon,2019,4.23,,4.23,False
+25043,Incourt,Brabant wallon,2020,2.28,,2.28,False
+25043,Incourt,Brabant wallon,2021,4.46,,4.46,False
+25043,Incourt,Brabant wallon,2022,4.23,,4.23,False
+25043,Incourt,Brabant wallon,2023,2.13,,2.13,False
+25043,Incourt,Brabant wallon,2024,4.03,,4.03,False
+25043,Incourt,Brabant wallon,2025,1.92,,1.92,True
+25044,Ittre,Brabant wallon,2011,2.24,,2.24,False
+25044,Ittre,Brabant wallon,2012,5.07,,5.07,False
+25044,Ittre,Brabant wallon,2013,5.05,,5.05,False
+25044,Ittre,Brabant wallon,2014,1.78,,1.78,False
+25044,Ittre,Brabant wallon,2015,10.4,,10.4,False
+25044,Ittre,Brabant wallon,2016,0.6,,0.6,False
+25044,Ittre,Brabant wallon,2017,7.3,,7.3,False
+25044,Ittre,Brabant wallon,2018,6.08,,6.08,False
+25044,Ittre,Brabant wallon,2019,2.41,,2.41,False
+25044,Ittre,Brabant wallon,2020,1.52,,1.52,False
+25044,Ittre,Brabant wallon,2021,2.13,,2.13,False
+25044,Ittre,Brabant wallon,2022,3.39,,3.39,False
+25044,Ittre,Brabant wallon,2023,13.71,,13.71,False
+25044,Ittre,Brabant wallon,2024,3.78,,3.78,False
+25044,Ittre,Brabant wallon,2025,0.58,,0.58,True
+25048,Jodoigne,Brabant wallon,2011,4.46,,4.46,False
+25048,Jodoigne,Brabant wallon,2012,11.93,,11.93,False
+25048,Jodoigne,Brabant wallon,2013,10.8,,10.8,False
+25048,Jodoigne,Brabant wallon,2014,7.14,,7.14,False
+25048,Jodoigne,Brabant wallon,2015,7.35,,7.35,False
+25048,Jodoigne,Brabant wallon,2016,9.04,,9.04,False
+25048,Jodoigne,Brabant wallon,2017,5.8,,5.8,False
+25048,Jodoigne,Brabant wallon,2018,4.28,,4.28,False
+25048,Jodoigne,Brabant wallon,2019,8.83,,8.83,False
+25048,Jodoigne,Brabant wallon,2020,2.37,,2.37,False
+25048,Jodoigne,Brabant wallon,2021,7.95,,7.95,False
+25048,Jodoigne,Brabant wallon,2022,5.41,,5.41,False
+25048,Jodoigne,Brabant wallon,2023,7.65,,7.65,False
+25048,Jodoigne,Brabant wallon,2024,6.58,,6.58,False
+25048,Jodoigne,Brabant wallon,2025,7.55,,7.55,True
+25050,La Hulpe,Brabant wallon,2011,0.79,,0.79,False
+25050,La Hulpe,Brabant wallon,2012,1.09,,1.09,False
+25050,La Hulpe,Brabant wallon,2013,-0.08,,-0.08,False
+25050,La Hulpe,Brabant wallon,2014,1.61,,1.61,False
+25050,La Hulpe,Brabant wallon,2015,0.32,,0.32,False
+25050,La Hulpe,Brabant wallon,2016,0.15,,0.15,False
+25050,La Hulpe,Brabant wallon,2017,0.41,,0.41,False
+25050,La Hulpe,Brabant wallon,2018,-0.02,,-0.02,False
+25050,La Hulpe,Brabant wallon,2019,7.57,,7.57,False
+25050,La Hulpe,Brabant wallon,2020,-0.54,,-0.54,False
+25050,La Hulpe,Brabant wallon,2021,1.45,,1.45,False
+25050,La Hulpe,Brabant wallon,2022,-1.17,,-1.17,False
+25050,La Hulpe,Brabant wallon,2023,-0.06,,-0.06,False
+25050,La Hulpe,Brabant wallon,2024,1.78,,1.78,False
+25050,La Hulpe,Brabant wallon,2025,-3.59,,-3.59,True
+25068,Mont-Saint-Guibert,Brabant wallon,2011,-0.53,,-0.53,False
+25068,Mont-Saint-Guibert,Brabant wallon,2012,5.99,,5.99,False
+25068,Mont-Saint-Guibert,Brabant wallon,2013,6.5,,6.5,False
+25068,Mont-Saint-Guibert,Brabant wallon,2014,2.51,,2.51,False
+25068,Mont-Saint-Guibert,Brabant wallon,2015,0.71,,0.71,False
+25068,Mont-Saint-Guibert,Brabant wallon,2016,-0.42,,-0.42,False
+25068,Mont-Saint-Guibert,Brabant wallon,2017,4.09,,4.09,False
+25068,Mont-Saint-Guibert,Brabant wallon,2018,1.02,,1.02,False
+25068,Mont-Saint-Guibert,Brabant wallon,2019,10.02,,10.02,False
+25068,Mont-Saint-Guibert,Brabant wallon,2020,13.17,,13.17,False
+25068,Mont-Saint-Guibert,Brabant wallon,2021,2.85,,2.85,False
+25068,Mont-Saint-Guibert,Brabant wallon,2022,-0.15,,-0.15,False
+25068,Mont-Saint-Guibert,Brabant wallon,2023,3.63,,3.63,False
+25068,Mont-Saint-Guibert,Brabant wallon,2024,3.0,,3.0,False
+25068,Mont-Saint-Guibert,Brabant wallon,2025,27.64,saut,3.0,True
+25072,Nivelles,Brabant wallon,2011,6.44,,6.44,False
+25072,Nivelles,Brabant wallon,2012,12.67,,12.67,False
+25072,Nivelles,Brabant wallon,2013,17.08,,17.08,False
+25072,Nivelles,Brabant wallon,2014,7.33,,7.33,False
+25072,Nivelles,Brabant wallon,2015,14.59,,14.59,False
+25072,Nivelles,Brabant wallon,2016,14.48,,14.48,False
+25072,Nivelles,Brabant wallon,2017,9.45,,9.45,False
+25072,Nivelles,Brabant wallon,2018,21.05,,21.05,False
+25072,Nivelles,Brabant wallon,2019,2.54,,2.54,False
+25072,Nivelles,Brabant wallon,2020,7.87,,7.87,False
+25072,Nivelles,Brabant wallon,2021,9.23,,9.23,False
+25072,Nivelles,Brabant wallon,2022,-3.16,,-3.16,False
+25072,Nivelles,Brabant wallon,2023,12.06,,12.06,False
+25072,Nivelles,Brabant wallon,2024,6.92,,6.92,False
+25072,Nivelles,Brabant wallon,2025,9.07,,9.07,True
+25084,Perwez,Brabant wallon,2011,4.02,,4.02,False
+25084,Perwez,Brabant wallon,2012,4.47,,4.47,False
+25084,Perwez,Brabant wallon,2013,6.99,,6.99,False
+25084,Perwez,Brabant wallon,2014,6.1,,6.1,False
+25084,Perwez,Brabant wallon,2015,6.21,,6.21,False
+25084,Perwez,Brabant wallon,2016,9.95,,9.95,False
+25084,Perwez,Brabant wallon,2017,15.09,,15.09,False
+25084,Perwez,Brabant wallon,2018,5.65,,5.65,False
+25084,Perwez,Brabant wallon,2019,3.3,,3.3,False
+25084,Perwez,Brabant wallon,2020,5.53,,5.53,False
+25084,Perwez,Brabant wallon,2021,9.04,,9.04,False
+25084,Perwez,Brabant wallon,2022,3.47,,3.47,False
+25084,Perwez,Brabant wallon,2023,3.34,,3.34,False
+25084,Perwez,Brabant wallon,2024,5.76,,5.76,False
+25084,Perwez,Brabant wallon,2025,0.14,,0.14,True
+25091,Rixensart,Brabant wallon,2011,4.12,,4.12,False
+25091,Rixensart,Brabant wallon,2012,1.67,,1.67,False
+25091,Rixensart,Brabant wallon,2013,3.56,,3.56,False
+25091,Rixensart,Brabant wallon,2014,-2.08,,-2.08,False
+25091,Rixensart,Brabant wallon,2015,1.24,,1.24,False
+25091,Rixensart,Brabant wallon,2016,0.44,,0.44,False
+25091,Rixensart,Brabant wallon,2017,4.04,,4.04,False
+25091,Rixensart,Brabant wallon,2018,1.23,,1.23,False
+25091,Rixensart,Brabant wallon,2019,1.55,,1.55,False
+25091,Rixensart,Brabant wallon,2020,0.25,,0.25,False
+25091,Rixensart,Brabant wallon,2021,2.36,,2.36,False
+25091,Rixensart,Brabant wallon,2022,1.14,,1.14,False
+25091,Rixensart,Brabant wallon,2023,2.82,,2.82,False
+25091,Rixensart,Brabant wallon,2024,-1.05,,-1.05,False
+25091,Rixensart,Brabant wallon,2025,2.13,,2.13,True
+25105,Tubize,Brabant wallon,2011,2.0,,2.0,False
+25105,Tubize,Brabant wallon,2012,9.25,,9.25,False
+25105,Tubize,Brabant wallon,2013,11.12,,11.12,False
+25105,Tubize,Brabant wallon,2014,3.34,,3.34,False
+25105,Tubize,Brabant wallon,2015,10.06,,10.06,False
+25105,Tubize,Brabant wallon,2016,2.1,,2.1,False
+25105,Tubize,Brabant wallon,2017,1.48,,1.48,False
+25105,Tubize,Brabant wallon,2018,-36.7,reclassement,0.62,False
+25105,Tubize,Brabant wallon,2019,8.03,,8.03,False
+25105,Tubize,Brabant wallon,2020,-3.36,,-3.36,False
+25105,Tubize,Brabant wallon,2021,11.75,,11.75,False
+25105,Tubize,Brabant wallon,2022,3.38,,3.38,False
+25105,Tubize,Brabant wallon,2023,24.09,,24.09,False
+25105,Tubize,Brabant wallon,2024,3.1,,3.1,False
+25105,Tubize,Brabant wallon,2025,6.87,,6.87,True
+25107,Villers-la-Ville,Brabant wallon,2011,0.39,,0.39,False
+25107,Villers-la-Ville,Brabant wallon,2012,6.51,,6.51,False
+25107,Villers-la-Ville,Brabant wallon,2013,8.66,,8.66,False
+25107,Villers-la-Ville,Brabant wallon,2014,4.49,,4.49,False
+25107,Villers-la-Ville,Brabant wallon,2015,4.68,,4.68,False
+25107,Villers-la-Ville,Brabant wallon,2016,7.61,,7.61,False
+25107,Villers-la-Ville,Brabant wallon,2017,5.05,,5.05,False
+25107,Villers-la-Ville,Brabant wallon,2018,12.57,,12.57,False
+25107,Villers-la-Ville,Brabant wallon,2019,25.54,saut,5.05,False
+25107,Villers-la-Ville,Brabant wallon,2020,3.48,,3.48,False
+25107,Villers-la-Ville,Brabant wallon,2021,4.53,,4.53,False
+25107,Villers-la-Ville,Brabant wallon,2022,6.37,,6.37,False
+25107,Villers-la-Ville,Brabant wallon,2023,4.4,,4.4,False
+25107,Villers-la-Ville,Brabant wallon,2024,6.66,,6.66,False
+25107,Villers-la-Ville,Brabant wallon,2025,4.15,,4.15,True
+25110,Waterloo,Brabant wallon,2011,4.82,,4.82,False
+25110,Waterloo,Brabant wallon,2012,0.31,,0.31,False
+25110,Waterloo,Brabant wallon,2013,8.34,,8.34,False
+25110,Waterloo,Brabant wallon,2014,6.72,,6.72,False
+25110,Waterloo,Brabant wallon,2015,4.02,,4.02,False
+25110,Waterloo,Brabant wallon,2016,1.93,,1.93,False
+25110,Waterloo,Brabant wallon,2017,3.91,,3.91,False
+25110,Waterloo,Brabant wallon,2018,0.64,,0.64,False
+25110,Waterloo,Brabant wallon,2019,1.51,,1.51,False
+25110,Waterloo,Brabant wallon,2020,3.31,,3.31,False
+25110,Waterloo,Brabant wallon,2021,1.91,,1.91,False
+25110,Waterloo,Brabant wallon,2022,4.14,,4.14,False
+25110,Waterloo,Brabant wallon,2023,3.72,,3.72,False
+25110,Waterloo,Brabant wallon,2024,1.29,,1.29,False
+25110,Waterloo,Brabant wallon,2025,1.76,,1.76,True
+25112,Wavre,Brabant wallon,2011,30.21,saut,8.18,False
+25112,Wavre,Brabant wallon,2012,8.11,,8.11,False
+25112,Wavre,Brabant wallon,2013,7.12,,7.12,False
+25112,Wavre,Brabant wallon,2014,3.46,,3.46,False
+25112,Wavre,Brabant wallon,2015,7.31,,7.31,False
+25112,Wavre,Brabant wallon,2016,11.03,,11.03,False
+25112,Wavre,Brabant wallon,2017,16.28,,16.28,False
+25112,Wavre,Brabant wallon,2018,9.5,,9.5,False
+25112,Wavre,Brabant wallon,2019,-1.98,,-1.98,False
+25112,Wavre,Brabant wallon,2020,6.99,,6.99,False
+25112,Wavre,Brabant wallon,2021,9.45,,9.45,False
+25112,Wavre,Brabant wallon,2022,27.63,saut,8.18,False
+25112,Wavre,Brabant wallon,2023,7.76,,7.76,False
+25112,Wavre,Brabant wallon,2024,8.18,,8.18,False
+25112,Wavre,Brabant wallon,2025,8.22,,8.22,True
+25117,Chastre,Brabant wallon,2011,9.04,,9.04,False
+25117,Chastre,Brabant wallon,2012,3.86,,3.86,False
+25117,Chastre,Brabant wallon,2013,4.95,,4.95,False
+25117,Chastre,Brabant wallon,2014,6.15,,6.15,False
+25117,Chastre,Brabant wallon,2015,3.34,,3.34,False
+25117,Chastre,Brabant wallon,2016,6.72,,6.72,False
+25117,Chastre,Brabant wallon,2017,4.12,,4.12,False
+25117,Chastre,Brabant wallon,2018,7.77,,7.77,False
+25117,Chastre,Brabant wallon,2019,4.14,,4.14,False
+25117,Chastre,Brabant wallon,2020,1.45,,1.45,False
+25117,Chastre,Brabant wallon,2021,3.27,,3.27,False
+25117,Chastre,Brabant wallon,2022,1.97,,1.97,False
+25117,Chastre,Brabant wallon,2023,2.56,,2.56,False
+25117,Chastre,Brabant wallon,2024,5.53,,5.53,False
+25117,Chastre,Brabant wallon,2025,2.39,,2.39,True
+25118,Hélécine,Brabant wallon,2011,0.44,,0.44,False
+25118,Hélécine,Brabant wallon,2012,1.35,,1.35,False
+25118,Hélécine,Brabant wallon,2013,1.51,,1.51,False
+25118,Hélécine,Brabant wallon,2014,1.52,,1.52,False
+25118,Hélécine,Brabant wallon,2015,0.99,,0.99,False
+25118,Hélécine,Brabant wallon,2016,0.26,,0.26,False
+25118,Hélécine,Brabant wallon,2017,1.48,,1.48,False
+25118,Hélécine,Brabant wallon,2018,-5.33,,-5.33,False
+25118,Hélécine,Brabant wallon,2019,6.97,,6.97,False
+25118,Hélécine,Brabant wallon,2020,1.51,,1.51,False
+25118,Hélécine,Brabant wallon,2021,-0.1,,-0.1,False
+25118,Hélécine,Brabant wallon,2022,-3.55,,-3.55,False
+25118,Hélécine,Brabant wallon,2023,1.17,,1.17,False
+25118,Hélécine,Brabant wallon,2024,2.0,,2.0,False
+25118,Hélécine,Brabant wallon,2025,0.64,,0.64,True
+25119,Lasne,Brabant wallon,2011,13.98,,13.98,False
+25119,Lasne,Brabant wallon,2012,7.01,,7.01,False
+25119,Lasne,Brabant wallon,2013,15.82,,15.82,False
+25119,Lasne,Brabant wallon,2014,7.94,,7.94,False
+25119,Lasne,Brabant wallon,2015,4.16,,4.16,False
+25119,Lasne,Brabant wallon,2016,4.92,,4.92,False
+25119,Lasne,Brabant wallon,2017,8.66,,8.66,False
+25119,Lasne,Brabant wallon,2018,3.47,,3.47,False
+25119,Lasne,Brabant wallon,2019,21.94,,21.94,False
+25119,Lasne,Brabant wallon,2020,8.36,,8.36,False
+25119,Lasne,Brabant wallon,2021,8.74,,8.74,False
+25119,Lasne,Brabant wallon,2022,12.03,,12.03,False
+25119,Lasne,Brabant wallon,2023,5.0,,5.0,False
+25119,Lasne,Brabant wallon,2024,7.3,,7.3,False
+25119,Lasne,Brabant wallon,2025,0.8,,0.8,True
+25120,Orp-Jauche,Brabant wallon,2011,4.03,,4.03,False
+25120,Orp-Jauche,Brabant wallon,2012,5.99,,5.99,False
+25120,Orp-Jauche,Brabant wallon,2013,3.52,,3.52,False
+25120,Orp-Jauche,Brabant wallon,2014,0.63,,0.63,False
+25120,Orp-Jauche,Brabant wallon,2015,-0.33,,-0.33,False
+25120,Orp-Jauche,Brabant wallon,2016,1.8,,1.8,False
+25120,Orp-Jauche,Brabant wallon,2017,1.95,,1.95,False
+25120,Orp-Jauche,Brabant wallon,2018,5.58,,5.58,False
+25120,Orp-Jauche,Brabant wallon,2019,3.64,,3.64,False
+25120,Orp-Jauche,Brabant wallon,2020,5.23,,5.23,False
+25120,Orp-Jauche,Brabant wallon,2021,4.19,,4.19,False
+25120,Orp-Jauche,Brabant wallon,2022,2.3,,2.3,False
+25120,Orp-Jauche,Brabant wallon,2023,3.28,,3.28,False
+25120,Orp-Jauche,Brabant wallon,2024,4.21,,4.21,False
+25120,Orp-Jauche,Brabant wallon,2025,2.51,,2.51,True
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2011,7.95,,7.95,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2012,9.28,,9.28,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2013,14.89,,14.89,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2014,8.71,,8.71,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2015,5.82,,5.82,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2016,10.65,,10.65,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2017,5.61,,5.61,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2018,3.47,,3.47,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2019,7.82,,7.82,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2020,7.31,,7.31,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2021,-5.62,reclassement,5.17,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2022,2.43,,2.43,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2023,12.74,,12.74,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2024,5.24,,5.24,False
+25121,Ottignies-Louvain-la-Neuve,Brabant wallon,2025,1.52,,1.52,True
+25122,Ramillies,Brabant wallon,2011,3.2,,3.2,False
+25122,Ramillies,Brabant wallon,2012,3.11,,3.11,False
+25122,Ramillies,Brabant wallon,2013,5.62,,5.62,False
+25122,Ramillies,Brabant wallon,2014,1.49,,1.49,False
+25122,Ramillies,Brabant wallon,2015,7.55,,7.55,False
+25122,Ramillies,Brabant wallon,2016,8.38,,8.38,False
+25122,Ramillies,Brabant wallon,2017,2.09,,2.09,False
+25122,Ramillies,Brabant wallon,2018,3.73,,3.73,False
+25122,Ramillies,Brabant wallon,2019,2.18,,2.18,False
+25122,Ramillies,Brabant wallon,2020,7.68,,7.68,False
+25122,Ramillies,Brabant wallon,2021,3.83,,3.83,False
+25122,Ramillies,Brabant wallon,2022,2.8,,2.8,False
+25122,Ramillies,Brabant wallon,2023,5.98,,5.98,False
+25122,Ramillies,Brabant wallon,2024,4.71,,4.71,False
+25122,Ramillies,Brabant wallon,2025,5.63,,5.63,True
+25123,Rebecq,Brabant wallon,2011,1.52,,1.52,False
+25123,Rebecq,Brabant wallon,2012,4.77,,4.77,False
+25123,Rebecq,Brabant wallon,2013,7.38,,7.38,False
+25123,Rebecq,Brabant wallon,2014,1.13,,1.13,False
+25123,Rebecq,Brabant wallon,2015,5.23,,5.23,False
+25123,Rebecq,Brabant wallon,2016,-0.73,,-0.73,False
+25123,Rebecq,Brabant wallon,2017,3.05,,3.05,False
+25123,Rebecq,Brabant wallon,2018,4.02,,4.02,False
+25123,Rebecq,Brabant wallon,2019,6.66,,6.66,False
+25123,Rebecq,Brabant wallon,2020,2.35,,2.35,False
+25123,Rebecq,Brabant wallon,2021,8.41,,8.41,False
+25123,Rebecq,Brabant wallon,2022,3.44,,3.44,False
+25123,Rebecq,Brabant wallon,2023,7.24,,7.24,False
+25123,Rebecq,Brabant wallon,2024,1.72,,1.72,False
+25123,Rebecq,Brabant wallon,2025,2.47,,2.47,True
+25124,Walhain,Brabant wallon,2011,3.9,,3.9,False
+25124,Walhain,Brabant wallon,2012,6.01,,6.01,False
+25124,Walhain,Brabant wallon,2013,14.84,,14.84,False
+25124,Walhain,Brabant wallon,2014,4.09,,4.09,False
+25124,Walhain,Brabant wallon,2015,7.84,,7.84,False
+25124,Walhain,Brabant wallon,2016,6.87,,6.87,False
+25124,Walhain,Brabant wallon,2017,7.83,,7.83,False
+25124,Walhain,Brabant wallon,2018,5.93,,5.93,False
+25124,Walhain,Brabant wallon,2019,2.33,,2.33,False
+25124,Walhain,Brabant wallon,2020,1.99,,1.99,False
+25124,Walhain,Brabant wallon,2021,3.43,,3.43,False
+25124,Walhain,Brabant wallon,2022,8.14,,8.14,False
+25124,Walhain,Brabant wallon,2023,9.21,,9.21,False
+25124,Walhain,Brabant wallon,2024,2.12,,2.12,False
+25124,Walhain,Brabant wallon,2025,3.81,,3.81,True
+51004,Ath,Hainaut 1,2011,13.4,,13.4,False
+51004,Ath,Hainaut 1,2012,14.56,,14.56,False
+51004,Ath,Hainaut 1,2013,12.56,,12.56,False
+51004,Ath,Hainaut 1,2014,9.77,,9.77,False
+51004,Ath,Hainaut 1,2015,7.28,,7.28,False
+51004,Ath,Hainaut 1,2016,22.24,,22.24,False
+51004,Ath,Hainaut 1,2017,-7.31,saut,13.4,False
+51004,Ath,Hainaut 1,2018,10.03,,10.03,False
+51004,Ath,Hainaut 1,2019,14.49,,14.49,False
+51004,Ath,Hainaut 1,2020,11.85,,11.85,False
+51004,Ath,Hainaut 1,2021,23.57,,23.57,False
+51004,Ath,Hainaut 1,2022,19.01,,19.01,False
+51004,Ath,Hainaut 1,2023,14.19,,14.19,False
+51004,Ath,Hainaut 1,2024,10.16,,10.16,False
+51004,Ath,Hainaut 1,2025,64.62,saut,13.4,True
+51008,Beloeil,Hainaut 1,2011,3.22,,3.22,False
+51008,Beloeil,Hainaut 1,2012,5.81,,5.81,False
+51008,Beloeil,Hainaut 1,2013,1.3,,1.3,False
+51008,Beloeil,Hainaut 1,2014,3.23,,3.23,False
+51008,Beloeil,Hainaut 1,2015,3.83,,3.83,False
+51008,Beloeil,Hainaut 1,2016,1.12,,1.12,False
+51008,Beloeil,Hainaut 1,2017,4.42,,4.42,False
+51008,Beloeil,Hainaut 1,2018,2.64,,2.64,False
+51008,Beloeil,Hainaut 1,2019,4.42,,4.42,False
+51008,Beloeil,Hainaut 1,2020,2.15,,2.15,False
+51008,Beloeil,Hainaut 1,2021,3.56,,3.56,False
+51008,Beloeil,Hainaut 1,2022,2.85,,2.85,False
+51008,Beloeil,Hainaut 1,2023,2.48,,2.48,False
+51008,Beloeil,Hainaut 1,2024,4.32,,4.32,False
+51008,Beloeil,Hainaut 1,2025,3.5,,3.5,True
+51009,Bernissart,Hainaut 1,2011,6.53,,6.53,False
+51009,Bernissart,Hainaut 1,2012,0.88,,0.88,False
+51009,Bernissart,Hainaut 1,2013,6.27,,6.27,False
+51009,Bernissart,Hainaut 1,2014,3.49,,3.49,False
+51009,Bernissart,Hainaut 1,2015,6.97,,6.97,False
+51009,Bernissart,Hainaut 1,2016,2.83,,2.83,False
+51009,Bernissart,Hainaut 1,2017,4.67,,4.67,False
+51009,Bernissart,Hainaut 1,2018,5.47,,5.47,False
+51009,Bernissart,Hainaut 1,2019,1.56,,1.56,False
+51009,Bernissart,Hainaut 1,2020,2.21,,2.21,False
+51009,Bernissart,Hainaut 1,2021,4.75,,4.75,False
+51009,Bernissart,Hainaut 1,2022,4.97,,4.97,False
+51009,Bernissart,Hainaut 1,2023,3.34,,3.34,False
+51009,Bernissart,Hainaut 1,2024,4.56,,4.56,False
+51009,Bernissart,Hainaut 1,2025,11.77,,11.77,True
+51012,Brugelette,Hainaut 1,2011,44.04,saut,2.57,False
+51012,Brugelette,Hainaut 1,2012,0.08,,0.08,False
+51012,Brugelette,Hainaut 1,2013,18.38,,18.38,False
+51012,Brugelette,Hainaut 1,2014,0.69,,0.69,False
+51012,Brugelette,Hainaut 1,2015,3.19,,3.19,False
+51012,Brugelette,Hainaut 1,2016,0.99,,0.99,False
+51012,Brugelette,Hainaut 1,2017,7.5,,7.5,False
+51012,Brugelette,Hainaut 1,2018,1.39,,1.39,False
+51012,Brugelette,Hainaut 1,2019,1.52,,1.52,False
+51012,Brugelette,Hainaut 1,2020,-7.38,,-7.38,False
+51012,Brugelette,Hainaut 1,2021,11.18,,11.18,False
+51012,Brugelette,Hainaut 1,2022,1.95,,1.95,False
+51012,Brugelette,Hainaut 1,2023,-15.26,reclassement,0.72,False
+51012,Brugelette,Hainaut 1,2024,13.16,,13.16,False
+51012,Brugelette,Hainaut 1,2025,6.72,,6.72,True
+51014,Chièvres,Hainaut 1,2011,67.79,saut,2.78,False
+51014,Chièvres,Hainaut 1,2012,0.99,,0.99,False
+51014,Chièvres,Hainaut 1,2013,1.16,,1.16,False
+51014,Chièvres,Hainaut 1,2014,3.03,,3.03,False
+51014,Chièvres,Hainaut 1,2015,2.6,,2.6,False
+51014,Chièvres,Hainaut 1,2016,2.32,,2.32,False
+51014,Chièvres,Hainaut 1,2017,2.29,,2.29,False
+51014,Chièvres,Hainaut 1,2018,3.33,,3.33,False
+51014,Chièvres,Hainaut 1,2019,1.85,,1.85,False
+51014,Chièvres,Hainaut 1,2020,4.77,,4.77,False
+51014,Chièvres,Hainaut 1,2021,2.78,,2.78,False
+51014,Chièvres,Hainaut 1,2022,2.95,,2.95,False
+51014,Chièvres,Hainaut 1,2023,4.83,,4.83,False
+51014,Chièvres,Hainaut 1,2024,3.67,,3.67,False
+51014,Chièvres,Hainaut 1,2025,2.7,,2.7,True
+51017,Ellezelles,Hainaut 1,2011,3.9,,3.9,False
+51017,Ellezelles,Hainaut 1,2012,3.0,,3.0,False
+51017,Ellezelles,Hainaut 1,2013,3.55,,3.55,False
+51017,Ellezelles,Hainaut 1,2014,3.03,,3.03,False
+51017,Ellezelles,Hainaut 1,2015,3.5,,3.5,False
+51017,Ellezelles,Hainaut 1,2016,4.23,,4.23,False
+51017,Ellezelles,Hainaut 1,2017,6.14,,6.14,False
+51017,Ellezelles,Hainaut 1,2018,2.95,,2.95,False
+51017,Ellezelles,Hainaut 1,2019,2.07,,2.07,False
+51017,Ellezelles,Hainaut 1,2020,2.28,,2.28,False
+51017,Ellezelles,Hainaut 1,2021,4.02,,4.02,False
+51017,Ellezelles,Hainaut 1,2022,1.23,,1.23,False
+51017,Ellezelles,Hainaut 1,2023,3.07,,3.07,False
+51017,Ellezelles,Hainaut 1,2024,3.03,,3.03,False
+51017,Ellezelles,Hainaut 1,2025,2.15,,2.15,True
+51019,Flobecq,Hainaut 1,2011,1.5,,1.5,False
+51019,Flobecq,Hainaut 1,2012,3.73,,3.73,False
+51019,Flobecq,Hainaut 1,2013,1.9,,1.9,False
+51019,Flobecq,Hainaut 1,2014,1.28,,1.28,False
+51019,Flobecq,Hainaut 1,2015,3.18,,3.18,False
+51019,Flobecq,Hainaut 1,2016,1.42,,1.42,False
+51019,Flobecq,Hainaut 1,2017,2.47,,2.47,False
+51019,Flobecq,Hainaut 1,2018,1.99,,1.99,False
+51019,Flobecq,Hainaut 1,2019,0.5,,0.5,False
+51019,Flobecq,Hainaut 1,2020,1.57,,1.57,False
+51019,Flobecq,Hainaut 1,2021,2.04,,2.04,False
+51019,Flobecq,Hainaut 1,2022,0.93,,0.93,False
+51019,Flobecq,Hainaut 1,2023,1.47,,1.47,False
+51019,Flobecq,Hainaut 1,2024,0.55,,0.55,False
+51019,Flobecq,Hainaut 1,2025,1.14,,1.14,True
+51065,Frasnes-lez-Anvaing,Hainaut 1,2011,4.0,,4.0,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2012,7.88,,7.88,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2013,10.54,,10.54,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2014,27.8,saut,8.15,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2015,4.29,,4.29,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2016,16.21,,16.21,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2017,5.55,,5.55,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2018,10.14,,10.14,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2019,-1.99,,-1.99,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2020,9.41,,9.41,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2021,8.15,,8.15,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2022,6.0,,6.0,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2023,7.3,,7.3,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2024,18.54,,18.54,False
+51065,Frasnes-lez-Anvaing,Hainaut 1,2025,15.22,,15.22,True
+51067,Enghien,Hainaut 1,2011,11.85,,11.85,False
+51067,Enghien,Hainaut 1,2012,5.64,,5.64,False
+51067,Enghien,Hainaut 1,2013,3.99,,3.99,False
+51067,Enghien,Hainaut 1,2014,6.09,,6.09,False
+51067,Enghien,Hainaut 1,2015,2.16,,2.16,False
+51067,Enghien,Hainaut 1,2016,2.57,,2.57,False
+51067,Enghien,Hainaut 1,2017,0.77,,0.77,False
+51067,Enghien,Hainaut 1,2018,1.96,,1.96,False
+51067,Enghien,Hainaut 1,2019,3.92,,3.92,False
+51067,Enghien,Hainaut 1,2020,0.77,,0.77,False
+51067,Enghien,Hainaut 1,2021,2.14,,2.14,False
+51067,Enghien,Hainaut 1,2022,90.96,saut,3.25,False
+51067,Enghien,Hainaut 1,2023,-30.59,negatif,3.25,False
+51067,Enghien,Hainaut 1,2024,-0.88,,-0.88,False
+51067,Enghien,Hainaut 1,2025,16.43,,16.43,True
+51068,Silly,Hainaut 1,2011,3.86,,3.86,False
+51068,Silly,Hainaut 1,2012,2.96,,2.96,False
+51068,Silly,Hainaut 1,2013,3.45,,3.45,False
+51068,Silly,Hainaut 1,2014,2.99,,2.99,False
+51068,Silly,Hainaut 1,2015,2.89,,2.89,False
+51068,Silly,Hainaut 1,2016,1.29,,1.29,False
+51068,Silly,Hainaut 1,2017,3.76,,3.76,False
+51068,Silly,Hainaut 1,2018,2.58,,2.58,False
+51068,Silly,Hainaut 1,2019,3.32,,3.32,False
+51068,Silly,Hainaut 1,2020,3.67,,3.67,False
+51068,Silly,Hainaut 1,2021,5.6,,5.6,False
+51068,Silly,Hainaut 1,2022,29.88,saut,3.45,False
+51068,Silly,Hainaut 1,2023,3.58,,3.58,False
+51068,Silly,Hainaut 1,2024,3.33,,3.33,False
+51068,Silly,Hainaut 1,2025,5.62,,5.62,True
+51069,Lessines,Hainaut 1,2011,1.75,,1.75,False
+51069,Lessines,Hainaut 1,2012,2.84,,2.84,False
+51069,Lessines,Hainaut 1,2013,2.18,,2.18,False
+51069,Lessines,Hainaut 1,2014,4.93,,4.93,False
+51069,Lessines,Hainaut 1,2015,16.11,,16.11,False
+51069,Lessines,Hainaut 1,2016,-4.18,,-4.18,False
+51069,Lessines,Hainaut 1,2017,2.99,,2.99,False
+51069,Lessines,Hainaut 1,2018,2.54,,2.54,False
+51069,Lessines,Hainaut 1,2019,7.28,,7.28,False
+51069,Lessines,Hainaut 1,2020,2.77,,2.77,False
+51069,Lessines,Hainaut 1,2021,12.35,,12.35,False
+51069,Lessines,Hainaut 1,2022,1.59,,1.59,False
+51069,Lessines,Hainaut 1,2023,1.8,,1.8,False
+51069,Lessines,Hainaut 1,2024,4.93,,4.93,False
+51069,Lessines,Hainaut 1,2025,24.62,saut,2.84,True
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2011,2.51,,2.51,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2012,2.12,,2.12,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2013,3.94,,3.94,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2014,0.71,,0.71,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2015,0.33,,0.33,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2016,2.81,,2.81,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2017,1.16,,1.16,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2018,3.06,,3.06,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2019,0.54,,0.54,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2020,1.32,,1.32,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2021,-0.62,,-0.62,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2022,3.16,,3.16,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2023,4.2,,4.2,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2024,-1.14,,-1.14,False
+52010,Chapelle-lez-Herlaimont,Hainaut 2,2025,0.64,,0.64,True
+52011,Charleroi,Hainaut 2,2011,12.26,,12.26,False
+52011,Charleroi,Hainaut 2,2012,2.35,,2.35,False
+52011,Charleroi,Hainaut 2,2013,20.85,,20.85,False
+52011,Charleroi,Hainaut 2,2014,4.52,,4.52,False
+52011,Charleroi,Hainaut 2,2015,-20.86,reclassement,-0.42,False
+52011,Charleroi,Hainaut 2,2016,12.44,,12.44,False
+52011,Charleroi,Hainaut 2,2017,8.56,,8.56,False
+52011,Charleroi,Hainaut 2,2018,-3.28,,-3.28,False
+52011,Charleroi,Hainaut 2,2019,-0.73,,-0.73,False
+52011,Charleroi,Hainaut 2,2020,15.2,,15.2,False
+52011,Charleroi,Hainaut 2,2021,8.77,,8.77,False
+52011,Charleroi,Hainaut 2,2022,11.62,,11.62,False
+52011,Charleroi,Hainaut 2,2023,19.61,,19.61,False
+52011,Charleroi,Hainaut 2,2024,16.81,,16.81,False
+52011,Charleroi,Hainaut 2,2025,4.23,,4.23,True
+52012,Châtelet,Hainaut 2,2011,3.43,,3.43,False
+52012,Châtelet,Hainaut 2,2012,3.47,,3.47,False
+52012,Châtelet,Hainaut 2,2013,2.49,,2.49,False
+52012,Châtelet,Hainaut 2,2014,1.23,,1.23,False
+52012,Châtelet,Hainaut 2,2015,-2.7,,-2.7,False
+52012,Châtelet,Hainaut 2,2016,0.64,,0.64,False
+52012,Châtelet,Hainaut 2,2017,0.93,,0.93,False
+52012,Châtelet,Hainaut 2,2018,-0.44,,-0.44,False
+52012,Châtelet,Hainaut 2,2019,-3.52,,-3.52,False
+52012,Châtelet,Hainaut 2,2020,3.34,,3.34,False
+52012,Châtelet,Hainaut 2,2021,3.78,,3.78,False
+52012,Châtelet,Hainaut 2,2022,8.96,,8.96,False
+52012,Châtelet,Hainaut 2,2023,-2.8,,-2.8,False
+52012,Châtelet,Hainaut 2,2024,0.35,,0.35,False
+52012,Châtelet,Hainaut 2,2025,1.78,,1.78,True
+52015,Courcelles,Hainaut 2,2011,3.46,,3.46,False
+52015,Courcelles,Hainaut 2,2012,7.23,,7.23,False
+52015,Courcelles,Hainaut 2,2013,3.09,,3.09,False
+52015,Courcelles,Hainaut 2,2014,1.0,,1.0,False
+52015,Courcelles,Hainaut 2,2015,4.02,,4.02,False
+52015,Courcelles,Hainaut 2,2016,1.26,,1.26,False
+52015,Courcelles,Hainaut 2,2017,5.34,,5.34,False
+52015,Courcelles,Hainaut 2,2018,4.67,,4.67,False
+52015,Courcelles,Hainaut 2,2019,-0.75,,-0.75,False
+52015,Courcelles,Hainaut 2,2020,4.49,,4.49,False
+52015,Courcelles,Hainaut 2,2021,-2.08,,-2.08,False
+52015,Courcelles,Hainaut 2,2022,5.91,,5.91,False
+52015,Courcelles,Hainaut 2,2023,3.6,,3.6,False
+52015,Courcelles,Hainaut 2,2024,3.97,,3.97,False
+52015,Courcelles,Hainaut 2,2025,5.09,,5.09,True
+52018,Farciennes,Hainaut 2,2011,0.06,,0.06,False
+52018,Farciennes,Hainaut 2,2012,-0.11,,-0.11,False
+52018,Farciennes,Hainaut 2,2013,0.26,,0.26,False
+52018,Farciennes,Hainaut 2,2014,0.13,,0.13,False
+52018,Farciennes,Hainaut 2,2015,2.78,,2.78,False
+52018,Farciennes,Hainaut 2,2016,0.0,,0.0,False
+52018,Farciennes,Hainaut 2,2017,0.32,,0.32,False
+52018,Farciennes,Hainaut 2,2018,3.88,,3.88,False
+52018,Farciennes,Hainaut 2,2019,0.47,,0.47,False
+52018,Farciennes,Hainaut 2,2020,1.57,,1.57,False
+52018,Farciennes,Hainaut 2,2021,11.94,,11.94,False
+52018,Farciennes,Hainaut 2,2022,1.61,,1.61,False
+52018,Farciennes,Hainaut 2,2023,4.92,,4.92,False
+52018,Farciennes,Hainaut 2,2024,0.67,,0.67,False
+52018,Farciennes,Hainaut 2,2025,1.21,,1.21,True
+52021,Fleurus,Hainaut 2,2011,-15.79,reclassement,1.03,False
+52021,Fleurus,Hainaut 2,2012,14.58,,14.58,False
+52021,Fleurus,Hainaut 2,2013,4.94,,4.94,False
+52021,Fleurus,Hainaut 2,2014,3.51,,3.51,False
+52021,Fleurus,Hainaut 2,2015,17.08,,17.08,False
+52021,Fleurus,Hainaut 2,2016,-24.87,reclassement,-3.17,False
+52021,Fleurus,Hainaut 2,2017,7.93,,7.93,False
+52021,Fleurus,Hainaut 2,2018,3.8,,3.8,False
+52021,Fleurus,Hainaut 2,2019,3.28,,3.28,False
+52021,Fleurus,Hainaut 2,2020,11.59,,11.59,False
+52021,Fleurus,Hainaut 2,2021,7.04,,7.04,False
+52021,Fleurus,Hainaut 2,2022,5.42,,5.42,False
+52021,Fleurus,Hainaut 2,2023,4.86,,4.86,False
+52021,Fleurus,Hainaut 2,2024,6.4,,6.4,False
+52021,Fleurus,Hainaut 2,2025,2.8,,2.8,True
+52022,Fontaine-l'Evêque,Hainaut 2,2011,2.82,,2.82,False
+52022,Fontaine-l'Evêque,Hainaut 2,2012,-0.86,,-0.86,False
+52022,Fontaine-l'Evêque,Hainaut 2,2013,2.06,,2.06,False
+52022,Fontaine-l'Evêque,Hainaut 2,2014,2.71,,2.71,False
+52022,Fontaine-l'Evêque,Hainaut 2,2015,2.74,,2.74,False
+52022,Fontaine-l'Evêque,Hainaut 2,2016,2.5,,2.5,False
+52022,Fontaine-l'Evêque,Hainaut 2,2017,4.61,,4.61,False
+52022,Fontaine-l'Evêque,Hainaut 2,2018,2.31,,2.31,False
+52022,Fontaine-l'Evêque,Hainaut 2,2019,3.25,,3.25,False
+52022,Fontaine-l'Evêque,Hainaut 2,2020,0.84,,0.84,False
+52022,Fontaine-l'Evêque,Hainaut 2,2021,-1.06,,-1.06,False
+52022,Fontaine-l'Evêque,Hainaut 2,2022,2.44,,2.44,False
+52022,Fontaine-l'Evêque,Hainaut 2,2023,3.17,,3.17,False
+52022,Fontaine-l'Evêque,Hainaut 2,2024,1.04,,1.04,False
+52022,Fontaine-l'Evêque,Hainaut 2,2025,6.56,,6.56,True
+52025,Gerpinnes,Hainaut 2,2011,3.32,,3.32,False
+52025,Gerpinnes,Hainaut 2,2012,2.7,,2.7,False
+52025,Gerpinnes,Hainaut 2,2013,3.28,,3.28,False
+52025,Gerpinnes,Hainaut 2,2014,5.24,,5.24,False
+52025,Gerpinnes,Hainaut 2,2015,2.09,,2.09,False
+52025,Gerpinnes,Hainaut 2,2016,2.29,,2.29,False
+52025,Gerpinnes,Hainaut 2,2017,3.16,,3.16,False
+52025,Gerpinnes,Hainaut 2,2018,2.82,,2.82,False
+52025,Gerpinnes,Hainaut 2,2019,8.43,,8.43,False
+52025,Gerpinnes,Hainaut 2,2020,2.62,,2.62,False
+52025,Gerpinnes,Hainaut 2,2021,7.95,,7.95,False
+52025,Gerpinnes,Hainaut 2,2022,2.57,,2.57,False
+52025,Gerpinnes,Hainaut 2,2023,3.97,,3.97,False
+52025,Gerpinnes,Hainaut 2,2024,4.12,,4.12,False
+52025,Gerpinnes,Hainaut 2,2025,1.51,,1.51,True
+52048,Montigny-le-Tilleul,Hainaut 2,2011,1.58,,1.58,False
+52048,Montigny-le-Tilleul,Hainaut 2,2012,2.24,,2.24,False
+52048,Montigny-le-Tilleul,Hainaut 2,2013,1.08,,1.08,False
+52048,Montigny-le-Tilleul,Hainaut 2,2014,5.93,,5.93,False
+52048,Montigny-le-Tilleul,Hainaut 2,2015,2.01,,2.01,False
+52048,Montigny-le-Tilleul,Hainaut 2,2016,-0.5,,-0.5,False
+52048,Montigny-le-Tilleul,Hainaut 2,2017,1.36,,1.36,False
+52048,Montigny-le-Tilleul,Hainaut 2,2018,1.38,,1.38,False
+52048,Montigny-le-Tilleul,Hainaut 2,2019,2.88,,2.88,False
+52048,Montigny-le-Tilleul,Hainaut 2,2020,1.26,,1.26,False
+52048,Montigny-le-Tilleul,Hainaut 2,2021,2.46,,2.46,False
+52048,Montigny-le-Tilleul,Hainaut 2,2022,-0.18,,-0.18,False
+52048,Montigny-le-Tilleul,Hainaut 2,2023,1.46,,1.46,False
+52048,Montigny-le-Tilleul,Hainaut 2,2024,-1.11,,-1.11,False
+52048,Montigny-le-Tilleul,Hainaut 2,2025,0.36,,0.36,True
+52055,Pont-à-Celles,Hainaut 2,2011,4.54,,4.54,False
+52055,Pont-à-Celles,Hainaut 2,2012,5.28,,5.28,False
+52055,Pont-à-Celles,Hainaut 2,2013,1.06,,1.06,False
+52055,Pont-à-Celles,Hainaut 2,2014,16.24,,16.24,False
+52055,Pont-à-Celles,Hainaut 2,2015,3.07,,3.07,False
+52055,Pont-à-Celles,Hainaut 2,2016,0.27,,0.27,False
+52055,Pont-à-Celles,Hainaut 2,2017,2.16,,2.16,False
+52055,Pont-à-Celles,Hainaut 2,2018,3.02,,3.02,False
+52055,Pont-à-Celles,Hainaut 2,2019,-0.25,,-0.25,False
+52055,Pont-à-Celles,Hainaut 2,2020,1.34,,1.34,False
+52055,Pont-à-Celles,Hainaut 2,2021,2.71,,2.71,False
+52055,Pont-à-Celles,Hainaut 2,2022,2.38,,2.38,False
+52055,Pont-à-Celles,Hainaut 2,2023,3.09,,3.09,False
+52055,Pont-à-Celles,Hainaut 2,2024,9.62,,9.62,False
+52055,Pont-à-Celles,Hainaut 2,2025,2.39,,2.39,True
+52074,Aiseau-Presles,Hainaut 2,2011,1.58,,1.58,False
+52074,Aiseau-Presles,Hainaut 2,2012,0.03,,0.03,False
+52074,Aiseau-Presles,Hainaut 2,2013,-0.14,,-0.14,False
+52074,Aiseau-Presles,Hainaut 2,2014,3.79,,3.79,False
+52074,Aiseau-Presles,Hainaut 2,2015,1.91,,1.91,False
+52074,Aiseau-Presles,Hainaut 2,2016,1.36,,1.36,False
+52074,Aiseau-Presles,Hainaut 2,2017,0.35,,0.35,False
+52074,Aiseau-Presles,Hainaut 2,2018,2.56,,2.56,False
+52074,Aiseau-Presles,Hainaut 2,2019,2.38,,2.38,False
+52074,Aiseau-Presles,Hainaut 2,2020,0.44,,0.44,False
+52074,Aiseau-Presles,Hainaut 2,2021,4.22,,4.22,False
+52074,Aiseau-Presles,Hainaut 2,2022,1.38,,1.38,False
+52074,Aiseau-Presles,Hainaut 2,2023,-0.47,,-0.47,False
+52074,Aiseau-Presles,Hainaut 2,2024,1.71,,1.71,False
+52074,Aiseau-Presles,Hainaut 2,2025,0.27,,0.27,True
+52075,Les Bons Villers,Hainaut 2,2011,3.17,,3.17,False
+52075,Les Bons Villers,Hainaut 2,2012,1.5,,1.5,False
+52075,Les Bons Villers,Hainaut 2,2013,2.56,,2.56,False
+52075,Les Bons Villers,Hainaut 2,2014,46.59,saut,2.56,False
+52075,Les Bons Villers,Hainaut 2,2015,11.45,,11.45,False
+52075,Les Bons Villers,Hainaut 2,2016,1.78,,1.78,False
+52075,Les Bons Villers,Hainaut 2,2017,4.8,,4.8,False
+52075,Les Bons Villers,Hainaut 2,2018,1.7,,1.7,False
+52075,Les Bons Villers,Hainaut 2,2019,3.89,,3.89,False
+52075,Les Bons Villers,Hainaut 2,2020,0.8,,0.8,False
+52075,Les Bons Villers,Hainaut 2,2021,-4.97,,-4.97,False
+52075,Les Bons Villers,Hainaut 2,2022,4.86,,4.86,False
+52075,Les Bons Villers,Hainaut 2,2023,-4.66,,-4.66,False
+52075,Les Bons Villers,Hainaut 2,2024,2.73,,2.73,False
+52075,Les Bons Villers,Hainaut 2,2025,1.35,,1.35,True
+53014,Boussu,Hainaut 1,2011,0.5,,0.5,False
+53014,Boussu,Hainaut 1,2012,0.88,,0.88,False
+53014,Boussu,Hainaut 1,2013,0.77,,0.77,False
+53014,Boussu,Hainaut 1,2014,0.5,,0.5,False
+53014,Boussu,Hainaut 1,2015,1.41,,1.41,False
+53014,Boussu,Hainaut 1,2016,0.33,,0.33,False
+53014,Boussu,Hainaut 1,2017,2.01,,2.01,False
+53014,Boussu,Hainaut 1,2018,2.29,,2.29,False
+53014,Boussu,Hainaut 1,2019,1.19,,1.19,False
+53014,Boussu,Hainaut 1,2020,0.77,,0.77,False
+53014,Boussu,Hainaut 1,2021,4.18,,4.18,False
+53014,Boussu,Hainaut 1,2022,2.15,,2.15,False
+53014,Boussu,Hainaut 1,2023,3.42,,3.42,False
+53014,Boussu,Hainaut 1,2024,0.44,,0.44,False
+53014,Boussu,Hainaut 1,2025,2.43,,2.43,True
+53020,Dour,Hainaut 1,2011,4.94,,4.94,False
+53020,Dour,Hainaut 1,2012,1.54,,1.54,False
+53020,Dour,Hainaut 1,2013,1.84,,1.84,False
+53020,Dour,Hainaut 1,2014,0.69,,0.69,False
+53020,Dour,Hainaut 1,2015,1.48,,1.48,False
+53020,Dour,Hainaut 1,2016,1.67,,1.67,False
+53020,Dour,Hainaut 1,2017,1.88,,1.88,False
+53020,Dour,Hainaut 1,2018,1.39,,1.39,False
+53020,Dour,Hainaut 1,2019,2.96,,2.96,False
+53020,Dour,Hainaut 1,2020,9.75,,9.75,False
+53020,Dour,Hainaut 1,2021,6.3,,6.3,False
+53020,Dour,Hainaut 1,2022,1.83,,1.83,False
+53020,Dour,Hainaut 1,2023,2.88,,2.88,False
+53020,Dour,Hainaut 1,2024,0.72,,0.72,False
+53020,Dour,Hainaut 1,2025,3.42,,3.42,True
+53028,Frameries,Hainaut 1,2011,2.47,,2.47,False
+53028,Frameries,Hainaut 1,2012,-8.71,reclassement,2.3,False
+53028,Frameries,Hainaut 1,2013,2.13,,2.13,False
+53028,Frameries,Hainaut 1,2014,5.49,,5.49,False
+53028,Frameries,Hainaut 1,2015,0.99,,0.99,False
+53028,Frameries,Hainaut 1,2016,-3.29,,-3.29,False
+53028,Frameries,Hainaut 1,2017,2.24,,2.24,False
+53028,Frameries,Hainaut 1,2018,2.32,,2.32,False
+53028,Frameries,Hainaut 1,2019,9.68,,9.68,False
+53028,Frameries,Hainaut 1,2020,2.02,,2.02,False
+53028,Frameries,Hainaut 1,2021,6.2,,6.2,False
+53028,Frameries,Hainaut 1,2022,3.93,,3.93,False
+53028,Frameries,Hainaut 1,2023,1.7,,1.7,False
+53028,Frameries,Hainaut 1,2024,3.25,,3.25,False
+53028,Frameries,Hainaut 1,2025,2.88,,2.88,True
+53039,Hensies,Hainaut 1,2011,2.31,,2.31,False
+53039,Hensies,Hainaut 1,2012,1.42,,1.42,False
+53039,Hensies,Hainaut 1,2013,0.09,,0.09,False
+53039,Hensies,Hainaut 1,2014,0.41,,0.41,False
+53039,Hensies,Hainaut 1,2015,0.55,,0.55,False
+53039,Hensies,Hainaut 1,2016,0.65,,0.65,False
+53039,Hensies,Hainaut 1,2017,1.53,,1.53,False
+53039,Hensies,Hainaut 1,2018,0.85,,0.85,False
+53039,Hensies,Hainaut 1,2019,2.27,,2.27,False
+53039,Hensies,Hainaut 1,2020,0.76,,0.76,False
+53039,Hensies,Hainaut 1,2021,2.87,,2.87,False
+53039,Hensies,Hainaut 1,2022,3.02,,3.02,False
+53039,Hensies,Hainaut 1,2023,1.77,,1.77,False
+53039,Hensies,Hainaut 1,2024,1.18,,1.18,False
+53039,Hensies,Hainaut 1,2025,2.43,,2.43,True
+53044,Jurbise,Hainaut 1,2011,3.89,,3.89,False
+53044,Jurbise,Hainaut 1,2012,4.84,,4.84,False
+53044,Jurbise,Hainaut 1,2013,4.45,,4.45,False
+53044,Jurbise,Hainaut 1,2014,1.57,,1.57,False
+53044,Jurbise,Hainaut 1,2015,4.92,,4.92,False
+53044,Jurbise,Hainaut 1,2016,6.55,,6.55,False
+53044,Jurbise,Hainaut 1,2017,2.2,,2.2,False
+53044,Jurbise,Hainaut 1,2018,4.41,,4.41,False
+53044,Jurbise,Hainaut 1,2019,5.73,,5.73,False
+53044,Jurbise,Hainaut 1,2020,4.72,,4.72,False
+53044,Jurbise,Hainaut 1,2021,6.22,,6.22,False
+53044,Jurbise,Hainaut 1,2022,3.57,,3.57,False
+53044,Jurbise,Hainaut 1,2023,8.2,,8.2,False
+53044,Jurbise,Hainaut 1,2024,13.32,,13.32,False
+53044,Jurbise,Hainaut 1,2025,9.23,,9.23,True
+53046,Lens,Hainaut 1,2011,3.53,,3.53,False
+53046,Lens,Hainaut 1,2012,7.83,,7.83,False
+53046,Lens,Hainaut 1,2013,12.45,,12.45,False
+53046,Lens,Hainaut 1,2014,0.49,,0.49,False
+53046,Lens,Hainaut 1,2015,1.55,,1.55,False
+53046,Lens,Hainaut 1,2016,1.97,,1.97,False
+53046,Lens,Hainaut 1,2017,1.98,,1.98,False
+53046,Lens,Hainaut 1,2018,1.27,,1.27,False
+53046,Lens,Hainaut 1,2019,0.45,,0.45,False
+53046,Lens,Hainaut 1,2020,2.06,,2.06,False
+53046,Lens,Hainaut 1,2021,1.44,,1.44,False
+53046,Lens,Hainaut 1,2022,2.48,,2.48,False
+53046,Lens,Hainaut 1,2023,1.91,,1.91,False
+53046,Lens,Hainaut 1,2024,1.42,,1.42,False
+53046,Lens,Hainaut 1,2025,3.31,,3.31,True
+53053,Mons,Hainaut 1,2011,-205.9,reclassement,20.69,False
+53053,Mons,Hainaut 1,2012,17.53,,17.53,False
+53053,Mons,Hainaut 1,2013,12.02,,12.02,False
+53053,Mons,Hainaut 1,2014,6.22,,6.22,False
+53053,Mons,Hainaut 1,2015,17.59,,17.59,False
+53053,Mons,Hainaut 1,2016,38.76,saut,15.84,False
+53053,Mons,Hainaut 1,2017,20.91,,20.91,False
+53053,Mons,Hainaut 1,2018,13.82,,13.82,False
+53053,Mons,Hainaut 1,2019,9.39,,9.39,False
+53053,Mons,Hainaut 1,2020,14.91,,14.91,False
+53053,Mons,Hainaut 1,2021,19.48,,19.48,False
+53053,Mons,Hainaut 1,2022,22.6,,22.6,False
+53053,Mons,Hainaut 1,2023,15.53,,15.53,False
+53053,Mons,Hainaut 1,2024,16.15,,16.15,False
+53053,Mons,Hainaut 1,2025,13.39,,13.39,True
+53065,Quaregnon,Hainaut 1,2011,1.41,,1.41,False
+53065,Quaregnon,Hainaut 1,2012,2.3,,2.3,False
+53065,Quaregnon,Hainaut 1,2013,2.78,,2.78,False
+53065,Quaregnon,Hainaut 1,2014,-0.28,,-0.28,False
+53065,Quaregnon,Hainaut 1,2015,1.0,,1.0,False
+53065,Quaregnon,Hainaut 1,2016,1.25,,1.25,False
+53065,Quaregnon,Hainaut 1,2017,0.65,,0.65,False
+53065,Quaregnon,Hainaut 1,2018,2.85,,2.85,False
+53065,Quaregnon,Hainaut 1,2019,0.55,,0.55,False
+53065,Quaregnon,Hainaut 1,2020,0.09,,0.09,False
+53065,Quaregnon,Hainaut 1,2021,0.22,,0.22,False
+53065,Quaregnon,Hainaut 1,2022,1.36,,1.36,False
+53065,Quaregnon,Hainaut 1,2023,1.57,,1.57,False
+53065,Quaregnon,Hainaut 1,2024,1.41,,1.41,False
+53065,Quaregnon,Hainaut 1,2025,0.92,,0.92,True
+53068,Quiévrain,Hainaut 1,2011,0.63,,0.63,False
+53068,Quiévrain,Hainaut 1,2012,0.24,,0.24,False
+53068,Quiévrain,Hainaut 1,2013,0.3,,0.3,False
+53068,Quiévrain,Hainaut 1,2014,0.55,,0.55,False
+53068,Quiévrain,Hainaut 1,2015,1.38,,1.38,False
+53068,Quiévrain,Hainaut 1,2016,0.4,,0.4,False
+53068,Quiévrain,Hainaut 1,2017,0.11,,0.11,False
+53068,Quiévrain,Hainaut 1,2018,0.66,,0.66,False
+53068,Quiévrain,Hainaut 1,2019,1.48,,1.48,False
+53068,Quiévrain,Hainaut 1,2020,1.05,,1.05,False
+53068,Quiévrain,Hainaut 1,2021,2.04,,2.04,False
+53068,Quiévrain,Hainaut 1,2022,2.72,,2.72,False
+53068,Quiévrain,Hainaut 1,2023,0.82,,0.82,False
+53068,Quiévrain,Hainaut 1,2024,-0.37,,-0.37,False
+53068,Quiévrain,Hainaut 1,2025,-0.05,,-0.05,True
+53070,Saint-Ghislain,Hainaut 1,2011,12.37,,12.37,False
+53070,Saint-Ghislain,Hainaut 1,2012,97.22,saut,3.93,False
+53070,Saint-Ghislain,Hainaut 1,2013,1.12,,1.12,False
+53070,Saint-Ghislain,Hainaut 1,2014,2.16,,2.16,False
+53070,Saint-Ghislain,Hainaut 1,2015,4.1,,4.1,False
+53070,Saint-Ghislain,Hainaut 1,2016,3.53,,3.53,False
+53070,Saint-Ghislain,Hainaut 1,2017,11.51,,11.51,False
+53070,Saint-Ghislain,Hainaut 1,2018,2.18,,2.18,False
+53070,Saint-Ghislain,Hainaut 1,2019,22.88,,22.88,False
+53070,Saint-Ghislain,Hainaut 1,2020,-4.13,reclassement,7.43,False
+53070,Saint-Ghislain,Hainaut 1,2021,-2.77,,-2.77,False
+53070,Saint-Ghislain,Hainaut 1,2022,17.67,,17.67,False
+53070,Saint-Ghislain,Hainaut 1,2023,7.88,,7.88,False
+53070,Saint-Ghislain,Hainaut 1,2024,3.77,,3.77,False
+53070,Saint-Ghislain,Hainaut 1,2025,3.38,,3.38,True
+53082,Colfontaine,Hainaut 1,2011,3.47,,3.47,False
+53082,Colfontaine,Hainaut 1,2012,0.53,,0.53,False
+53082,Colfontaine,Hainaut 1,2013,4.45,,4.45,False
+53082,Colfontaine,Hainaut 1,2014,0.23,,0.23,False
+53082,Colfontaine,Hainaut 1,2015,1.53,,1.53,False
+53082,Colfontaine,Hainaut 1,2016,1.37,,1.37,False
+53082,Colfontaine,Hainaut 1,2017,1.0,,1.0,False
+53082,Colfontaine,Hainaut 1,2018,1.43,,1.43,False
+53082,Colfontaine,Hainaut 1,2019,0.29,,0.29,False
+53082,Colfontaine,Hainaut 1,2020,0.65,,0.65,False
+53082,Colfontaine,Hainaut 1,2021,1.35,,1.35,False
+53082,Colfontaine,Hainaut 1,2022,1.15,,1.15,False
+53082,Colfontaine,Hainaut 1,2023,1.28,,1.28,False
+53082,Colfontaine,Hainaut 1,2024,0.45,,0.45,False
+53082,Colfontaine,Hainaut 1,2025,2.12,,2.12,True
+53083,Honnelles,Hainaut 1,2011,2.68,,2.68,False
+53083,Honnelles,Hainaut 1,2012,2.6,,2.6,False
+53083,Honnelles,Hainaut 1,2013,1.8,,1.8,False
+53083,Honnelles,Hainaut 1,2014,0.68,,0.68,False
+53083,Honnelles,Hainaut 1,2015,0.36,,0.36,False
+53083,Honnelles,Hainaut 1,2016,1.96,,1.96,False
+53083,Honnelles,Hainaut 1,2017,0.63,,0.63,False
+53083,Honnelles,Hainaut 1,2018,1.58,,1.58,False
+53083,Honnelles,Hainaut 1,2019,2.77,,2.77,False
+53083,Honnelles,Hainaut 1,2020,1.75,,1.75,False
+53083,Honnelles,Hainaut 1,2021,5.19,,5.19,False
+53083,Honnelles,Hainaut 1,2022,1.27,,1.27,False
+53083,Honnelles,Hainaut 1,2023,2.82,,2.82,False
+53083,Honnelles,Hainaut 1,2024,3.43,,3.43,False
+53083,Honnelles,Hainaut 1,2025,2.72,,2.72,True
+53084,Quévy,Hainaut 1,2011,2.76,,2.76,False
+53084,Quévy,Hainaut 1,2012,7.07,,7.07,False
+53084,Quévy,Hainaut 1,2013,1.16,,1.16,False
+53084,Quévy,Hainaut 1,2014,0.48,,0.48,False
+53084,Quévy,Hainaut 1,2015,0.08,,0.08,False
+53084,Quévy,Hainaut 1,2016,2.64,,2.64,False
+53084,Quévy,Hainaut 1,2017,0.38,,0.38,False
+53084,Quévy,Hainaut 1,2018,1.15,,1.15,False
+53084,Quévy,Hainaut 1,2019,5.36,,5.36,False
+53084,Quévy,Hainaut 1,2020,3.31,,3.31,False
+53084,Quévy,Hainaut 1,2021,4.53,,4.53,False
+53084,Quévy,Hainaut 1,2022,4.1,,4.1,False
+53084,Quévy,Hainaut 1,2023,2.8,,2.8,False
+53084,Quévy,Hainaut 1,2024,1.5,,1.5,False
+53084,Quévy,Hainaut 1,2025,3.41,,3.41,True
+55004,Braine-le-Comte,Hainaut 2,2011,4.22,,4.22,False
+55004,Braine-le-Comte,Hainaut 2,2012,-2.02,,-2.02,False
+55004,Braine-le-Comte,Hainaut 2,2013,4.1,,4.1,False
+55004,Braine-le-Comte,Hainaut 2,2014,-3.32,,-3.32,False
+55004,Braine-le-Comte,Hainaut 2,2015,4.09,,4.09,False
+55004,Braine-le-Comte,Hainaut 2,2016,1.92,,1.92,False
+55004,Braine-le-Comte,Hainaut 2,2017,5.28,,5.28,False
+55004,Braine-le-Comte,Hainaut 2,2018,7.35,,7.35,False
+55004,Braine-le-Comte,Hainaut 2,2019,8.13,,8.13,False
+55004,Braine-le-Comte,Hainaut 2,2020,3.26,,3.26,False
+55004,Braine-le-Comte,Hainaut 2,2021,10.73,,10.73,False
+55004,Braine-le-Comte,Hainaut 2,2022,7.85,,7.85,False
+55004,Braine-le-Comte,Hainaut 2,2023,5.08,,5.08,False
+55004,Braine-le-Comte,Hainaut 2,2024,7.35,,7.35,False
+55004,Braine-le-Comte,Hainaut 2,2025,16.41,,16.41,True
+55035,Le Roeulx,Hainaut 2,2011,2.22,,2.22,False
+55035,Le Roeulx,Hainaut 2,2012,2.81,,2.81,False
+55035,Le Roeulx,Hainaut 2,2013,14.77,,14.77,False
+55035,Le Roeulx,Hainaut 2,2014,1.98,,1.98,False
+55035,Le Roeulx,Hainaut 2,2015,1.28,,1.28,False
+55035,Le Roeulx,Hainaut 2,2016,1.76,,1.76,False
+55035,Le Roeulx,Hainaut 2,2017,4.41,,4.41,False
+55035,Le Roeulx,Hainaut 2,2018,5.02,,5.02,False
+55035,Le Roeulx,Hainaut 2,2019,1.31,,1.31,False
+55035,Le Roeulx,Hainaut 2,2020,1.27,,1.27,False
+55035,Le Roeulx,Hainaut 2,2021,0.36,,0.36,False
+55035,Le Roeulx,Hainaut 2,2022,4.19,,4.19,False
+55035,Le Roeulx,Hainaut 2,2023,0.24,,0.24,False
+55035,Le Roeulx,Hainaut 2,2024,1.78,,1.78,False
+55035,Le Roeulx,Hainaut 2,2025,2.82,,2.82,True
+55040,Soignies,Hainaut 2,2011,6.67,,6.67,False
+55040,Soignies,Hainaut 2,2012,31.42,saut,10.44,False
+55040,Soignies,Hainaut 2,2013,19.09,,19.09,False
+55040,Soignies,Hainaut 2,2014,13.09,,13.09,False
+55040,Soignies,Hainaut 2,2015,4.6,,4.6,False
+55040,Soignies,Hainaut 2,2016,8.15,,8.15,False
+55040,Soignies,Hainaut 2,2017,7.56,,7.56,False
+55040,Soignies,Hainaut 2,2018,16.78,,16.78,False
+55040,Soignies,Hainaut 2,2019,10.65,,10.65,False
+55040,Soignies,Hainaut 2,2020,11.0,,11.0,False
+55040,Soignies,Hainaut 2,2021,8.75,,8.75,False
+55040,Soignies,Hainaut 2,2022,-11.52,negatif,10.44,False
+55040,Soignies,Hainaut 2,2023,10.23,,10.23,False
+55040,Soignies,Hainaut 2,2024,18.14,,18.14,False
+55040,Soignies,Hainaut 2,2025,8.99,,8.99,True
+55050,Ecaussinnes,Hainaut 2,2011,1.17,,1.17,False
+55050,Ecaussinnes,Hainaut 2,2012,3.49,,3.49,False
+55050,Ecaussinnes,Hainaut 2,2013,1.85,,1.85,False
+55050,Ecaussinnes,Hainaut 2,2014,1.48,,1.48,False
+55050,Ecaussinnes,Hainaut 2,2015,-16.63,negatif,2.11,False
+55050,Ecaussinnes,Hainaut 2,2016,1.39,,1.39,False
+55050,Ecaussinnes,Hainaut 2,2017,7.43,,7.43,False
+55050,Ecaussinnes,Hainaut 2,2018,2.83,,2.83,False
+55050,Ecaussinnes,Hainaut 2,2019,2.92,,2.92,False
+55050,Ecaussinnes,Hainaut 2,2020,3.19,,3.19,False
+55050,Ecaussinnes,Hainaut 2,2021,2.25,,2.25,False
+55050,Ecaussinnes,Hainaut 2,2022,-11.22,reclassement,1.91,False
+55050,Ecaussinnes,Hainaut 2,2023,-10.64,negatif,2.11,False
+55050,Ecaussinnes,Hainaut 2,2024,1.98,,1.98,False
+55050,Ecaussinnes,Hainaut 2,2025,1.18,,1.18,True
+55085,Seneffe,Hainaut 2,2011,0.41,,0.41,False
+55085,Seneffe,Hainaut 2,2012,25.44,saut,4.93,False
+55085,Seneffe,Hainaut 2,2013,2.08,,2.08,False
+55085,Seneffe,Hainaut 2,2014,8.77,,8.77,False
+55085,Seneffe,Hainaut 2,2015,-1.71,,-1.71,False
+55085,Seneffe,Hainaut 2,2016,4.33,,4.33,False
+55085,Seneffe,Hainaut 2,2017,3.97,,3.97,False
+55085,Seneffe,Hainaut 2,2018,5.05,,5.05,False
+55085,Seneffe,Hainaut 2,2019,7.3,,7.3,False
+55085,Seneffe,Hainaut 2,2020,5.45,,5.45,False
+55085,Seneffe,Hainaut 2,2021,10.01,,10.01,False
+55085,Seneffe,Hainaut 2,2022,5.8,,5.8,False
+55085,Seneffe,Hainaut 2,2023,-28.02,negatif,4.93,False
+55085,Seneffe,Hainaut 2,2024,4.82,,4.82,False
+55085,Seneffe,Hainaut 2,2025,0.55,,0.55,True
+55086,Manage,Hainaut 2,2011,4.28,,4.28,False
+55086,Manage,Hainaut 2,2012,3.37,,3.37,False
+55086,Manage,Hainaut 2,2013,-0.44,,-0.44,False
+55086,Manage,Hainaut 2,2014,3.41,,3.41,False
+55086,Manage,Hainaut 2,2015,6.74,,6.74,False
+55086,Manage,Hainaut 2,2016,4.35,,4.35,False
+55086,Manage,Hainaut 2,2017,5.96,,5.96,False
+55086,Manage,Hainaut 2,2018,4.65,,4.65,False
+55086,Manage,Hainaut 2,2019,1.7,,1.7,False
+55086,Manage,Hainaut 2,2020,2.35,,2.35,False
+55086,Manage,Hainaut 2,2021,1.47,,1.47,False
+55086,Manage,Hainaut 2,2022,3.46,,3.46,False
+55086,Manage,Hainaut 2,2023,0.66,,0.66,False
+55086,Manage,Hainaut 2,2024,5.94,,5.94,False
+55086,Manage,Hainaut 2,2025,4.42,,4.42,True
+56001,Anderlues,Hainaut 2,2011,2.04,,2.04,False
+56001,Anderlues,Hainaut 2,2012,-7.8,reclassement,2.38,False
+56001,Anderlues,Hainaut 2,2013,1.92,,1.92,False
+56001,Anderlues,Hainaut 2,2014,2.84,,2.84,False
+56001,Anderlues,Hainaut 2,2015,3.8,,3.8,False
+56001,Anderlues,Hainaut 2,2016,1.0,,1.0,False
+56001,Anderlues,Hainaut 2,2017,3.11,,3.11,False
+56001,Anderlues,Hainaut 2,2018,1.28,,1.28,False
+56001,Anderlues,Hainaut 2,2019,1.29,,1.29,False
+56001,Anderlues,Hainaut 2,2020,3.89,,3.89,False
+56001,Anderlues,Hainaut 2,2021,0.91,,0.91,False
+56001,Anderlues,Hainaut 2,2022,4.72,,4.72,False
+56001,Anderlues,Hainaut 2,2023,1.11,,1.11,False
+56001,Anderlues,Hainaut 2,2024,0.4,,0.4,False
+56001,Anderlues,Hainaut 2,2025,4.05,,4.05,True
+56005,Beaumont,Hainaut 2,2011,6.41,,6.41,False
+56005,Beaumont,Hainaut 2,2012,0.99,,0.99,False
+56005,Beaumont,Hainaut 2,2013,5.17,,5.17,False
+56005,Beaumont,Hainaut 2,2014,4.19,,4.19,False
+56005,Beaumont,Hainaut 2,2015,5.54,,5.54,False
+56005,Beaumont,Hainaut 2,2016,5.87,,5.87,False
+56005,Beaumont,Hainaut 2,2017,11.01,,11.01,False
+56005,Beaumont,Hainaut 2,2018,4.1,,4.1,False
+56005,Beaumont,Hainaut 2,2019,5.34,,5.34,False
+56005,Beaumont,Hainaut 2,2020,4.5,,4.5,False
+56005,Beaumont,Hainaut 2,2021,4.6,,4.6,False
+56005,Beaumont,Hainaut 2,2022,1.18,,1.18,False
+56005,Beaumont,Hainaut 2,2023,3.63,,3.63,False
+56005,Beaumont,Hainaut 2,2024,2.95,,2.95,False
+56005,Beaumont,Hainaut 2,2025,0.82,,0.82,True
+56016,Chimay,Hainaut 2,2011,7.52,,7.52,False
+56016,Chimay,Hainaut 2,2012,9.74,,9.74,False
+56016,Chimay,Hainaut 2,2013,5.69,,5.69,False
+56016,Chimay,Hainaut 2,2014,13.63,,13.63,False
+56016,Chimay,Hainaut 2,2015,11.64,,11.64,False
+56016,Chimay,Hainaut 2,2016,5.14,,5.14,False
+56016,Chimay,Hainaut 2,2017,3.37,,3.37,False
+56016,Chimay,Hainaut 2,2018,2.79,,2.79,False
+56016,Chimay,Hainaut 2,2019,6.27,,6.27,False
+56016,Chimay,Hainaut 2,2020,7.81,,7.81,False
+56016,Chimay,Hainaut 2,2021,5.48,,5.48,False
+56016,Chimay,Hainaut 2,2022,2.74,,2.74,False
+56016,Chimay,Hainaut 2,2023,7.02,,7.02,False
+56016,Chimay,Hainaut 2,2024,6.75,,6.75,False
+56016,Chimay,Hainaut 2,2025,4.57,,4.57,True
+56022,Erquelinnes,Hainaut 2,2011,2.02,,2.02,False
+56022,Erquelinnes,Hainaut 2,2012,1.62,,1.62,False
+56022,Erquelinnes,Hainaut 2,2013,2.98,,2.98,False
+56022,Erquelinnes,Hainaut 2,2014,1.53,,1.53,False
+56022,Erquelinnes,Hainaut 2,2015,4.4,,4.4,False
+56022,Erquelinnes,Hainaut 2,2016,0.97,,0.97,False
+56022,Erquelinnes,Hainaut 2,2017,4.77,,4.77,False
+56022,Erquelinnes,Hainaut 2,2018,2.13,,2.13,False
+56022,Erquelinnes,Hainaut 2,2019,2.36,,2.36,False
+56022,Erquelinnes,Hainaut 2,2020,1.12,,1.12,False
+56022,Erquelinnes,Hainaut 2,2021,1.52,,1.52,False
+56022,Erquelinnes,Hainaut 2,2022,1.01,,1.01,False
+56022,Erquelinnes,Hainaut 2,2023,1.61,,1.61,False
+56022,Erquelinnes,Hainaut 2,2024,0.91,,0.91,False
+56022,Erquelinnes,Hainaut 2,2025,0.96,,0.96,True
+56029,Froidchapelle,Hainaut 2,2011,7.29,,7.29,False
+56029,Froidchapelle,Hainaut 2,2012,4.78,,4.78,False
+56029,Froidchapelle,Hainaut 2,2013,6.75,,6.75,False
+56029,Froidchapelle,Hainaut 2,2014,6.17,,6.17,False
+56029,Froidchapelle,Hainaut 2,2015,2.53,,2.53,False
+56029,Froidchapelle,Hainaut 2,2016,7.33,,7.33,False
+56029,Froidchapelle,Hainaut 2,2017,4.44,,4.44,False
+56029,Froidchapelle,Hainaut 2,2018,4.32,,4.32,False
+56029,Froidchapelle,Hainaut 2,2019,2.62,,2.62,False
+56029,Froidchapelle,Hainaut 2,2020,15.85,,15.85,False
+56029,Froidchapelle,Hainaut 2,2021,0.09,,0.09,False
+56029,Froidchapelle,Hainaut 2,2022,1.96,,1.96,False
+56029,Froidchapelle,Hainaut 2,2023,5.41,,5.41,False
+56029,Froidchapelle,Hainaut 2,2024,3.09,,3.09,False
+56029,Froidchapelle,Hainaut 2,2025,4.53,,4.53,True
+56044,Lobbes,Hainaut 2,2011,3.53,,3.53,False
+56044,Lobbes,Hainaut 2,2012,2.32,,2.32,False
+56044,Lobbes,Hainaut 2,2013,1.04,,1.04,False
+56044,Lobbes,Hainaut 2,2014,2.37,,2.37,False
+56044,Lobbes,Hainaut 2,2015,2.22,,2.22,False
+56044,Lobbes,Hainaut 2,2016,2.57,,2.57,False
+56044,Lobbes,Hainaut 2,2017,2.83,,2.83,False
+56044,Lobbes,Hainaut 2,2018,1.02,,1.02,False
+56044,Lobbes,Hainaut 2,2019,0.8,,0.8,False
+56044,Lobbes,Hainaut 2,2020,3.13,,3.13,False
+56044,Lobbes,Hainaut 2,2021,-0.01,,-0.01,False
+56044,Lobbes,Hainaut 2,2022,2.68,,2.68,False
+56044,Lobbes,Hainaut 2,2023,1.84,,1.84,False
+56044,Lobbes,Hainaut 2,2024,2.3,,2.3,False
+56044,Lobbes,Hainaut 2,2025,3.11,,3.11,True
+56049,Merbes-le-Château,Hainaut 2,2011,1.54,,1.54,False
+56049,Merbes-le-Château,Hainaut 2,2012,1.49,,1.49,False
+56049,Merbes-le-Château,Hainaut 2,2013,2.26,,2.26,False
+56049,Merbes-le-Château,Hainaut 2,2014,0.86,,0.86,False
+56049,Merbes-le-Château,Hainaut 2,2015,3.52,,3.52,False
+56049,Merbes-le-Château,Hainaut 2,2016,0.8,,0.8,False
+56049,Merbes-le-Château,Hainaut 2,2017,2.17,,2.17,False
+56049,Merbes-le-Château,Hainaut 2,2018,0.24,,0.24,False
+56049,Merbes-le-Château,Hainaut 2,2019,1.32,,1.32,False
+56049,Merbes-le-Château,Hainaut 2,2020,0.55,,0.55,False
+56049,Merbes-le-Château,Hainaut 2,2021,1.32,,1.32,False
+56049,Merbes-le-Château,Hainaut 2,2022,0.56,,0.56,False
+56049,Merbes-le-Château,Hainaut 2,2023,0.67,,0.67,False
+56049,Merbes-le-Château,Hainaut 2,2024,0.97,,0.97,False
+56049,Merbes-le-Château,Hainaut 2,2025,0.43,,0.43,True
+56051,Momignies,Hainaut 2,2011,6.74,,6.74,False
+56051,Momignies,Hainaut 2,2012,3.84,,3.84,False
+56051,Momignies,Hainaut 2,2013,6.25,,6.25,False
+56051,Momignies,Hainaut 2,2014,1.95,,1.95,False
+56051,Momignies,Hainaut 2,2015,3.56,,3.56,False
+56051,Momignies,Hainaut 2,2016,4.11,,4.11,False
+56051,Momignies,Hainaut 2,2017,5.51,,5.51,False
+56051,Momignies,Hainaut 2,2018,0.28,,0.28,False
+56051,Momignies,Hainaut 2,2019,0.86,,0.86,False
+56051,Momignies,Hainaut 2,2020,6.22,,6.22,False
+56051,Momignies,Hainaut 2,2021,1.36,,1.36,False
+56051,Momignies,Hainaut 2,2022,1.25,,1.25,False
+56051,Momignies,Hainaut 2,2023,0.56,,0.56,False
+56051,Momignies,Hainaut 2,2024,3.45,,3.45,False
+56051,Momignies,Hainaut 2,2025,0.62,,0.62,True
+56078,Thuin,Hainaut 2,2011,55.31,saut,4.44,False
+56078,Thuin,Hainaut 2,2012,9.35,,9.35,False
+56078,Thuin,Hainaut 2,2013,6.7,,6.7,False
+56078,Thuin,Hainaut 2,2014,2.42,,2.42,False
+56078,Thuin,Hainaut 2,2015,3.68,,3.68,False
+56078,Thuin,Hainaut 2,2016,4.96,,4.96,False
+56078,Thuin,Hainaut 2,2017,9.58,,9.58,False
+56078,Thuin,Hainaut 2,2018,3.9,,3.9,False
+56078,Thuin,Hainaut 2,2019,3.05,,3.05,False
+56078,Thuin,Hainaut 2,2020,2.53,,2.53,False
+56078,Thuin,Hainaut 2,2021,6.13,,6.13,False
+56078,Thuin,Hainaut 2,2022,3.11,,3.11,False
+56078,Thuin,Hainaut 2,2023,7.93,,7.93,False
+56078,Thuin,Hainaut 2,2024,1.62,,1.62,False
+56078,Thuin,Hainaut 2,2025,4.44,,4.44,True
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2011,8.06,,8.06,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2012,6.48,,6.48,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2013,5.68,,5.68,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2014,6.36,,6.36,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2015,8.4,,8.4,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2016,4.92,,4.92,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2017,3.17,,3.17,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2018,4.66,,4.66,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2019,4.81,,4.81,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2020,1.48,,1.48,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2021,3.6,,3.6,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2022,2.08,,2.08,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2023,6.97,,6.97,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2024,4.59,,4.59,False
+56086,Ham-sur-Heure-Nalinnes,Hainaut 2,2025,5.84,,5.84,True
+56088,Sivry-Rance,Hainaut 2,2011,5.71,,5.71,False
+56088,Sivry-Rance,Hainaut 2,2012,1.52,,1.52,False
+56088,Sivry-Rance,Hainaut 2,2013,6.82,,6.82,False
+56088,Sivry-Rance,Hainaut 2,2014,2.04,,2.04,False
+56088,Sivry-Rance,Hainaut 2,2015,3.72,,3.72,False
+56088,Sivry-Rance,Hainaut 2,2016,0.64,,0.64,False
+56088,Sivry-Rance,Hainaut 2,2017,9.54,,9.54,False
+56088,Sivry-Rance,Hainaut 2,2018,4.4,,4.4,False
+56088,Sivry-Rance,Hainaut 2,2019,0.04,,0.04,False
+56088,Sivry-Rance,Hainaut 2,2020,3.34,,3.34,False
+56088,Sivry-Rance,Hainaut 2,2021,8.48,,8.48,False
+56088,Sivry-Rance,Hainaut 2,2022,3.15,,3.15,False
+56088,Sivry-Rance,Hainaut 2,2023,3.77,,3.77,False
+56088,Sivry-Rance,Hainaut 2,2024,-0.08,,-0.08,False
+56088,Sivry-Rance,Hainaut 2,2025,1.32,,1.32,True
+57003,Antoing,Hainaut 1,2011,0.91,,0.91,False
+57003,Antoing,Hainaut 1,2012,2.37,,2.37,False
+57003,Antoing,Hainaut 1,2013,1.47,,1.47,False
+57003,Antoing,Hainaut 1,2014,1.03,,1.03,False
+57003,Antoing,Hainaut 1,2015,0.72,,0.72,False
+57003,Antoing,Hainaut 1,2016,21.12,saut,1.19,False
+57003,Antoing,Hainaut 1,2017,-0.27,,-0.27,False
+57003,Antoing,Hainaut 1,2018,2.64,,2.64,False
+57003,Antoing,Hainaut 1,2019,1.6,,1.6,False
+57003,Antoing,Hainaut 1,2020,18.99,saut,1.19,False
+57003,Antoing,Hainaut 1,2021,0.67,,0.67,False
+57003,Antoing,Hainaut 1,2022,2.56,,2.56,False
+57003,Antoing,Hainaut 1,2023,-0.28,,-0.28,False
+57003,Antoing,Hainaut 1,2024,1.19,,1.19,False
+57003,Antoing,Hainaut 1,2025,0.55,,0.55,True
+57018,Celles,Hainaut 1,2011,1.28,,1.28,False
+57018,Celles,Hainaut 1,2012,0.95,,0.95,False
+57018,Celles,Hainaut 1,2013,5.37,,5.37,False
+57018,Celles,Hainaut 1,2014,0.97,,0.97,False
+57018,Celles,Hainaut 1,2015,1.3,,1.3,False
+57018,Celles,Hainaut 1,2016,3.36,,3.36,False
+57018,Celles,Hainaut 1,2017,2.06,,2.06,False
+57018,Celles,Hainaut 1,2018,2.38,,2.38,False
+57018,Celles,Hainaut 1,2019,5.47,,5.47,False
+57018,Celles,Hainaut 1,2020,1.86,,1.86,False
+57018,Celles,Hainaut 1,2021,5.13,,5.13,False
+57018,Celles,Hainaut 1,2022,5.43,,5.43,False
+57018,Celles,Hainaut 1,2023,3.32,,3.32,False
+57018,Celles,Hainaut 1,2024,1.77,,1.77,False
+57018,Celles,Hainaut 1,2025,1.36,,1.36,True
+57027,Estaimpuis,Hainaut 1,2011,2.26,,2.26,False
+57027,Estaimpuis,Hainaut 1,2012,3.91,,3.91,False
+57027,Estaimpuis,Hainaut 1,2013,1.22,,1.22,False
+57027,Estaimpuis,Hainaut 1,2014,3.58,,3.58,False
+57027,Estaimpuis,Hainaut 1,2015,4.18,,4.18,False
+57027,Estaimpuis,Hainaut 1,2016,10.02,,10.02,False
+57027,Estaimpuis,Hainaut 1,2017,2.05,,2.05,False
+57027,Estaimpuis,Hainaut 1,2018,2.9,,2.9,False
+57027,Estaimpuis,Hainaut 1,2019,5.49,,5.49,False
+57027,Estaimpuis,Hainaut 1,2020,3.44,,3.44,False
+57027,Estaimpuis,Hainaut 1,2021,4.59,,4.59,False
+57027,Estaimpuis,Hainaut 1,2022,4.56,,4.56,False
+57027,Estaimpuis,Hainaut 1,2023,2.64,,2.64,False
+57027,Estaimpuis,Hainaut 1,2024,2.68,,2.68,False
+57027,Estaimpuis,Hainaut 1,2025,3.67,,3.67,True
+57062,Pecq,Hainaut 1,2011,6.31,,6.31,False
+57062,Pecq,Hainaut 1,2012,3.33,,3.33,False
+57062,Pecq,Hainaut 1,2013,0.14,,0.14,False
+57062,Pecq,Hainaut 1,2014,2.27,,2.27,False
+57062,Pecq,Hainaut 1,2015,1.51,,1.51,False
+57062,Pecq,Hainaut 1,2016,3.01,,3.01,False
+57062,Pecq,Hainaut 1,2017,1.5,,1.5,False
+57062,Pecq,Hainaut 1,2018,3.22,,3.22,False
+57062,Pecq,Hainaut 1,2019,2.18,,2.18,False
+57062,Pecq,Hainaut 1,2020,4.54,,4.54,False
+57062,Pecq,Hainaut 1,2021,2.64,,2.64,False
+57062,Pecq,Hainaut 1,2022,1.51,,1.51,False
+57062,Pecq,Hainaut 1,2023,3.71,,3.71,False
+57062,Pecq,Hainaut 1,2024,-0.56,,-0.56,False
+57062,Pecq,Hainaut 1,2025,4.44,,4.44,True
+57064,Péruwelz,Hainaut 1,2011,3.96,,3.96,False
+57064,Péruwelz,Hainaut 1,2012,5.66,,5.66,False
+57064,Péruwelz,Hainaut 1,2013,6.0,,6.0,False
+57064,Péruwelz,Hainaut 1,2014,2.76,,2.76,False
+57064,Péruwelz,Hainaut 1,2015,6.74,,6.74,False
+57064,Péruwelz,Hainaut 1,2016,6.52,,6.52,False
+57064,Péruwelz,Hainaut 1,2017,2.71,,2.71,False
+57064,Péruwelz,Hainaut 1,2018,5.14,,5.14,False
+57064,Péruwelz,Hainaut 1,2019,8.22,,8.22,False
+57064,Péruwelz,Hainaut 1,2020,4.22,,4.22,False
+57064,Péruwelz,Hainaut 1,2021,8.98,,8.98,False
+57064,Péruwelz,Hainaut 1,2022,3.65,,3.65,False
+57064,Péruwelz,Hainaut 1,2023,3.16,,3.16,False
+57064,Péruwelz,Hainaut 1,2024,6.95,,6.95,False
+57064,Péruwelz,Hainaut 1,2025,9.16,,9.16,True
+57072,Rumes,Hainaut 1,2011,2.78,,2.78,False
+57072,Rumes,Hainaut 1,2012,3.62,,3.62,False
+57072,Rumes,Hainaut 1,2013,1.7,,1.7,False
+57072,Rumes,Hainaut 1,2014,0.76,,0.76,False
+57072,Rumes,Hainaut 1,2015,1.06,,1.06,False
+57072,Rumes,Hainaut 1,2016,1.28,,1.28,False
+57072,Rumes,Hainaut 1,2017,0.58,,0.58,False
+57072,Rumes,Hainaut 1,2018,1.42,,1.42,False
+57072,Rumes,Hainaut 1,2019,0.89,,0.89,False
+57072,Rumes,Hainaut 1,2020,0.4,,0.4,False
+57072,Rumes,Hainaut 1,2021,3.96,,3.96,False
+57072,Rumes,Hainaut 1,2022,0.31,,0.31,False
+57072,Rumes,Hainaut 1,2023,2.13,,2.13,False
+57072,Rumes,Hainaut 1,2024,0.51,,0.51,False
+57072,Rumes,Hainaut 1,2025,0.34,,0.34,True
+57081,Tournai,Hainaut 1,2011,14.66,,14.66,False
+57081,Tournai,Hainaut 1,2012,21.33,,21.33,False
+57081,Tournai,Hainaut 1,2013,11.22,,11.22,False
+57081,Tournai,Hainaut 1,2014,10.03,,10.03,False
+57081,Tournai,Hainaut 1,2015,19.86,,19.86,False
+57081,Tournai,Hainaut 1,2016,50.87,saut,16.12,False
+57081,Tournai,Hainaut 1,2017,29.41,,29.41,False
+57081,Tournai,Hainaut 1,2018,12.47,,12.47,False
+57081,Tournai,Hainaut 1,2019,14.1,,14.1,False
+57081,Tournai,Hainaut 1,2020,17.36,,17.36,False
+57081,Tournai,Hainaut 1,2021,19.91,,19.91,False
+57081,Tournai,Hainaut 1,2022,16.12,,16.12,False
+57081,Tournai,Hainaut 1,2023,-5.64,,-5.64,False
+57081,Tournai,Hainaut 1,2024,9.02,,9.02,False
+57081,Tournai,Hainaut 1,2025,24.58,,24.58,True
+57093,Brunehaut,Hainaut 1,2011,3.41,,3.41,False
+57093,Brunehaut,Hainaut 1,2012,2.8,,2.8,False
+57093,Brunehaut,Hainaut 1,2013,14.23,,14.23,False
+57093,Brunehaut,Hainaut 1,2014,4.14,,4.14,False
+57093,Brunehaut,Hainaut 1,2015,4.6,,4.6,False
+57093,Brunehaut,Hainaut 1,2016,0.93,,0.93,False
+57093,Brunehaut,Hainaut 1,2017,2.74,,2.74,False
+57093,Brunehaut,Hainaut 1,2018,4.36,,4.36,False
+57093,Brunehaut,Hainaut 1,2019,2.8,,2.8,False
+57093,Brunehaut,Hainaut 1,2020,0.55,,0.55,False
+57093,Brunehaut,Hainaut 1,2021,3.61,,3.61,False
+57093,Brunehaut,Hainaut 1,2022,1.33,,1.33,False
+57093,Brunehaut,Hainaut 1,2023,4.27,,4.27,False
+57093,Brunehaut,Hainaut 1,2024,7.55,,7.55,False
+57093,Brunehaut,Hainaut 1,2025,0.17,,0.17,True
+57094,Leuze-en-Hainaut,Hainaut 1,2011,7.96,,7.96,False
+57094,Leuze-en-Hainaut,Hainaut 1,2012,4.85,,4.85,False
+57094,Leuze-en-Hainaut,Hainaut 1,2013,5.88,,5.88,False
+57094,Leuze-en-Hainaut,Hainaut 1,2014,11.34,,11.34,False
+57094,Leuze-en-Hainaut,Hainaut 1,2015,11.21,,11.21,False
+57094,Leuze-en-Hainaut,Hainaut 1,2016,6.67,,6.67,False
+57094,Leuze-en-Hainaut,Hainaut 1,2017,3.67,,3.67,False
+57094,Leuze-en-Hainaut,Hainaut 1,2018,2.6,,2.6,False
+57094,Leuze-en-Hainaut,Hainaut 1,2019,30.02,saut,5.88,False
+57094,Leuze-en-Hainaut,Hainaut 1,2020,8.4,,8.4,False
+57094,Leuze-en-Hainaut,Hainaut 1,2021,5.36,,5.36,False
+57094,Leuze-en-Hainaut,Hainaut 1,2022,4.31,,4.31,False
+57094,Leuze-en-Hainaut,Hainaut 1,2023,11.11,,11.11,False
+57094,Leuze-en-Hainaut,Hainaut 1,2024,4.27,,4.27,False
+57094,Leuze-en-Hainaut,Hainaut 1,2025,5.12,,5.12,True
+57095,Mont-de-l'Enclus,Hainaut 1,2011,1.35,,1.35,False
+57095,Mont-de-l'Enclus,Hainaut 1,2012,2.88,,2.88,False
+57095,Mont-de-l'Enclus,Hainaut 1,2013,1.04,,1.04,False
+57095,Mont-de-l'Enclus,Hainaut 1,2014,1.73,,1.73,False
+57095,Mont-de-l'Enclus,Hainaut 1,2015,5.53,,5.53,False
+57095,Mont-de-l'Enclus,Hainaut 1,2016,1.59,,1.59,False
+57095,Mont-de-l'Enclus,Hainaut 1,2017,2.05,,2.05,False
+57095,Mont-de-l'Enclus,Hainaut 1,2018,1.15,,1.15,False
+57095,Mont-de-l'Enclus,Hainaut 1,2019,3.56,,3.56,False
+57095,Mont-de-l'Enclus,Hainaut 1,2020,1.42,,1.42,False
+57095,Mont-de-l'Enclus,Hainaut 1,2021,0.82,,0.82,False
+57095,Mont-de-l'Enclus,Hainaut 1,2022,0.35,,0.35,False
+57095,Mont-de-l'Enclus,Hainaut 1,2023,1.66,,1.66,False
+57095,Mont-de-l'Enclus,Hainaut 1,2024,3.05,,3.05,False
+57095,Mont-de-l'Enclus,Hainaut 1,2025,2.14,,2.14,True
+57096,Mouscron,Hainaut 1,2011,4.39,,4.39,False
+57096,Mouscron,Hainaut 1,2012,0.48,,0.48,False
+57096,Mouscron,Hainaut 1,2013,11.52,,11.52,False
+57096,Mouscron,Hainaut 1,2014,16.21,,16.21,False
+57096,Mouscron,Hainaut 1,2015,12.09,,12.09,False
+57096,Mouscron,Hainaut 1,2016,11.94,,11.94,False
+57096,Mouscron,Hainaut 1,2017,8.2,,8.2,False
+57096,Mouscron,Hainaut 1,2018,4.04,,4.04,False
+57096,Mouscron,Hainaut 1,2019,5.83,,5.83,False
+57096,Mouscron,Hainaut 1,2020,11.25,,11.25,False
+57096,Mouscron,Hainaut 1,2021,7.77,,7.77,False
+57096,Mouscron,Hainaut 1,2022,2.72,,2.72,False
+57096,Mouscron,Hainaut 1,2023,4.14,,4.14,False
+57096,Mouscron,Hainaut 1,2024,7.19,,7.19,False
+57096,Mouscron,Hainaut 1,2025,5.03,,5.03,True
+57097,Comines-Warneton,Hainaut 1,2011,3.12,,3.12,False
+57097,Comines-Warneton,Hainaut 1,2012,6.76,,6.76,False
+57097,Comines-Warneton,Hainaut 1,2013,7.78,,7.78,False
+57097,Comines-Warneton,Hainaut 1,2014,4.14,,4.14,False
+57097,Comines-Warneton,Hainaut 1,2015,3.99,,3.99,False
+57097,Comines-Warneton,Hainaut 1,2016,6.32,,6.32,False
+57097,Comines-Warneton,Hainaut 1,2017,14.81,,14.81,False
+57097,Comines-Warneton,Hainaut 1,2018,3.24,,3.24,False
+57097,Comines-Warneton,Hainaut 1,2019,-0.13,,-0.13,False
+57097,Comines-Warneton,Hainaut 1,2020,2.92,,2.92,False
+57097,Comines-Warneton,Hainaut 1,2021,3.24,,3.24,False
+57097,Comines-Warneton,Hainaut 1,2022,3.88,,3.88,False
+57097,Comines-Warneton,Hainaut 1,2023,5.98,,5.98,False
+57097,Comines-Warneton,Hainaut 1,2024,3.82,,3.82,False
+57097,Comines-Warneton,Hainaut 1,2025,1.64,,1.64,True
+58001,La Louvière,Hainaut 2,2011,34.59,saut,8.42,False
+58001,La Louvière,Hainaut 2,2012,11.29,,11.29,False
+58001,La Louvière,Hainaut 2,2013,2.91,,2.91,False
+58001,La Louvière,Hainaut 2,2014,10.79,,10.79,False
+58001,La Louvière,Hainaut 2,2015,9.35,,9.35,False
+58001,La Louvière,Hainaut 2,2016,5.1,,5.1,False
+58001,La Louvière,Hainaut 2,2017,3.63,,3.63,False
+58001,La Louvière,Hainaut 2,2018,2.65,,2.65,False
+58001,La Louvière,Hainaut 2,2019,9.27,,9.27,False
+58001,La Louvière,Hainaut 2,2020,2.04,,2.04,False
+58001,La Louvière,Hainaut 2,2021,7.72,,7.72,False
+58001,La Louvière,Hainaut 2,2022,8.42,,8.42,False
+58001,La Louvière,Hainaut 2,2023,10.78,,10.78,False
+58001,La Louvière,Hainaut 2,2024,44.04,saut,8.42,False
+58001,La Louvière,Hainaut 2,2025,-2.08,,-2.08,True
+58002,Binche,Hainaut 2,2011,4.92,,4.92,False
+58002,Binche,Hainaut 2,2012,8.46,,8.46,False
+58002,Binche,Hainaut 2,2013,2.93,,2.93,False
+58002,Binche,Hainaut 2,2014,10.69,,10.69,False
+58002,Binche,Hainaut 2,2015,8.25,,8.25,False
+58002,Binche,Hainaut 2,2016,1.85,,1.85,False
+58002,Binche,Hainaut 2,2017,2.6,,2.6,False
+58002,Binche,Hainaut 2,2018,3.31,,3.31,False
+58002,Binche,Hainaut 2,2019,7.32,,7.32,False
+58002,Binche,Hainaut 2,2020,2.13,,2.13,False
+58002,Binche,Hainaut 2,2021,6.28,,6.28,False
+58002,Binche,Hainaut 2,2022,6.31,,6.31,False
+58002,Binche,Hainaut 2,2023,6.19,,6.19,False
+58002,Binche,Hainaut 2,2024,5.35,,5.35,False
+58002,Binche,Hainaut 2,2025,5.21,,5.21,True
+58003,Estinnes,Hainaut 2,2011,2.46,,2.46,False
+58003,Estinnes,Hainaut 2,2012,4.44,,4.44,False
+58003,Estinnes,Hainaut 2,2013,1.52,,1.52,False
+58003,Estinnes,Hainaut 2,2014,-0.96,,-0.96,False
+58003,Estinnes,Hainaut 2,2015,2.73,,2.73,False
+58003,Estinnes,Hainaut 2,2016,1.0,,1.0,False
+58003,Estinnes,Hainaut 2,2017,3.16,,3.16,False
+58003,Estinnes,Hainaut 2,2018,0.45,,0.45,False
+58003,Estinnes,Hainaut 2,2019,-1.63,,-1.63,False
+58003,Estinnes,Hainaut 2,2020,5.92,,5.92,False
+58003,Estinnes,Hainaut 2,2021,3.64,,3.64,False
+58003,Estinnes,Hainaut 2,2022,2.88,,2.88,False
+58003,Estinnes,Hainaut 2,2023,1.96,,1.96,False
+58003,Estinnes,Hainaut 2,2024,1.38,,1.38,False
+58003,Estinnes,Hainaut 2,2025,8.97,,8.97,True
+58004,Morlanwelz,Hainaut 2,2011,1.47,,1.47,False
+58004,Morlanwelz,Hainaut 2,2012,4.36,,4.36,False
+58004,Morlanwelz,Hainaut 2,2013,2.86,,2.86,False
+58004,Morlanwelz,Hainaut 2,2014,1.72,,1.72,False
+58004,Morlanwelz,Hainaut 2,2015,1.01,,1.01,False
+58004,Morlanwelz,Hainaut 2,2016,1.54,,1.54,False
+58004,Morlanwelz,Hainaut 2,2017,3.43,,3.43,False
+58004,Morlanwelz,Hainaut 2,2018,1.33,,1.33,False
+58004,Morlanwelz,Hainaut 2,2019,-1.4,,-1.4,False
+58004,Morlanwelz,Hainaut 2,2020,0.56,,0.56,False
+58004,Morlanwelz,Hainaut 2,2021,1.07,,1.07,False
+58004,Morlanwelz,Hainaut 2,2022,0.82,,0.82,False
+58004,Morlanwelz,Hainaut 2,2023,1.15,,1.15,False
+58004,Morlanwelz,Hainaut 2,2024,1.3,,1.3,False
+58004,Morlanwelz,Hainaut 2,2025,0.42,,0.42,True
+61003,Amay,Liège 2,2011,3.73,,3.73,False
+61003,Amay,Liège 2,2012,3.38,,3.38,False
+61003,Amay,Liège 2,2013,4.5,,4.5,False
+61003,Amay,Liège 2,2014,2.32,,2.32,False
+61003,Amay,Liège 2,2015,1.46,,1.46,False
+61003,Amay,Liège 2,2016,1.65,,1.65,False
+61003,Amay,Liège 2,2017,2.77,,2.77,False
+61003,Amay,Liège 2,2018,4.27,,4.27,False
+61003,Amay,Liège 2,2019,2.04,,2.04,False
+61003,Amay,Liège 2,2020,2.77,,2.77,False
+61003,Amay,Liège 2,2021,2.22,,2.22,False
+61003,Amay,Liège 2,2022,0.93,,0.93,False
+61003,Amay,Liège 2,2023,3.48,,3.48,False
+61003,Amay,Liège 2,2024,0.82,,0.82,False
+61003,Amay,Liège 2,2025,1.74,,1.74,True
+61010,Burdinne,Liège 2,2011,2.66,,2.66,False
+61010,Burdinne,Liège 2,2012,1.76,,1.76,False
+61010,Burdinne,Liège 2,2013,3.17,,3.17,False
+61010,Burdinne,Liège 2,2014,1.53,,1.53,False
+61010,Burdinne,Liège 2,2015,4.45,,4.45,False
+61010,Burdinne,Liège 2,2016,0.17,,0.17,False
+61010,Burdinne,Liège 2,2017,2.7,,2.7,False
+61010,Burdinne,Liège 2,2018,4.74,,4.74,False
+61010,Burdinne,Liège 2,2019,2.55,,2.55,False
+61010,Burdinne,Liège 2,2020,7.58,,7.58,False
+61010,Burdinne,Liège 2,2021,0.84,,0.84,False
+61010,Burdinne,Liège 2,2022,1.61,,1.61,False
+61010,Burdinne,Liège 2,2023,0.27,,0.27,False
+61010,Burdinne,Liège 2,2024,2.92,,2.92,False
+61010,Burdinne,Liège 2,2025,1.87,,1.87,True
+61012,Clavier,Liège 2,2011,3.17,,3.17,False
+61012,Clavier,Liège 2,2012,12.99,,12.99,False
+61012,Clavier,Liège 2,2013,5.12,,5.12,False
+61012,Clavier,Liège 2,2014,2.45,,2.45,False
+61012,Clavier,Liège 2,2015,7.47,,7.47,False
+61012,Clavier,Liège 2,2016,1.54,,1.54,False
+61012,Clavier,Liège 2,2017,22.49,saut,4.15,False
+61012,Clavier,Liège 2,2018,2.42,,2.42,False
+61012,Clavier,Liège 2,2019,2.14,,2.14,False
+61012,Clavier,Liège 2,2020,6.67,,6.67,False
+61012,Clavier,Liège 2,2021,5.34,,5.34,False
+61012,Clavier,Liège 2,2022,10.65,,10.65,False
+61012,Clavier,Liège 2,2023,4.15,,4.15,False
+61012,Clavier,Liège 2,2024,3.65,,3.65,False
+61012,Clavier,Liège 2,2025,-1.78,,-1.78,True
+61019,Ferrières,Liège 2,2011,3.33,,3.33,False
+61019,Ferrières,Liège 2,2012,3.57,,3.57,False
+61019,Ferrières,Liège 2,2013,3.91,,3.91,False
+61019,Ferrières,Liège 2,2014,5.02,,5.02,False
+61019,Ferrières,Liège 2,2015,2.8,,2.8,False
+61019,Ferrières,Liège 2,2016,3.21,,3.21,False
+61019,Ferrières,Liège 2,2017,2.89,,2.89,False
+61019,Ferrières,Liège 2,2018,3.56,,3.56,False
+61019,Ferrières,Liège 2,2019,2.49,,2.49,False
+61019,Ferrières,Liège 2,2020,5.51,,5.51,False
+61019,Ferrières,Liège 2,2021,2.51,,2.51,False
+61019,Ferrières,Liège 2,2022,5.34,,5.34,False
+61019,Ferrières,Liège 2,2023,2.96,,2.96,False
+61019,Ferrières,Liège 2,2024,6.79,,6.79,False
+61019,Ferrières,Liège 2,2025,3.59,,3.59,True
+61024,Hamoir,Liège 2,2011,0.81,,0.81,False
+61024,Hamoir,Liège 2,2012,2.25,,2.25,False
+61024,Hamoir,Liège 2,2013,2.97,,2.97,False
+61024,Hamoir,Liège 2,2014,2.87,,2.87,False
+61024,Hamoir,Liège 2,2015,0.56,,0.56,False
+61024,Hamoir,Liège 2,2016,0.01,,0.01,False
+61024,Hamoir,Liège 2,2017,1.77,,1.77,False
+61024,Hamoir,Liège 2,2018,1.31,,1.31,False
+61024,Hamoir,Liège 2,2019,0.12,,0.12,False
+61024,Hamoir,Liège 2,2020,1.87,,1.87,False
+61024,Hamoir,Liège 2,2021,1.14,,1.14,False
+61024,Hamoir,Liège 2,2022,1.57,,1.57,False
+61024,Hamoir,Liège 2,2023,1.09,,1.09,False
+61024,Hamoir,Liège 2,2024,0.73,,0.73,False
+61024,Hamoir,Liège 2,2025,1.1,,1.1,True
+61028,Héron,Liège 2,2011,3.1,,3.1,False
+61028,Héron,Liège 2,2012,5.82,,5.82,False
+61028,Héron,Liège 2,2013,5.65,,5.65,False
+61028,Héron,Liège 2,2014,3.34,,3.34,False
+61028,Héron,Liège 2,2015,2.95,,2.95,False
+61028,Héron,Liège 2,2016,2.34,,2.34,False
+61028,Héron,Liège 2,2017,3.21,,3.21,False
+61028,Héron,Liège 2,2018,4.39,,4.39,False
+61028,Héron,Liège 2,2019,4.91,,4.91,False
+61028,Héron,Liège 2,2020,3.33,,3.33,False
+61028,Héron,Liège 2,2021,5.87,,5.87,False
+61028,Héron,Liège 2,2022,8.56,,8.56,False
+61028,Héron,Liège 2,2023,8.28,,8.28,False
+61028,Héron,Liège 2,2024,5.55,,5.55,False
+61028,Héron,Liège 2,2025,1.69,,1.69,True
+61031,Huy,Liège 2,2011,6.65,,6.65,False
+61031,Huy,Liège 2,2012,0.47,,0.47,False
+61031,Huy,Liège 2,2013,3.04,,3.04,False
+61031,Huy,Liège 2,2014,0.58,,0.58,False
+61031,Huy,Liège 2,2015,2.24,,2.24,False
+61031,Huy,Liège 2,2016,4.39,,4.39,False
+61031,Huy,Liège 2,2017,3.33,,3.33,False
+61031,Huy,Liège 2,2018,2.64,,2.64,False
+61031,Huy,Liège 2,2019,6.66,,6.66,False
+61031,Huy,Liège 2,2020,3.48,,3.48,False
+61031,Huy,Liège 2,2021,2.88,,2.88,False
+61031,Huy,Liège 2,2022,3.08,,3.08,False
+61031,Huy,Liège 2,2023,3.3,,3.3,False
+61031,Huy,Liège 2,2024,5.81,,5.81,False
+61031,Huy,Liège 2,2025,3.81,,3.81,True
+61039,Marchin,Liège 2,2011,4.49,,4.49,False
+61039,Marchin,Liège 2,2012,3.24,,3.24,False
+61039,Marchin,Liège 2,2013,5.83,,5.83,False
+61039,Marchin,Liège 2,2014,3.21,,3.21,False
+61039,Marchin,Liège 2,2015,4.26,,4.26,False
+61039,Marchin,Liège 2,2016,1.47,,1.47,False
+61039,Marchin,Liège 2,2017,2.63,,2.63,False
+61039,Marchin,Liège 2,2018,3.64,,3.64,False
+61039,Marchin,Liège 2,2019,0.78,,0.78,False
+61039,Marchin,Liège 2,2020,5.23,,5.23,False
+61039,Marchin,Liège 2,2021,2.76,,2.76,False
+61039,Marchin,Liège 2,2022,2.75,,2.75,False
+61039,Marchin,Liège 2,2023,1.99,,1.99,False
+61039,Marchin,Liège 2,2024,2.66,,2.66,False
+61039,Marchin,Liège 2,2025,1.01,,1.01,True
+61041,Modave,Liège 2,2011,2.1,,2.1,False
+61041,Modave,Liège 2,2012,2.22,,2.22,False
+61041,Modave,Liège 2,2013,2.03,,2.03,False
+61041,Modave,Liège 2,2014,4.06,,4.06,False
+61041,Modave,Liège 2,2015,3.55,,3.55,False
+61041,Modave,Liège 2,2016,2.78,,2.78,False
+61041,Modave,Liège 2,2017,1.05,,1.05,False
+61041,Modave,Liège 2,2018,4.46,,4.46,False
+61041,Modave,Liège 2,2019,1.83,,1.83,False
+61041,Modave,Liège 2,2020,1.83,,1.83,False
+61041,Modave,Liège 2,2021,1.24,,1.24,False
+61041,Modave,Liège 2,2022,2.64,,2.64,False
+61041,Modave,Liège 2,2023,2.29,,2.29,False
+61041,Modave,Liège 2,2024,2.16,,2.16,False
+61041,Modave,Liège 2,2025,0.78,,0.78,True
+61043,Nandrin,Liège 2,2011,2.15,,2.15,False
+61043,Nandrin,Liège 2,2012,4.64,,4.64,False
+61043,Nandrin,Liège 2,2013,1.9,,1.9,False
+61043,Nandrin,Liège 2,2014,3.14,,3.14,False
+61043,Nandrin,Liège 2,2015,2.68,,2.68,False
+61043,Nandrin,Liège 2,2016,6.13,,6.13,False
+61043,Nandrin,Liège 2,2017,4.85,,4.85,False
+61043,Nandrin,Liège 2,2018,2.78,,2.78,False
+61043,Nandrin,Liège 2,2019,1.72,,1.72,False
+61043,Nandrin,Liège 2,2020,7.84,,7.84,False
+61043,Nandrin,Liège 2,2021,3.34,,3.34,False
+61043,Nandrin,Liège 2,2022,2.46,,2.46,False
+61043,Nandrin,Liège 2,2023,5.39,,5.39,False
+61043,Nandrin,Liège 2,2024,1.56,,1.56,False
+61043,Nandrin,Liège 2,2025,3.98,,3.98,True
+61048,Ouffet,Liège 2,2011,2.88,,2.88,False
+61048,Ouffet,Liège 2,2012,1.44,,1.44,False
+61048,Ouffet,Liège 2,2013,0.98,,0.98,False
+61048,Ouffet,Liège 2,2014,0.95,,0.95,False
+61048,Ouffet,Liège 2,2015,4.46,,4.46,False
+61048,Ouffet,Liège 2,2016,2.52,,2.52,False
+61048,Ouffet,Liège 2,2017,2.58,,2.58,False
+61048,Ouffet,Liège 2,2018,3.5,,3.5,False
+61048,Ouffet,Liège 2,2019,0.66,,0.66,False
+61048,Ouffet,Liège 2,2020,1.27,,1.27,False
+61048,Ouffet,Liège 2,2021,1.07,,1.07,False
+61048,Ouffet,Liège 2,2022,0.01,,0.01,False
+61048,Ouffet,Liège 2,2023,12.9,,12.9,False
+61048,Ouffet,Liège 2,2024,1.7,,1.7,False
+61048,Ouffet,Liège 2,2025,1.92,,1.92,True
+61063,Verlaine,Liège 2,2011,0.59,,0.59,False
+61063,Verlaine,Liège 2,2012,6.2,,6.2,False
+61063,Verlaine,Liège 2,2013,13.38,,13.38,False
+61063,Verlaine,Liège 2,2014,-0.28,,-0.28,False
+61063,Verlaine,Liège 2,2015,2.09,,2.09,False
+61063,Verlaine,Liège 2,2016,4.32,,4.32,False
+61063,Verlaine,Liège 2,2017,0.99,,0.99,False
+61063,Verlaine,Liège 2,2018,5.04,,5.04,False
+61063,Verlaine,Liège 2,2019,9.54,,9.54,False
+61063,Verlaine,Liège 2,2020,3.18,,3.18,False
+61063,Verlaine,Liège 2,2021,1.26,,1.26,False
+61063,Verlaine,Liège 2,2022,1.06,,1.06,False
+61063,Verlaine,Liège 2,2023,6.4,,6.4,False
+61063,Verlaine,Liège 2,2024,2.04,,2.04,False
+61063,Verlaine,Liège 2,2025,1.36,,1.36,True
+61068,Villers-le-Bouillet,Liège 2,2011,4.08,,4.08,False
+61068,Villers-le-Bouillet,Liège 2,2012,5.25,,5.25,False
+61068,Villers-le-Bouillet,Liège 2,2013,11.58,,11.58,False
+61068,Villers-le-Bouillet,Liège 2,2014,2.69,,2.69,False
+61068,Villers-le-Bouillet,Liège 2,2015,7.33,,7.33,False
+61068,Villers-le-Bouillet,Liège 2,2016,7.11,,7.11,False
+61068,Villers-le-Bouillet,Liège 2,2017,2.28,,2.28,False
+61068,Villers-le-Bouillet,Liège 2,2018,3.96,,3.96,False
+61068,Villers-le-Bouillet,Liège 2,2019,4.65,,4.65,False
+61068,Villers-le-Bouillet,Liège 2,2020,5.32,,5.32,False
+61068,Villers-le-Bouillet,Liège 2,2021,5.14,,5.14,False
+61068,Villers-le-Bouillet,Liège 2,2022,5.34,,5.34,False
+61068,Villers-le-Bouillet,Liège 2,2023,8.64,,8.64,False
+61068,Villers-le-Bouillet,Liège 2,2024,7.21,,7.21,False
+61068,Villers-le-Bouillet,Liège 2,2025,5.22,,5.22,True
+61072,Wanze,Liège 2,2011,5.72,,5.72,False
+61072,Wanze,Liège 2,2012,6.22,,6.22,False
+61072,Wanze,Liège 2,2013,5.95,,5.95,False
+61072,Wanze,Liège 2,2014,4.08,,4.08,False
+61072,Wanze,Liège 2,2015,82.01,saut,3.71,False
+61072,Wanze,Liège 2,2016,2.83,,2.83,False
+61072,Wanze,Liège 2,2017,3.71,,3.71,False
+61072,Wanze,Liège 2,2018,3.33,,3.33,False
+61072,Wanze,Liège 2,2019,8.61,,8.61,False
+61072,Wanze,Liège 2,2020,1.92,,1.92,False
+61072,Wanze,Liège 2,2021,2.89,,2.89,False
+61072,Wanze,Liège 2,2022,2.92,,2.92,False
+61072,Wanze,Liège 2,2023,2.93,,2.93,False
+61072,Wanze,Liège 2,2024,6.13,,6.13,False
+61072,Wanze,Liège 2,2025,-2.02,,-2.02,True
+61079,Anthisnes,Liège 2,2011,2.47,,2.47,False
+61079,Anthisnes,Liège 2,2012,2.17,,2.17,False
+61079,Anthisnes,Liège 2,2013,2.07,,2.07,False
+61079,Anthisnes,Liège 2,2014,2.69,,2.69,False
+61079,Anthisnes,Liège 2,2015,1.17,,1.17,False
+61079,Anthisnes,Liège 2,2016,1.54,,1.54,False
+61079,Anthisnes,Liège 2,2017,0.51,,0.51,False
+61079,Anthisnes,Liège 2,2018,2.36,,2.36,False
+61079,Anthisnes,Liège 2,2019,2.71,,2.71,False
+61079,Anthisnes,Liège 2,2020,0.01,,0.01,False
+61079,Anthisnes,Liège 2,2021,1.98,,1.98,False
+61079,Anthisnes,Liège 2,2022,1.87,,1.87,False
+61079,Anthisnes,Liège 2,2023,0.85,,0.85,False
+61079,Anthisnes,Liège 2,2024,2.04,,2.04,False
+61079,Anthisnes,Liège 2,2025,1.33,,1.33,True
+61080,Engis,Liège 2,2011,0.43,,0.43,False
+61080,Engis,Liège 2,2012,8.37,,8.37,False
+61080,Engis,Liège 2,2013,8.63,,8.63,False
+61080,Engis,Liège 2,2014,2.49,,2.49,False
+61080,Engis,Liège 2,2015,3.05,,3.05,False
+61080,Engis,Liège 2,2016,18.95,saut,3.63,False
+61080,Engis,Liège 2,2017,5.27,,5.27,False
+61080,Engis,Liège 2,2018,1.08,,1.08,False
+61080,Engis,Liège 2,2019,10.53,,10.53,False
+61080,Engis,Liège 2,2020,4.26,,4.26,False
+61080,Engis,Liège 2,2021,3.63,,3.63,False
+61080,Engis,Liège 2,2022,1.71,,1.71,False
+61080,Engis,Liège 2,2023,5.67,,5.67,False
+61080,Engis,Liège 2,2024,0.32,,0.32,False
+61080,Engis,Liège 2,2025,1.0,,1.0,True
+61081,Tinlot,Liège 2,2011,2.22,,2.22,False
+61081,Tinlot,Liège 2,2012,5.68,,5.68,False
+61081,Tinlot,Liège 2,2013,2.02,,2.02,False
+61081,Tinlot,Liège 2,2014,2.12,,2.12,False
+61081,Tinlot,Liège 2,2015,1.61,,1.61,False
+61081,Tinlot,Liège 2,2016,1.81,,1.81,False
+61081,Tinlot,Liège 2,2017,5.64,,5.64,False
+61081,Tinlot,Liège 2,2018,1.31,,1.31,False
+61081,Tinlot,Liège 2,2019,0.99,,0.99,False
+61081,Tinlot,Liège 2,2020,2.85,,2.85,False
+61081,Tinlot,Liège 2,2021,2.2,,2.2,False
+61081,Tinlot,Liège 2,2022,3.08,,3.08,False
+61081,Tinlot,Liège 2,2023,3.86,,3.86,False
+61081,Tinlot,Liège 2,2024,3.78,,3.78,False
+61081,Tinlot,Liège 2,2025,0.45,,0.45,True
+62003,Ans,Liège 1,2011,0.86,,0.86,False
+62003,Ans,Liège 1,2012,4.05,,4.05,False
+62003,Ans,Liège 1,2013,0.71,,0.71,False
+62003,Ans,Liège 1,2014,1.72,,1.72,False
+62003,Ans,Liège 1,2015,1.73,,1.73,False
+62003,Ans,Liège 1,2016,1.12,,1.12,False
+62003,Ans,Liège 1,2017,2.4,,2.4,False
+62003,Ans,Liège 1,2018,-1.31,,-1.31,False
+62003,Ans,Liège 1,2019,1.66,,1.66,False
+62003,Ans,Liège 1,2020,7.47,,7.47,False
+62003,Ans,Liège 1,2021,3.33,,3.33,False
+62003,Ans,Liège 1,2022,4.69,,4.69,False
+62003,Ans,Liège 1,2023,3.73,,3.73,False
+62003,Ans,Liège 1,2024,5.3,,5.3,False
+62003,Ans,Liège 1,2025,2.0,,2.0,True
+62006,Awans,Liège 1,2011,3.12,,3.12,False
+62006,Awans,Liège 1,2012,6.05,,6.05,False
+62006,Awans,Liège 1,2013,5.52,,5.52,False
+62006,Awans,Liège 1,2014,3.93,,3.93,False
+62006,Awans,Liège 1,2015,1.15,,1.15,False
+62006,Awans,Liège 1,2016,1.15,,1.15,False
+62006,Awans,Liège 1,2017,0.49,,0.49,False
+62006,Awans,Liège 1,2018,5.48,,5.48,False
+62006,Awans,Liège 1,2019,12.95,,12.95,False
+62006,Awans,Liège 1,2020,6.18,,6.18,False
+62006,Awans,Liège 1,2021,3.91,,3.91,False
+62006,Awans,Liège 1,2022,1.23,,1.23,False
+62006,Awans,Liège 1,2023,2.66,,2.66,False
+62006,Awans,Liège 1,2024,3.02,,3.02,False
+62006,Awans,Liège 1,2025,0.79,,0.79,True
+62009,Aywaille,Liège 2,2011,12.92,,12.92,False
+62009,Aywaille,Liège 2,2012,15.35,,15.35,False
+62009,Aywaille,Liège 2,2013,7.43,,7.43,False
+62009,Aywaille,Liège 2,2014,8.75,,8.75,False
+62009,Aywaille,Liège 2,2015,13.95,,13.95,False
+62009,Aywaille,Liège 2,2016,5.03,,5.03,False
+62009,Aywaille,Liège 2,2017,3.25,,3.25,False
+62009,Aywaille,Liège 2,2018,13.38,,13.38,False
+62009,Aywaille,Liège 2,2019,4.69,,4.69,False
+62009,Aywaille,Liège 2,2020,7.28,,7.28,False
+62009,Aywaille,Liège 2,2021,4.52,,4.52,False
+62009,Aywaille,Liège 2,2022,5.97,,5.97,False
+62009,Aywaille,Liège 2,2023,6.16,,6.16,False
+62009,Aywaille,Liège 2,2024,4.63,,4.63,False
+62009,Aywaille,Liège 2,2025,6.03,,6.03,True
+62011,Bassenge,Liège 1,2011,3.35,,3.35,False
+62011,Bassenge,Liège 1,2012,2.41,,2.41,False
+62011,Bassenge,Liège 1,2013,2.08,,2.08,False
+62011,Bassenge,Liège 1,2014,1.65,,1.65,False
+62011,Bassenge,Liège 1,2015,2.33,,2.33,False
+62011,Bassenge,Liège 1,2016,1.82,,1.82,False
+62011,Bassenge,Liège 1,2017,1.58,,1.58,False
+62011,Bassenge,Liège 1,2018,2.53,,2.53,False
+62011,Bassenge,Liège 1,2019,0.98,,0.98,False
+62011,Bassenge,Liège 1,2020,2.96,,2.96,False
+62011,Bassenge,Liège 1,2021,0.91,,0.91,False
+62011,Bassenge,Liège 1,2022,-0.48,,-0.48,False
+62011,Bassenge,Liège 1,2023,1.95,,1.95,False
+62011,Bassenge,Liège 1,2024,2.82,,2.82,False
+62011,Bassenge,Liège 1,2025,2.22,,2.22,True
+62015,Beyne-Heusay,Liège 1,2011,3.66,,3.66,False
+62015,Beyne-Heusay,Liège 1,2012,1.57,,1.57,False
+62015,Beyne-Heusay,Liège 1,2013,0.18,,0.18,False
+62015,Beyne-Heusay,Liège 1,2014,1.97,,1.97,False
+62015,Beyne-Heusay,Liège 1,2015,0.4,,0.4,False
+62015,Beyne-Heusay,Liège 1,2016,1.06,,1.06,False
+62015,Beyne-Heusay,Liège 1,2017,1.4,,1.4,False
+62015,Beyne-Heusay,Liège 1,2018,-0.31,,-0.31,False
+62015,Beyne-Heusay,Liège 1,2019,0.22,,0.22,False
+62015,Beyne-Heusay,Liège 1,2020,0.51,,0.51,False
+62015,Beyne-Heusay,Liège 1,2021,1.39,,1.39,False
+62015,Beyne-Heusay,Liège 1,2022,-1.07,,-1.07,False
+62015,Beyne-Heusay,Liège 1,2023,0.74,,0.74,False
+62015,Beyne-Heusay,Liège 1,2024,1.29,,1.29,False
+62015,Beyne-Heusay,Liège 1,2025,0.17,,0.17,True
+62022,Chaudfontaine,Liège 1,2011,2.98,,2.98,False
+62022,Chaudfontaine,Liège 1,2012,4.34,,4.34,False
+62022,Chaudfontaine,Liège 1,2013,2.86,,2.86,False
+62022,Chaudfontaine,Liège 1,2014,2.79,,2.79,False
+62022,Chaudfontaine,Liège 1,2015,6.32,,6.32,False
+62022,Chaudfontaine,Liège 1,2016,3.69,,3.69,False
+62022,Chaudfontaine,Liège 1,2017,6.75,,6.75,False
+62022,Chaudfontaine,Liège 1,2018,0.86,,0.86,False
+62022,Chaudfontaine,Liège 1,2019,4.53,,4.53,False
+62022,Chaudfontaine,Liège 1,2020,1.6,,1.6,False
+62022,Chaudfontaine,Liège 1,2021,2.44,,2.44,False
+62022,Chaudfontaine,Liège 1,2022,3.41,,3.41,False
+62022,Chaudfontaine,Liège 1,2023,1.92,,1.92,False
+62022,Chaudfontaine,Liège 1,2024,18.91,saut,2.98,False
+62022,Chaudfontaine,Liège 1,2025,2.81,,2.81,True
+62026,Comblain-au-Pont,Liège 2,2011,1.16,,1.16,False
+62026,Comblain-au-Pont,Liège 2,2012,1.76,,1.76,False
+62026,Comblain-au-Pont,Liège 2,2013,1.15,,1.15,False
+62026,Comblain-au-Pont,Liège 2,2014,1.35,,1.35,False
+62026,Comblain-au-Pont,Liège 2,2015,2.05,,2.05,False
+62026,Comblain-au-Pont,Liège 2,2016,-0.63,,-0.63,False
+62026,Comblain-au-Pont,Liège 2,2017,2.31,,2.31,False
+62026,Comblain-au-Pont,Liège 2,2018,1.2,,1.2,False
+62026,Comblain-au-Pont,Liège 2,2019,0.96,,0.96,False
+62026,Comblain-au-Pont,Liège 2,2020,4.05,,4.05,False
+62026,Comblain-au-Pont,Liège 2,2021,0.9,,0.9,False
+62026,Comblain-au-Pont,Liège 2,2022,0.68,,0.68,False
+62026,Comblain-au-Pont,Liège 2,2023,2.62,,2.62,False
+62026,Comblain-au-Pont,Liège 2,2024,1.38,,1.38,False
+62026,Comblain-au-Pont,Liège 2,2025,0.07,,0.07,True
+62027,Dalhem,Liège 2,2011,3.98,,3.98,False
+62027,Dalhem,Liège 2,2012,3.82,,3.82,False
+62027,Dalhem,Liège 2,2013,3.45,,3.45,False
+62027,Dalhem,Liège 2,2014,5.59,,5.59,False
+62027,Dalhem,Liège 2,2015,4.99,,4.99,False
+62027,Dalhem,Liège 2,2016,1.87,,1.87,False
+62027,Dalhem,Liège 2,2017,5.83,,5.83,False
+62027,Dalhem,Liège 2,2018,8.95,,8.95,False
+62027,Dalhem,Liège 2,2019,2.39,,2.39,False
+62027,Dalhem,Liège 2,2020,5.27,,5.27,False
+62027,Dalhem,Liège 2,2021,-1.09,,-1.09,False
+62027,Dalhem,Liège 2,2022,1.93,,1.93,False
+62027,Dalhem,Liège 2,2023,3.04,,3.04,False
+62027,Dalhem,Liège 2,2024,8.79,,8.79,False
+62027,Dalhem,Liège 2,2025,3.92,,3.92,True
+62032,Esneux,Liège 1,2011,4.65,,4.65,False
+62032,Esneux,Liège 1,2012,1.89,,1.89,False
+62032,Esneux,Liège 1,2013,0.6,,0.6,False
+62032,Esneux,Liège 1,2014,6.44,,6.44,False
+62032,Esneux,Liège 1,2015,-0.01,,-0.01,False
+62032,Esneux,Liège 1,2016,1.29,,1.29,False
+62032,Esneux,Liège 1,2017,2.33,,2.33,False
+62032,Esneux,Liège 1,2018,1.37,,1.37,False
+62032,Esneux,Liège 1,2019,3.66,,3.66,False
+62032,Esneux,Liège 1,2020,2.17,,2.17,False
+62032,Esneux,Liège 1,2021,-0.45,,-0.45,False
+62032,Esneux,Liège 1,2022,4.36,,4.36,False
+62032,Esneux,Liège 1,2023,3.03,,3.03,False
+62032,Esneux,Liège 1,2024,10.82,,10.82,False
+62032,Esneux,Liège 1,2025,1.41,,1.41,True
+62038,Fléron,Liège 1,2011,1.39,,1.39,False
+62038,Fléron,Liège 1,2012,0.6,,0.6,False
+62038,Fléron,Liège 1,2013,3.29,,3.29,False
+62038,Fléron,Liège 1,2014,2.15,,2.15,False
+62038,Fléron,Liège 1,2015,0.54,,0.54,False
+62038,Fléron,Liège 1,2016,0.71,,0.71,False
+62038,Fléron,Liège 1,2017,2.65,,2.65,False
+62038,Fléron,Liège 1,2018,0.59,,0.59,False
+62038,Fléron,Liège 1,2019,-0.79,,-0.79,False
+62038,Fléron,Liège 1,2020,-4.35,,-4.35,False
+62038,Fléron,Liège 1,2021,3.06,,3.06,False
+62038,Fléron,Liège 1,2022,2.77,,2.77,False
+62038,Fléron,Liège 1,2023,1.53,,1.53,False
+62038,Fléron,Liège 1,2024,3.25,,3.25,False
+62038,Fléron,Liège 1,2025,2.57,,2.57,True
+62051,Herstal,Liège 1,2011,12.89,,12.89,False
+62051,Herstal,Liège 1,2012,2.98,,2.98,False
+62051,Herstal,Liège 1,2013,4.11,,4.11,False
+62051,Herstal,Liège 1,2014,5.1,,5.1,False
+62051,Herstal,Liège 1,2015,3.73,,3.73,False
+62051,Herstal,Liège 1,2016,2.58,,2.58,False
+62051,Herstal,Liège 1,2017,1.93,,1.93,False
+62051,Herstal,Liège 1,2018,1.59,,1.59,False
+62051,Herstal,Liège 1,2019,10.29,,10.29,False
+62051,Herstal,Liège 1,2020,5.21,,5.21,False
+62051,Herstal,Liège 1,2021,4.11,,4.11,False
+62051,Herstal,Liège 1,2022,2.61,,2.61,False
+62051,Herstal,Liège 1,2023,9.05,,9.05,False
+62051,Herstal,Liège 1,2024,11.0,,11.0,False
+62051,Herstal,Liège 1,2025,-7.64,,-7.64,True
+62060,Juprelle,Liège 1,2011,2.5,,2.5,False
+62060,Juprelle,Liège 1,2012,2.38,,2.38,False
+62060,Juprelle,Liège 1,2013,12.99,,12.99,False
+62060,Juprelle,Liège 1,2014,0.94,,0.94,False
+62060,Juprelle,Liège 1,2015,2.05,,2.05,False
+62060,Juprelle,Liège 1,2016,3.61,,3.61,False
+62060,Juprelle,Liège 1,2017,3.69,,3.69,False
+62060,Juprelle,Liège 1,2018,2.74,,2.74,False
+62060,Juprelle,Liège 1,2019,4.22,,4.22,False
+62060,Juprelle,Liège 1,2020,5.21,,5.21,False
+62060,Juprelle,Liège 1,2021,2.0,,2.0,False
+62060,Juprelle,Liège 1,2022,9.73,,9.73,False
+62060,Juprelle,Liège 1,2023,1.66,,1.66,False
+62060,Juprelle,Liège 1,2024,3.05,,3.05,False
+62060,Juprelle,Liège 1,2025,1.3,,1.3,True
+62063,Liège,Liège 1,2011,4.3,,4.3,False
+62063,Liège,Liège 1,2012,2.72,,2.72,False
+62063,Liège,Liège 1,2013,5.14,,5.14,False
+62063,Liège,Liège 1,2014,-4.21,,-4.21,False
+62063,Liège,Liège 1,2015,20.31,,20.31,False
+62063,Liège,Liège 1,2016,-10.36,negatif,5.27,False
+62063,Liège,Liège 1,2017,23.78,,23.78,False
+62063,Liège,Liège 1,2018,-2.79,,-2.79,False
+62063,Liège,Liège 1,2019,21.8,,21.8,False
+62063,Liège,Liège 1,2020,7.16,,7.16,False
+62063,Liège,Liège 1,2021,13.54,,13.54,False
+62063,Liège,Liège 1,2022,-11.59,negatif,5.27,False
+62063,Liège,Liège 1,2023,5.27,,5.27,False
+62063,Liège,Liège 1,2024,10.82,,10.82,False
+62063,Liège,Liège 1,2025,2.87,,2.87,True
+62079,Oupeye,Liège 1,2011,6.51,,6.51,False
+62079,Oupeye,Liège 1,2012,5.33,,5.33,False
+62079,Oupeye,Liège 1,2013,5.94,,5.94,False
+62079,Oupeye,Liège 1,2014,6.57,,6.57,False
+62079,Oupeye,Liège 1,2015,6.21,,6.21,False
+62079,Oupeye,Liège 1,2016,4.29,,4.29,False
+62079,Oupeye,Liège 1,2017,8.48,,8.48,False
+62079,Oupeye,Liège 1,2018,2.36,,2.36,False
+62079,Oupeye,Liège 1,2019,18.86,,18.86,False
+62079,Oupeye,Liège 1,2020,8.85,,8.85,False
+62079,Oupeye,Liège 1,2021,25.95,saut,5.94,False
+62079,Oupeye,Liège 1,2022,2.87,,2.87,False
+62079,Oupeye,Liège 1,2023,3.22,,3.22,False
+62079,Oupeye,Liège 1,2024,5.38,,5.38,False
+62079,Oupeye,Liège 1,2025,-1.38,,-1.38,True
+62093,Saint-Nicolas,Liège 1,2011,-0.04,,-0.04,False
+62093,Saint-Nicolas,Liège 1,2012,1.6,,1.6,False
+62093,Saint-Nicolas,Liège 1,2013,0.35,,0.35,False
+62093,Saint-Nicolas,Liège 1,2014,0.55,,0.55,False
+62093,Saint-Nicolas,Liège 1,2015,0.22,,0.22,False
+62093,Saint-Nicolas,Liège 1,2016,0.3,,0.3,False
+62093,Saint-Nicolas,Liège 1,2017,1.16,,1.16,False
+62093,Saint-Nicolas,Liège 1,2018,0.6,,0.6,False
+62093,Saint-Nicolas,Liège 1,2019,16.64,saut,0.5,False
+62093,Saint-Nicolas,Liège 1,2020,0.23,,0.23,False
+62093,Saint-Nicolas,Liège 1,2021,-0.02,,-0.02,False
+62093,Saint-Nicolas,Liège 1,2022,2.17,,2.17,False
+62093,Saint-Nicolas,Liège 1,2023,0.5,,0.5,False
+62093,Saint-Nicolas,Liège 1,2024,-0.0,,-0.0,False
+62093,Saint-Nicolas,Liège 1,2025,2.83,,2.83,True
+62096,Seraing,Liège 1,2011,1.65,,1.65,False
+62096,Seraing,Liège 1,2012,0.87,,0.87,False
+62096,Seraing,Liège 1,2013,3.86,,3.86,False
+62096,Seraing,Liège 1,2014,-2.41,,-2.41,False
+62096,Seraing,Liège 1,2015,-11.25,reclassement,5.04,False
+62096,Seraing,Liège 1,2016,2.48,,2.48,False
+62096,Seraing,Liège 1,2017,-8.87,,-8.87,False
+62096,Seraing,Liège 1,2018,4.9,,4.9,False
+62096,Seraing,Liège 1,2019,19.45,saut,2.29,False
+62096,Seraing,Liège 1,2020,1.18,,1.18,False
+62096,Seraing,Liège 1,2021,3.22,,3.22,False
+62096,Seraing,Liège 1,2022,2.1,,2.1,False
+62096,Seraing,Liège 1,2023,7.54,,7.54,False
+62096,Seraing,Liège 1,2024,1.7,,1.7,False
+62096,Seraing,Liège 1,2025,3.64,,3.64,True
+62099,Soumagne,Liège 1,2011,25.82,saut,5.58,False
+62099,Soumagne,Liège 1,2012,5.94,,5.94,False
+62099,Soumagne,Liège 1,2013,8.73,,8.73,False
+62099,Soumagne,Liège 1,2014,1.04,,1.04,False
+62099,Soumagne,Liège 1,2015,8.38,,8.38,False
+62099,Soumagne,Liège 1,2016,5.22,,5.22,False
+62099,Soumagne,Liège 1,2017,7.54,,7.54,False
+62099,Soumagne,Liège 1,2018,2.59,,2.59,False
+62099,Soumagne,Liège 1,2019,7.49,,7.49,False
+62099,Soumagne,Liège 1,2020,-15.73,negatif,5.58,False
+62099,Soumagne,Liège 1,2021,3.14,,3.14,False
+62099,Soumagne,Liège 1,2022,1.85,,1.85,False
+62099,Soumagne,Liège 1,2023,8.08,,8.08,False
+62099,Soumagne,Liège 1,2024,5.15,,5.15,False
+62099,Soumagne,Liège 1,2025,-0.93,,-0.93,True
+62100,Sprimont,Liège 2,2011,14.68,,14.68,False
+62100,Sprimont,Liège 2,2012,21.38,,21.38,False
+62100,Sprimont,Liège 2,2013,18.09,,18.09,False
+62100,Sprimont,Liège 2,2014,12.97,,12.97,False
+62100,Sprimont,Liège 2,2015,6.43,,6.43,False
+62100,Sprimont,Liège 2,2016,25.86,,25.86,False
+62100,Sprimont,Liège 2,2017,9.37,,9.37,False
+62100,Sprimont,Liège 2,2018,6.83,,6.83,False
+62100,Sprimont,Liège 2,2019,9.88,,9.88,False
+62100,Sprimont,Liège 2,2020,13.25,,13.25,False
+62100,Sprimont,Liège 2,2021,12.56,,12.56,False
+62100,Sprimont,Liège 2,2022,6.76,,6.76,False
+62100,Sprimont,Liège 2,2023,7.2,,7.2,False
+62100,Sprimont,Liège 2,2024,6.21,,6.21,False
+62100,Sprimont,Liège 2,2025,5.79,,5.79,True
+62108,Visé,Liège 1,2011,6.07,,6.07,False
+62108,Visé,Liège 1,2012,8.17,,8.17,False
+62108,Visé,Liège 1,2013,12.59,,12.59,False
+62108,Visé,Liège 1,2014,4.11,,4.11,False
+62108,Visé,Liège 1,2015,23.95,saut,4.14,False
+62108,Visé,Liège 1,2016,-19.64,negatif,4.14,False
+62108,Visé,Liège 1,2017,1.13,,1.13,False
+62108,Visé,Liège 1,2018,0.53,,0.53,False
+62108,Visé,Liège 1,2019,1.38,,1.38,False
+62108,Visé,Liège 1,2020,12.95,,12.95,False
+62108,Visé,Liège 1,2021,4.17,,4.17,False
+62108,Visé,Liège 1,2022,5.99,,5.99,False
+62108,Visé,Liège 1,2023,2.24,,2.24,False
+62108,Visé,Liège 1,2024,3.72,,3.72,False
+62108,Visé,Liège 1,2025,0.42,,0.42,True
+62118,Grâce-Hollogne,Liège 1,2011,28.53,,28.53,False
+62118,Grâce-Hollogne,Liège 1,2012,39.79,,39.79,False
+62118,Grâce-Hollogne,Liège 1,2013,3.99,,3.99,False
+62118,Grâce-Hollogne,Liège 1,2014,-55.1,reclassement,4.05,False
+62118,Grâce-Hollogne,Liège 1,2015,-2.12,,-2.12,False
+62118,Grâce-Hollogne,Liège 1,2016,4.18,,4.18,False
+62118,Grâce-Hollogne,Liège 1,2017,5.38,,5.38,False
+62118,Grâce-Hollogne,Liège 1,2018,-31.23,reclassement,4.8,False
+62118,Grâce-Hollogne,Liège 1,2019,14.32,,14.32,False
+62118,Grâce-Hollogne,Liège 1,2020,21.06,,21.06,False
+62118,Grâce-Hollogne,Liège 1,2021,0.36,,0.36,False
+62118,Grâce-Hollogne,Liège 1,2022,1.38,,1.38,False
+62118,Grâce-Hollogne,Liège 1,2023,20.93,,20.93,False
+62118,Grâce-Hollogne,Liège 1,2024,7.93,,7.93,False
+62118,Grâce-Hollogne,Liège 1,2025,-48.01,reclassement,3.04,True
+62119,Blegny,Liège 1,2011,3.95,,3.95,False
+62119,Blegny,Liège 1,2012,3.0,,3.0,False
+62119,Blegny,Liège 1,2013,4.2,,4.2,False
+62119,Blegny,Liège 1,2014,4.52,,4.52,False
+62119,Blegny,Liège 1,2015,7.3,,7.3,False
+62119,Blegny,Liège 1,2016,3.62,,3.62,False
+62119,Blegny,Liège 1,2017,3.34,,3.34,False
+62119,Blegny,Liège 1,2018,4.61,,4.61,False
+62119,Blegny,Liège 1,2019,99.56,saut,3.79,False
+62119,Blegny,Liège 1,2020,5.51,,5.51,False
+62119,Blegny,Liège 1,2021,1.55,,1.55,False
+62119,Blegny,Liège 1,2022,2.46,,2.46,False
+62119,Blegny,Liège 1,2023,3.54,,3.54,False
+62119,Blegny,Liège 1,2024,-20.94,negatif,3.79,False
+62119,Blegny,Liège 1,2025,2.62,,2.62,True
+62120,Flémalle,Liège 1,2011,9.19,,9.19,False
+62120,Flémalle,Liège 1,2012,5.24,,5.24,False
+62120,Flémalle,Liège 1,2013,7.4,,7.4,False
+62120,Flémalle,Liège 1,2014,4.89,,4.89,False
+62120,Flémalle,Liège 1,2015,3.06,,3.06,False
+62120,Flémalle,Liège 1,2016,-2.68,,-2.68,False
+62120,Flémalle,Liège 1,2017,-4.03,,-4.03,False
+62120,Flémalle,Liège 1,2018,1.45,,1.45,False
+62120,Flémalle,Liège 1,2019,7.83,,7.83,False
+62120,Flémalle,Liège 1,2020,3.45,,3.45,False
+62120,Flémalle,Liège 1,2021,2.67,,2.67,False
+62120,Flémalle,Liège 1,2022,7.45,,7.45,False
+62120,Flémalle,Liège 1,2023,4.13,,4.13,False
+62120,Flémalle,Liège 1,2024,11.55,,11.55,False
+62120,Flémalle,Liège 1,2025,1.72,,1.72,True
+62121,Neupré,Liège 1,2011,4.73,,4.73,False
+62121,Neupré,Liège 1,2012,12.29,,12.29,False
+62121,Neupré,Liège 1,2013,3.49,,3.49,False
+62121,Neupré,Liège 1,2014,2.53,,2.53,False
+62121,Neupré,Liège 1,2015,3.73,,3.73,False
+62121,Neupré,Liège 1,2016,1.4,,1.4,False
+62121,Neupré,Liège 1,2017,2.66,,2.66,False
+62121,Neupré,Liège 1,2018,7.95,,7.95,False
+62121,Neupré,Liège 1,2019,2.18,,2.18,False
+62121,Neupré,Liège 1,2020,1.37,,1.37,False
+62121,Neupré,Liège 1,2021,3.2,,3.2,False
+62121,Neupré,Liège 1,2022,4.9,,4.9,False
+62121,Neupré,Liège 1,2023,1.25,,1.25,False
+62121,Neupré,Liège 1,2024,6.28,,6.28,False
+62121,Neupré,Liège 1,2025,1.76,,1.76,True
+62122,Trooz,Liège 1,2011,3.17,,3.17,False
+62122,Trooz,Liège 1,2012,6.02,,6.02,False
+62122,Trooz,Liège 1,2013,2.57,,2.57,False
+62122,Trooz,Liège 1,2014,2.96,,2.96,False
+62122,Trooz,Liège 1,2015,2.23,,2.23,False
+62122,Trooz,Liège 1,2016,2.41,,2.41,False
+62122,Trooz,Liège 1,2017,2.24,,2.24,False
+62122,Trooz,Liège 1,2018,2.87,,2.87,False
+62122,Trooz,Liège 1,2019,1.93,,1.93,False
+62122,Trooz,Liège 1,2020,8.19,,8.19,False
+62122,Trooz,Liège 1,2021,6.65,,6.65,False
+62122,Trooz,Liège 1,2022,2.23,,2.23,False
+62122,Trooz,Liège 1,2023,2.82,,2.82,False
+62122,Trooz,Liège 1,2024,1.97,,1.97,False
+62122,Trooz,Liège 1,2025,8.59,,8.59,True
+63001,Amblève,,2011,11.06,,11.06,False
+63001,Amblève,,2012,6.75,,6.75,False
+63001,Amblève,,2013,7.78,,7.78,False
+63001,Amblève,,2014,1.81,,1.81,False
+63001,Amblève,,2015,10.62,,10.62,False
+63001,Amblève,,2016,2.5,,2.5,False
+63001,Amblève,,2017,6.28,,6.28,False
+63001,Amblève,,2018,7.65,,7.65,False
+63001,Amblève,,2019,9.39,,9.39,False
+63001,Amblève,,2020,5.67,,5.67,False
+63001,Amblève,,2021,9.19,,9.19,False
+63001,Amblève,,2022,10.85,,10.85,False
+63001,Amblève,,2023,13.2,,13.2,False
+63001,Amblève,,2024,8.77,,8.77,False
+63001,Amblève,,2025,10.59,,10.59,True
+63003,Aubel,Liège 2,2011,3.1,,3.1,False
+63003,Aubel,Liège 2,2012,2.65,,2.65,False
+63003,Aubel,Liège 2,2013,0.89,,0.89,False
+63003,Aubel,Liège 2,2014,0.54,,0.54,False
+63003,Aubel,Liège 2,2015,5.25,,5.25,False
+63003,Aubel,Liège 2,2016,0.3,,0.3,False
+63003,Aubel,Liège 2,2017,0.91,,0.91,False
+63003,Aubel,Liège 2,2018,1.13,,1.13,False
+63003,Aubel,Liège 2,2019,0.38,,0.38,False
+63003,Aubel,Liège 2,2020,1.11,,1.11,False
+63003,Aubel,Liège 2,2021,2.97,,2.97,False
+63003,Aubel,Liège 2,2022,3.62,,3.62,False
+63003,Aubel,Liège 2,2023,4.5,,4.5,False
+63003,Aubel,Liège 2,2024,6.85,,6.85,False
+63003,Aubel,Liège 2,2025,4.01,,4.01,True
+63004,Baelen,Liège 2,2011,1.46,,1.46,False
+63004,Baelen,Liège 2,2012,2.12,,2.12,False
+63004,Baelen,Liège 2,2013,1.2,,1.2,False
+63004,Baelen,Liège 2,2014,1.76,,1.76,False
+63004,Baelen,Liège 2,2015,1.7,,1.7,False
+63004,Baelen,Liège 2,2016,1.47,,1.47,False
+63004,Baelen,Liège 2,2017,2.73,,2.73,False
+63004,Baelen,Liège 2,2018,5.71,,5.71,False
+63004,Baelen,Liège 2,2019,3.32,,3.32,False
+63004,Baelen,Liège 2,2020,1.42,,1.42,False
+63004,Baelen,Liège 2,2021,2.75,,2.75,False
+63004,Baelen,Liège 2,2022,1.06,,1.06,False
+63004,Baelen,Liège 2,2023,2.72,,2.72,False
+63004,Baelen,Liège 2,2024,5.37,,5.37,False
+63004,Baelen,Liège 2,2025,0.78,,0.78,True
+63012,Bullange,,2011,10.78,,10.78,False
+63012,Bullange,,2012,6.2,,6.2,False
+63012,Bullange,,2013,8.15,,8.15,False
+63012,Bullange,,2014,5.46,,5.46,False
+63012,Bullange,,2015,7.55,,7.55,False
+63012,Bullange,,2016,4.32,,4.32,False
+63012,Bullange,,2017,2.89,,2.89,False
+63012,Bullange,,2018,7.43,,7.43,False
+63012,Bullange,,2019,5.37,,5.37,False
+63012,Bullange,,2020,2.65,,2.65,False
+63012,Bullange,,2021,3.8,,3.8,False
+63012,Bullange,,2022,18.82,,18.82,False
+63012,Bullange,,2023,94.31,saut,6.2,False
+63012,Bullange,,2024,10.6,,10.6,False
+63012,Bullange,,2025,2.34,,2.34,True
+63013,Butgenbach,,2011,6.13,,6.13,False
+63013,Butgenbach,,2012,3.3,,3.3,False
+63013,Butgenbach,,2013,2.49,,2.49,False
+63013,Butgenbach,,2014,3.18,,3.18,False
+63013,Butgenbach,,2015,2.88,,2.88,False
+63013,Butgenbach,,2016,4.96,,4.96,False
+63013,Butgenbach,,2017,0.21,,0.21,False
+63013,Butgenbach,,2018,1.3,,1.3,False
+63013,Butgenbach,,2019,-1.76,,-1.76,False
+63013,Butgenbach,,2020,5.2,,5.2,False
+63013,Butgenbach,,2021,6.21,,6.21,False
+63013,Butgenbach,,2022,6.34,,6.34,False
+63013,Butgenbach,,2023,3.32,,3.32,False
+63013,Butgenbach,,2024,5.81,,5.81,False
+63013,Butgenbach,,2025,5.42,,5.42,True
+63020,Dison,Liège 2,2011,1.68,,1.68,False
+63020,Dison,Liège 2,2012,3.24,,3.24,False
+63020,Dison,Liège 2,2013,5.17,,5.17,False
+63020,Dison,Liège 2,2014,0.92,,0.92,False
+63020,Dison,Liège 2,2015,6.33,,6.33,False
+63020,Dison,Liège 2,2016,5.52,,5.52,False
+63020,Dison,Liège 2,2017,1.06,,1.06,False
+63020,Dison,Liège 2,2018,1.49,,1.49,False
+63020,Dison,Liège 2,2019,5.7,,5.7,False
+63020,Dison,Liège 2,2020,1.6,,1.6,False
+63020,Dison,Liège 2,2021,2.4,,2.4,False
+63020,Dison,Liège 2,2022,2.77,,2.77,False
+63020,Dison,Liège 2,2023,1.1,,1.1,False
+63020,Dison,Liège 2,2024,2.5,,2.5,False
+63020,Dison,Liège 2,2025,3.86,,3.86,True
+63023,Eupen,,2011,2.1,,2.1,False
+63023,Eupen,,2012,0.68,,0.68,False
+63023,Eupen,,2013,13.45,,13.45,False
+63023,Eupen,,2014,5.57,,5.57,False
+63023,Eupen,,2015,3.13,,3.13,False
+63023,Eupen,,2016,0.57,,0.57,False
+63023,Eupen,,2017,3.53,,3.53,False
+63023,Eupen,,2018,2.79,,2.79,False
+63023,Eupen,,2019,6.85,,6.85,False
+63023,Eupen,,2020,4.93,,4.93,False
+63023,Eupen,,2021,6.48,,6.48,False
+63023,Eupen,,2022,3.44,,3.44,False
+63023,Eupen,,2023,0.85,,0.85,False
+63023,Eupen,,2024,1.26,,1.26,False
+63023,Eupen,,2025,0.49,,0.49,True
+63035,Herve,Liège 2,2011,9.67,,9.67,False
+63035,Herve,Liège 2,2012,16.66,,16.66,False
+63035,Herve,Liège 2,2013,1.53,,1.53,False
+63035,Herve,Liège 2,2014,10.2,,10.2,False
+63035,Herve,Liège 2,2015,22.47,,22.47,False
+63035,Herve,Liège 2,2016,21.4,,21.4,False
+63035,Herve,Liège 2,2017,10.96,,10.96,False
+63035,Herve,Liège 2,2018,10.25,,10.25,False
+63035,Herve,Liège 2,2019,15.49,,15.49,False
+63035,Herve,Liège 2,2020,3.41,,3.41,False
+63035,Herve,Liège 2,2021,21.16,,21.16,False
+63035,Herve,Liège 2,2022,8.47,,8.47,False
+63035,Herve,Liège 2,2023,12.63,,12.63,False
+63035,Herve,Liège 2,2024,9.37,,9.37,False
+63035,Herve,Liège 2,2025,12.08,,12.08,True
+63038,Jalhay,Liège 2,2011,5.27,,5.27,False
+63038,Jalhay,Liège 2,2012,9.56,,9.56,False
+63038,Jalhay,Liège 2,2013,10.01,,10.01,False
+63038,Jalhay,Liège 2,2014,3.79,,3.79,False
+63038,Jalhay,Liège 2,2015,2.8,,2.8,False
+63038,Jalhay,Liège 2,2016,-0.31,,-0.31,False
+63038,Jalhay,Liège 2,2017,4.78,,4.78,False
+63038,Jalhay,Liège 2,2018,5.89,,5.89,False
+63038,Jalhay,Liège 2,2019,5.67,,5.67,False
+63038,Jalhay,Liège 2,2020,3.8,,3.8,False
+63038,Jalhay,Liège 2,2021,6.53,,6.53,False
+63038,Jalhay,Liège 2,2022,4.28,,4.28,False
+63038,Jalhay,Liège 2,2023,6.19,,6.19,False
+63038,Jalhay,Liège 2,2024,5.81,,5.81,False
+63038,Jalhay,Liège 2,2025,1.47,,1.47,True
+63040,La Calamine,,2011,1.33,,1.33,False
+63040,La Calamine,,2012,1.32,,1.32,False
+63040,La Calamine,,2013,1.6,,1.6,False
+63040,La Calamine,,2014,3.56,,3.56,False
+63040,La Calamine,,2015,2.8,,2.8,False
+63040,La Calamine,,2016,2.37,,2.37,False
+63040,La Calamine,,2017,1.58,,1.58,False
+63040,La Calamine,,2018,-0.31,,-0.31,False
+63040,La Calamine,,2019,4.81,,4.81,False
+63040,La Calamine,,2020,2.72,,2.72,False
+63040,La Calamine,,2021,2.11,,2.11,False
+63040,La Calamine,,2022,1.32,,1.32,False
+63040,La Calamine,,2023,1.35,,1.35,False
+63040,La Calamine,,2024,2.69,,2.69,False
+63040,La Calamine,,2025,0.52,,0.52,True
+63045,Lierneux,Liège 2,2011,4.59,,4.59,False
+63045,Lierneux,Liège 2,2012,3.78,,3.78,False
+63045,Lierneux,Liège 2,2013,4.51,,4.51,False
+63045,Lierneux,Liège 2,2014,4.24,,4.24,False
+63045,Lierneux,Liège 2,2015,4.04,,4.04,False
+63045,Lierneux,Liège 2,2016,-0.11,,-0.11,False
+63045,Lierneux,Liège 2,2017,2.37,,2.37,False
+63045,Lierneux,Liège 2,2018,4.08,,4.08,False
+63045,Lierneux,Liège 2,2019,2.6,,2.6,False
+63045,Lierneux,Liège 2,2020,3.14,,3.14,False
+63045,Lierneux,Liège 2,2021,3.5,,3.5,False
+63045,Lierneux,Liège 2,2022,16.57,,16.57,False
+63045,Lierneux,Liège 2,2023,4.4,,4.4,False
+63045,Lierneux,Liège 2,2024,3.72,,3.72,False
+63045,Lierneux,Liège 2,2025,3.02,,3.02,True
+63046,Limbourg,Liège 2,2011,1.82,,1.82,False
+63046,Limbourg,Liège 2,2012,2.53,,2.53,False
+63046,Limbourg,Liège 2,2013,1.5,,1.5,False
+63046,Limbourg,Liège 2,2014,0.96,,0.96,False
+63046,Limbourg,Liège 2,2015,5.39,,5.39,False
+63046,Limbourg,Liège 2,2016,-1.28,,-1.28,False
+63046,Limbourg,Liège 2,2017,1.99,,1.99,False
+63046,Limbourg,Liège 2,2018,2.91,,2.91,False
+63046,Limbourg,Liège 2,2019,2.97,,2.97,False
+63046,Limbourg,Liège 2,2020,7.12,,7.12,False
+63046,Limbourg,Liège 2,2021,0.24,,0.24,False
+63046,Limbourg,Liège 2,2022,3.23,,3.23,False
+63046,Limbourg,Liège 2,2023,1.47,,1.47,False
+63046,Limbourg,Liège 2,2024,2.64,,2.64,False
+63046,Limbourg,Liège 2,2025,-2.29,,-2.29,True
+63048,Lontzen,,2011,5.92,,5.92,False
+63048,Lontzen,,2012,2.05,,2.05,False
+63048,Lontzen,,2013,2.75,,2.75,False
+63048,Lontzen,,2014,30.95,saut,3.68,False
+63048,Lontzen,,2015,-0.19,,-0.19,False
+63048,Lontzen,,2016,8.75,,8.75,False
+63048,Lontzen,,2017,-0.26,,-0.26,False
+63048,Lontzen,,2018,-18.16,reclassement,-6.23,False
+63048,Lontzen,,2019,4.76,,4.76,False
+63048,Lontzen,,2020,3.08,,3.08,False
+63048,Lontzen,,2021,-0.87,,-0.87,False
+63048,Lontzen,,2022,4.29,,4.29,False
+63048,Lontzen,,2023,5.34,,5.34,False
+63048,Lontzen,,2024,4.33,,4.33,False
+63048,Lontzen,,2025,1.54,,1.54,True
+63049,Malmedy,Liège 2,2011,8.24,,8.24,False
+63049,Malmedy,Liège 2,2012,12.29,,12.29,False
+63049,Malmedy,Liège 2,2013,1.46,,1.46,False
+63049,Malmedy,Liège 2,2014,5.1,,5.1,False
+63049,Malmedy,Liège 2,2015,13.22,,13.22,False
+63049,Malmedy,Liège 2,2016,6.3,,6.3,False
+63049,Malmedy,Liège 2,2017,5.03,,5.03,False
+63049,Malmedy,Liège 2,2018,7.52,,7.52,False
+63049,Malmedy,Liège 2,2019,8.28,,8.28,False
+63049,Malmedy,Liège 2,2020,4.84,,4.84,False
+63049,Malmedy,Liège 2,2021,9.97,,9.97,False
+63049,Malmedy,Liège 2,2022,3.84,,3.84,False
+63049,Malmedy,Liège 2,2023,6.03,,6.03,False
+63049,Malmedy,Liège 2,2024,4.5,,4.5,False
+63049,Malmedy,Liège 2,2025,5.59,,5.59,True
+63057,Olne,Liège 2,2011,3.06,,3.06,False
+63057,Olne,Liège 2,2012,3.76,,3.76,False
+63057,Olne,Liège 2,2013,2.29,,2.29,False
+63057,Olne,Liège 2,2014,4.41,,4.41,False
+63057,Olne,Liège 2,2015,2.93,,2.93,False
+63057,Olne,Liège 2,2016,4.09,,4.09,False
+63057,Olne,Liège 2,2017,2.82,,2.82,False
+63057,Olne,Liège 2,2018,3.77,,3.77,False
+63057,Olne,Liège 2,2019,4.36,,4.36,False
+63057,Olne,Liège 2,2020,2.21,,2.21,False
+63057,Olne,Liège 2,2021,3.24,,3.24,False
+63057,Olne,Liège 2,2022,0.83,,0.83,False
+63057,Olne,Liège 2,2023,3.96,,3.96,False
+63057,Olne,Liège 2,2024,3.16,,3.16,False
+63057,Olne,Liège 2,2025,2.1,,2.1,True
+63058,Pepinster,Liège 2,2011,0.57,,0.57,False
+63058,Pepinster,Liège 2,2012,5.84,,5.84,False
+63058,Pepinster,Liège 2,2013,1.4,,1.4,False
+63058,Pepinster,Liège 2,2014,1.66,,1.66,False
+63058,Pepinster,Liège 2,2015,2.31,,2.31,False
+63058,Pepinster,Liège 2,2016,5.88,,5.88,False
+63058,Pepinster,Liège 2,2017,5.82,,5.82,False
+63058,Pepinster,Liège 2,2018,2.68,,2.68,False
+63058,Pepinster,Liège 2,2019,0.02,,0.02,False
+63058,Pepinster,Liège 2,2020,1.89,,1.89,False
+63058,Pepinster,Liège 2,2021,1.65,,1.65,False
+63058,Pepinster,Liège 2,2022,15.36,,15.36,False
+63058,Pepinster,Liège 2,2023,1.99,,1.99,False
+63058,Pepinster,Liège 2,2024,0.24,,0.24,False
+63058,Pepinster,Liège 2,2025,0.11,,0.11,True
+63061,Raeren,,2011,10.15,,10.15,False
+63061,Raeren,,2012,6.0,,6.0,False
+63061,Raeren,,2013,2.38,,2.38,False
+63061,Raeren,,2014,2.42,,2.42,False
+63061,Raeren,,2015,3.12,,3.12,False
+63061,Raeren,,2016,9.75,,9.75,False
+63061,Raeren,,2017,5.04,,5.04,False
+63061,Raeren,,2018,2.97,,2.97,False
+63061,Raeren,,2019,10.7,,10.7,False
+63061,Raeren,,2020,4.79,,4.79,False
+63061,Raeren,,2021,5.32,,5.32,False
+63061,Raeren,,2022,10.32,,10.32,False
+63061,Raeren,,2023,5.08,,5.08,False
+63061,Raeren,,2024,2.15,,2.15,False
+63061,Raeren,,2025,5.98,,5.98,True
+63067,Saint-Vith,,2011,9.16,,9.16,False
+63067,Saint-Vith,,2012,11.3,,11.3,False
+63067,Saint-Vith,,2013,9.6,,9.6,False
+63067,Saint-Vith,,2014,11.08,,11.08,False
+63067,Saint-Vith,,2015,9.45,,9.45,False
+63067,Saint-Vith,,2016,14.83,,14.83,False
+63067,Saint-Vith,,2017,23.27,,23.27,False
+63067,Saint-Vith,,2018,6.17,,6.17,False
+63067,Saint-Vith,,2019,9.77,,9.77,False
+63067,Saint-Vith,,2020,13.48,,13.48,False
+63067,Saint-Vith,,2021,9.15,,9.15,False
+63067,Saint-Vith,,2022,13.27,,13.27,False
+63067,Saint-Vith,,2023,9.53,,9.53,False
+63067,Saint-Vith,,2024,13.53,,13.53,False
+63067,Saint-Vith,,2025,14.58,,14.58,True
+63072,Spa,Liège 2,2011,3.67,,3.67,False
+63072,Spa,Liège 2,2012,0.47,,0.47,False
+63072,Spa,Liège 2,2013,0.87,,0.87,False
+63072,Spa,Liège 2,2014,1.25,,1.25,False
+63072,Spa,Liège 2,2015,0.97,,0.97,False
+63072,Spa,Liège 2,2016,1.14,,1.14,False
+63072,Spa,Liège 2,2017,0.8,,0.8,False
+63072,Spa,Liège 2,2018,0.78,,0.78,False
+63072,Spa,Liège 2,2019,2.6,,2.6,False
+63072,Spa,Liège 2,2020,3.03,,3.03,False
+63072,Spa,Liège 2,2021,1.22,,1.22,False
+63072,Spa,Liège 2,2022,2.42,,2.42,False
+63072,Spa,Liège 2,2023,-0.06,,-0.06,False
+63072,Spa,Liège 2,2024,-14.53,negatif,1.06,False
+63072,Spa,Liège 2,2025,0.58,,0.58,True
+63073,Stavelot,Liège 2,2011,2.43,,2.43,False
+63073,Stavelot,Liège 2,2012,6.04,,6.04,False
+63073,Stavelot,Liège 2,2013,2.87,,2.87,False
+63073,Stavelot,Liège 2,2014,4.49,,4.49,False
+63073,Stavelot,Liège 2,2015,4.63,,4.63,False
+63073,Stavelot,Liège 2,2016,6.26,,6.26,False
+63073,Stavelot,Liège 2,2017,5.65,,5.65,False
+63073,Stavelot,Liège 2,2018,6.23,,6.23,False
+63073,Stavelot,Liège 2,2019,2.58,,2.58,False
+63073,Stavelot,Liège 2,2020,5.97,,5.97,False
+63073,Stavelot,Liège 2,2021,4.48,,4.48,False
+63073,Stavelot,Liège 2,2022,7.84,,7.84,False
+63073,Stavelot,Liège 2,2023,6.21,,6.21,False
+63073,Stavelot,Liège 2,2024,7.32,,7.32,False
+63073,Stavelot,Liège 2,2025,5.48,,5.48,True
+63075,Stoumont,Liège 2,2011,2.05,,2.05,False
+63075,Stoumont,Liège 2,2012,7.57,,7.57,False
+63075,Stoumont,Liège 2,2013,2.89,,2.89,False
+63075,Stoumont,Liège 2,2014,2.06,,2.06,False
+63075,Stoumont,Liège 2,2015,11.24,,11.24,False
+63075,Stoumont,Liège 2,2016,5.94,,5.94,False
+63075,Stoumont,Liège 2,2017,3.69,,3.69,False
+63075,Stoumont,Liège 2,2018,3.86,,3.86,False
+63075,Stoumont,Liège 2,2019,2.22,,2.22,False
+63075,Stoumont,Liège 2,2020,2.72,,2.72,False
+63075,Stoumont,Liège 2,2021,5.95,,5.95,False
+63075,Stoumont,Liège 2,2022,1.66,,1.66,False
+63075,Stoumont,Liège 2,2023,3.17,,3.17,False
+63075,Stoumont,Liège 2,2024,7.92,,7.92,False
+63075,Stoumont,Liège 2,2025,3.29,,3.29,True
+63076,Theux,Liège 2,2011,6.17,,6.17,False
+63076,Theux,Liège 2,2012,8.03,,8.03,False
+63076,Theux,Liège 2,2013,4.46,,4.46,False
+63076,Theux,Liège 2,2014,5.19,,5.19,False
+63076,Theux,Liège 2,2015,7.36,,7.36,False
+63076,Theux,Liège 2,2016,3.36,,3.36,False
+63076,Theux,Liège 2,2017,14.29,,14.29,False
+63076,Theux,Liège 2,2018,6.65,,6.65,False
+63076,Theux,Liège 2,2019,6.63,,6.63,False
+63076,Theux,Liège 2,2020,6.87,,6.87,False
+63076,Theux,Liège 2,2021,8.75,,8.75,False
+63076,Theux,Liège 2,2022,13.5,,13.5,False
+63076,Theux,Liège 2,2023,8.06,,8.06,False
+63076,Theux,Liège 2,2024,14.09,,14.09,False
+63076,Theux,Liège 2,2025,5.48,,5.48,True
+63079,Verviers,Liège 2,2011,2.47,,2.47,False
+63079,Verviers,Liège 2,2012,12.6,,12.6,False
+63079,Verviers,Liège 2,2013,-0.67,,-0.67,False
+63079,Verviers,Liège 2,2014,2.2,,2.2,False
+63079,Verviers,Liège 2,2015,4.61,,4.61,False
+63079,Verviers,Liège 2,2016,8.58,,8.58,False
+63079,Verviers,Liège 2,2017,4.54,,4.54,False
+63079,Verviers,Liège 2,2018,2.73,,2.73,False
+63079,Verviers,Liège 2,2019,9.18,,9.18,False
+63079,Verviers,Liège 2,2020,7.02,,7.02,False
+63079,Verviers,Liège 2,2021,4.44,,4.44,False
+63079,Verviers,Liège 2,2022,16.77,,16.77,False
+63079,Verviers,Liège 2,2023,6.19,,6.19,False
+63079,Verviers,Liège 2,2024,-0.36,,-0.36,False
+63079,Verviers,Liège 2,2025,-2.08,,-2.08,True
+63080,Waimes,Liège 2,2011,7.51,,7.51,False
+63080,Waimes,Liège 2,2012,8.6,,8.6,False
+63080,Waimes,Liège 2,2013,7.64,,7.64,False
+63080,Waimes,Liège 2,2014,9.95,,9.95,False
+63080,Waimes,Liège 2,2015,16.74,,16.74,False
+63080,Waimes,Liège 2,2016,8.29,,8.29,False
+63080,Waimes,Liège 2,2017,15.05,,15.05,False
+63080,Waimes,Liège 2,2018,20.55,,20.55,False
+63080,Waimes,Liège 2,2019,7.94,,7.94,False
+63080,Waimes,Liège 2,2020,6.52,,6.52,False
+63080,Waimes,Liège 2,2021,7.17,,7.17,False
+63080,Waimes,Liège 2,2022,10.59,,10.59,False
+63080,Waimes,Liège 2,2023,7.15,,7.15,False
+63080,Waimes,Liège 2,2024,13.49,,13.49,False
+63080,Waimes,Liège 2,2025,4.56,,4.56,True
+63084,Welkenraedt,Liège 2,2011,1.39,,1.39,False
+63084,Welkenraedt,Liège 2,2012,3.36,,3.36,False
+63084,Welkenraedt,Liège 2,2013,3.9,,3.9,False
+63084,Welkenraedt,Liège 2,2014,4.02,,4.02,False
+63084,Welkenraedt,Liège 2,2015,6.41,,6.41,False
+63084,Welkenraedt,Liège 2,2016,10.45,,10.45,False
+63084,Welkenraedt,Liège 2,2017,7.78,,7.78,False
+63084,Welkenraedt,Liège 2,2018,3.67,,3.67,False
+63084,Welkenraedt,Liège 2,2019,7.59,,7.59,False
+63084,Welkenraedt,Liège 2,2020,15.22,,15.22,False
+63084,Welkenraedt,Liège 2,2021,6.22,,6.22,False
+63084,Welkenraedt,Liège 2,2022,5.5,,5.5,False
+63084,Welkenraedt,Liège 2,2023,4.7,,4.7,False
+63084,Welkenraedt,Liège 2,2024,10.57,,10.57,False
+63084,Welkenraedt,Liège 2,2025,-4.46,,-4.46,True
+63086,Trois-Ponts,Liège 2,2011,1.73,,1.73,False
+63086,Trois-Ponts,Liège 2,2012,4.04,,4.04,False
+63086,Trois-Ponts,Liège 2,2013,-0.58,,-0.58,False
+63086,Trois-Ponts,Liège 2,2014,1.93,,1.93,False
+63086,Trois-Ponts,Liège 2,2015,3.61,,3.61,False
+63086,Trois-Ponts,Liège 2,2016,12.51,,12.51,False
+63086,Trois-Ponts,Liège 2,2017,3.49,,3.49,False
+63086,Trois-Ponts,Liège 2,2018,3.41,,3.41,False
+63086,Trois-Ponts,Liège 2,2019,1.3,,1.3,False
+63086,Trois-Ponts,Liège 2,2020,1.77,,1.77,False
+63086,Trois-Ponts,Liège 2,2021,4.4,,4.4,False
+63086,Trois-Ponts,Liège 2,2022,3.09,,3.09,False
+63086,Trois-Ponts,Liège 2,2023,4.29,,4.29,False
+63086,Trois-Ponts,Liège 2,2024,1.79,,1.79,False
+63086,Trois-Ponts,Liège 2,2025,4.87,,4.87,True
+63087,Burg-Reuland,,2011,4.58,,4.58,False
+63087,Burg-Reuland,,2012,4.8,,4.8,False
+63087,Burg-Reuland,,2013,7.89,,7.89,False
+63087,Burg-Reuland,,2014,1.31,,1.31,False
+63087,Burg-Reuland,,2015,10.29,,10.29,False
+63087,Burg-Reuland,,2016,4.36,,4.36,False
+63087,Burg-Reuland,,2017,2.37,,2.37,False
+63087,Burg-Reuland,,2018,6.02,,6.02,False
+63087,Burg-Reuland,,2019,3.28,,3.28,False
+63087,Burg-Reuland,,2020,1.97,,1.97,False
+63087,Burg-Reuland,,2021,7.03,,7.03,False
+63087,Burg-Reuland,,2022,15.31,,15.31,False
+63087,Burg-Reuland,,2023,8.32,,8.32,False
+63087,Burg-Reuland,,2024,6.75,,6.75,False
+63087,Burg-Reuland,,2025,4.55,,4.55,True
+63088,Plombières,Liège 2,2011,3.21,,3.21,False
+63088,Plombières,Liège 2,2012,7.67,,7.67,False
+63088,Plombières,Liège 2,2013,5.37,,5.37,False
+63088,Plombières,Liège 2,2014,1.27,,1.27,False
+63088,Plombières,Liège 2,2015,2.39,,2.39,False
+63088,Plombières,Liège 2,2016,9.54,,9.54,False
+63088,Plombières,Liège 2,2017,4.37,,4.37,False
+63088,Plombières,Liège 2,2018,11.33,,11.33,False
+63088,Plombières,Liège 2,2019,7.5,,7.5,False
+63088,Plombières,Liège 2,2020,5.18,,5.18,False
+63088,Plombières,Liège 2,2021,23.05,saut,5.37,False
+63088,Plombières,Liège 2,2022,14.66,,14.66,False
+63088,Plombières,Liège 2,2023,6.62,,6.62,False
+63088,Plombières,Liège 2,2024,5.18,,5.18,False
+63088,Plombières,Liège 2,2025,4.26,,4.26,True
+63089,Thimister-Clermont,Liège 2,2011,11.63,,11.63,False
+63089,Thimister-Clermont,Liège 2,2012,11.39,,11.39,False
+63089,Thimister-Clermont,Liège 2,2013,10.8,,10.8,False
+63089,Thimister-Clermont,Liège 2,2014,8.35,,8.35,False
+63089,Thimister-Clermont,Liège 2,2015,5.43,,5.43,False
+63089,Thimister-Clermont,Liège 2,2016,4.34,,4.34,False
+63089,Thimister-Clermont,Liège 2,2017,3.32,,3.32,False
+63089,Thimister-Clermont,Liège 2,2018,3.47,,3.47,False
+63089,Thimister-Clermont,Liège 2,2019,14.91,,14.91,False
+63089,Thimister-Clermont,Liège 2,2020,7.83,,7.83,False
+63089,Thimister-Clermont,Liège 2,2021,0.26,,0.26,False
+63089,Thimister-Clermont,Liège 2,2022,11.99,,11.99,False
+63089,Thimister-Clermont,Liège 2,2023,4.37,,4.37,False
+63089,Thimister-Clermont,Liège 2,2024,-3.78,,-3.78,False
+63089,Thimister-Clermont,Liège 2,2025,1.98,,1.98,True
+64008,Berloz,Liège 2,2011,2.72,,2.72,False
+64008,Berloz,Liège 2,2012,0.27,,0.27,False
+64008,Berloz,Liège 2,2013,1.45,,1.45,False
+64008,Berloz,Liège 2,2014,1.38,,1.38,False
+64008,Berloz,Liège 2,2015,0.46,,0.46,False
+64008,Berloz,Liège 2,2016,0.57,,0.57,False
+64008,Berloz,Liège 2,2017,0.47,,0.47,False
+64008,Berloz,Liège 2,2018,1.01,,1.01,False
+64008,Berloz,Liège 2,2019,1.28,,1.28,False
+64008,Berloz,Liège 2,2020,1.07,,1.07,False
+64008,Berloz,Liège 2,2021,1.93,,1.93,False
+64008,Berloz,Liège 2,2022,1.57,,1.57,False
+64008,Berloz,Liège 2,2023,0.72,,0.72,False
+64008,Berloz,Liège 2,2024,1.62,,1.62,False
+64008,Berloz,Liège 2,2025,2.24,,2.24,True
+64015,Braives,Liège 2,2011,4.12,,4.12,False
+64015,Braives,Liège 2,2012,4.42,,4.42,False
+64015,Braives,Liège 2,2013,8.49,,8.49,False
+64015,Braives,Liège 2,2014,-0.63,,-0.63,False
+64015,Braives,Liège 2,2015,1.66,,1.66,False
+64015,Braives,Liège 2,2016,2.19,,2.19,False
+64015,Braives,Liège 2,2017,3.2,,3.2,False
+64015,Braives,Liège 2,2018,4.32,,4.32,False
+64015,Braives,Liège 2,2019,2.93,,2.93,False
+64015,Braives,Liège 2,2020,3.91,,3.91,False
+64015,Braives,Liège 2,2021,1.25,,1.25,False
+64015,Braives,Liège 2,2022,2.7,,2.7,False
+64015,Braives,Liège 2,2023,4.5,,4.5,False
+64015,Braives,Liège 2,2024,3.12,,3.12,False
+64015,Braives,Liège 2,2025,2.14,,2.14,True
+64021,Crisnée,Liège 2,2011,0.47,,0.47,False
+64021,Crisnée,Liège 2,2012,1.64,,1.64,False
+64021,Crisnée,Liège 2,2013,5.34,,5.34,False
+64021,Crisnée,Liège 2,2014,-2.01,,-2.01,False
+64021,Crisnée,Liège 2,2015,1.43,,1.43,False
+64021,Crisnée,Liège 2,2016,0.89,,0.89,False
+64021,Crisnée,Liège 2,2017,1.18,,1.18,False
+64021,Crisnée,Liège 2,2018,3.9,,3.9,False
+64021,Crisnée,Liège 2,2019,1.45,,1.45,False
+64021,Crisnée,Liège 2,2020,0.02,,0.02,False
+64021,Crisnée,Liège 2,2021,4.23,,4.23,False
+64021,Crisnée,Liège 2,2022,0.38,,0.38,False
+64021,Crisnée,Liège 2,2023,2.03,,2.03,False
+64021,Crisnée,Liège 2,2024,0.58,,0.58,False
+64021,Crisnée,Liège 2,2025,3.67,,3.67,True
+64023,Donceel,Liège 2,2011,0.03,,0.03,False
+64023,Donceel,Liège 2,2012,1.37,,1.37,False
+64023,Donceel,Liège 2,2013,2.09,,2.09,False
+64023,Donceel,Liège 2,2014,0.29,,0.29,False
+64023,Donceel,Liège 2,2015,1.04,,1.04,False
+64023,Donceel,Liège 2,2016,1.58,,1.58,False
+64023,Donceel,Liège 2,2017,0.82,,0.82,False
+64023,Donceel,Liège 2,2018,0.71,,0.71,False
+64023,Donceel,Liège 2,2019,1.29,,1.29,False
+64023,Donceel,Liège 2,2020,0.89,,0.89,False
+64023,Donceel,Liège 2,2021,0.85,,0.85,False
+64023,Donceel,Liège 2,2022,2.31,,2.31,False
+64023,Donceel,Liège 2,2023,1.57,,1.57,False
+64023,Donceel,Liège 2,2024,2.46,,2.46,False
+64023,Donceel,Liège 2,2025,-0.12,,-0.12,True
+64025,Fexhe-le-Haut-Clocher,Liège 2,2011,0.35,,0.35,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2012,1.42,,1.42,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2013,1.48,,1.48,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2014,-1.53,,-1.53,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2015,1.24,,1.24,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2016,0.47,,0.47,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2017,0.88,,0.88,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2018,4.12,,4.12,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2019,1.7,,1.7,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2020,1.02,,1.02,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2021,2.83,,2.83,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2022,0.99,,0.99,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2023,0.85,,0.85,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2024,0.64,,0.64,False
+64025,Fexhe-le-Haut-Clocher,Liège 2,2025,1.54,,1.54,True
+64029,Geer,Liège 2,2011,3.38,,3.38,False
+64029,Geer,Liège 2,2012,1.52,,1.52,False
+64029,Geer,Liège 2,2013,3.74,,3.74,False
+64029,Geer,Liège 2,2014,3.6,,3.6,False
+64029,Geer,Liège 2,2015,3.1,,3.1,False
+64029,Geer,Liège 2,2016,10.52,,10.52,False
+64029,Geer,Liège 2,2017,3.27,,3.27,False
+64029,Geer,Liège 2,2018,6.32,,6.32,False
+64029,Geer,Liège 2,2019,14.12,,14.12,False
+64029,Geer,Liège 2,2020,9.78,,9.78,False
+64029,Geer,Liège 2,2021,1.15,,1.15,False
+64029,Geer,Liège 2,2022,4.86,,4.86,False
+64029,Geer,Liège 2,2023,-1.39,,-1.39,False
+64029,Geer,Liège 2,2024,5.17,,5.17,False
+64029,Geer,Liège 2,2025,0.36,,0.36,True
+64034,Hannut,Liège 2,2011,0.66,,0.66,False
+64034,Hannut,Liège 2,2012,9.47,,9.47,False
+64034,Hannut,Liège 2,2013,3.95,,3.95,False
+64034,Hannut,Liège 2,2014,5.27,,5.27,False
+64034,Hannut,Liège 2,2015,21.29,saut,6.14,False
+64034,Hannut,Liège 2,2016,8.53,,8.53,False
+64034,Hannut,Liège 2,2017,7.27,,7.27,False
+64034,Hannut,Liège 2,2018,7.9,,7.9,False
+64034,Hannut,Liège 2,2019,1.84,,1.84,False
+64034,Hannut,Liège 2,2020,9.15,,9.15,False
+64034,Hannut,Liège 2,2021,8.55,,8.55,False
+64034,Hannut,Liège 2,2022,4.74,,4.74,False
+64034,Hannut,Liège 2,2023,4.33,,4.33,False
+64034,Hannut,Liège 2,2024,6.14,,6.14,False
+64034,Hannut,Liège 2,2025,4.06,,4.06,True
+64047,Lincent,Liège 2,2011,-0.48,,-0.48,False
+64047,Lincent,Liège 2,2012,0.87,,0.87,False
+64047,Lincent,Liège 2,2013,2.49,,2.49,False
+64047,Lincent,Liège 2,2014,0.92,,0.92,False
+64047,Lincent,Liège 2,2015,1.06,,1.06,False
+64047,Lincent,Liège 2,2016,0.95,,0.95,False
+64047,Lincent,Liège 2,2017,1.22,,1.22,False
+64047,Lincent,Liège 2,2018,0.5,,0.5,False
+64047,Lincent,Liège 2,2019,1.3,,1.3,False
+64047,Lincent,Liège 2,2020,0.62,,0.62,False
+64047,Lincent,Liège 2,2021,0.4,,0.4,False
+64047,Lincent,Liège 2,2022,0.72,,0.72,False
+64047,Lincent,Liège 2,2023,1.23,,1.23,False
+64047,Lincent,Liège 2,2024,0.81,,0.81,False
+64047,Lincent,Liège 2,2025,-0.11,,-0.11,True
+64056,Oreye,Liège 2,2011,0.83,,0.83,False
+64056,Oreye,Liège 2,2012,1.5,,1.5,False
+64056,Oreye,Liège 2,2013,1.97,,1.97,False
+64056,Oreye,Liège 2,2014,1.95,,1.95,False
+64056,Oreye,Liège 2,2015,1.81,,1.81,False
+64056,Oreye,Liège 2,2016,1.41,,1.41,False
+64056,Oreye,Liège 2,2017,1.6,,1.6,False
+64056,Oreye,Liège 2,2018,5.59,,5.59,False
+64056,Oreye,Liège 2,2019,0.71,,0.71,False
+64056,Oreye,Liège 2,2020,2.15,,2.15,False
+64056,Oreye,Liège 2,2021,1.95,,1.95,False
+64056,Oreye,Liège 2,2022,1.91,,1.91,False
+64056,Oreye,Liège 2,2023,1.21,,1.21,False
+64056,Oreye,Liège 2,2024,1.94,,1.94,False
+64056,Oreye,Liège 2,2025,0.3,,0.3,True
+64063,Remicourt,Liège 2,2011,1.91,,1.91,False
+64063,Remicourt,Liège 2,2012,3.14,,3.14,False
+64063,Remicourt,Liège 2,2013,2.31,,2.31,False
+64063,Remicourt,Liège 2,2014,1.76,,1.76,False
+64063,Remicourt,Liège 2,2015,2.96,,2.96,False
+64063,Remicourt,Liège 2,2016,1.0,,1.0,False
+64063,Remicourt,Liège 2,2017,1.88,,1.88,False
+64063,Remicourt,Liège 2,2018,2.19,,2.19,False
+64063,Remicourt,Liège 2,2019,1.23,,1.23,False
+64063,Remicourt,Liège 2,2020,4.62,,4.62,False
+64063,Remicourt,Liège 2,2021,2.12,,2.12,False
+64063,Remicourt,Liège 2,2022,1.54,,1.54,False
+64063,Remicourt,Liège 2,2023,2.5,,2.5,False
+64063,Remicourt,Liège 2,2024,1.27,,1.27,False
+64063,Remicourt,Liège 2,2025,0.71,,0.71,True
+64065,Saint-Georges-sur-Meuse,Liège 2,2011,1.25,,1.25,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2012,2.61,,2.61,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2013,3.67,,3.67,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2014,2.93,,2.93,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2015,4.08,,4.08,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2016,-8.05,,-8.05,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2017,2.79,,2.79,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2018,0.23,,0.23,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2019,1.98,,1.98,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2020,2.34,,2.34,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2021,5.99,,5.99,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2022,4.4,,4.4,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2023,5.72,,5.72,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2024,1.69,,1.69,False
+64065,Saint-Georges-sur-Meuse,Liège 2,2025,2.46,,2.46,True
+64074,Waremme,Liège 2,2011,1.64,,1.64,False
+64074,Waremme,Liège 2,2012,6.28,,6.28,False
+64074,Waremme,Liège 2,2013,2.74,,2.74,False
+64074,Waremme,Liège 2,2014,2.95,,2.95,False
+64074,Waremme,Liège 2,2015,4.15,,4.15,False
+64074,Waremme,Liège 2,2016,0.78,,0.78,False
+64074,Waremme,Liège 2,2017,2.64,,2.64,False
+64074,Waremme,Liège 2,2018,2.53,,2.53,False
+64074,Waremme,Liège 2,2019,3.43,,3.43,False
+64074,Waremme,Liège 2,2020,12.08,,12.08,False
+64074,Waremme,Liège 2,2021,1.96,,1.96,False
+64074,Waremme,Liège 2,2022,3.08,,3.08,False
+64074,Waremme,Liège 2,2023,4.28,,4.28,False
+64074,Waremme,Liège 2,2024,1.65,,1.65,False
+64074,Waremme,Liège 2,2025,-1.36,,-1.36,True
+64075,Wasseiges,Liège 2,2011,-2.09,,-2.09,False
+64075,Wasseiges,Liège 2,2012,1.21,,1.21,False
+64075,Wasseiges,Liège 2,2013,1.76,,1.76,False
+64075,Wasseiges,Liège 2,2014,3.93,,3.93,False
+64075,Wasseiges,Liège 2,2015,1.77,,1.77,False
+64075,Wasseiges,Liège 2,2016,4.03,,4.03,False
+64075,Wasseiges,Liège 2,2017,1.77,,1.77,False
+64075,Wasseiges,Liège 2,2018,2.13,,2.13,False
+64075,Wasseiges,Liège 2,2019,10.25,,10.25,False
+64075,Wasseiges,Liège 2,2020,-0.69,,-0.69,False
+64075,Wasseiges,Liège 2,2021,3.14,,3.14,False
+64075,Wasseiges,Liège 2,2022,2.67,,2.67,False
+64075,Wasseiges,Liège 2,2023,1.5,,1.5,False
+64075,Wasseiges,Liège 2,2024,6.46,,6.46,False
+64075,Wasseiges,Liège 2,2025,3.56,,3.56,True
+64076,Faimes,Liège 2,2011,0.4,,0.4,False
+64076,Faimes,Liège 2,2012,1.34,,1.34,False
+64076,Faimes,Liège 2,2013,18.17,saut,2.88,False
+64076,Faimes,Liège 2,2014,3.88,,3.88,False
+64076,Faimes,Liège 2,2015,0.8,,0.8,False
+64076,Faimes,Liège 2,2016,3.2,,3.2,False
+64076,Faimes,Liège 2,2017,1.3,,1.3,False
+64076,Faimes,Liège 2,2018,2.88,,2.88,False
+64076,Faimes,Liège 2,2019,1.91,,1.91,False
+64076,Faimes,Liège 2,2020,3.06,,3.06,False
+64076,Faimes,Liège 2,2021,5.21,,5.21,False
+64076,Faimes,Liège 2,2022,3.19,,3.19,False
+64076,Faimes,Liège 2,2023,2.36,,2.36,False
+64076,Faimes,Liège 2,2024,3.71,,3.71,False
+64076,Faimes,Liège 2,2025,1.89,,1.89,True
+81001,Arlon,Luxembourg,2011,10.61,,10.61,False
+81001,Arlon,Luxembourg,2012,9.34,,9.34,False
+81001,Arlon,Luxembourg,2013,7.05,,7.05,False
+81001,Arlon,Luxembourg,2014,7.67,,7.67,False
+81001,Arlon,Luxembourg,2015,8.1,,8.1,False
+81001,Arlon,Luxembourg,2016,7.42,,7.42,False
+81001,Arlon,Luxembourg,2017,3.25,,3.25,False
+81001,Arlon,Luxembourg,2018,8.45,,8.45,False
+81001,Arlon,Luxembourg,2019,4.89,,4.89,False
+81001,Arlon,Luxembourg,2020,3.73,,3.73,False
+81001,Arlon,Luxembourg,2021,13.54,,13.54,False
+81001,Arlon,Luxembourg,2022,17.74,,17.74,False
+81001,Arlon,Luxembourg,2023,2.92,,2.92,False
+81001,Arlon,Luxembourg,2024,119.19,saut,7.67,False
+81001,Arlon,Luxembourg,2025,3.79,,3.79,True
+81003,Attert,Luxembourg,2011,4.53,,4.53,False
+81003,Attert,Luxembourg,2012,4.07,,4.07,False
+81003,Attert,Luxembourg,2013,2.48,,2.48,False
+81003,Attert,Luxembourg,2014,0.99,,0.99,False
+81003,Attert,Luxembourg,2015,3.18,,3.18,False
+81003,Attert,Luxembourg,2016,2.21,,2.21,False
+81003,Attert,Luxembourg,2017,2.19,,2.19,False
+81003,Attert,Luxembourg,2018,3.83,,3.83,False
+81003,Attert,Luxembourg,2019,3.01,,3.01,False
+81003,Attert,Luxembourg,2020,1.11,,1.11,False
+81003,Attert,Luxembourg,2021,3.93,,3.93,False
+81003,Attert,Luxembourg,2022,7.58,,7.58,False
+81003,Attert,Luxembourg,2023,4.57,,4.57,False
+81003,Attert,Luxembourg,2024,2.4,,2.4,False
+81003,Attert,Luxembourg,2025,5.5,,5.5,True
+81004,Aubange,Luxembourg,2011,2.9,,2.9,False
+81004,Aubange,Luxembourg,2012,3.39,,3.39,False
+81004,Aubange,Luxembourg,2013,3.13,,3.13,False
+81004,Aubange,Luxembourg,2014,2.33,,2.33,False
+81004,Aubange,Luxembourg,2015,3.15,,3.15,False
+81004,Aubange,Luxembourg,2016,-6.0,,-6.0,False
+81004,Aubange,Luxembourg,2017,16.08,,16.08,False
+81004,Aubange,Luxembourg,2018,-2.58,,-2.58,False
+81004,Aubange,Luxembourg,2019,2.7,,2.7,False
+81004,Aubange,Luxembourg,2020,1.24,,1.24,False
+81004,Aubange,Luxembourg,2021,1.85,,1.85,False
+81004,Aubange,Luxembourg,2022,2.04,,2.04,False
+81004,Aubange,Luxembourg,2023,8.57,,8.57,False
+81004,Aubange,Luxembourg,2024,3.86,,3.86,False
+81004,Aubange,Luxembourg,2025,7.73,,7.73,True
+81013,Martelange,Luxembourg,2011,1.22,,1.22,False
+81013,Martelange,Luxembourg,2012,1.5,,1.5,False
+81013,Martelange,Luxembourg,2013,0.08,,0.08,False
+81013,Martelange,Luxembourg,2014,0.83,,0.83,False
+81013,Martelange,Luxembourg,2015,0.2,,0.2,False
+81013,Martelange,Luxembourg,2016,0.39,,0.39,False
+81013,Martelange,Luxembourg,2017,0.34,,0.34,False
+81013,Martelange,Luxembourg,2018,0.48,,0.48,False
+81013,Martelange,Luxembourg,2019,1.34,,1.34,False
+81013,Martelange,Luxembourg,2020,0.29,,0.29,False
+81013,Martelange,Luxembourg,2021,0.45,,0.45,False
+81013,Martelange,Luxembourg,2022,0.06,,0.06,False
+81013,Martelange,Luxembourg,2023,1.6,,1.6,False
+81013,Martelange,Luxembourg,2024,1.0,,1.0,False
+81013,Martelange,Luxembourg,2025,0.28,,0.28,True
+81015,Messancy,Luxembourg,2011,2.78,,2.78,False
+81015,Messancy,Luxembourg,2012,4.97,,4.97,False
+81015,Messancy,Luxembourg,2013,5.73,,5.73,False
+81015,Messancy,Luxembourg,2014,2.93,,2.93,False
+81015,Messancy,Luxembourg,2015,2.88,,2.88,False
+81015,Messancy,Luxembourg,2016,0.94,,0.94,False
+81015,Messancy,Luxembourg,2017,1.53,,1.53,False
+81015,Messancy,Luxembourg,2018,1.88,,1.88,False
+81015,Messancy,Luxembourg,2019,2.08,,2.08,False
+81015,Messancy,Luxembourg,2020,1.05,,1.05,False
+81015,Messancy,Luxembourg,2021,3.53,,3.53,False
+81015,Messancy,Luxembourg,2022,0.89,,0.89,False
+81015,Messancy,Luxembourg,2023,4.61,,4.61,False
+81015,Messancy,Luxembourg,2024,5.37,,5.37,False
+81015,Messancy,Luxembourg,2025,4.9,,4.9,True
+82009,Fauvillers,Luxembourg,2011,1.72,,1.72,False
+82009,Fauvillers,Luxembourg,2012,1.57,,1.57,False
+82009,Fauvillers,Luxembourg,2013,1.01,,1.01,False
+82009,Fauvillers,Luxembourg,2014,1.04,,1.04,False
+82009,Fauvillers,Luxembourg,2015,0.55,,0.55,False
+82009,Fauvillers,Luxembourg,2016,1.36,,1.36,False
+82009,Fauvillers,Luxembourg,2017,3.08,,3.08,False
+82009,Fauvillers,Luxembourg,2018,2.89,,2.89,False
+82009,Fauvillers,Luxembourg,2019,2.37,,2.37,False
+82009,Fauvillers,Luxembourg,2020,2.04,,2.04,False
+82009,Fauvillers,Luxembourg,2021,3.26,,3.26,False
+82009,Fauvillers,Luxembourg,2022,2.29,,2.29,False
+82009,Fauvillers,Luxembourg,2023,3.1,,3.1,False
+82009,Fauvillers,Luxembourg,2024,2.17,,2.17,False
+82009,Fauvillers,Luxembourg,2025,3.65,,3.65,True
+82014,Houffalize,Luxembourg,2011,4.97,,4.97,False
+82014,Houffalize,Luxembourg,2012,5.45,,5.45,False
+82014,Houffalize,Luxembourg,2013,6.26,,6.26,False
+82014,Houffalize,Luxembourg,2014,5.93,,5.93,False
+82014,Houffalize,Luxembourg,2015,5.53,,5.53,False
+82014,Houffalize,Luxembourg,2016,6.95,,6.95,False
+82014,Houffalize,Luxembourg,2017,4.66,,4.66,False
+82014,Houffalize,Luxembourg,2018,5.72,,5.72,False
+82014,Houffalize,Luxembourg,2019,7.66,,7.66,False
+82014,Houffalize,Luxembourg,2020,8.54,,8.54,False
+82014,Houffalize,Luxembourg,2021,7.54,,7.54,False
+82014,Houffalize,Luxembourg,2022,2.41,,2.41,False
+82014,Houffalize,Luxembourg,2023,7.0,,7.0,False
+82014,Houffalize,Luxembourg,2024,9.3,,9.3,False
+82014,Houffalize,Luxembourg,2025,6.11,,6.11,True
+82032,Vielsalm,Luxembourg,2011,3.03,,3.03,False
+82032,Vielsalm,Luxembourg,2012,4.85,,4.85,False
+82032,Vielsalm,Luxembourg,2013,4.15,,4.15,False
+82032,Vielsalm,Luxembourg,2014,6.58,,6.58,False
+82032,Vielsalm,Luxembourg,2015,4.82,,4.82,False
+82032,Vielsalm,Luxembourg,2016,3.91,,3.91,False
+82032,Vielsalm,Luxembourg,2017,2.46,,2.46,False
+82032,Vielsalm,Luxembourg,2018,2.49,,2.49,False
+82032,Vielsalm,Luxembourg,2019,5.17,,5.17,False
+82032,Vielsalm,Luxembourg,2020,6.34,,6.34,False
+82032,Vielsalm,Luxembourg,2021,13.15,,13.15,False
+82032,Vielsalm,Luxembourg,2022,5.67,,5.67,False
+82032,Vielsalm,Luxembourg,2023,7.01,,7.01,False
+82032,Vielsalm,Luxembourg,2024,7.89,,7.89,False
+82032,Vielsalm,Luxembourg,2025,6.2,,6.2,True
+82036,Vaux-sur-Sûre,Luxembourg,2011,5.31,,5.31,False
+82036,Vaux-sur-Sûre,Luxembourg,2012,3.7,,3.7,False
+82036,Vaux-sur-Sûre,Luxembourg,2013,7.54,,7.54,False
+82036,Vaux-sur-Sûre,Luxembourg,2014,4.54,,4.54,False
+82036,Vaux-sur-Sûre,Luxembourg,2015,4.65,,4.65,False
+82036,Vaux-sur-Sûre,Luxembourg,2016,18.88,,18.88,False
+82036,Vaux-sur-Sûre,Luxembourg,2017,12.04,,12.04,False
+82036,Vaux-sur-Sûre,Luxembourg,2018,4.57,,4.57,False
+82036,Vaux-sur-Sûre,Luxembourg,2019,3.58,,3.58,False
+82036,Vaux-sur-Sûre,Luxembourg,2020,7.37,,7.37,False
+82036,Vaux-sur-Sûre,Luxembourg,2021,13.64,,13.64,False
+82036,Vaux-sur-Sûre,Luxembourg,2022,11.63,,11.63,False
+82036,Vaux-sur-Sûre,Luxembourg,2023,8.36,,8.36,False
+82036,Vaux-sur-Sûre,Luxembourg,2024,6.67,,6.67,False
+82036,Vaux-sur-Sûre,Luxembourg,2025,9.25,,9.25,True
+82037,Gouvy,Luxembourg,2011,13.76,,13.76,False
+82037,Gouvy,Luxembourg,2012,5.0,,5.0,False
+82037,Gouvy,Luxembourg,2013,15.51,,15.51,False
+82037,Gouvy,Luxembourg,2014,4.84,,4.84,False
+82037,Gouvy,Luxembourg,2015,12.94,,12.94,False
+82037,Gouvy,Luxembourg,2016,-19.15,reclassement,-6.75,False
+82037,Gouvy,Luxembourg,2017,2.59,,2.59,False
+82037,Gouvy,Luxembourg,2018,-2.32,,-2.32,False
+82037,Gouvy,Luxembourg,2019,1.8,,1.8,False
+82037,Gouvy,Luxembourg,2020,-2.61,,-2.61,False
+82037,Gouvy,Luxembourg,2021,7.98,,7.98,False
+82037,Gouvy,Luxembourg,2022,14.47,,14.47,False
+82037,Gouvy,Luxembourg,2023,4.91,,4.91,False
+82037,Gouvy,Luxembourg,2024,4.63,,4.63,False
+82037,Gouvy,Luxembourg,2025,7.45,,7.45,True
+82038,Sainte-Ode,Luxembourg,2011,0.04,,0.04,False
+82038,Sainte-Ode,Luxembourg,2012,1.9,,1.9,False
+82038,Sainte-Ode,Luxembourg,2013,1.82,,1.82,False
+82038,Sainte-Ode,Luxembourg,2014,1.83,,1.83,False
+82038,Sainte-Ode,Luxembourg,2015,2.16,,2.16,False
+82038,Sainte-Ode,Luxembourg,2016,2.01,,2.01,False
+82038,Sainte-Ode,Luxembourg,2017,1.15,,1.15,False
+82038,Sainte-Ode,Luxembourg,2018,0.86,,0.86,False
+82038,Sainte-Ode,Luxembourg,2019,1.52,,1.52,False
+82038,Sainte-Ode,Luxembourg,2020,17.59,saut,1.9,False
+82038,Sainte-Ode,Luxembourg,2021,2.81,,2.81,False
+82038,Sainte-Ode,Luxembourg,2022,2.17,,2.17,False
+82038,Sainte-Ode,Luxembourg,2023,5.49,,5.49,False
+82038,Sainte-Ode,Luxembourg,2024,1.9,,1.9,False
+82038,Sainte-Ode,Luxembourg,2025,2.81,,2.81,True
+82039,Bastogne,Luxembourg,2011,10.82,,10.82,False
+82039,Bastogne,Luxembourg,2012,11.79,,11.79,False
+82039,Bastogne,Luxembourg,2013,9.13,,9.13,False
+82039,Bastogne,Luxembourg,2014,18.83,,18.83,False
+82039,Bastogne,Luxembourg,2015,-16.49,reclassement,12.8,False
+82039,Bastogne,Luxembourg,2016,18.99,,18.99,False
+82039,Bastogne,Luxembourg,2017,17.05,,17.05,False
+82039,Bastogne,Luxembourg,2018,12.45,,12.45,False
+82039,Bastogne,Luxembourg,2019,15.69,,15.69,False
+82039,Bastogne,Luxembourg,2020,9.88,,9.88,False
+82039,Bastogne,Luxembourg,2021,13.88,,13.88,False
+82039,Bastogne,Luxembourg,2022,18.04,,18.04,False
+82039,Bastogne,Luxembourg,2023,13.84,,13.84,False
+82039,Bastogne,Luxembourg,2024,10.3,,10.3,False
+82039,Bastogne,Luxembourg,2025,12.06,,12.06,True
+83012,Durbuy,Luxembourg,2011,6.45,,6.45,False
+83012,Durbuy,Luxembourg,2012,11.22,,11.22,False
+83012,Durbuy,Luxembourg,2013,8.99,,8.99,False
+83012,Durbuy,Luxembourg,2014,5.27,,5.27,False
+83012,Durbuy,Luxembourg,2015,5.7,,5.7,False
+83012,Durbuy,Luxembourg,2016,2.92,,2.92,False
+83012,Durbuy,Luxembourg,2017,4.4,,4.4,False
+83012,Durbuy,Luxembourg,2018,0.71,,0.71,False
+83012,Durbuy,Luxembourg,2019,4.12,,4.12,False
+83012,Durbuy,Luxembourg,2020,3.65,,3.65,False
+83012,Durbuy,Luxembourg,2021,13.28,,13.28,False
+83012,Durbuy,Luxembourg,2022,5.61,,5.61,False
+83012,Durbuy,Luxembourg,2023,9.81,,9.81,False
+83012,Durbuy,Luxembourg,2024,9.51,,9.51,False
+83012,Durbuy,Luxembourg,2025,14.77,,14.77,True
+83013,Erezée,Luxembourg,2011,2.26,,2.26,False
+83013,Erezée,Luxembourg,2012,1.82,,1.82,False
+83013,Erezée,Luxembourg,2013,1.36,,1.36,False
+83013,Erezée,Luxembourg,2014,1.02,,1.02,False
+83013,Erezée,Luxembourg,2015,0.48,,0.48,False
+83013,Erezée,Luxembourg,2016,3.84,,3.84,False
+83013,Erezée,Luxembourg,2017,1.46,,1.46,False
+83013,Erezée,Luxembourg,2018,0.51,,0.51,False
+83013,Erezée,Luxembourg,2019,3.26,,3.26,False
+83013,Erezée,Luxembourg,2020,1.91,,1.91,False
+83013,Erezée,Luxembourg,2021,1.9,,1.9,False
+83013,Erezée,Luxembourg,2022,6.44,,6.44,False
+83013,Erezée,Luxembourg,2023,3.68,,3.68,False
+83013,Erezée,Luxembourg,2024,3.11,,3.11,False
+83013,Erezée,Luxembourg,2025,1.8,,1.8,True
+83028,Hotton,Luxembourg,2011,8.02,,8.02,False
+83028,Hotton,Luxembourg,2012,1.01,,1.01,False
+83028,Hotton,Luxembourg,2013,0.72,,0.72,False
+83028,Hotton,Luxembourg,2014,1.54,,1.54,False
+83028,Hotton,Luxembourg,2015,2.64,,2.64,False
+83028,Hotton,Luxembourg,2016,2.04,,2.04,False
+83028,Hotton,Luxembourg,2017,5.29,,5.29,False
+83028,Hotton,Luxembourg,2018,4.22,,4.22,False
+83028,Hotton,Luxembourg,2019,2.75,,2.75,False
+83028,Hotton,Luxembourg,2020,-0.37,,-0.37,False
+83028,Hotton,Luxembourg,2021,1.86,,1.86,False
+83028,Hotton,Luxembourg,2022,1.94,,1.94,False
+83028,Hotton,Luxembourg,2023,13.48,,13.48,False
+83028,Hotton,Luxembourg,2024,2.3,,2.3,False
+83028,Hotton,Luxembourg,2025,7.44,,7.44,True
+83031,La Roche-en-Ardenne,Luxembourg,2011,4.44,,4.44,False
+83031,La Roche-en-Ardenne,Luxembourg,2012,7.9,,7.9,False
+83031,La Roche-en-Ardenne,Luxembourg,2013,2.69,,2.69,False
+83031,La Roche-en-Ardenne,Luxembourg,2014,4.65,,4.65,False
+83031,La Roche-en-Ardenne,Luxembourg,2015,8.24,,8.24,False
+83031,La Roche-en-Ardenne,Luxembourg,2016,5.89,,5.89,False
+83031,La Roche-en-Ardenne,Luxembourg,2017,4.76,,4.76,False
+83031,La Roche-en-Ardenne,Luxembourg,2018,4.71,,4.71,False
+83031,La Roche-en-Ardenne,Luxembourg,2019,8.66,,8.66,False
+83031,La Roche-en-Ardenne,Luxembourg,2020,2.21,,2.21,False
+83031,La Roche-en-Ardenne,Luxembourg,2021,20.63,saut,4.76,False
+83031,La Roche-en-Ardenne,Luxembourg,2022,3.33,,3.33,False
+83031,La Roche-en-Ardenne,Luxembourg,2023,3.17,,3.17,False
+83031,La Roche-en-Ardenne,Luxembourg,2024,7.1,,7.1,False
+83031,La Roche-en-Ardenne,Luxembourg,2025,5.57,,5.57,True
+83034,Marche-en-Famenne,Luxembourg,2011,7.93,,7.93,False
+83034,Marche-en-Famenne,Luxembourg,2012,0.75,,0.75,False
+83034,Marche-en-Famenne,Luxembourg,2013,13.07,,13.07,False
+83034,Marche-en-Famenne,Luxembourg,2014,5.03,,5.03,False
+83034,Marche-en-Famenne,Luxembourg,2015,57.56,,57.56,False
+83034,Marche-en-Famenne,Luxembourg,2016,-15.27,negatif,13.49,False
+83034,Marche-en-Famenne,Luxembourg,2017,13.91,,13.91,False
+83034,Marche-en-Famenne,Luxembourg,2018,21.86,,21.86,False
+83034,Marche-en-Famenne,Luxembourg,2019,4.78,,4.78,False
+83034,Marche-en-Famenne,Luxembourg,2020,7.44,,7.44,False
+83034,Marche-en-Famenne,Luxembourg,2021,19.7,,19.7,False
+83034,Marche-en-Famenne,Luxembourg,2022,16.65,,16.65,False
+83034,Marche-en-Famenne,Luxembourg,2023,23.53,,23.53,False
+83034,Marche-en-Famenne,Luxembourg,2024,3.64,,3.64,False
+83034,Marche-en-Famenne,Luxembourg,2025,21.77,,21.77,True
+83040,Nassogne,Luxembourg,2011,3.45,,3.45,False
+83040,Nassogne,Luxembourg,2012,6.11,,6.11,False
+83040,Nassogne,Luxembourg,2013,1.41,,1.41,False
+83040,Nassogne,Luxembourg,2014,0.06,,0.06,False
+83040,Nassogne,Luxembourg,2015,6.66,,6.66,False
+83040,Nassogne,Luxembourg,2016,3.64,,3.64,False
+83040,Nassogne,Luxembourg,2017,2.56,,2.56,False
+83040,Nassogne,Luxembourg,2018,3.06,,3.06,False
+83040,Nassogne,Luxembourg,2019,0.88,,0.88,False
+83040,Nassogne,Luxembourg,2020,3.61,,3.61,False
+83040,Nassogne,Luxembourg,2021,7.55,,7.55,False
+83040,Nassogne,Luxembourg,2022,3.35,,3.35,False
+83040,Nassogne,Luxembourg,2023,2.34,,2.34,False
+83040,Nassogne,Luxembourg,2024,2.68,,2.68,False
+83040,Nassogne,Luxembourg,2025,4.04,,4.04,True
+83044,Rendeux,Luxembourg,2011,1.41,,1.41,False
+83044,Rendeux,Luxembourg,2012,1.76,,1.76,False
+83044,Rendeux,Luxembourg,2013,4.31,,4.31,False
+83044,Rendeux,Luxembourg,2014,3.02,,3.02,False
+83044,Rendeux,Luxembourg,2015,6.69,,6.69,False
+83044,Rendeux,Luxembourg,2016,3.55,,3.55,False
+83044,Rendeux,Luxembourg,2017,1.42,,1.42,False
+83044,Rendeux,Luxembourg,2018,1.89,,1.89,False
+83044,Rendeux,Luxembourg,2019,0.83,,0.83,False
+83044,Rendeux,Luxembourg,2020,1.98,,1.98,False
+83044,Rendeux,Luxembourg,2021,3.91,,3.91,False
+83044,Rendeux,Luxembourg,2022,4.98,,4.98,False
+83044,Rendeux,Luxembourg,2023,1.96,,1.96,False
+83044,Rendeux,Luxembourg,2024,3.42,,3.42,False
+83044,Rendeux,Luxembourg,2025,3.58,,3.58,True
+83049,Tenneville,Luxembourg,2011,14.53,,14.53,False
+83049,Tenneville,Luxembourg,2012,3.16,,3.16,False
+83049,Tenneville,Luxembourg,2013,3.99,,3.99,False
+83049,Tenneville,Luxembourg,2014,3.01,,3.01,False
+83049,Tenneville,Luxembourg,2015,4.54,,4.54,False
+83049,Tenneville,Luxembourg,2016,4.96,,4.96,False
+83049,Tenneville,Luxembourg,2017,2.95,,2.95,False
+83049,Tenneville,Luxembourg,2018,1.68,,1.68,False
+83049,Tenneville,Luxembourg,2019,2.6,,2.6,False
+83049,Tenneville,Luxembourg,2020,1.94,,1.94,False
+83049,Tenneville,Luxembourg,2021,3.83,,3.83,False
+83049,Tenneville,Luxembourg,2022,2.46,,2.46,False
+83049,Tenneville,Luxembourg,2023,7.6,,7.6,False
+83049,Tenneville,Luxembourg,2024,1.83,,1.83,False
+83049,Tenneville,Luxembourg,2025,1.59,,1.59,True
+83055,Manhay,Luxembourg,2011,7.34,,7.34,False
+83055,Manhay,Luxembourg,2012,3.4,,3.4,False
+83055,Manhay,Luxembourg,2013,4.12,,4.12,False
+83055,Manhay,Luxembourg,2014,4.5,,4.5,False
+83055,Manhay,Luxembourg,2015,2.83,,2.83,False
+83055,Manhay,Luxembourg,2016,0.03,,0.03,False
+83055,Manhay,Luxembourg,2017,5.28,,5.28,False
+83055,Manhay,Luxembourg,2018,-4.52,reclassement,5.87,False
+83055,Manhay,Luxembourg,2019,2.6,,2.6,False
+83055,Manhay,Luxembourg,2020,3.05,,3.05,False
+83055,Manhay,Luxembourg,2021,7.35,,7.35,False
+83055,Manhay,Luxembourg,2022,4.44,,4.44,False
+83055,Manhay,Luxembourg,2023,8.68,,8.68,False
+83055,Manhay,Luxembourg,2024,9.27,,9.27,False
+83055,Manhay,Luxembourg,2025,1.66,,1.66,True
+84009,Bertrix,Luxembourg,2011,2.99,,2.99,False
+84009,Bertrix,Luxembourg,2012,5.78,,5.78,False
+84009,Bertrix,Luxembourg,2013,2.72,,2.72,False
+84009,Bertrix,Luxembourg,2014,4.43,,4.43,False
+84009,Bertrix,Luxembourg,2015,5.73,,5.73,False
+84009,Bertrix,Luxembourg,2016,3.65,,3.65,False
+84009,Bertrix,Luxembourg,2017,4.34,,4.34,False
+84009,Bertrix,Luxembourg,2018,11.56,,11.56,False
+84009,Bertrix,Luxembourg,2019,4.18,,4.18,False
+84009,Bertrix,Luxembourg,2020,4.65,,4.65,False
+84009,Bertrix,Luxembourg,2021,4.45,,4.45,False
+84009,Bertrix,Luxembourg,2022,0.32,,0.32,False
+84009,Bertrix,Luxembourg,2023,4.14,,4.14,False
+84009,Bertrix,Luxembourg,2024,12.49,,12.49,False
+84009,Bertrix,Luxembourg,2025,2.66,,2.66,True
+84010,Bouillon,Luxembourg,2011,2.33,,2.33,False
+84010,Bouillon,Luxembourg,2012,2.17,,2.17,False
+84010,Bouillon,Luxembourg,2013,3.53,,3.53,False
+84010,Bouillon,Luxembourg,2014,2.03,,2.03,False
+84010,Bouillon,Luxembourg,2015,3.41,,3.41,False
+84010,Bouillon,Luxembourg,2016,3.68,,3.68,False
+84010,Bouillon,Luxembourg,2017,2.03,,2.03,False
+84010,Bouillon,Luxembourg,2018,1.31,,1.31,False
+84010,Bouillon,Luxembourg,2019,2.14,,2.14,False
+84010,Bouillon,Luxembourg,2020,3.33,,3.33,False
+84010,Bouillon,Luxembourg,2021,3.87,,3.87,False
+84010,Bouillon,Luxembourg,2022,3.07,,3.07,False
+84010,Bouillon,Luxembourg,2023,3.65,,3.65,False
+84010,Bouillon,Luxembourg,2024,3.37,,3.37,False
+84010,Bouillon,Luxembourg,2025,7.72,,7.72,True
+84016,Daverdisse,Luxembourg,2011,3.43,,3.43,False
+84016,Daverdisse,Luxembourg,2012,1.1,,1.1,False
+84016,Daverdisse,Luxembourg,2013,3.19,,3.19,False
+84016,Daverdisse,Luxembourg,2014,0.53,,0.53,False
+84016,Daverdisse,Luxembourg,2015,2.87,,2.87,False
+84016,Daverdisse,Luxembourg,2016,0.3,,0.3,False
+84016,Daverdisse,Luxembourg,2017,0.59,,0.59,False
+84016,Daverdisse,Luxembourg,2018,2.23,,2.23,False
+84016,Daverdisse,Luxembourg,2019,1.21,,1.21,False
+84016,Daverdisse,Luxembourg,2020,0.55,,0.55,False
+84016,Daverdisse,Luxembourg,2021,4.01,,4.01,False
+84016,Daverdisse,Luxembourg,2022,1.15,,1.15,False
+84016,Daverdisse,Luxembourg,2023,2.34,,2.34,False
+84016,Daverdisse,Luxembourg,2024,1.19,,1.19,False
+84016,Daverdisse,Luxembourg,2025,1.11,,1.11,True
+84029,Herbeumont,Luxembourg,2011,0.81,,0.81,False
+84029,Herbeumont,Luxembourg,2012,0.98,,0.98,False
+84029,Herbeumont,Luxembourg,2013,1.89,,1.89,False
+84029,Herbeumont,Luxembourg,2014,0.08,,0.08,False
+84029,Herbeumont,Luxembourg,2015,1.56,,1.56,False
+84029,Herbeumont,Luxembourg,2016,3.35,,3.35,False
+84029,Herbeumont,Luxembourg,2017,1.34,,1.34,False
+84029,Herbeumont,Luxembourg,2018,2.95,,2.95,False
+84029,Herbeumont,Luxembourg,2019,2.48,,2.48,False
+84029,Herbeumont,Luxembourg,2020,1.16,,1.16,False
+84029,Herbeumont,Luxembourg,2021,0.73,,0.73,False
+84029,Herbeumont,Luxembourg,2022,3.05,,3.05,False
+84029,Herbeumont,Luxembourg,2023,1.19,,1.19,False
+84029,Herbeumont,Luxembourg,2024,6.74,,6.74,False
+84029,Herbeumont,Luxembourg,2025,2.01,,2.01,True
+84033,Léglise,Luxembourg,2011,6.91,,6.91,False
+84033,Léglise,Luxembourg,2012,7.4,,7.4,False
+84033,Léglise,Luxembourg,2013,10.43,,10.43,False
+84033,Léglise,Luxembourg,2014,6.85,,6.85,False
+84033,Léglise,Luxembourg,2015,3.82,,3.82,False
+84033,Léglise,Luxembourg,2016,4.26,,4.26,False
+84033,Léglise,Luxembourg,2017,5.63,,5.63,False
+84033,Léglise,Luxembourg,2018,6.65,,6.65,False
+84033,Léglise,Luxembourg,2019,5.03,,5.03,False
+84033,Léglise,Luxembourg,2020,4.28,,4.28,False
+84033,Léglise,Luxembourg,2021,6.88,,6.88,False
+84033,Léglise,Luxembourg,2022,6.27,,6.27,False
+84033,Léglise,Luxembourg,2023,3.88,,3.88,False
+84033,Léglise,Luxembourg,2024,8.07,,8.07,False
+84033,Léglise,Luxembourg,2025,8.83,,8.83,True
+84035,Libin,Luxembourg,2011,5.01,,5.01,False
+84035,Libin,Luxembourg,2012,16.3,,16.3,False
+84035,Libin,Luxembourg,2013,6.19,,6.19,False
+84035,Libin,Luxembourg,2014,4.43,,4.43,False
+84035,Libin,Luxembourg,2015,4.63,,4.63,False
+84035,Libin,Luxembourg,2016,3.19,,3.19,False
+84035,Libin,Luxembourg,2017,22.14,saut,5.01,False
+84035,Libin,Luxembourg,2018,5.63,,5.63,False
+84035,Libin,Luxembourg,2019,4.64,,4.64,False
+84035,Libin,Luxembourg,2020,3.27,,3.27,False
+84035,Libin,Luxembourg,2021,14.36,,14.36,False
+84035,Libin,Luxembourg,2022,5.29,,5.29,False
+84035,Libin,Luxembourg,2023,8.93,,8.93,False
+84035,Libin,Luxembourg,2024,3.1,,3.1,False
+84035,Libin,Luxembourg,2025,4.39,,4.39,True
+84043,Neufchâteau,Luxembourg,2011,21.2,,21.2,False
+84043,Neufchâteau,Luxembourg,2012,8.36,,8.36,False
+84043,Neufchâteau,Luxembourg,2013,6.27,,6.27,False
+84043,Neufchâteau,Luxembourg,2014,13.53,,13.53,False
+84043,Neufchâteau,Luxembourg,2015,3.67,,3.67,False
+84043,Neufchâteau,Luxembourg,2016,7.12,,7.12,False
+84043,Neufchâteau,Luxembourg,2017,5.77,,5.77,False
+84043,Neufchâteau,Luxembourg,2018,10.81,,10.81,False
+84043,Neufchâteau,Luxembourg,2019,6.82,,6.82,False
+84043,Neufchâteau,Luxembourg,2020,9.91,,9.91,False
+84043,Neufchâteau,Luxembourg,2021,12.73,,12.73,False
+84043,Neufchâteau,Luxembourg,2022,6.29,,6.29,False
+84043,Neufchâteau,Luxembourg,2023,5.04,,5.04,False
+84043,Neufchâteau,Luxembourg,2024,14.27,,14.27,False
+84043,Neufchâteau,Luxembourg,2025,6.16,,6.16,True
+84050,Paliseul,Luxembourg,2011,6.01,,6.01,False
+84050,Paliseul,Luxembourg,2012,3.55,,3.55,False
+84050,Paliseul,Luxembourg,2013,2.56,,2.56,False
+84050,Paliseul,Luxembourg,2014,7.34,,7.34,False
+84050,Paliseul,Luxembourg,2015,2.98,,2.98,False
+84050,Paliseul,Luxembourg,2016,2.79,,2.79,False
+84050,Paliseul,Luxembourg,2017,7.3,,7.3,False
+84050,Paliseul,Luxembourg,2018,7.26,,7.26,False
+84050,Paliseul,Luxembourg,2019,3.45,,3.45,False
+84050,Paliseul,Luxembourg,2020,4.26,,4.26,False
+84050,Paliseul,Luxembourg,2021,3.39,,3.39,False
+84050,Paliseul,Luxembourg,2022,1.52,,1.52,False
+84050,Paliseul,Luxembourg,2023,4.04,,4.04,False
+84050,Paliseul,Luxembourg,2024,4.95,,4.95,False
+84050,Paliseul,Luxembourg,2025,3.95,,3.95,True
+84059,Saint-Hubert,Luxembourg,2011,4.76,,4.76,False
+84059,Saint-Hubert,Luxembourg,2012,6.35,,6.35,False
+84059,Saint-Hubert,Luxembourg,2013,3.01,,3.01,False
+84059,Saint-Hubert,Luxembourg,2014,2.12,,2.12,False
+84059,Saint-Hubert,Luxembourg,2015,1.75,,1.75,False
+84059,Saint-Hubert,Luxembourg,2016,2.89,,2.89,False
+84059,Saint-Hubert,Luxembourg,2017,3.13,,3.13,False
+84059,Saint-Hubert,Luxembourg,2018,3.03,,3.03,False
+84059,Saint-Hubert,Luxembourg,2019,1.86,,1.86,False
+84059,Saint-Hubert,Luxembourg,2020,2.07,,2.07,False
+84059,Saint-Hubert,Luxembourg,2021,1.0,,1.0,False
+84059,Saint-Hubert,Luxembourg,2022,2.25,,2.25,False
+84059,Saint-Hubert,Luxembourg,2023,2.88,,2.88,False
+84059,Saint-Hubert,Luxembourg,2024,3.56,,3.56,False
+84059,Saint-Hubert,Luxembourg,2025,2.37,,2.37,True
+84068,Tellin,Luxembourg,2011,1.35,,1.35,False
+84068,Tellin,Luxembourg,2012,0.7,,0.7,False
+84068,Tellin,Luxembourg,2013,2.64,,2.64,False
+84068,Tellin,Luxembourg,2014,1.39,,1.39,False
+84068,Tellin,Luxembourg,2015,1.39,,1.39,False
+84068,Tellin,Luxembourg,2016,0.93,,0.93,False
+84068,Tellin,Luxembourg,2017,0.6,,0.6,False
+84068,Tellin,Luxembourg,2018,1.83,,1.83,False
+84068,Tellin,Luxembourg,2019,0.99,,0.99,False
+84068,Tellin,Luxembourg,2020,1.56,,1.56,False
+84068,Tellin,Luxembourg,2021,0.45,,0.45,False
+84068,Tellin,Luxembourg,2022,0.24,,0.24,False
+84068,Tellin,Luxembourg,2023,2.96,,2.96,False
+84068,Tellin,Luxembourg,2024,-0.23,,-0.23,False
+84068,Tellin,Luxembourg,2025,1.39,,1.39,True
+84075,Wellin,Luxembourg,2011,3.72,,3.72,False
+84075,Wellin,Luxembourg,2012,1.09,,1.09,False
+84075,Wellin,Luxembourg,2013,1.48,,1.48,False
+84075,Wellin,Luxembourg,2014,3.0,,3.0,False
+84075,Wellin,Luxembourg,2015,-0.07,,-0.07,False
+84075,Wellin,Luxembourg,2016,1.54,,1.54,False
+84075,Wellin,Luxembourg,2017,0.57,,0.57,False
+84075,Wellin,Luxembourg,2018,4.05,,4.05,False
+84075,Wellin,Luxembourg,2019,2.76,,2.76,False
+84075,Wellin,Luxembourg,2020,1.39,,1.39,False
+84075,Wellin,Luxembourg,2021,1.71,,1.71,False
+84075,Wellin,Luxembourg,2022,0.38,,0.38,False
+84075,Wellin,Luxembourg,2023,1.32,,1.32,False
+84075,Wellin,Luxembourg,2024,2.22,,2.22,False
+84075,Wellin,Luxembourg,2025,3.12,,3.12,True
+84077,Libramont-Chevigny,Luxembourg,2011,5.96,,5.96,False
+84077,Libramont-Chevigny,Luxembourg,2012,14.64,,14.64,False
+84077,Libramont-Chevigny,Luxembourg,2013,10.23,,10.23,False
+84077,Libramont-Chevigny,Luxembourg,2014,9.84,,9.84,False
+84077,Libramont-Chevigny,Luxembourg,2015,8.79,,8.79,False
+84077,Libramont-Chevigny,Luxembourg,2016,10.03,,10.03,False
+84077,Libramont-Chevigny,Luxembourg,2017,16.39,,16.39,False
+84077,Libramont-Chevigny,Luxembourg,2018,9.35,,9.35,False
+84077,Libramont-Chevigny,Luxembourg,2019,1.7,,1.7,False
+84077,Libramont-Chevigny,Luxembourg,2020,6.52,,6.52,False
+84077,Libramont-Chevigny,Luxembourg,2021,16.99,,16.99,False
+84077,Libramont-Chevigny,Luxembourg,2022,8.67,,8.67,False
+84077,Libramont-Chevigny,Luxembourg,2023,10.65,,10.65,False
+84077,Libramont-Chevigny,Luxembourg,2024,5.92,,5.92,False
+84077,Libramont-Chevigny,Luxembourg,2025,2.92,,2.92,True
+85007,Chiny,Luxembourg,2011,2.35,,2.35,False
+85007,Chiny,Luxembourg,2012,4.4,,4.4,False
+85007,Chiny,Luxembourg,2013,1.97,,1.97,False
+85007,Chiny,Luxembourg,2014,1.27,,1.27,False
+85007,Chiny,Luxembourg,2015,1.42,,1.42,False
+85007,Chiny,Luxembourg,2016,2.77,,2.77,False
+85007,Chiny,Luxembourg,2017,1.88,,1.88,False
+85007,Chiny,Luxembourg,2018,1.45,,1.45,False
+85007,Chiny,Luxembourg,2019,0.73,,0.73,False
+85007,Chiny,Luxembourg,2020,1.37,,1.37,False
+85007,Chiny,Luxembourg,2021,4.63,,4.63,False
+85007,Chiny,Luxembourg,2022,0.92,,0.92,False
+85007,Chiny,Luxembourg,2023,1.98,,1.98,False
+85007,Chiny,Luxembourg,2024,3.87,,3.87,False
+85007,Chiny,Luxembourg,2025,0.73,,0.73,True
+85009,Etalle,Luxembourg,2011,3.12,,3.12,False
+85009,Etalle,Luxembourg,2012,3.81,,3.81,False
+85009,Etalle,Luxembourg,2013,2.87,,2.87,False
+85009,Etalle,Luxembourg,2014,3.7,,3.7,False
+85009,Etalle,Luxembourg,2015,3.73,,3.73,False
+85009,Etalle,Luxembourg,2016,-0.85,,-0.85,False
+85009,Etalle,Luxembourg,2017,3.12,,3.12,False
+85009,Etalle,Luxembourg,2018,2.22,,2.22,False
+85009,Etalle,Luxembourg,2019,6.25,,6.25,False
+85009,Etalle,Luxembourg,2020,1.95,,1.95,False
+85009,Etalle,Luxembourg,2021,2.66,,2.66,False
+85009,Etalle,Luxembourg,2022,1.66,,1.66,False
+85009,Etalle,Luxembourg,2023,2.6,,2.6,False
+85009,Etalle,Luxembourg,2024,3.86,,3.86,False
+85009,Etalle,Luxembourg,2025,0.94,,0.94,True
+85011,Florenville,Luxembourg,2011,5.27,,5.27,False
+85011,Florenville,Luxembourg,2012,1.95,,1.95,False
+85011,Florenville,Luxembourg,2013,2.28,,2.28,False
+85011,Florenville,Luxembourg,2014,1.85,,1.85,False
+85011,Florenville,Luxembourg,2015,1.36,,1.36,False
+85011,Florenville,Luxembourg,2016,4.24,,4.24,False
+85011,Florenville,Luxembourg,2017,2.11,,2.11,False
+85011,Florenville,Luxembourg,2018,0.64,,0.64,False
+85011,Florenville,Luxembourg,2019,5.62,,5.62,False
+85011,Florenville,Luxembourg,2020,7.55,,7.55,False
+85011,Florenville,Luxembourg,2021,3.51,,3.51,False
+85011,Florenville,Luxembourg,2022,2.17,,2.17,False
+85011,Florenville,Luxembourg,2023,2.49,,2.49,False
+85011,Florenville,Luxembourg,2024,1.26,,1.26,False
+85011,Florenville,Luxembourg,2025,0.88,,0.88,True
+85024,Meix-devant-Virton,Luxembourg,2011,1.15,,1.15,False
+85024,Meix-devant-Virton,Luxembourg,2012,2.52,,2.52,False
+85024,Meix-devant-Virton,Luxembourg,2013,1.57,,1.57,False
+85024,Meix-devant-Virton,Luxembourg,2014,0.56,,0.56,False
+85024,Meix-devant-Virton,Luxembourg,2015,0.58,,0.58,False
+85024,Meix-devant-Virton,Luxembourg,2016,0.04,,0.04,False
+85024,Meix-devant-Virton,Luxembourg,2017,1.07,,1.07,False
+85024,Meix-devant-Virton,Luxembourg,2018,0.34,,0.34,False
+85024,Meix-devant-Virton,Luxembourg,2019,0.33,,0.33,False
+85024,Meix-devant-Virton,Luxembourg,2020,1.21,,1.21,False
+85024,Meix-devant-Virton,Luxembourg,2021,0.47,,0.47,False
+85024,Meix-devant-Virton,Luxembourg,2022,1.58,,1.58,False
+85024,Meix-devant-Virton,Luxembourg,2023,1.77,,1.77,False
+85024,Meix-devant-Virton,Luxembourg,2024,2.23,,2.23,False
+85024,Meix-devant-Virton,Luxembourg,2025,1.19,,1.19,True
+85026,Musson,Luxembourg,2011,2.73,,2.73,False
+85026,Musson,Luxembourg,2012,1.03,,1.03,False
+85026,Musson,Luxembourg,2013,1.75,,1.75,False
+85026,Musson,Luxembourg,2014,1.28,,1.28,False
+85026,Musson,Luxembourg,2015,2.17,,2.17,False
+85026,Musson,Luxembourg,2016,1.45,,1.45,False
+85026,Musson,Luxembourg,2017,0.91,,0.91,False
+85026,Musson,Luxembourg,2018,1.85,,1.85,False
+85026,Musson,Luxembourg,2019,1.19,,1.19,False
+85026,Musson,Luxembourg,2020,2.1,,2.1,False
+85026,Musson,Luxembourg,2021,2.57,,2.57,False
+85026,Musson,Luxembourg,2022,1.32,,1.32,False
+85026,Musson,Luxembourg,2023,0.5,,0.5,False
+85026,Musson,Luxembourg,2024,4.99,,4.99,False
+85026,Musson,Luxembourg,2025,0.6,,0.6,True
+85034,Saint-Léger,Luxembourg,2011,1.49,,1.49,False
+85034,Saint-Léger,Luxembourg,2012,2.18,,2.18,False
+85034,Saint-Léger,Luxembourg,2013,1.13,,1.13,False
+85034,Saint-Léger,Luxembourg,2014,1.26,,1.26,False
+85034,Saint-Léger,Luxembourg,2015,0.4,,0.4,False
+85034,Saint-Léger,Luxembourg,2016,1.79,,1.79,False
+85034,Saint-Léger,Luxembourg,2017,0.91,,0.91,False
+85034,Saint-Léger,Luxembourg,2018,1.72,,1.72,False
+85034,Saint-Léger,Luxembourg,2019,0.94,,0.94,False
+85034,Saint-Léger,Luxembourg,2020,1.79,,1.79,False
+85034,Saint-Léger,Luxembourg,2021,1.69,,1.69,False
+85034,Saint-Léger,Luxembourg,2022,1.19,,1.19,False
+85034,Saint-Léger,Luxembourg,2023,1.19,,1.19,False
+85034,Saint-Léger,Luxembourg,2024,2.11,,2.11,False
+85034,Saint-Léger,Luxembourg,2025,1.85,,1.85,True
+85039,Tintigny,Luxembourg,2011,3.11,,3.11,False
+85039,Tintigny,Luxembourg,2012,2.8,,2.8,False
+85039,Tintigny,Luxembourg,2013,3.22,,3.22,False
+85039,Tintigny,Luxembourg,2014,1.8,,1.8,False
+85039,Tintigny,Luxembourg,2015,3.29,,3.29,False
+85039,Tintigny,Luxembourg,2016,4.31,,4.31,False
+85039,Tintigny,Luxembourg,2017,1.45,,1.45,False
+85039,Tintigny,Luxembourg,2018,0.87,,0.87,False
+85039,Tintigny,Luxembourg,2019,2.85,,2.85,False
+85039,Tintigny,Luxembourg,2020,2.87,,2.87,False
+85039,Tintigny,Luxembourg,2021,1.25,,1.25,False
+85039,Tintigny,Luxembourg,2022,1.93,,1.93,False
+85039,Tintigny,Luxembourg,2023,7.11,,7.11,False
+85039,Tintigny,Luxembourg,2024,-0.26,,-0.26,False
+85039,Tintigny,Luxembourg,2025,0.97,,0.97,True
+85045,Virton,Luxembourg,2011,2.32,,2.32,False
+85045,Virton,Luxembourg,2012,3.9,,3.9,False
+85045,Virton,Luxembourg,2013,2.31,,2.31,False
+85045,Virton,Luxembourg,2014,3.66,,3.66,False
+85045,Virton,Luxembourg,2015,1.28,,1.28,False
+85045,Virton,Luxembourg,2016,0.9,,0.9,False
+85045,Virton,Luxembourg,2017,5.43,,5.43,False
+85045,Virton,Luxembourg,2018,2.68,,2.68,False
+85045,Virton,Luxembourg,2019,-2.03,,-2.03,False
+85045,Virton,Luxembourg,2020,3.78,,3.78,False
+85045,Virton,Luxembourg,2021,5.59,,5.59,False
+85045,Virton,Luxembourg,2022,0.27,,0.27,False
+85045,Virton,Luxembourg,2023,2.54,,2.54,False
+85045,Virton,Luxembourg,2024,3.27,,3.27,False
+85045,Virton,Luxembourg,2025,2.09,,2.09,True
+85046,Habay,Luxembourg,2011,1.82,,1.82,False
+85046,Habay,Luxembourg,2012,1.58,,1.58,False
+85046,Habay,Luxembourg,2013,2.02,,2.02,False
+85046,Habay,Luxembourg,2014,2.69,,2.69,False
+85046,Habay,Luxembourg,2015,2.95,,2.95,False
+85046,Habay,Luxembourg,2016,1.51,,1.51,False
+85046,Habay,Luxembourg,2017,7.36,,7.36,False
+85046,Habay,Luxembourg,2018,1.2,,1.2,False
+85046,Habay,Luxembourg,2019,2.15,,2.15,False
+85046,Habay,Luxembourg,2020,5.66,,5.66,False
+85046,Habay,Luxembourg,2021,3.84,,3.84,False
+85046,Habay,Luxembourg,2022,3.81,,3.81,False
+85046,Habay,Luxembourg,2023,3.4,,3.4,False
+85046,Habay,Luxembourg,2024,4.83,,4.83,False
+85046,Habay,Luxembourg,2025,1.42,,1.42,True
+85047,Rouvroy,Luxembourg,2011,1.32,,1.32,False
+85047,Rouvroy,Luxembourg,2012,0.38,,0.38,False
+85047,Rouvroy,Luxembourg,2013,0.25,,0.25,False
+85047,Rouvroy,Luxembourg,2014,0.03,,0.03,False
+85047,Rouvroy,Luxembourg,2015,0.83,,0.83,False
+85047,Rouvroy,Luxembourg,2016,0.12,,0.12,False
+85047,Rouvroy,Luxembourg,2017,0.95,,0.95,False
+85047,Rouvroy,Luxembourg,2018,0.53,,0.53,False
+85047,Rouvroy,Luxembourg,2019,0.35,,0.35,False
+85047,Rouvroy,Luxembourg,2020,1.51,,1.51,False
+85047,Rouvroy,Luxembourg,2021,1.33,,1.33,False
+85047,Rouvroy,Luxembourg,2022,0.44,,0.44,False
+85047,Rouvroy,Luxembourg,2023,0.01,,0.01,False
+85047,Rouvroy,Luxembourg,2024,0.22,,0.22,False
+85047,Rouvroy,Luxembourg,2025,1.35,,1.35,True
+91005,Anhée,Namur,2011,1.98,,1.98,False
+91005,Anhée,Namur,2012,4.8,,4.8,False
+91005,Anhée,Namur,2013,0.51,,0.51,False
+91005,Anhée,Namur,2014,1.23,,1.23,False
+91005,Anhée,Namur,2015,2.27,,2.27,False
+91005,Anhée,Namur,2016,2.43,,2.43,False
+91005,Anhée,Namur,2017,3.34,,3.34,False
+91005,Anhée,Namur,2018,0.8,,0.8,False
+91005,Anhée,Namur,2019,1.14,,1.14,False
+91005,Anhée,Namur,2020,4.9,,4.9,False
+91005,Anhée,Namur,2021,2.6,,2.6,False
+91005,Anhée,Namur,2022,6.94,,6.94,False
+91005,Anhée,Namur,2023,2.63,,2.63,False
+91005,Anhée,Namur,2024,-0.71,,-0.71,False
+91005,Anhée,Namur,2025,-0.48,,-0.48,True
+91013,Beauraing,Namur,2011,5.52,,5.52,False
+91013,Beauraing,Namur,2012,-68.87,reclassement,-2.69,False
+91013,Beauraing,Namur,2013,-131.37,reclassement,18.47,False
+91013,Beauraing,Namur,2014,1.25,,1.25,False
+91013,Beauraing,Namur,2015,4.59,,4.59,False
+91013,Beauraing,Namur,2016,9.47,,9.47,False
+91013,Beauraing,Namur,2017,7.35,,7.35,False
+91013,Beauraing,Namur,2018,4.28,,4.28,False
+91013,Beauraing,Namur,2019,4.99,,4.99,False
+91013,Beauraing,Namur,2020,-1.63,,-1.63,False
+91013,Beauraing,Namur,2021,21.24,,21.24,False
+91013,Beauraing,Namur,2022,8.04,,8.04,False
+91013,Beauraing,Namur,2023,9.61,,9.61,False
+91013,Beauraing,Namur,2024,6.47,,6.47,False
+91013,Beauraing,Namur,2025,6.47,,6.47,True
+91015,Bièvre,Namur,2011,5.21,,5.21,False
+91015,Bièvre,Namur,2012,1.87,,1.87,False
+91015,Bièvre,Namur,2013,3.64,,3.64,False
+91015,Bièvre,Namur,2014,2.56,,2.56,False
+91015,Bièvre,Namur,2015,3.1,,3.1,False
+91015,Bièvre,Namur,2016,3.72,,3.72,False
+91015,Bièvre,Namur,2017,2.83,,2.83,False
+91015,Bièvre,Namur,2018,1.96,,1.96,False
+91015,Bièvre,Namur,2019,3.53,,3.53,False
+91015,Bièvre,Namur,2020,6.22,,6.22,False
+91015,Bièvre,Namur,2021,2.65,,2.65,False
+91015,Bièvre,Namur,2022,6.63,,6.63,False
+91015,Bièvre,Namur,2023,8.03,,8.03,False
+91015,Bièvre,Namur,2024,7.83,,7.83,False
+91015,Bièvre,Namur,2025,4.77,,4.77,True
+91030,Ciney,Namur,2011,10.96,,10.96,False
+91030,Ciney,Namur,2012,7.86,,7.86,False
+91030,Ciney,Namur,2013,4.62,,4.62,False
+91030,Ciney,Namur,2014,-2.68,,-2.68,False
+91030,Ciney,Namur,2015,4.72,,4.72,False
+91030,Ciney,Namur,2016,5.36,,5.36,False
+91030,Ciney,Namur,2017,10.08,,10.08,False
+91030,Ciney,Namur,2018,6.15,,6.15,False
+91030,Ciney,Namur,2019,7.81,,7.81,False
+91030,Ciney,Namur,2020,10.2,,10.2,False
+91030,Ciney,Namur,2021,7.73,,7.73,False
+91030,Ciney,Namur,2022,8.56,,8.56,False
+91030,Ciney,Namur,2023,12.08,,12.08,False
+91030,Ciney,Namur,2024,8.63,,8.63,False
+91030,Ciney,Namur,2025,-0.16,,-0.16,True
+91034,Dinant,Namur,2011,2.41,,2.41,False
+91034,Dinant,Namur,2012,8.54,,8.54,False
+91034,Dinant,Namur,2013,-0.16,,-0.16,False
+91034,Dinant,Namur,2014,2.79,,2.79,False
+91034,Dinant,Namur,2015,1.36,,1.36,False
+91034,Dinant,Namur,2016,2.91,,2.91,False
+91034,Dinant,Namur,2017,5.77,,5.77,False
+91034,Dinant,Namur,2018,0.4,,0.4,False
+91034,Dinant,Namur,2019,10.39,,10.39,False
+91034,Dinant,Namur,2020,3.9,,3.9,False
+91034,Dinant,Namur,2021,11.56,,11.56,False
+91034,Dinant,Namur,2022,11.26,,11.26,False
+91034,Dinant,Namur,2023,7.68,,7.68,False
+91034,Dinant,Namur,2024,4.2,,4.2,False
+91034,Dinant,Namur,2025,4.82,,4.82,True
+91054,Gedinne,Namur,2011,5.56,,5.56,False
+91054,Gedinne,Namur,2012,3.3,,3.3,False
+91054,Gedinne,Namur,2013,4.12,,4.12,False
+91054,Gedinne,Namur,2014,1.36,,1.36,False
+91054,Gedinne,Namur,2015,1.85,,1.85,False
+91054,Gedinne,Namur,2016,2.17,,2.17,False
+91054,Gedinne,Namur,2017,2.17,,2.17,False
+91054,Gedinne,Namur,2018,1.01,,1.01,False
+91054,Gedinne,Namur,2019,2.68,,2.68,False
+91054,Gedinne,Namur,2020,2.39,,2.39,False
+91054,Gedinne,Namur,2021,1.63,,1.63,False
+91054,Gedinne,Namur,2022,1.24,,1.24,False
+91054,Gedinne,Namur,2023,2.51,,2.51,False
+91054,Gedinne,Namur,2024,3.77,,3.77,False
+91054,Gedinne,Namur,2025,5.22,,5.22,True
+91059,Hamois,Namur,2011,4.41,,4.41,False
+91059,Hamois,Namur,2012,4.86,,4.86,False
+91059,Hamois,Namur,2013,3.66,,3.66,False
+91059,Hamois,Namur,2014,2.59,,2.59,False
+91059,Hamois,Namur,2015,2.86,,2.86,False
+91059,Hamois,Namur,2016,2.89,,2.89,False
+91059,Hamois,Namur,2017,3.4,,3.4,False
+91059,Hamois,Namur,2018,4.09,,4.09,False
+91059,Hamois,Namur,2019,2.17,,2.17,False
+91059,Hamois,Namur,2020,2.83,,2.83,False
+91059,Hamois,Namur,2021,3.98,,3.98,False
+91059,Hamois,Namur,2022,4.42,,4.42,False
+91059,Hamois,Namur,2023,4.67,,4.67,False
+91059,Hamois,Namur,2024,4.11,,4.11,False
+91059,Hamois,Namur,2025,3.69,,3.69,True
+91064,Havelange,Namur,2011,2.95,,2.95,False
+91064,Havelange,Namur,2012,1.26,,1.26,False
+91064,Havelange,Namur,2013,2.27,,2.27,False
+91064,Havelange,Namur,2014,2.07,,2.07,False
+91064,Havelange,Namur,2015,4.9,,4.9,False
+91064,Havelange,Namur,2016,3.58,,3.58,False
+91064,Havelange,Namur,2017,2.32,,2.32,False
+91064,Havelange,Namur,2018,3.75,,3.75,False
+91064,Havelange,Namur,2019,2.03,,2.03,False
+91064,Havelange,Namur,2020,13.24,,13.24,False
+91064,Havelange,Namur,2021,5.98,,5.98,False
+91064,Havelange,Namur,2022,1.86,,1.86,False
+91064,Havelange,Namur,2023,4.02,,4.02,False
+91064,Havelange,Namur,2024,3.78,,3.78,False
+91064,Havelange,Namur,2025,4.49,,4.49,True
+91072,Houyet,Namur,2011,2.31,,2.31,False
+91072,Houyet,Namur,2012,2.41,,2.41,False
+91072,Houyet,Namur,2013,1.4,,1.4,False
+91072,Houyet,Namur,2014,-0.24,,-0.24,False
+91072,Houyet,Namur,2015,1.65,,1.65,False
+91072,Houyet,Namur,2016,2.51,,2.51,False
+91072,Houyet,Namur,2017,2.37,,2.37,False
+91072,Houyet,Namur,2018,1.81,,1.81,False
+91072,Houyet,Namur,2019,8.55,,8.55,False
+91072,Houyet,Namur,2020,4.14,,4.14,False
+91072,Houyet,Namur,2021,3.02,,3.02,False
+91072,Houyet,Namur,2022,3.67,,3.67,False
+91072,Houyet,Namur,2023,4.63,,4.63,False
+91072,Houyet,Namur,2024,6.03,,6.03,False
+91072,Houyet,Namur,2025,3.42,,3.42,True
+91103,Onhaye,Namur,2011,1.9,,1.9,False
+91103,Onhaye,Namur,2012,5.27,,5.27,False
+91103,Onhaye,Namur,2013,3.19,,3.19,False
+91103,Onhaye,Namur,2014,0.74,,0.74,False
+91103,Onhaye,Namur,2015,3.2,,3.2,False
+91103,Onhaye,Namur,2016,-0.65,,-0.65,False
+91103,Onhaye,Namur,2017,1.66,,1.66,False
+91103,Onhaye,Namur,2018,-9.58,reclassement,1.05,False
+91103,Onhaye,Namur,2019,0.5,,0.5,False
+91103,Onhaye,Namur,2020,2.03,,2.03,False
+91103,Onhaye,Namur,2021,1.74,,1.74,False
+91103,Onhaye,Namur,2022,5.61,,5.61,False
+91103,Onhaye,Namur,2023,1.35,,1.35,False
+91103,Onhaye,Namur,2024,0.67,,0.67,False
+91103,Onhaye,Namur,2025,1.86,,1.86,True
+91114,Rochefort,Namur,2011,4.82,,4.82,False
+91114,Rochefort,Namur,2012,10.64,,10.64,False
+91114,Rochefort,Namur,2013,8.66,,8.66,False
+91114,Rochefort,Namur,2014,2.59,,2.59,False
+91114,Rochefort,Namur,2015,1.35,,1.35,False
+91114,Rochefort,Namur,2016,11.5,,11.5,False
+91114,Rochefort,Namur,2017,4.36,,4.36,False
+91114,Rochefort,Namur,2018,7.09,,7.09,False
+91114,Rochefort,Namur,2019,4.95,,4.95,False
+91114,Rochefort,Namur,2020,6.09,,6.09,False
+91114,Rochefort,Namur,2021,4.49,,4.49,False
+91114,Rochefort,Namur,2022,7.34,,7.34,False
+91114,Rochefort,Namur,2023,5.83,,5.83,False
+91114,Rochefort,Namur,2024,3.61,,3.61,False
+91114,Rochefort,Namur,2025,4.44,,4.44,True
+91120,Somme-Leuze,Namur,2011,5.39,,5.39,False
+91120,Somme-Leuze,Namur,2012,3.28,,3.28,False
+91120,Somme-Leuze,Namur,2013,2.76,,2.76,False
+91120,Somme-Leuze,Namur,2014,1.5,,1.5,False
+91120,Somme-Leuze,Namur,2015,4.7,,4.7,False
+91120,Somme-Leuze,Namur,2016,4.59,,4.59,False
+91120,Somme-Leuze,Namur,2017,6.79,,6.79,False
+91120,Somme-Leuze,Namur,2018,3.48,,3.48,False
+91120,Somme-Leuze,Namur,2019,4.32,,4.32,False
+91120,Somme-Leuze,Namur,2020,29.16,saut,4.7,False
+91120,Somme-Leuze,Namur,2021,4.73,,4.73,False
+91120,Somme-Leuze,Namur,2022,4.69,,4.69,False
+91120,Somme-Leuze,Namur,2023,9.76,,9.76,False
+91120,Somme-Leuze,Namur,2024,7.12,,7.12,False
+91120,Somme-Leuze,Namur,2025,6.05,,6.05,True
+91141,Yvoir,Namur,2011,6.31,,6.31,False
+91141,Yvoir,Namur,2012,6.22,,6.22,False
+91141,Yvoir,Namur,2013,1.47,,1.47,False
+91141,Yvoir,Namur,2014,5.86,,5.86,False
+91141,Yvoir,Namur,2015,1.52,,1.52,False
+91141,Yvoir,Namur,2016,1.56,,1.56,False
+91141,Yvoir,Namur,2017,4.56,,4.56,False
+91141,Yvoir,Namur,2018,2.84,,2.84,False
+91141,Yvoir,Namur,2019,4.01,,4.01,False
+91141,Yvoir,Namur,2020,0.96,,0.96,False
+91141,Yvoir,Namur,2021,8.41,,8.41,False
+91141,Yvoir,Namur,2022,2.48,,2.48,False
+91141,Yvoir,Namur,2023,1.87,,1.87,False
+91141,Yvoir,Namur,2024,11.01,,11.01,False
+91141,Yvoir,Namur,2025,1.96,,1.96,True
+91142,Hastière,Namur,2011,2.93,,2.93,False
+91142,Hastière,Namur,2012,1.62,,1.62,False
+91142,Hastière,Namur,2013,0.95,,0.95,False
+91142,Hastière,Namur,2014,-2.49,,-2.49,False
+91142,Hastière,Namur,2015,12.01,,12.01,False
+91142,Hastière,Namur,2016,2.66,,2.66,False
+91142,Hastière,Namur,2017,2.5,,2.5,False
+91142,Hastière,Namur,2018,-4.61,,-4.61,False
+91142,Hastière,Namur,2019,1.69,,1.69,False
+91142,Hastière,Namur,2020,2.53,,2.53,False
+91142,Hastière,Namur,2021,1.95,,1.95,False
+91142,Hastière,Namur,2022,-0.28,,-0.28,False
+91142,Hastière,Namur,2023,5.06,,5.06,False
+91142,Hastière,Namur,2024,9.32,,9.32,False
+91142,Hastière,Namur,2025,1.82,,1.82,True
+91143,Vresse-sur-Semois,Namur,2011,1.86,,1.86,False
+91143,Vresse-sur-Semois,Namur,2012,0.74,,0.74,False
+91143,Vresse-sur-Semois,Namur,2013,1.39,,1.39,False
+91143,Vresse-sur-Semois,Namur,2014,0.67,,0.67,False
+91143,Vresse-sur-Semois,Namur,2015,0.29,,0.29,False
+91143,Vresse-sur-Semois,Namur,2016,0.06,,0.06,False
+91143,Vresse-sur-Semois,Namur,2017,0.53,,0.53,False
+91143,Vresse-sur-Semois,Namur,2018,1.26,,1.26,False
+91143,Vresse-sur-Semois,Namur,2019,2.06,,2.06,False
+91143,Vresse-sur-Semois,Namur,2020,-13.35,negatif,1.0,False
+91143,Vresse-sur-Semois,Namur,2021,1.74,,1.74,False
+91143,Vresse-sur-Semois,Namur,2022,0.74,,0.74,False
+91143,Vresse-sur-Semois,Namur,2023,2.14,,2.14,False
+91143,Vresse-sur-Semois,Namur,2024,21.35,saut,1.0,False
+91143,Vresse-sur-Semois,Namur,2025,0.15,,0.15,True
+92003,Andenne,Namur,2011,7.06,,7.06,False
+92003,Andenne,Namur,2012,8.43,,8.43,False
+92003,Andenne,Namur,2013,9.64,,9.64,False
+92003,Andenne,Namur,2014,4.86,,4.86,False
+92003,Andenne,Namur,2015,7.53,,7.53,False
+92003,Andenne,Namur,2016,2.73,,2.73,False
+92003,Andenne,Namur,2017,5.32,,5.32,False
+92003,Andenne,Namur,2018,8.87,,8.87,False
+92003,Andenne,Namur,2019,4.57,,4.57,False
+92003,Andenne,Namur,2020,8.98,,8.98,False
+92003,Andenne,Namur,2021,9.08,,9.08,False
+92003,Andenne,Namur,2022,7.4,,7.4,False
+92003,Andenne,Namur,2023,7.68,,7.68,False
+92003,Andenne,Namur,2024,6.41,,6.41,False
+92003,Andenne,Namur,2025,6.72,,6.72,True
+92006,Assesse,Namur,2011,4.89,,4.89,False
+92006,Assesse,Namur,2012,1.46,,1.46,False
+92006,Assesse,Namur,2013,4.64,,4.64,False
+92006,Assesse,Namur,2014,3.82,,3.82,False
+92006,Assesse,Namur,2015,3.82,,3.82,False
+92006,Assesse,Namur,2016,3.53,,3.53,False
+92006,Assesse,Namur,2017,2.64,,2.64,False
+92006,Assesse,Namur,2018,2.58,,2.58,False
+92006,Assesse,Namur,2019,16.47,,16.47,False
+92006,Assesse,Namur,2020,11.07,,11.07,False
+92006,Assesse,Namur,2021,4.6,,4.6,False
+92006,Assesse,Namur,2022,4.87,,4.87,False
+92006,Assesse,Namur,2023,4.0,,4.0,False
+92006,Assesse,Namur,2024,8.47,,8.47,False
+92006,Assesse,Namur,2025,5.25,,5.25,True
+92035,Eghezée,Namur,2011,7.59,,7.59,False
+92035,Eghezée,Namur,2012,6.17,,6.17,False
+92035,Eghezée,Namur,2013,6.44,,6.44,False
+92035,Eghezée,Namur,2014,5.73,,5.73,False
+92035,Eghezée,Namur,2015,7.66,,7.66,False
+92035,Eghezée,Namur,2016,2.01,,2.01,False
+92035,Eghezée,Namur,2017,5.58,,5.58,False
+92035,Eghezée,Namur,2018,9.63,,9.63,False
+92035,Eghezée,Namur,2019,6.19,,6.19,False
+92035,Eghezée,Namur,2020,9.18,,9.18,False
+92035,Eghezée,Namur,2021,8.12,,8.12,False
+92035,Eghezée,Namur,2022,5.26,,5.26,False
+92035,Eghezée,Namur,2023,11.39,,11.39,False
+92035,Eghezée,Namur,2024,11.04,,11.04,False
+92035,Eghezée,Namur,2025,2.52,,2.52,True
+92045,Floreffe,Namur,2011,2.12,,2.12,False
+92045,Floreffe,Namur,2012,2.74,,2.74,False
+92045,Floreffe,Namur,2013,1.64,,1.64,False
+92045,Floreffe,Namur,2014,0.79,,0.79,False
+92045,Floreffe,Namur,2015,4.09,,4.09,False
+92045,Floreffe,Namur,2016,0.63,,0.63,False
+92045,Floreffe,Namur,2017,1.13,,1.13,False
+92045,Floreffe,Namur,2018,4.43,,4.43,False
+92045,Floreffe,Namur,2019,2.9,,2.9,False
+92045,Floreffe,Namur,2020,2.36,,2.36,False
+92045,Floreffe,Namur,2021,3.84,,3.84,False
+92045,Floreffe,Namur,2022,4.06,,4.06,False
+92045,Floreffe,Namur,2023,-7.64,,-7.64,False
+92045,Floreffe,Namur,2024,18.49,saut,2.74,False
+92045,Floreffe,Namur,2025,3.0,,3.0,True
+92048,Fosses-la-Ville,Namur,2011,8.04,,8.04,False
+92048,Fosses-la-Ville,Namur,2012,4.88,,4.88,False
+92048,Fosses-la-Ville,Namur,2013,3.38,,3.38,False
+92048,Fosses-la-Ville,Namur,2014,5.97,,5.97,False
+92048,Fosses-la-Ville,Namur,2015,5.95,,5.95,False
+92048,Fosses-la-Ville,Namur,2016,5.58,,5.58,False
+92048,Fosses-la-Ville,Namur,2017,1.67,,1.67,False
+92048,Fosses-la-Ville,Namur,2018,4.74,,4.74,False
+92048,Fosses-la-Ville,Namur,2019,3.47,,3.47,False
+92048,Fosses-la-Ville,Namur,2020,15.95,,15.95,False
+92048,Fosses-la-Ville,Namur,2021,-1.43,,-1.43,False
+92048,Fosses-la-Ville,Namur,2022,3.94,,3.94,False
+92048,Fosses-la-Ville,Namur,2023,5.95,,5.95,False
+92048,Fosses-la-Ville,Namur,2024,6.46,,6.46,False
+92048,Fosses-la-Ville,Namur,2025,4.73,,4.73,True
+92054,Gesves,Namur,2011,3.79,,3.79,False
+92054,Gesves,Namur,2012,6.65,,6.65,False
+92054,Gesves,Namur,2013,4.16,,4.16,False
+92054,Gesves,Namur,2014,4.85,,4.85,False
+92054,Gesves,Namur,2015,1.75,,1.75,False
+92054,Gesves,Namur,2016,2.55,,2.55,False
+92054,Gesves,Namur,2017,3.14,,3.14,False
+92054,Gesves,Namur,2018,4.65,,4.65,False
+92054,Gesves,Namur,2019,14.48,,14.48,False
+92054,Gesves,Namur,2020,2.74,,2.74,False
+92054,Gesves,Namur,2021,3.88,,3.88,False
+92054,Gesves,Namur,2022,5.69,,5.69,False
+92054,Gesves,Namur,2023,5.3,,5.3,False
+92054,Gesves,Namur,2024,11.88,,11.88,False
+92054,Gesves,Namur,2025,6.0,,6.0,True
+92087,Mettet,Namur,2011,22.4,saut,6.69,False
+92087,Mettet,Namur,2012,7.51,,7.51,False
+92087,Mettet,Namur,2013,4.18,,4.18,False
+92087,Mettet,Namur,2014,7.27,,7.27,False
+92087,Mettet,Namur,2015,4.26,,4.26,False
+92087,Mettet,Namur,2016,3.74,,3.74,False
+92087,Mettet,Namur,2017,3.38,,3.38,False
+92087,Mettet,Namur,2018,6.69,,6.69,False
+92087,Mettet,Namur,2019,2.39,,2.39,False
+92087,Mettet,Namur,2020,10.23,,10.23,False
+92087,Mettet,Namur,2021,8.45,,8.45,False
+92087,Mettet,Namur,2022,9.19,,9.19,False
+92087,Mettet,Namur,2023,3.01,,3.01,False
+92087,Mettet,Namur,2024,6.81,,6.81,False
+92087,Mettet,Namur,2025,3.4,,3.4,True
+92094,Namur,Namur,2011,16.66,,16.66,False
+92094,Namur,Namur,2012,13.35,,13.35,False
+92094,Namur,Namur,2013,17.16,,17.16,False
+92094,Namur,Namur,2014,20.16,,20.16,False
+92094,Namur,Namur,2015,16.57,,16.57,False
+92094,Namur,Namur,2016,16.78,,16.78,False
+92094,Namur,Namur,2017,24.66,,24.66,False
+92094,Namur,Namur,2018,10.35,,10.35,False
+92094,Namur,Namur,2019,10.57,,10.57,False
+92094,Namur,Namur,2020,16.94,,16.94,False
+92094,Namur,Namur,2021,12.8,,12.8,False
+92094,Namur,Namur,2022,29.93,,29.93,False
+92094,Namur,Namur,2023,22.88,,22.88,False
+92094,Namur,Namur,2024,32.14,,32.14,False
+92094,Namur,Namur,2025,31.8,,31.8,True
+92097,Ohey,Namur,2011,4.87,,4.87,False
+92097,Ohey,Namur,2012,4.49,,4.49,False
+92097,Ohey,Namur,2013,3.06,,3.06,False
+92097,Ohey,Namur,2014,3.28,,3.28,False
+92097,Ohey,Namur,2015,4.78,,4.78,False
+92097,Ohey,Namur,2016,-0.42,,-0.42,False
+92097,Ohey,Namur,2017,2.18,,2.18,False
+92097,Ohey,Namur,2018,7.61,,7.61,False
+92097,Ohey,Namur,2019,4.07,,4.07,False
+92097,Ohey,Namur,2020,4.69,,4.69,False
+92097,Ohey,Namur,2021,1.51,,1.51,False
+92097,Ohey,Namur,2022,3.96,,3.96,False
+92097,Ohey,Namur,2023,-0.81,,-0.81,False
+92097,Ohey,Namur,2024,4.85,,4.85,False
+92097,Ohey,Namur,2025,5.79,,5.79,True
+92101,Profondeville,Namur,2011,5.23,,5.23,False
+92101,Profondeville,Namur,2012,5.84,,5.84,False
+92101,Profondeville,Namur,2013,5.51,,5.51,False
+92101,Profondeville,Namur,2014,4.26,,4.26,False
+92101,Profondeville,Namur,2015,3.57,,3.57,False
+92101,Profondeville,Namur,2016,4.8,,4.8,False
+92101,Profondeville,Namur,2017,2.51,,2.51,False
+92101,Profondeville,Namur,2018,3.18,,3.18,False
+92101,Profondeville,Namur,2019,2.57,,2.57,False
+92101,Profondeville,Namur,2020,4.43,,4.43,False
+92101,Profondeville,Namur,2021,5.34,,5.34,False
+92101,Profondeville,Namur,2022,6.73,,6.73,False
+92101,Profondeville,Namur,2023,5.52,,5.52,False
+92101,Profondeville,Namur,2024,6.65,,6.65,False
+92101,Profondeville,Namur,2025,4.76,,4.76,True
+92114,Sombreffe,Namur,2011,1.3,,1.3,False
+92114,Sombreffe,Namur,2012,2.81,,2.81,False
+92114,Sombreffe,Namur,2013,3.47,,3.47,False
+92114,Sombreffe,Namur,2014,2.21,,2.21,False
+92114,Sombreffe,Namur,2015,-0.22,,-0.22,False
+92114,Sombreffe,Namur,2016,1.64,,1.64,False
+92114,Sombreffe,Namur,2017,0.16,,0.16,False
+92114,Sombreffe,Namur,2018,1.66,,1.66,False
+92114,Sombreffe,Namur,2019,1.76,,1.76,False
+92114,Sombreffe,Namur,2020,1.31,,1.31,False
+92114,Sombreffe,Namur,2021,2.9,,2.9,False
+92114,Sombreffe,Namur,2022,5.06,,5.06,False
+92114,Sombreffe,Namur,2023,2.23,,2.23,False
+92114,Sombreffe,Namur,2024,1.08,,1.08,False
+92114,Sombreffe,Namur,2025,1.56,,1.56,True
+92137,Sambreville,Namur,2011,5.57,,5.57,False
+92137,Sambreville,Namur,2012,4.5,,4.5,False
+92137,Sambreville,Namur,2013,7.15,,7.15,False
+92137,Sambreville,Namur,2014,4.78,,4.78,False
+92137,Sambreville,Namur,2015,3.12,,3.12,False
+92137,Sambreville,Namur,2016,2.06,,2.06,False
+92137,Sambreville,Namur,2017,3.5,,3.5,False
+92137,Sambreville,Namur,2018,2.79,,2.79,False
+92137,Sambreville,Namur,2019,27.05,saut,3.97,False
+92137,Sambreville,Namur,2020,-16.51,reclassement,1.84,False
+92137,Sambreville,Namur,2021,4.52,,4.52,False
+92137,Sambreville,Namur,2022,3.76,,3.76,False
+92137,Sambreville,Namur,2023,1.84,,1.84,False
+92137,Sambreville,Namur,2024,1.89,,1.89,False
+92137,Sambreville,Namur,2025,4.18,,4.18,True
+92138,Fernelmont,Namur,2011,2.32,,2.32,False
+92138,Fernelmont,Namur,2012,8.91,,8.91,False
+92138,Fernelmont,Namur,2013,-1.96,,-1.96,False
+92138,Fernelmont,Namur,2014,9.96,,9.96,False
+92138,Fernelmont,Namur,2015,4.6,,4.6,False
+92138,Fernelmont,Namur,2016,4.06,,4.06,False
+92138,Fernelmont,Namur,2017,2.12,,2.12,False
+92138,Fernelmont,Namur,2018,10.36,,10.36,False
+92138,Fernelmont,Namur,2019,3.43,,3.43,False
+92138,Fernelmont,Namur,2020,4.55,,4.55,False
+92138,Fernelmont,Namur,2021,11.7,,11.7,False
+92138,Fernelmont,Namur,2022,5.15,,5.15,False
+92138,Fernelmont,Namur,2023,4.13,,4.13,False
+92138,Fernelmont,Namur,2024,2.91,,2.91,False
+92138,Fernelmont,Namur,2025,7.58,,7.58,True
+92140,Jemeppe-sur-Sambre,Namur,2011,7.5,,7.5,False
+92140,Jemeppe-sur-Sambre,Namur,2012,6.11,,6.11,False
+92140,Jemeppe-sur-Sambre,Namur,2013,1.98,,1.98,False
+92140,Jemeppe-sur-Sambre,Namur,2014,9.33,,9.33,False
+92140,Jemeppe-sur-Sambre,Namur,2015,5.17,,5.17,False
+92140,Jemeppe-sur-Sambre,Namur,2016,2.21,,2.21,False
+92140,Jemeppe-sur-Sambre,Namur,2017,3.99,,3.99,False
+92140,Jemeppe-sur-Sambre,Namur,2018,3.32,,3.32,False
+92140,Jemeppe-sur-Sambre,Namur,2019,2.39,,2.39,False
+92140,Jemeppe-sur-Sambre,Namur,2020,3.39,,3.39,False
+92140,Jemeppe-sur-Sambre,Namur,2021,13.9,,13.9,False
+92140,Jemeppe-sur-Sambre,Namur,2022,5.71,,5.71,False
+92140,Jemeppe-sur-Sambre,Namur,2023,3.75,,3.75,False
+92140,Jemeppe-sur-Sambre,Namur,2024,5.92,,5.92,False
+92140,Jemeppe-sur-Sambre,Namur,2025,5.0,,5.0,True
+92141,La Bruyère,Namur,2011,2.91,,2.91,False
+92141,La Bruyère,Namur,2012,3.75,,3.75,False
+92141,La Bruyère,Namur,2013,3.89,,3.89,False
+92141,La Bruyère,Namur,2014,4.21,,4.21,False
+92141,La Bruyère,Namur,2015,5.69,,5.69,False
+92141,La Bruyère,Namur,2016,5.16,,5.16,False
+92141,La Bruyère,Namur,2017,7.51,,7.51,False
+92141,La Bruyère,Namur,2018,5.28,,5.28,False
+92141,La Bruyère,Namur,2019,0.95,,0.95,False
+92141,La Bruyère,Namur,2020,7.53,,7.53,False
+92141,La Bruyère,Namur,2021,2.24,,2.24,False
+92141,La Bruyère,Namur,2022,3.77,,3.77,False
+92141,La Bruyère,Namur,2023,7.88,,7.88,False
+92141,La Bruyère,Namur,2024,2.39,,2.39,False
+92141,La Bruyère,Namur,2025,3.57,,3.57,True
+92142,Gembloux,Namur,2011,15.94,,15.94,False
+92142,Gembloux,Namur,2012,10.56,,10.56,False
+92142,Gembloux,Namur,2013,16.17,,16.17,False
+92142,Gembloux,Namur,2014,15.92,,15.92,False
+92142,Gembloux,Namur,2015,13.2,,13.2,False
+92142,Gembloux,Namur,2016,-0.74,,-0.74,False
+92142,Gembloux,Namur,2017,2.71,,2.71,False
+92142,Gembloux,Namur,2018,9.75,,9.75,False
+92142,Gembloux,Namur,2019,12.99,,12.99,False
+92142,Gembloux,Namur,2020,13.31,,13.31,False
+92142,Gembloux,Namur,2021,7.31,,7.31,False
+92142,Gembloux,Namur,2022,12.38,,12.38,False
+92142,Gembloux,Namur,2023,19.34,,19.34,False
+92142,Gembloux,Namur,2024,2.65,,2.65,False
+92142,Gembloux,Namur,2025,11.53,,11.53,True
+93010,Cerfontaine,Namur,2011,1.81,,1.81,False
+93010,Cerfontaine,Namur,2012,1.14,,1.14,False
+93010,Cerfontaine,Namur,2013,-24.04,reclassement,2.77,False
+93010,Cerfontaine,Namur,2014,1.07,,1.07,False
+93010,Cerfontaine,Namur,2015,3.87,,3.87,False
+93010,Cerfontaine,Namur,2016,2.47,,2.47,False
+93010,Cerfontaine,Namur,2017,1.34,,1.34,False
+93010,Cerfontaine,Namur,2018,0.34,,0.34,False
+93010,Cerfontaine,Namur,2019,6.91,,6.91,False
+93010,Cerfontaine,Namur,2020,1.55,,1.55,False
+93010,Cerfontaine,Namur,2021,5.4,,5.4,False
+93010,Cerfontaine,Namur,2022,2.61,,2.61,False
+93010,Cerfontaine,Namur,2023,4.39,,4.39,False
+93010,Cerfontaine,Namur,2024,3.86,,3.86,False
+93010,Cerfontaine,Namur,2025,1.0,,1.0,True
+93014,Couvin,Namur,2011,17.24,,17.24,False
+93014,Couvin,Namur,2012,88.93,saut,9.28,False
+93014,Couvin,Namur,2013,35.83,,35.83,False
+93014,Couvin,Namur,2014,14.09,,14.09,False
+93014,Couvin,Namur,2015,9.02,,9.02,False
+93014,Couvin,Namur,2016,4.09,,4.09,False
+93014,Couvin,Namur,2017,11.39,,11.39,False
+93014,Couvin,Namur,2018,9.28,,9.28,False
+93014,Couvin,Namur,2019,4.59,,4.59,False
+93014,Couvin,Namur,2020,7.18,,7.18,False
+93014,Couvin,Namur,2021,20.17,,20.17,False
+93014,Couvin,Namur,2022,4.39,,4.39,False
+93014,Couvin,Namur,2023,6.47,,6.47,False
+93014,Couvin,Namur,2024,7.26,,7.26,False
+93014,Couvin,Namur,2025,10.98,,10.98,True
+93018,Doische,Namur,2011,0.97,,0.97,False
+93018,Doische,Namur,2012,1.22,,1.22,False
+93018,Doische,Namur,2013,0.67,,0.67,False
+93018,Doische,Namur,2014,1.04,,1.04,False
+93018,Doische,Namur,2015,2.72,,2.72,False
+93018,Doische,Namur,2016,0.6,,0.6,False
+93018,Doische,Namur,2017,0.3,,0.3,False
+93018,Doische,Namur,2018,1.03,,1.03,False
+93018,Doische,Namur,2019,1.56,,1.56,False
+93018,Doische,Namur,2020,1.21,,1.21,False
+93018,Doische,Namur,2021,3.48,,3.48,False
+93018,Doische,Namur,2022,3.04,,3.04,False
+93018,Doische,Namur,2023,3.29,,3.29,False
+93018,Doische,Namur,2024,2.38,,2.38,False
+93018,Doische,Namur,2025,0.89,,0.89,True
+93022,Florennes,Namur,2011,4.97,,4.97,False
+93022,Florennes,Namur,2012,6.85,,6.85,False
+93022,Florennes,Namur,2013,7.44,,7.44,False
+93022,Florennes,Namur,2014,1.85,,1.85,False
+93022,Florennes,Namur,2015,10.43,,10.43,False
+93022,Florennes,Namur,2016,-5.83,,-5.83,False
+93022,Florennes,Namur,2017,6.58,,6.58,False
+93022,Florennes,Namur,2018,3.69,,3.69,False
+93022,Florennes,Namur,2019,-0.1,,-0.1,False
+93022,Florennes,Namur,2020,10.85,,10.85,False
+93022,Florennes,Namur,2021,3.19,,3.19,False
+93022,Florennes,Namur,2022,3.94,,3.94,False
+93022,Florennes,Namur,2023,3.41,,3.41,False
+93022,Florennes,Namur,2024,2.82,,2.82,False
+93022,Florennes,Namur,2025,5.2,,5.2,True
+93056,Philippeville,Namur,2011,5.05,,5.05,False
+93056,Philippeville,Namur,2012,9.44,,9.44,False
+93056,Philippeville,Namur,2013,4.2,,4.2,False
+93056,Philippeville,Namur,2014,2.97,,2.97,False
+93056,Philippeville,Namur,2015,2.07,,2.07,False
+93056,Philippeville,Namur,2016,4.56,,4.56,False
+93056,Philippeville,Namur,2017,3.35,,3.35,False
+93056,Philippeville,Namur,2018,1.16,,1.16,False
+93056,Philippeville,Namur,2019,5.84,,5.84,False
+93056,Philippeville,Namur,2020,6.19,,6.19,False
+93056,Philippeville,Namur,2021,6.72,,6.72,False
+93056,Philippeville,Namur,2022,24.17,saut,4.56,False
+93056,Philippeville,Namur,2023,8.08,,8.08,False
+93056,Philippeville,Namur,2024,3.49,,3.49,False
+93056,Philippeville,Namur,2025,4.26,,4.26,True
+93088,Walcourt,Namur,2011,11.54,,11.54,False
+93088,Walcourt,Namur,2012,7.1,,7.1,False
+93088,Walcourt,Namur,2013,7.56,,7.56,False
+93088,Walcourt,Namur,2014,2.9,,2.9,False
+93088,Walcourt,Namur,2015,7.23,,7.23,False
+93088,Walcourt,Namur,2016,2.86,,2.86,False
+93088,Walcourt,Namur,2017,10.23,,10.23,False
+93088,Walcourt,Namur,2018,4.71,,4.71,False
+93088,Walcourt,Namur,2019,6.11,,6.11,False
+93088,Walcourt,Namur,2020,7.16,,7.16,False
+93088,Walcourt,Namur,2021,7.49,,7.49,False
+93088,Walcourt,Namur,2022,12.73,,12.73,False
+93088,Walcourt,Namur,2023,2.19,,2.19,False
+93088,Walcourt,Namur,2024,2.95,,2.95,False
+93088,Walcourt,Namur,2025,3.27,,3.27,True
+93090,Viroinval,Namur,2011,1.99,,1.99,False
+93090,Viroinval,Namur,2012,4.41,,4.41,False
+93090,Viroinval,Namur,2013,0.87,,0.87,False
+93090,Viroinval,Namur,2014,2.07,,2.07,False
+93090,Viroinval,Namur,2015,-0.44,,-0.44,False
+93090,Viroinval,Namur,2016,2.25,,2.25,False
+93090,Viroinval,Namur,2017,2.24,,2.24,False
+93090,Viroinval,Namur,2018,2.44,,2.44,False
+93090,Viroinval,Namur,2019,1.92,,1.92,False
+93090,Viroinval,Namur,2020,3.81,,3.81,False
+93090,Viroinval,Namur,2021,3.64,,3.64,False
+93090,Viroinval,Namur,2022,1.9,,1.9,False
+93090,Viroinval,Namur,2023,2.38,,2.38,False
+93090,Viroinval,Namur,2024,3.38,,3.38,False
+93090,Viroinval,Namur,2025,1.09,,1.09,True

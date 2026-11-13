@@ -1,0 +1,379 @@
+/* Principe : la typographie d'un centre de ressources (Oswald en capitales, Lato léger, libellés très espacés)
+   posée sur la structure d'un outil de consultation : rail d'icônes, index, filtres, onglets, tableaux denses, marge de repères. */
+@font-face { font-family: "Oswald"; src: url("fonts/Oswald.woff2") format("woff2"); font-weight: 200 700; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("fonts/Lato-300.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("fonts/Lato-400.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("fonts/Lato-700.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Lato"; src: url("fonts/Lato-900.woff2") format("woff2"); font-weight: 900; font-display: swap; }
+
+:root {
+  --papier: #ffffff; --surface: #f4f5f6; --surface-2: #e6e8ea; --encre: #101316; --encre-2: #3a4047; --encre-3: #5d646c;
+  --filet: #dde0e3; --filet-fort: #969da4;
+  --rail: #0e1216; --rail-texte: #c6ccd2; --rail-filet: #262c33;
+  --bati: #1438c8; --bati-clair: #9db0f0; --traj: #d6361a; --saut: #d97706;
+  --agri: #b9b46d; --foret: #2f6b47; --inconnu: #cdd1d5;
+  --seq-0: #e4e9fb; --seq-1: #b3c1f3; --seq-2: #7189e6; --seq-3: #2f4ed3; --seq-4: #0d2283;
+  --div-0: #8f4a08; --div-1: #dfae7a; --div-2: #e7e8e9; --div-3: #93a7ef; --div-4: #1438c8;
+  --au-dessus: #b3261a; --en-dessous: #0e6b41; --incertain: #8a5600;
+  --z-habitat: #f6dcc8; --z-activite: #e3d6f0; --z-agricole: #eef0d0; --z-forestiere: #cfe5d5; --z-naturelle: #d2ebe8; --z-reserve: #f4e8b0; --z-equipement: #f2d9e3; --z-extraction: #e3d8cd; --z-autre: #e6e8ea;
+  --neuf-bati: #e0115f; --neuf-revet: #f29900; --photo-bati: #ff2d6f; --photo-revet: #ffc400;
+  --poids: 300;
+  --titre: "Oswald", "Arial Narrow", Impact, sans-serif;
+  --corps: "Lato", "Segoe UI", Helvetica, Arial, sans-serif;
+  --lecture: 44rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papier: #0f1215; --surface: #171b20; --surface-2: #23282e; --encre: #f1f3f5; --encre-2: #c5cbd1; --encre-3: #9aa2aa;
+    --filet: #2b3137; --filet-fort: #5c646c;
+    --rail: #07090b; --rail-texte: #c6ccd2; --rail-filet: #23282e;
+    --bati: #7f9bff; --bati-clair: #3f5199; --traj: #ff7a5c; --saut: #f0a63a;
+    --agri: #8f8c57; --foret: #5f9c78; --inconnu: #4a5057;
+    --seq-0: #1c2545; --seq-1: #2f3f87; --seq-2: #4e66cf; --seq-3: #86a0ff; --seq-4: #c9d5ff;
+    --div-0: #e0a468; --div-1: #7c5024; --div-2: #34393f; --div-3: #3f5199; --div-4: #86a0ff;
+    --au-dessus: #ff8a75; --en-dessous: #5fd19c; --incertain: #e8b45a;
+    --z-habitat: #4a3324; --z-activite: #3b2f4d; --z-agricole: #33361d; --z-forestiere: #1d3527; --z-naturelle: #1b3634; --z-reserve: #45401c; --z-equipement: #452a35; --z-extraction: #3a322b; --z-autre: #262b31;
+    --neuf-bati: #ff4d88; --neuf-revet: #ffbe2e; --photo-bati: #ff2d6f; --photo-revet: #ffc400;
+    --poids: 400;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papier: #0f1215; --surface: #171b20; --surface-2: #23282e; --encre: #f1f3f5; --encre-2: #c5cbd1; --encre-3: #9aa2aa;
+  --filet: #2b3137; --filet-fort: #5c646c;
+  --rail: #07090b; --rail-texte: #c6ccd2; --rail-filet: #23282e;
+  --bati: #7f9bff; --bati-clair: #3f5199; --traj: #ff7a5c; --saut: #f0a63a;
+  --agri: #8f8c57; --foret: #5f9c78; --inconnu: #4a5057;
+  --seq-0: #1c2545; --seq-1: #2f3f87; --seq-2: #4e66cf; --seq-3: #86a0ff; --seq-4: #c9d5ff;
+  --div-0: #e0a468; --div-1: #7c5024; --div-2: #34393f; --div-3: #3f5199; --div-4: #86a0ff;
+  --au-dessus: #ff8a75; --en-dessous: #5fd19c; --incertain: #e8b45a;
+  --z-habitat: #4a3324; --z-activite: #3b2f4d; --z-agricole: #33361d; --z-forestiere: #1d3527; --z-naturelle: #1b3634; --z-reserve: #45401c; --z-equipement: #452a35; --z-extraction: #3a322b; --z-autre: #262b31;
+  --neuf-bati: #ff4d88; --neuf-revet: #ffbe2e; --photo-bati: #ff2d6f; --photo-revet: #ffc400;
+  --poids: 400;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--papier); color: var(--encre); font: var(--poids) 1rem/1.7 var(--corps); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); background: var(--papier); z-index: 40; }
+a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+a:hover { color: var(--bati); }
+:focus-visible { outline: 2px solid var(--bati); outline-offset: 2px; }
+p { margin: 0; }
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+/* Trois niveaux seulement : le nom en capitales condensées, le libellé très espacé, le sous-titre en gras. */
+h1 { font: 600 clamp(2rem, 1.5rem + 2.3vw, 3.25rem)/1.15 var(--titre); text-transform: uppercase; letter-spacing: 0.015em; }
+h2 { font: 900 0.875rem/1.5 var(--corps); text-transform: uppercase; letter-spacing: 0.2em; padding-top: 0.75rem; border-top: 3px solid var(--encre); }
+h3 { font: 700 1.0625rem/1.4 var(--corps); }
+.invisible { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.evitement { position: absolute; left: -999px; top: 0; background: var(--papier); padding: 0.5rem 1rem; z-index: 60; font-weight: 700; }
+.evitement:focus { left: 1rem; top: 0.5rem; }
+
+/* ---------- Charpente ---------- */
+.cadre { display: grid; grid-template-columns: 4.75rem 15rem minmax(0, 1fr); min-height: 100vh; }
+.rail { position: sticky; top: 0; height: 100vh; background: var(--rail); color: var(--rail-texte); display: flex; flex-direction: column; align-items: stretch; padding-left: env(safe-area-inset-left, 0px); z-index: 30; }
+.rail-marque { display: grid; place-items: center; height: 4rem; color: #fff; font: 700 1.5rem/1 "Oswald", sans-serif; letter-spacing: 0.06em; text-decoration: none; border-bottom: 1px solid var(--rail-filet); }
+.rail-marque:hover { color: #fff; }
+.rail-lien { display: flex; flex-direction: column; align-items: center; gap: 0.3rem; padding: 0.9rem 0.1rem; text-decoration: none; font: 700 0.6875rem/1.1 var(--corps); border-left: 3px solid transparent; border-right: 3px solid transparent; }
+.rail-lien svg { width: 1.45rem; height: 1.45rem; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
+.rail-lien:hover { color: #fff; background: var(--rail-filet); }
+.rail-lien[aria-current="page"] { color: #fff; border-left-color: #fff; background: var(--rail-filet); }
+
+.index { position: sticky; top: 0; height: 100vh; overflow-y: auto; border-right: 1px solid var(--filet); padding: 0 0 2rem; font-size: 0.875rem; font-weight: 400; line-height: 1.35; }
+.index-titre { display: flex; align-items: center; height: 4rem; padding-inline: 1rem; font: 600 1.25rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.03em; border-bottom: 1px solid var(--filet); }
+.index-region { display: block; padding: 0.7rem 1rem; font-weight: 700; text-decoration: none; border-bottom: 1px solid var(--filet); }
+.index details { border-bottom: 1px solid var(--filet); }
+.index summary { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; padding: 0.7rem 1rem; font-weight: 700; cursor: pointer; list-style: none; }
+.index summary::-webkit-details-marker { display: none; }
+.index summary::after { content: ""; flex: none; width: 0.45rem; height: 0.45rem; border-right: 2px solid var(--encre-2); border-bottom: 2px solid var(--encre-2); transform: rotate(45deg) translate(-1px, -1px); }
+.index details[open] summary::after { transform: rotate(-135deg) translate(-1px, -1px); }
+.index summary:hover { background: var(--surface); }
+.index summary > span { flex: 1; }
+.index summary a { text-decoration: none; }
+.index summary a:hover { text-decoration: underline; }
+.index summary i { font-style: normal; font-size: 0.6875rem; }
+.index summary i { font-weight: 700; color: var(--encre-2); font-variant-numeric: tabular-nums; }
+.index ul { list-style: none; margin: 0 0 0.5rem; padding: 0; }
+.index li a { display: block; padding: 0.22rem 1rem 0.22rem 1.25rem; text-decoration: none; border-left: 3px solid transparent; }
+.index li a:hover { background: var(--surface); color: inherit; }
+.index li a[aria-current="page"], .index-region[aria-current="page"] { font-weight: 700; border-left-color: var(--bati); color: var(--bati); }
+.index .au-dessus { color: var(--au-dessus); } .index .en-dessous { color: var(--en-dessous); } .index .incertain, .index .proche { color: var(--incertain); }
+
+.colonne { display: flex; flex-direction: column; min-width: 0; }
+.entete { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; display: flex; align-items: center; gap: 1rem 1.5rem; min-height: 4rem; background: var(--papier); border-bottom: 1px solid var(--filet); padding-block: 0.6rem; padding-left: max(1.5rem, env(safe-area-inset-left, 0px)); padding-right: max(1.5rem, env(safe-area-inset-right, 0px)); }
+.fil-global { flex: 1 1 0; min-width: 0; font: 400 0.6875rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.22em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fil-global b { font-weight: 900; }
+.fil-global a { text-decoration: none; }
+.fil-global a:hover { text-decoration: underline; }
+.recherche { position: relative; flex: 0 1 24rem; min-width: 0; }
+.recherche > svg { position: absolute; left: 0.7rem; top: 50%; width: 1.05rem; height: 1.05rem; transform: translateY(-50%); fill: none; stroke: var(--encre-3); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
+.recherche input { width: 100%; font: 400 0.9375rem/1.3 var(--corps); color: inherit; background: var(--surface); border: 1px solid var(--filet); border-radius: 0; padding: 0.55rem 0.7rem 0.55rem 2.3rem; }
+.recherche input:focus { background: var(--papier); border-color: var(--encre); outline: none; }
+.mention { flex: none; font: 900 0.625rem/1.3 var(--corps); text-transform: uppercase; letter-spacing: 0.18em; color: var(--encre-3); }
+.bouton-theme { flex: none; display: inline-flex; align-items: center; gap: 0.4em; min-height: 2.25rem; padding: 0 0.7em; font: 900 0.625rem/1.3 var(--corps); text-transform: uppercase; letter-spacing: 0.14em; color: var(--encre-2); background: none; border: 1px solid var(--filet-fort); cursor: pointer; }
+.bouton-theme:hover { color: var(--encre); border-color: var(--encre); }
+.bouton-theme svg { width: 1.3em; height: 1.3em; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.ico-soleil { display: none; }
+:root[data-theme="dark"] .ico-soleil { display: block; }
+:root[data-theme="dark"] .ico-lune { display: none; }
+.resultats { position: absolute; inset: calc(100% + 2px) 0 auto 0; margin: 0; padding: 0; list-style: none; background: var(--papier); border: 1px solid var(--encre); max-height: 18rem; overflow-y: auto; z-index: 25; font-weight: 400; }
+.resultats li { padding: 0.45rem 0.7rem; cursor: pointer; display: flex; justify-content: space-between; gap: 1rem; line-height: 1.3; }
+.resultats li small { color: var(--encre-3); text-align: right; }
+.resultats li[aria-selected="true"], .resultats li:hover { background: var(--surface-2); }
+
+.vue { flex: 1; display: flex; flex-direction: column; gap: 3rem; padding-block: 2.25rem 4rem; padding-left: max(1.5rem, env(safe-area-inset-left, 0px)); padding-right: max(1.5rem, env(safe-area-inset-right, 0px)); min-width: 0; }
+.vue:focus { outline: none; }
+.chargement { color: var(--encre-2); }
+.pied { border-top: 1px solid var(--filet); font-size: 0.8125rem; font-weight: 400; color: var(--encre-2); display: flex; flex-direction: column; gap: 0.2rem; padding-block: 1.1rem; padding-left: max(1.5rem, env(safe-area-inset-left, 0px)); padding-right: max(1.5rem, env(safe-area-inset-right, 0px)); }
+
+/* Corps et marge de repères. Sur écran étroit, la marge se répartit : repères en tête, le reste à la fin. */
+.grille { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; grid-template-areas: "tete marge" "corps marge"; grid-template-rows: auto 1fr; gap: 1.75rem 2.75rem; }
+.g-tete { grid-area: tete; display: flex; flex-direction: column; gap: 0.85rem; min-width: 0; }
+.g-corps { grid-area: corps; display: flex; flex-direction: column; gap: 3rem; min-width: 0; }
+.g-marge { grid-area: marge; display: flex; flex-direction: column; gap: 2.25rem; min-width: 0; }
+.g-haut, .g-bas { display: flex; flex-direction: column; gap: 0.9rem; min-width: 0; }
+.section { display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+.chapeau { max-width: var(--lecture); font-size: 1.125rem; line-height: 1.65; }
+.fil { font: 900 0.6875rem/1.5 var(--corps); text-transform: uppercase; letter-spacing: 0.2em; color: var(--encre-2); }
+.fil a { text-decoration: none; }
+.fil a:hover { text-decoration: underline; }
+.note { font-size: 0.875rem; line-height: 1.6; font-weight: 400; color: var(--encre-2); max-width: var(--lecture); }
+.ouverture h1 { font-size: clamp(1.7rem, 1.3rem + 1.7vw, 2.6rem); line-height: 1.22; }
+
+/* Statut : un signe et un libellé, pas de pastille. */
+.statut { display: inline-flex; align-items: baseline; gap: 0.5em; width: fit-content; font: 900 0.75rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.14em; color: var(--encre); }
+.statut i { font-style: normal; font-size: 0.85em; }
+.statut.au-dessus i { color: var(--au-dessus); } .statut.en-dessous i { color: var(--en-dessous); } .statut.incertain i { color: var(--incertain); } .statut.neutre i { color: var(--encre-3); }
+td .statut { font-size: 0.6875rem; letter-spacing: 0.08em; white-space: nowrap; }
+.constat { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.3rem 0.9rem; margin: 0; }
+.constat-chiffre { font: 600 2.75rem/1 var(--titre); color: var(--encre); font-variant-numeric: tabular-nums; }
+.constat-texte { font-size: 1rem; font-weight: 700; color: var(--encre-2); }
+.situation { display: inline-flex; align-items: baseline; gap: 0.45em; font: 900 0.6875rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.12em; color: var(--encre); border: 1px solid var(--filet-fort); padding: 0.1em 0.55em; white-space: nowrap; }
+.situation i { font-style: normal; }
+.situation.au-dessus i { color: var(--au-dessus); } .situation.en-dessous i { color: var(--en-dessous); } .situation.proche i { color: var(--incertain); }
+td .situation { font-size: 0.625rem; letter-spacing: 0.08em; }
+
+/* Repères de la marge */
+.tuiles { margin: 0; display: flex; flex-direction: column; }
+.tuiles div { display: flex; flex-direction: column; padding-block: 0.7rem; border-bottom: 1px solid var(--filet); min-width: 0; }
+.tuiles div:first-child { padding-top: 0.2rem; }
+.tuiles dt { font: 900 0.6875rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.14em; color: var(--encre-2); }
+.tuiles dd { margin: 0; font: 600 2.1rem/1.25 var(--titre); letter-spacing: 0.01em; font-variant-numeric: tabular-nums; }
+.tuiles small { font-size: 0.75rem; line-height: 1.4; font-weight: 400; color: var(--encre-3); }
+
+/* Filtres et onglets */
+.filtres { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.75rem 1rem; }
+.filtre { display: flex; flex-direction: column; gap: 0.25rem; font: 700 0.75rem/1.3 var(--corps); min-width: 0; max-width: 100%; }
+.filtre select { font: 400 0.875rem/1.3 var(--corps); color: var(--encre); background: var(--papier); border: 1px solid var(--filet-fort); border-radius: 0; padding: 0.42rem 1.6rem 0.42rem 0.55rem; max-width: 100%; }
+.onglets { display: flex; flex-wrap: nowrap; gap: 0.1rem; overflow-x: auto; border-block: 1px solid var(--filet); scrollbar-width: thin; }
+.onglets button { flex: none; font: 400 0.9375rem/1.3 var(--corps); color: var(--encre-2); background: none; border: 0; padding: 0.7rem 0.7rem; cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -1px; }
+.onglets button:hover { color: var(--encre); }
+.onglets button[aria-pressed="true"] { color: var(--bati); font-weight: 900; border-bottom-color: var(--bati); }
+
+/* Carte */
+.carte-zone { display: grid; grid-template-columns: minmax(0, 1fr) 18rem; gap: 1.5rem 2.75rem; align-items: start; }
+.carte-cadre { position: relative; min-width: 0; padding: 0 0 1.9rem; }
+.carte-cadre svg { display: block; width: 100%; height: auto; }
+.carte-cadre path.commune { stroke: var(--papier); stroke-width: 0.5; cursor: pointer; transition: opacity 0.12s; }
+.carte-cadre path.commune.eteinte { opacity: 0.16; }
+.frontieres { fill: none; stroke: var(--encre); stroke-width: 1.15; opacity: 0.8; pointer-events: none; stroke-linejoin: round; }
+.survol { fill: none; stroke: var(--encre); stroke-width: 2.4; pointer-events: none; stroke-linejoin: round; }
+.reperes { position: absolute; inset: auto 0 0.3rem 0; height: 1.3rem; font: 400 0.6875rem/1 var(--corps); color: var(--encre-3); font-variant-numeric: tabular-nums; }
+.reperes span { position: absolute; bottom: 0; transform: translateX(-50%); white-space: nowrap; padding-top: 0.45rem; border-left: 1px solid var(--filet-fort); }
+.echelle { position: absolute; left: 0.4rem; bottom: 2.6rem; height: 0.45rem; border: 1px solid var(--encre-2); border-top: 0; font: 400 0.6875rem/1 var(--corps); color: var(--encre-2); }
+.echelle span { position: absolute; left: 0; bottom: 0.6rem; white-space: nowrap; }
+.legende { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; font-size: 0.8125rem; font-weight: 400; line-height: 1.5; color: var(--encre-2); margin: 0; padding: 0; list-style: none; }
+.legende li { display: flex; align-items: center; gap: 0.45rem; min-width: 0; }
+.legende i { flex: none; display: inline-block; width: 0.75rem; height: 0.75rem; }
+.legende i.trait { height: 0; width: 1.25rem; border-top: 2px solid; }
+.legende i.hachure { background: repeating-linear-gradient(135deg, var(--bati) 0 2px, transparent 2px 4px); outline: 1px solid var(--bati); outline-offset: -1px; }
+.encart { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; border-top: 3px solid var(--encre); padding-top: 0.6rem; }
+.encart h3 { font: 600 1.5rem/1.2 var(--titre); text-transform: uppercase; letter-spacing: 0.02em; }
+.encart dl { margin: 0; display: grid; grid-template-columns: 1fr auto; gap: 0.1rem 0.75rem; font-size: 0.875rem; font-weight: 400; line-height: 1.6; }
+.encart dt { color: var(--encre-2); }
+.encart dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; font-weight: 700; }
+.lien-fort { font-weight: 900; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.14em; }
+
+/* Tableaux denses */
+.defile { overflow-x: auto; max-width: 100%; }
+table { border-collapse: collapse; width: 100%; font-size: 0.875rem; font-weight: 400; line-height: 1.4; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 0.42rem 0.6rem; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; white-space: normal; min-width: 8.5rem; }
+thead th { font: 900 0.6875rem/1.35 var(--corps); text-transform: uppercase; letter-spacing: 0.08em; color: var(--encre); vertical-align: bottom; border-bottom: 2px solid var(--encre); }
+thead tr.groupes th { border-bottom: 1px solid var(--filet-fort); text-align: center; letter-spacing: 0.1em; color: var(--encre-2); }
+thead tr.groupes th:empty { border-bottom: 0; }
+tbody tr:nth-child(odd) { background: var(--surface); }
+tbody tr:hover { background: var(--surface-2); }
+tbody th { font-weight: 700; }
+tbody th a { text-decoration: none; }
+tbody th a:hover { text-decoration: underline; }
+td.texte, th.texte { text-align: left; }
+th button { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+th button:hover { color: var(--bati); }
+th[aria-sort="ascending"] button::after { content: " ↑"; }
+th[aria-sort="descending"] button::after { content: " ↓"; }
+.detail { display: block; font-weight: 400; font-size: 0.8125rem; color: var(--encre-3); white-space: normal; }
+.marque-signal { color: var(--saut); font-weight: 900; }
+.compte { font-size: 0.8125rem; font-weight: 400; color: var(--encre-2); }
+details.chiffres { font-size: 0.875rem; font-weight: 400; }
+details.chiffres summary { cursor: pointer; font-weight: 700; width: fit-content; margin-bottom: 0.4rem; }
+
+/* Petits tirets : cinq segments par ligne, comme une échelle qu'on lit d'un coup d'œil. */
+.tirets { display: inline-flex; gap: 2px; vertical-align: middle; margin-right: 0.6rem; }
+.tirets b { display: block; width: 0.8rem; height: 0.25rem; background: var(--surface-2); }
+tbody tr:nth-child(odd) .tirets b { background: var(--filet); }
+.tirets b.plein, tbody tr:nth-child(odd) .tirets b.plein { background: var(--bati); }
+.valeur { display: inline-block; min-width: 3.4em; }
+.jauge { position: relative; height: 0.5rem; min-width: 8rem; background: var(--surface-2); }
+tbody tr:nth-child(odd) .jauge { background: var(--filet); }
+.jauge-barre { position: absolute; inset: 0 auto 0 0; background: var(--bati); }
+.jauge-limite { position: absolute; top: -0.25rem; bottom: -0.25rem; width: 2px; background: var(--traj); }
+
+/* Graphiques */
+.graphique { position: relative; min-width: 0; }
+.graphique svg { display: block; overflow: visible; }
+.graphique text { font: 400 0.6875rem var(--corps); fill: var(--encre-3); font-variant-numeric: tabular-nums; }
+.graphique text.etiquette { fill: var(--encre); font-size: 0.75rem; font-weight: 700; }
+.graphique .grille-trait { stroke: var(--filet); stroke-width: 1; }
+.graphique .base { stroke: var(--encre); stroke-width: 1; }
+.graphique .barre { fill: var(--bati); }
+.graphique .barre.saut { fill: var(--saut); }
+.graphique .ligne { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.graphique .curseur { stroke: var(--encre-3); stroke-width: 1; }
+.graphique .corrige { stroke: var(--encre); stroke-width: 2.5; }
+.ligne.traj { stroke: var(--traj); stroke-width: 2.5; }
+.ligne.ref { stroke: var(--traj); stroke-dasharray: 2 4; }
+.ligne.passe { stroke: var(--encre-2); stroke-dasharray: 6 4; }
+.ligne.recent { stroke: var(--encre); }
+.ligne.sans-saut { stroke: var(--saut); stroke-dasharray: 2 4; }
+.ligne.iweps { stroke: var(--bati); }
+.ligne.estim { stroke: var(--encre); stroke-dasharray: 5 4; }
+.bulle { position: absolute; top: 0; pointer-events: none; background: var(--papier); border: 1px solid var(--encre); padding: 0.35rem 0.55rem; font-size: 0.8125rem; font-weight: 400; line-height: 1.35; z-index: 5; max-width: 15rem; }
+.bulle strong { display: block; font-weight: 900; }
+.bulle span { display: block; color: var(--encre-2); font-variant-numeric: tabular-nums; }
+
+/* Fiche */
+.retenir { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 0.7rem; max-width: var(--lecture); font-size: 1.0625rem; line-height: 1.6; }
+.retenir li { padding-left: 1.1rem; position: relative; }
+.retenir li::before { content: ""; position: absolute; left: 0; top: 0.72em; width: 0.5rem; height: 3px; background: var(--encre); }
+.retenir li.alerte::before { background: var(--saut); }
+.empile { display: flex; height: 1.25rem; gap: 2px; }
+.empile span { display: block; min-width: 2px; }
+
+/* Méthode */
+.prose { max-width: var(--lecture); display: flex; flex-direction: column; gap: 0.95rem; min-width: 0; }
+.prose h2 { margin-top: 2.25rem; }
+.prose h3 { margin-top: 0.9rem; }
+.prose ul, .prose ol { margin: 0; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.45rem; }
+.prose strong { font-weight: 700; }
+.calcul { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.7rem 0.9rem; background: var(--surface); border-left: 3px solid var(--encre); font-size: 0.9375rem; font-weight: 400; font-variant-numeric: tabular-nums; }
+.calcul b { font-weight: 900; }
+.choix { display: flex; flex-direction: column; gap: 0.3rem; }
+.sommaire { list-style: none; margin: 0; padding: 0; font-size: 0.875rem; font-weight: 400; line-height: 1.4; display: flex; flex-direction: column; }
+.sommaire button { display: block; width: 100%; text-align: left; font: inherit; color: inherit; background: none; border: 0; border-bottom: 1px solid var(--filet); padding: 0.45rem 0; cursor: pointer; }
+.sommaire button:hover { color: var(--bati); }
+.g-marge.colle { align-self: start; position: sticky; top: 5.5rem; }
+
+/* Sans index, puis sans marge, puis sans rail : la lecture reste une colonne propre. */
+@media (max-width: 86rem) {
+  .cadre { grid-template-columns: 4.75rem minmax(0, 1fr); }
+  .index { display: none; }
+}
+@media (max-width: 68rem) {
+  .grille { display: flex; flex-direction: column; }
+  .g-marge { display: contents; }
+  .g-tete { order: 1; } .g-haut { order: 2; } .g-corps { order: 3; } .g-bas { order: 4; }
+  .tuiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0 1.25rem; }
+  .tuiles div:first-child { padding-top: 0.7rem; }
+  .carte-zone { grid-template-columns: minmax(0, 1fr); }
+  .g-marge.colle { position: static; }
+  .sommaire { display: none; }
+  .mention { display: none; }
+}
+@media (max-width: 47.5rem) {
+  .cadre { display: block; padding-bottom: calc(3.75rem + env(safe-area-inset-bottom, 0px)); }
+  .rail { position: fixed; inset: auto 0 0 0; top: auto; height: auto; flex-direction: row; padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(0px, env(safe-area-inset-left, 0px)); padding-right: max(0px, env(safe-area-inset-right, 0px)); border-top: 1px solid var(--rail-filet); }
+  .rail-marque { display: none; }
+  .rail-lien { flex: 1 1 0; padding: 0.55rem 0.1rem; min-height: 3.75rem; justify-content: center; border: 0; border-top: 3px solid transparent; }
+  .rail-lien[aria-current="page"] { border-top-color: #fff; }
+  .entete { position: static; flex-wrap: wrap; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .fil-global { flex: 1 1 0; }
+  .recherche { flex: 1 1 100%; order: 1; }
+  .vue, .pied { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .vue { padding-block: 1.5rem 2.5rem; gap: 2.25rem; }
+  .chapeau { font-size: 1.0625rem; }
+  .reperes span:nth-child(even) { display: none; }
+  .tirets { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* ---------- Étalement observé (WalOUS) ---------- */
+.etal-barres { display: grid; grid-template-columns: minmax(7rem, auto) minmax(0, 1fr) auto; gap: 0.35rem 0.75rem; align-items: center; font-size: 0.875rem; font-weight: 400; margin: 0; }
+.etal-barres dt { color: var(--encre-2); }
+.etal-barres dd { margin: 0; min-width: 0; }
+.etal-barres .piste { position: relative; height: 0.9rem; background: var(--surface); }
+.etal-barres .piste span { position: absolute; inset: 0 auto 0 0; background: var(--neuf-bati); }
+.etal-barres .piste b { position: absolute; top: -0.2rem; bottom: -0.2rem; width: 2px; background: var(--encre); }
+.etal-barres .val { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.etal-carte { position: relative; min-width: 0; border: 1px solid var(--filet); background: var(--papier); overflow: hidden; touch-action: none; }
+.etal-carte svg { display: block; width: 100%; height: auto; cursor: grab; user-select: none; }
+.etal-carte svg.saisie { cursor: grabbing; }
+.etal-carte path { vector-effect: non-scaling-stroke; }
+.etal-contour { fill: none; stroke: var(--encre); stroke-width: 1.5; pointer-events: none; }
+.etal-zone { stroke: none; pointer-events: none; }
+.etal-centr { fill: none; stroke: var(--encre-2); stroke-width: 1.2; stroke-dasharray: 5 3; pointer-events: none; }
+.etal-parcelle { fill: none; stroke: var(--encre-3); stroke-width: 0.6; pointer-events: none; }
+.etal-tache { fill: var(--neuf-revet); stroke: var(--neuf-revet); stroke-width: 1; cursor: pointer; }
+.etal-tache.construction { fill: var(--neuf-bati); stroke: var(--neuf-bati); }
+.etal-choisie { fill: none; stroke: var(--encre); stroke-width: 2.5; pointer-events: none; }
+.etal-outils { position: absolute; top: 0.5rem; right: 0.5rem; display: flex; flex-direction: column; gap: 2px; }
+.etal-outils button { width: 2.25rem; height: 2.25rem; border: 1px solid var(--filet-fort); background: var(--papier); color: var(--encre); font: 700 1.125rem/1 var(--corps); cursor: pointer; }
+.etal-outils button:hover { background: var(--surface); }
+.etal-couches { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; font-size: 0.875rem; font-weight: 400; }
+.etal-couches label { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; }
+.etal-zone-carte { display: grid; grid-template-columns: minmax(0, 1fr) 16rem; gap: 1.25rem; align-items: start; }
+@media (max-width: 68rem) { .etal-zone-carte { grid-template-columns: minmax(0, 1fr); } }
+.etal-carte .etal-echelle { position: absolute; left: 0.6rem; bottom: 0.6rem; }
+
+/* Étalement : curseur annuel, fond photo, couleurs vives */
+.etal-commandes { display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.5rem; }
+.etal-segment { display: inline-flex; border: 1px solid var(--filet-fort); }
+.etal-segment button { font: 700 0.8125rem/1.2 var(--corps); color: var(--encre-2); background: var(--papier); border: 0; padding: 0.55rem 0.8rem; cursor: pointer; min-height: 2.5rem; }
+.etal-segment button + button { border-left: 1px solid var(--filet-fort); }
+.etal-segment button[aria-pressed="true"] { background: var(--encre); color: var(--papier); }
+.etal-curseur { display: flex; align-items: center; gap: 0.75rem; flex: 1 1 20rem; min-width: 0; }
+.etal-lecture { flex: none; width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%; background: var(--neuf-bati); color: #fff; font: 700 0.875rem/1 var(--corps); cursor: pointer; }
+.etal-lecture:focus-visible, .etal-segment button:focus-visible { outline: 2px solid var(--encre); outline-offset: 2px; }
+.etal-piste { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.1rem; }
+.etal-piste input { width: 100%; margin: 0; accent-color: var(--neuf-bati); height: 1.5rem; cursor: pointer; }
+.etal-reperes { display: flex; justify-content: space-between; font: 400 0.6875rem/1 var(--corps); color: var(--encre-3); font-variant-numeric: tabular-nums; padding-inline: 0.2rem; }
+.etal-curseur-annee { flex: none; font: 600 1.75rem/1 var(--titre); font-variant-numeric: tabular-nums; color: var(--encre); min-width: 3.2ch; }
+.etal-annee { position: absolute; left: 0.6rem; top: 0.4rem; font: 700 2.25rem/1 var(--titre); font-variant-numeric: tabular-nums; color: var(--encre); opacity: 0.85; pointer-events: none; }
+.etal-credit { position: absolute; right: 0; bottom: 0; padding: 0.15rem 0.45rem; font: 400 0.6875rem/1.3 var(--corps); color: #fff; background: rgba(0, 0, 0, 0.55); pointer-events: none; }
+.etal-carte.sur-photo { background: #22262a; }
+.sur-photo .etal-annee { color: #fff; text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); }
+.sur-photo .etal-echelle { border-color: #fff; color: #fff; text-shadow: 0 1px 2px #000; }
+.sur-photo .etal-contour { stroke: #fff; stroke-width: 2; }
+.sur-photo .etal-centr { stroke: #fff; opacity: 0.85; }
+.sur-photo .etal-parcelle { stroke: #fff; opacity: 0.7; }
+.sur-photo .etal-tache { fill: var(--photo-revet); stroke: #fff; stroke-width: 0.8; fill-opacity: 0.85; }
+.sur-photo .etal-tache.construction { fill: var(--photo-bati); }
+.etal-tache.a-venir, .sur-photo .etal-tache.a-venir { fill: transparent; stroke: var(--encre-2); stroke-width: 1; stroke-dasharray: 3 2; }
+.sur-photo .etal-tache.a-venir { stroke: #fff; opacity: 0.75; }
+.sur-photo .etal-choisie { stroke: #fff; stroke-width: 3; }
+.etal-vues image, .etal-carte image { image-rendering: auto; }
+.etal-bouton { align-self: start; font: 700 0.8125rem/1.2 var(--corps); color: var(--encre); background: none; border: 1px solid var(--encre); padding: 0.5rem 0.8rem; cursor: pointer; }
+.etal-bouton:hover { background: var(--surface); }
+.etal-legende-zones summary { cursor: pointer; font-size: 0.8125rem; color: var(--encre-2); }
+.etal-legende-zones[open] summary { margin-bottom: 0.4rem; }
+.etal-periodes .piste span.abords { background: var(--neuf-revet); }
+@media (max-width: 40rem) { .etal-annee { font-size: 1.5rem; } .etal-curseur-annee { font-size: 1.375rem; } }
+.sur-photo .etal-zone { opacity: 0.5; }
+/* Vue d'ensemble : on épaissit le contour des taches pour qu'elles restent visibles à l'échelle de la commune */
+.etal-carte svg.loin .etal-tache { stroke-width: 3.5; stroke: var(--neuf-revet); }
+.etal-carte svg.loin .etal-tache.construction { stroke: var(--neuf-bati); stroke-width: 2.2; }
+.sur-photo svg.loin .etal-tache { stroke: var(--photo-revet); }
+.sur-photo svg.loin .etal-tache.construction { stroke: var(--photo-bati); }
+.etal-carte svg.loin .etal-tache.a-venir { stroke-width: 1; stroke-dasharray: none; opacity: 0.45; }
+@media (max-width: 40rem) { .etal-reperes span:nth-child(even) { visibility: hidden; } }
