@@ -79,16 +79,16 @@ function marqueSignal(cle, court) {
 /* Le bilan d'un bassin ne compte que les années définitives : la dernière année est provisoire (voir la Méthode). */
 const anneesBilan = () => [etat.meta.trajectoire_debut, etat.meta.derniere_annee_flux - 1];
 const prochePct = () => etat.meta.ecart_proche_pct;
-/* Écart au cumul autorisé, en mots : « 10 % de plus », « 16 % de moins », ou « proche ». */
+/* Écart au cumul de la trajectoire, en mots : « 10 % de plus », « 16 % de moins », ou « proche ». */
 function ecartBilan(b) {
   const e = Math.abs(Math.round(b.ratio * 100) - 100);  // depuis le pourcentage affiché, pour que les deux s'additionnent
-  if (b.statut === "au-dessus") return tr`C'est ${nombre(e)} % de plus que ce qui était autorisé.`;
-  if (b.statut === "en-dessous") return tr`C'est ${nombre(e)} % de moins que ce qui était autorisé.`;
-  return tr`À moins de ${prochePct()} % près, c'est ce qui était autorisé.`;
+  if (b.statut === "au-dessus") return tr`C'est ${nombre(e)} % de plus que la trajectoire.`;
+  if (b.statut === "en-dessous") return tr`C'est ${nombre(e)} % de moins que la trajectoire.`;
+  return tr`À moins de ${prochePct()} % près, c'est le niveau de la trajectoire.`;
 }
 const constatBassin = (b) => h("p", { class: "constat" },
   h("span", { class: "constat-chiffre" }, tr`${nombre(b.ratio * 100)} %`),
-  h("span", { class: "constat-texte" }, tr("de ce que la trajectoire autorisait")), marqueSituation(b));
+  h("span", { class: "constat-texte" }, tr("du cumul prévu par la trajectoire")), marqueSituation(b));
 /* Thème : clair par défaut, quel que soit le réglage du système. Le choix du visiteur est retenu quand le navigateur le permet. */
 function afficherTheme() {
   const bouton = document.getElementById("bouton-theme");
@@ -296,7 +296,7 @@ function graphiqueTrajectoire(parent, b, hauteur) {
     aria: tr`Terres artificialisées chaque année dans ${nomZone(b)}, comparées à la trajectoire du SDT qui descend de ${nombre(b.reference)} hectares par an à zéro en ${fin}.`,
     bulle: (a) => [h("strong", null, String(a)),
       val(a) !== null ? h("span", null, tr`Observé : ${ha(val(a))} ha${a === der ? tr(" (provisoire)") : ""}`) : null,
-      a >= debut ? h("span", null, tr`Autorisé : ${ha(trajectoire(b.reference, a))} ha`) : h("span", null, tr`Référence : ${ha(b.reference)} ha/an`)].filter(Boolean),
+      a >= debut ? h("span", null, tr`Trajectoire : ${ha(trajectoire(b.reference, a))} ha`) : h("span", null, tr`Référence : ${ha(b.reference)} ha/an`)].filter(Boolean),
   });
 }
 function legendeTrajectoire(der) {
@@ -308,13 +308,13 @@ function tableBassins(complet) {
   const [a0, a1] = anneesBilan();
   const liste = (complet ? [etat.wallonie] : []).concat(etat.bassins);
   const max = Math.max(1.6, ...etat.bassins.map((b) => b.ratio * 1.05));
-  const entetes = [tr("Bassin"), tr`Cumul ${a0}-${a1} / autorisé`, tr("Part"), tr("Situation")]
-    .concat(complet ? [tr("Observé (ha)"), tr("Autorisé (ha)")] : []);
+  const entetes = [tr("Bassin"), tr`Cumul ${a0}-${a1} / trajectoire`, tr("Part"), tr("Situation")]
+    .concat(complet ? [tr("Observé (ha)"), tr("Trajectoire (ha)")] : []);
   return h("div", { class: "defile" }, h("table", null,
     h("thead", null, h("tr", null, entetes.map((t, i) => h("th", { scope: "col", class: i === 1 || i === 3 ? "texte" : null }, t)))),
     h("tbody", null, liste.map((b) => h("tr", { "data-bassin": b.cle },
       h("th", { scope: "row" }, b.cle === "wallonie" ? nomZone(b) : h("a", { href: `#bassin-${b.cle}` }, b.nom)),
-      h("td", { class: "texte" }, h("div", { class: "jauge", role: "img", "aria-label": tr`${nombre(b.ratio * 100)} % du cumul autorisé` },
+      h("td", { class: "texte" }, h("div", { class: "jauge", role: "img", "aria-label": tr`${nombre(b.ratio * 100)} % du cumul de la trajectoire` },
         h("div", { class: "jauge-barre", style: `width:${Math.max(b.ratio, 0) / max * 100}%` }),
         h("div", { class: "jauge-limite", style: `left:${100 / max}%` }))),
       h("td", null, tr`${nombre(b.ratio * 100)} %`),
@@ -451,18 +451,18 @@ function pageAccueil() {
   return [grille({
     classe: "ouverture",
     tete: [h("p", { class: "fil" }, tr`Bilan ${anneesBilan()[0]}-${anneesBilan()[1]}`),
-      h("h1", null, tr`De ${anneesBilan()[0]} à ${anneesBilan()[1]}, la Wallonie a artificialisé ${nombre(w.cumul_observe_confirme)} ha. Sa trajectoire en autorisait ${nombre(w.cumul_autorise_confirme)}.`),
+      h("h1", null, tr`De ${anneesBilan()[0]} à ${anneesBilan()[1]}, la Wallonie a artificialisé ${nombre(w.cumul_observe_confirme)} ha. Sa trajectoire en prévoyait ${nombre(w.cumul_autorise_confirme)}.`),
       constatBassin(w), h("p", { class: "chapeau" }, ecartBilan(w), " ", tr`${der} n'est pas compté : ses chiffres sont encore provisoires.`, " ", h("a", { href: "#methode" }, tr("Pourquoi")), ".")],
     corps: graph,
     haut: h("dl", { class: "tuiles" },
-      tuile(tr`Artificialisés en ${der}`, `${nombre(fluxDer)} ha`, tr`Provisoire. Plafond : ${nombre(w.plafond_derniere_annee)} ha.`),
+      tuile(tr`Artificialisés en ${der}`, `${nombre(fluxDer)} ha`, tr`Provisoire. Trajectoire : ${nombre(w.plafond_derniere_annee)} ha.`),
       tuile(tr("Par jour"), `${nombre(fluxDer / 365, 1)} ha`, tr`En ${der}, solde net.`),
       tuile(tr("Du territoire artificialisé"), tr`${nombre(m.region.part, 1)} %`, tr`Au 1er janvier ${m.stats.annee_stock}.`)),
   }),
   sectionCarte(),
   h("section", { class: "section", "aria-labelledby": "titre-bassins" },
     h("h2", { id: "titre-bassins" }, tr("Le SDT fixe la trajectoire par bassin")),
-    h("p", { class: "note" }, tr`La barre montre le cumul ${anneesBilan()[0]}-${anneesBilan()[1]} par rapport à ce qui était autorisé, repéré par le trait de couleur. Au-delà du trait, le bassin a dépassé sa trajectoire. `, h("a", { href: "#bassins" }, tr("Le détail par bassin")), "."),
+    h("p", { class: "note" }, tr`La barre montre le cumul ${anneesBilan()[0]}-${anneesBilan()[1]} par rapport à la trajectoire, repérée par le trait de couleur. Au-delà du trait, le bassin est au-dessus de sa trajectoire. `, h("a", { href: "#bassins" }, tr("Le détail par bassin")), "."),
     tableBassins(false))];
 }
 
@@ -476,7 +476,7 @@ function pageBassins() {
     h("h1", null, tr("Les sept bassins face à leur trajectoire")),
     h("p", { class: "chapeau" }, tr`Le SDT 2024 fixe pour chaque bassin une baisse régulière, de la moyenne des dix ans de référence jusqu'à zéro en ${m.trajectoire_fin}. Le cumul ${anneesBilan()[0]}-${anneesBilan()[1]} permet de voir où chacun en est.`),
     tableBassins(true),
-    h("p", { class: "note" }, tr`Le cumul ne compte que les années définitives : ${der}, encore provisoire, est visible sur le graphique mais pas compté. « Proche » signifie à moins de ${prochePct()} % de ce que la trajectoire autorisait. `, h("a", { href: "#methode" }, tr("Pourquoi ces choix")), ".")),
+    h("p", { class: "note" }, tr`Le cumul ne compte que les années définitives : ${der}, encore provisoire, est visible sur le graphique mais pas compté. « Proche » signifie à moins de ${prochePct()} % du cumul prévu par la trajectoire. `, h("a", { href: "#methode" }, tr("Pourquoi ces choix")), ".")),
     graph];
 }
 
@@ -493,13 +493,13 @@ function pageBassin(cle) {
   graph.append(...notes);
   return [grille({
     tete: [h("p", { class: "fil" }, tr`${b.communes.length} communes`), h("h1", null, tr`Bassin ${b.nom}`), constatBassin(b),
-      h("p", { class: "chapeau" }, tr`De ${anneesBilan()[0]} à ${anneesBilan()[1]}, le bassin a artificialisé ${nombre(b.cumul_observe_confirme)} ha. Sa trajectoire en autorisait ${nombre(b.cumul_autorise_confirme)}.`, " ", ecartBilan(b))],
+      h("p", { class: "chapeau" }, tr`De ${anneesBilan()[0]} à ${anneesBilan()[1]}, le bassin a artificialisé ${nombre(b.cumul_observe_confirme)} ha. Sa trajectoire en prévoyait ${nombre(b.cumul_autorise_confirme)}.`, " ", ecartBilan(b))],
     corps: graph,
     haut: h("dl", { class: "tuiles" },
       tuile(tr("Observé"), `${nombre(b.cumul_observe_confirme)} ha`, tr`Cumul ${anneesBilan()[0]}-${anneesBilan()[1]}.`),
-      tuile(tr("Autorisé"), `${nombre(b.cumul_autorise_confirme)} ha`, tr`Cumul ${anneesBilan()[0]}-${anneesBilan()[1]}.`),
+      tuile(tr("Trajectoire"), `${nombre(b.cumul_autorise_confirme)} ha`, tr`Cumul ${anneesBilan()[0]}-${anneesBilan()[1]}.`),
       tuile(tr("Référence"), tr`${ha(b.reference)} ha/an`, tr`Lue sur le graphique du SDT, à ${nombre(b.incertitude, 1)} ha/an près.`),
-      tuile(tr`En ${der}`, `${ha(b.flux.at(-1))} ha`, tr`Provisoire, non compté. Plafond : ${ha(b.plafond_derniere_annee)} ha.`)),
+      tuile(tr`En ${der}`, `${ha(b.flux.at(-1))} ha`, tr`Provisoire, non compté. Trajectoire : ${ha(b.plafond_derniere_annee)} ha.`)),
   }), sectionCommunesBassin(b)];
 }
 
@@ -1115,15 +1115,16 @@ function pageMethode() {
     h("p", null, tr("Deux rythmes sont dits « comparables » si leur écart reste sous 0,5 ha/an ou sous 15 %. La fiche ne conclut que si les deux lignes du tableau disent la même chose. Sinon, elle indique que le rythme est difficile à juger.")),
 
     h("h3", null, tr`6. Seul le bassin ${b.nom} est comparé à la trajectoire`),
-    h("p", null, tr`Le SDT donne pour chaque bassin une référence R, puis une baisse en ligne droite jusqu'à zéro en ${m.trajectoire_fin}. Le plafond d'une année N vaut R × (${m.trajectoire_fin} − N) ÷ ${m.trajectoire_fin - annee0}. Pour ce bassin, R vaut ${ha(b.reference)} ha/an.`),
-    h("div", { class: "defile" }, tableSimple([tr("Année"), tr("Plafond (ha)"), tr("Observé (ha)")], [
+    h("p", null, tr`Le SDT donne pour chaque bassin une référence R, puis une baisse en ligne droite jusqu'à zéro en ${m.trajectoire_fin}. La trajectoire d'une année N vaut R × (${m.trajectoire_fin} − N) ÷ ${m.trajectoire_fin - annee0}. Pour ce bassin, R vaut ${ha(b.reference)} ha/an.`),
+    h("div", { class: "defile" }, tableSimple([tr("Année"), tr("Trajectoire (ha)"), tr("Observé (ha)")], [
       ...anneesTraj.map((a) => [String(a) + (a === der ? tr(" (provisoire, non compté)") : ""), nombre(trajectoire(b.reference, a), 1), nombre(b.flux[m.annees_flux.indexOf(a)], 1)]),
       [tr`Cumul ${a0}-${a1}`, nombre(b.cumul_autorise_confirme, 1), nombre(b.cumul_observe_confirme, 1)]])),
-    h("div", { class: "calcul" }, h("span", null, tr`Part du cumul autorisé : ${nombre(b.cumul_observe_confirme, 1)} ÷ ${nombre(b.cumul_autorise_confirme, 1)} = `, h("b", null, tr`${nombre(b.ratio * 100)} %`))),
+    h("div", { class: "calcul" }, h("span", null, tr`Part du cumul de la trajectoire : ${nombre(b.cumul_observe_confirme, 1)} ÷ ${nombre(b.cumul_autorise_confirme, 1)} = `, h("b", null, tr`${nombre(b.ratio * 100)} %`))),
     h("p", null, tr`Le bassin ${b.nom} est donc ${SITUATIONS[b.statut][2]}. ${ecartBilan(b)}`),
 
     titre2(tr`Le bilan des bassins : ${a0}-${a1}`),
-    h("p", null, tr`Comparer un bassin à sa trajectoire revient à une division : les hectares artificialisés depuis ${a0}, divisés par ceux que la trajectoire autorisait sur la même période. À 100 %, le bassin est exactement sur la trajectoire. Le portail ne donne qu'un chiffre par bassin. Voici les trois choix qui le fixent.`),
+    h("p", null, tr`Selon le Code du développement territorial, le SDT a valeur indicative. Son cap est d'arriver à zéro hectare artificialisé par an en ${m.trajectoire_fin}. La ligne droite tracée pour chaque bassin sert de repère pour suivre le chemin : ce n'est pas un quota annuel. Un bassin peut passer au-dessus quelques années, puis ralentir plus fort ensuite. Le portail mesure l'écart à ce repère, sans dire si c'est bien ou mal.`),
+    h("p", null, tr`Comparer un bassin à sa trajectoire revient à une division : les hectares artificialisés depuis ${a0}, divisés par ceux que la trajectoire prévoyait sur la même période. À 100 %, le bassin est exactement sur la trajectoire. Le portail ne donne qu'un chiffre par bassin. Voici les trois choix qui le fixent.`),
     h("h3", null, tr`Pourquoi s'arrêter à ${a1}`),
     h("p", null, tr`L'IWEPS indique que la dernière année d'une matrice cadastrale est incomplète : une partie des changements de ${der} ne sera inscrite au cadastre que plus tard. Compter ${der} mélangerait des années définitives et une année partielle. Nous la montrons sur les graphiques, hachurée, mais elle n'entre pas dans le bilan.`),
     h("p", null, tr`Pour la Wallonie, la compter donnerait ${nombre(w.ratios.avec_provisoire * 100)} % au lieu de ${nombre(w.ratio * 100)} %.`,
@@ -1192,7 +1193,8 @@ function pageMethode() {
       h("li", null, tr("Il ne mesure pas l'imperméabilisation. Les photos aériennes ne servent que pour les communes pilotes, et rien ne remplace une visite de terrain.")),
       h("li", null, tr("Il ne mesure pas l'effet du SDT : un permis met plusieurs années à apparaître au cadastre.")),
       h("li", null, tr("Certaines années communales restent éloignées de l'IWEPS, par exemple Seraing en 2015.")),
-      h("li", null, tr("Il ne dit pas qu'une commune a enfreint une règle."))),
+      h("li", null, tr("Il ne dit pas qu'une commune a enfreint une règle.")),
+      h("li", null, tr("Il ne dit pas qu'un bassin est en faute quand il est au-dessus de sa trajectoire : c'est un repère, pas un plafond."))),
 
     titre2("Sources"),
     h("ul", null,
