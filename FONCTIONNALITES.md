@@ -24,9 +24,9 @@ Un tour rapide de ce qu'on trouve sur [Sols wallons](https://francoisleduc.githu
   - l'évolution de la part artificialisée depuis 2002 (série de l'IWEPS, prolongée par l'estimation du portail) et les hectares artificialisés chaque année depuis 2011 ;
   - une comparaison avec les communes voisines.
 
-## L'étalement vu du ciel (trois communes pilotes)
+## L'étalement vu du ciel
 
-Pour Gembloux, Herve et Marche-en-Famenne :
+Dans la fiche de chaque commune :
 
 - **Une carte des bâtiments et revêtements apparus entre 2018 et 2023,** repérés sur les photos aériennes.
 - **Un curseur de 2018 à 2026,** avec un bouton lecture, pour voir les chantiers apparaître année après année.

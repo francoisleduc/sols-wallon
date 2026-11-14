@@ -741,6 +741,35 @@ const VOLS = {
 };
 const TUILE_PX = 512, RESOLUTIONS = [0.25, 0.5, 1, 2, 4, 8, 16, 32, 64];
 const urlOrtho = (service, fmt, x0, y0, m, px = TUILE_PX) => `${ORTHO.replace("{}", service)}?bbox=${x0},${y0},${x0 + m},${y0 + m}&bboxSR=31370&imageSR=31370&size=${px},${px}&format=${fmt}${fmt === "png32" ? "&transparent=true" : ""}&f=image`;
+/* Mémoire des photos : chaque tuile téléchargée est gardée (URL blob), pour revenir sur une année sans la recharger.
+   Le serveur du SPW interdit au navigateur de garder ses images (max-age=0), d'où cette mémoire à nous. Quand la vue
+   est rapprochée et immobile, on précharge les autres années, deux requêtes à la fois, pour ne pas charger le SPW. */
+const MEMOIRE_MAX = 600, PRECHARGE_TUILES_MAX = 6, PRECHARGE_PARALLELE = 2;
+const memoirePhotos = new Map();   // adresse -> promesse de l'URL blob (null si la lecture a échoué)
+const photo = (url) => {
+  if (memoirePhotos.has(url)) { const p = memoirePhotos.get(url); memoirePhotos.delete(url); memoirePhotos.set(url, p); return p; }
+  const p = fetch(url, { credentials: "omit" })
+    .then((r) => (r.ok && (r.headers.get("content-type") || "").startsWith("image/") ? r.blob() : null))
+    .then((b) => (b ? URL.createObjectURL(b) : null), () => null);
+  p.then((src) => { if (!src) memoirePhotos.delete(url); });   // un échec n'est pas gardé : on réessaiera
+  memoirePhotos.set(url, p);
+  for (const [u, vieille] of memoirePhotos) {   // les plus anciennes sortent en premier
+    if (memoirePhotos.size <= MEMOIRE_MAX) break;
+    memoirePhotos.delete(u); vieille.then((src) => src && URL.revokeObjectURL(src));
+  }
+  return p;
+};
+let filePrecharge = [], prechargesEnCours = 0;
+const pomper = () => {
+  while (prechargesEnCours < PRECHARGE_PARALLELE && filePrecharge.length) {
+    const url = filePrecharge.shift();
+    if (memoirePhotos.has(url)) continue;
+    prechargesEnCours++;
+    photo(url).finally(() => { prechargesEnCours--; pomper(); });
+  }
+};
+const precharger = (urls) => { filePrecharge = urls; pomper(); };   // remplace la file : la vue a changé
+
 /* Le site peut-il afficher les images du SPW ? Non dans un artifact (sa politique de sécurité bloque les images
    d'autres sites) : la carte se rabat alors sur les photos publiées avec le portail, ou sur le plan de secteur. */
 let sondeOrtho = null;
@@ -773,7 +802,7 @@ function carteEtalement(et, ph) {
   const direct = ph && ph.mode === "direct";
   const gAncien = s("g"), gCourant = s("g");
   if (direct) gFond.append(gAncien, gCourant);
-  let cleCourante = "";
+  let cleCourante = "", minuteriePrecharge = null;
   const majDirect = () => {
     const c = svg.getBoundingClientRect(); if (!c.width) return;
     const mParPx = Math.max(vb.w / c.width, vb.h / c.height) / Math.min(window.devicePixelRatio || 1, 2);
@@ -795,12 +824,24 @@ function carteEtalement(et, ph) {
       for (const [service, fmt] of [...VOLS[annee].couches].reverse()) {
         const im = s("image", { x: gx * m - ox, y: oy - (gy + 1) * m, width: m, height: m, preserveAspectRatio: "none" });
         attendues++; im.addEventListener("load", charge, { once: true }); im.addEventListener("error", charge, { once: true });
-        im.setAttribute("href", urlOrtho(service, fmt, gx * m, gy * m, m));
+        const url = urlOrtho(service, fmt, gx * m, gy * m, m);
+        im.dataset.src = url;   // l'adresse d'origine, l'image affichée venant de la mémoire (blob)
+        photo(url).then((src) => im.setAttribute("href", src || url));
         g.append(im);
       }
       gCourant.append(g);
     }
     if (!attendues) gAncien.replaceChildren();
+    /* Vue rapprochée : on précharge les mêmes tuiles pour les autres années, les plus proches d'abord */
+    clearTimeout(minuteriePrecharge);
+    const nbTuiles = (gx1 - gx0 + 1) * (gy1 - gy0 + 1);
+    if (nbTuiles <= PRECHARGE_TUILES_MAX) minuteriePrecharge = setTimeout(() => {
+      const autres = annees.filter((a) => a !== annee && VOLS[a]).sort((a, b) => Math.abs(a - annee) - Math.abs(b - annee));
+      const urls = [];
+      for (const a of autres) for (const [service, fmt] of VOLS[a].couches)
+        for (let gy = gy0; gy <= gy1; gy++) for (let gx = gx0; gx <= gx1; gx++) urls.push(urlOrtho(service, fmt, gx * m, gy * m, m));
+      precharger(urls);
+    }, 600);
     const r = VOLS[annee].repli;
     credit.textContent = r ? tr`Photo aérienne : SPW, ${annee} (${r} là où le vol de ${annee} manque)` : tr`Photo aérienne : SPW, ${annee}`;
   };
@@ -1016,24 +1057,23 @@ function sectionEtalement(c, et, ph) {
     h("p", { class: "note" }, tr("Faites glisser pour vous déplacer. Boutons + et − pour zoomer, ou Ctrl et la molette. Sur téléphone, pincez.")),
     r.periodes ? [h("h3", null, tr("À quel rythme")), barresPeriodes(r),
       legende([["barre", "var(--neuf-bati)", tr("Bâtiments")], ["barre", "var(--neuf-revet)", tr("Revêtements aux abords")]]),
-      h("p", { class: "note" }, tr`Surface apparue par an, selon la carte où elle se voit pour la première fois. Le SPW a aussi publié les changements de 2018 à 2019 et de 2018 à 2020, produits un peu autrement. Ils se contredisent parfois : ${nombre(r.controles.datation_incoherente_pct)} % de la surface vue bâtie en 2019 ne l'est plus en 2020. Ces dates sont donc approchées, et les petits chantiers des premières années peuvent avoir été vus en retard.`)] : null,
+      h("p", { class: "note" }, tr`Surface apparue par an, selon la carte où elle se voit pour la première fois. Le SPW a aussi publié des cartes complètes de 2019 et de 2020, produites un peu autrement. Elles se contredisent parfois : ${nombre(r.controles.datation_incoherente_pct)} % de la surface vue bâtie en 2019 ne l'est plus en 2020. Ces dates sont donc approchées, et les petits chantiers des premières années peuvent avoir été vus en retard.`)] : null,
     h("p", { class: "note" }, tr`Seuls sont retenus les bâtiments neufs d'au moins 30 m² et les revêtements neufs à moins de 10 m d'eux. Les autres changements de revêtement sont surtout des écarts de classement entre les deux cartes : il en « disparaît » presque autant qu'il en apparaît. Avec la même règle, le mouvement inverse ne fait que ${nombre(bruitPct)} % du neuf retenu. `,
       h("a", { href: "#methode" }, tr("La méthode"))),
     tableChiffres(tr("Voir les chiffres par zone"), [tr("Zone du plan de secteur"), tr("Bâtiments neufs (ha)"), tr("Revêtements aux abords (ha)"), tr("Part de la commune (%)")],
       Object.entries(r.par_famille).sort((a, b) => (b[1].batiments_ha + b[1].abords_ha) - (a[1].batiments_ha + a[1].abords_ha))
         .map(([k, v]) => [FAMILLES[k][0], nombre(v.batiments_ha, 2), nombre(v.abords_ha, 2), nombre((r.territoire_par_famille_ha[k] || 0) / r.superficie_ha * 100, 1)])),
-    h("p", { class: "note" }, tr("Sources : SPW, WalOUS, changements d'occupation du sol 2018-2019, 2018-2020 et 2018-2023, orthophotos 2018 à 2026, plan de secteur et centralités (CC BY 4.0) ; SPF Finances, plan parcellaire au 1er janvier 2025.")));
+    h("p", { class: "note" }, tr("Sources : SPW, WalOUS, cartes d'occupation du sol 2019 et 2020 et changements 2018-2023, orthophotos 2018 à 2026, plan de secteur et centralités (CC BY 4.0) ; SPF Finances, plan parcellaire au 1er janvier 2025.")));
 }
 
 /* ---------- Méthode ---------- */
 function sectionMethodeEtalement(titre2) {
   const e = etat.meta.etalement, w = e && e.wallonie, liste = [...pilotes()].sort((a, b) => sansAccent(a.nom).localeCompare(sansAccent(b.nom)));
   if (!liste.length) return null;
-  const noms = new Intl.ListFormat(enAnglais() ? "en-GB" : "fr-BE", { type: "conjunction" }).format(liste.map((x) => x.nom));
-  const lienC = (x) => h("a", { href: `#commune-${x.code}` }, x.nom);
+  const somme = (l, k) => l.reduce((s, x) => s + x[k], 0);
   return [
-    titre2(tr("L'étalement vu du ciel : les communes pilotes")),
-    h("p", null, tr`Pour ${noms}, la fiche montre où l'on a bâti entre 2018 et 2023, sur le plan de secteur. La source est WalOUS : le SPW a fait classer chaque mètre carré de Wallonie par un modèle d'apprentissage automatique, à partir des photos aériennes et d'un modèle des hauteurs. Son exactitude globale annoncée est de 87 %, et de 92 % pour les constructions.`),
+    titre2(tr("L'étalement vu du ciel : la méthode")),
+    h("p", null, tr`Pour chacune des ${liste.length} communes, la fiche montre où l'on a bâti entre 2018 et 2023, sur le plan de secteur. La source est WalOUS : le SPW a fait classer chaque mètre carré de Wallonie par un modèle d'apprentissage automatique, à partir des photos aériennes et d'un modèle des hauteurs. Son exactitude globale annoncée est de 87 %, et de 92 % pour les constructions.`),
     w ? h("p", null, tr`Comparer deux cartes produites ainsi fait apparaître beaucoup de faux changements. Sur toute la Wallonie, WalOUS voit ${nombre(w.neuf_ha)} ha passer en artificiel entre 2018 et 2023, et ${nombre(w.retour_ha)} ha faire le chemin inverse. Le solde serait négatif, ce qui n'a pas de sens. La plupart de ces écarts sont des revêtements, bords de route, cours ou chemins, classés autrement d'une carte à l'autre. Les constructions sont bien plus stables : ${nombre(w.constructions_neuves_ha)} ha apparaissent, ${nombre(w.constructions_disparues_ha)} ha disparaissent.`) : null,
     h("h3", null, tr("La règle retenue")),
     h("ul", null,
@@ -1041,16 +1081,16 @@ function sectionMethodeEtalement(titre2) {
       h("li", null, tr("Un revêtement neuf ne compte que s'il est à moins de 10 m d'un bâtiment neuf : allée, cour, parking ou voirie de lotissement.")),
       h("li", null, tr("Chaque surface est rattachée à la zone du plan de secteur, à la centralité et à la parcelle de 2025 qui en portent la plus grande part."))),
     h("p", null, tr("Pour mesurer le bruit qui reste, on applique la même règle au mouvement inverse : des constructions de 2018 devenues prairie, des revêtements disparus près des bâtiments neufs."),
-      " ", liste.flatMap((x, i) => [i ? (enAnglais() ? "; " : " ; ") : "", lienC(x), tr` : ${nombre(x.bruit_ha, 1)} ha pour ${nombre(x.neuf_ha, 1)} ha retenus`]), "."),
+      " ", tr`Sur l'ensemble des communes, cela donne ${nombre(somme(liste, "bruit_ha"))} ha pour ${nombre(somme(liste, "neuf_ha"))} ha retenus, soit ${nombre(somme(liste, "bruit_ha") / somme(liste, "neuf_ha") * 100)} %. Chaque fiche donne la part de sa commune.`),
     h("h3", null, tr("Les dates et les photos")),
     h("ul", null,
-      h("li", null, tr("Le SPW a aussi publié les changements de 2018 à 2019 et de 2018 à 2020. Une surface est datée de la première de ces cartes où elle est bâtie ou revêtue sur au moins la moitié de sa superficie, et sinon de 2020-2023. Le curseur la montre pleine à partir de la fin de cette période.")),
+      h("li", null, tr("Le SPW a aussi publié des cartes complètes de l'occupation du sol en 2019 et en 2020. Une surface est datée de la première de ces cartes où elle est bâtie ou revêtue sur au moins la moitié de sa superficie, et sinon de 2020-2023. Le curseur la montre pleine à partir de la fin de cette période.")),
       h("li", null, tr("Les photos sont les orthophotos annuelles du SPW, de 2018 à 2026, lues en direct sur son service de visualisation. Certaines années, le vol ne couvre qu'une partie de la Wallonie : on complète d'abord avec l'autre vol de la même année. Pour 2022 et 2024, il reste des zones sans photo : la carte y montre celle de l'année précédente, et la mention en bas à droite le dit.")),
       h("li", null, tr("Les photos montrent l'état du terrain le jour du vol. Une tache peut donc apparaître sur la photo un peu avant ou après la date retenue."))),
     h("h3", null, tr("Les limites")),
     h("ul", null,
       h("li", null, tr("Le plan de secteur et les centralités sont ceux en vigueur aujourd'hui. Une zone a pu être modifiée depuis 2018.")),
-      h("li", null, tr("Une serre, un hangar agricole ou un abri de jardin comptent comme des bâtiments. Le pilote ne dit pas si un bâtiment a un permis, ni à quoi il sert.")),
+      h("li", null, tr("Une serre, un hangar agricole ou un abri de jardin comptent comme des bâtiments. La carte ne dit pas si un bâtiment a un permis, ni à quoi il sert.")),
       h("li", null, tr("Les deux séries de photos datent de 2018 et de 2023, le cadastre compte du 1er janvier 2018 au 1er janvier 2023. Les périodes se recouvrent, sans coïncider exactement.")))];
 }
 
@@ -1190,7 +1230,7 @@ function pageMethode() {
     sectionMethodeEtalement(titre2),
     titre2(tr("Ce que ce portail ne dit pas")),
     h("ul", null,
-      h("li", null, tr("Il ne mesure pas l'imperméabilisation. Les photos aériennes ne servent que pour les communes pilotes, et rien ne remplace une visite de terrain.")),
+      h("li", null, tr("Il ne mesure pas l'imperméabilisation. Les photos aériennes ne servent qu'à la carte de l'étalement, et rien ne remplace une visite de terrain.")),
       h("li", null, tr("Il ne mesure pas l'effet du SDT : un permis met plusieurs années à apparaître au cadastre.")),
       h("li", null, tr("Certaines années communales restent éloignées de l'IWEPS, par exemple Seraing en 2015.")),
       h("li", null, tr("Il ne dit pas qu'une commune a enfreint une règle.")),

@@ -8,7 +8,7 @@ C'est une étude indépendante. L'IWEPS, le SPF Finances, Statbel, la CPDT et la
 
 - **Les bassins.** Pour chacun des 7 bassins du SDT, l'artificialisation nette de 2021 à 2024 comparée à la trajectoire. C'est le seul niveau où le SDT fixe un objectif. Le site ne porte aucun jugement par commune.
 - **Les communes.** Pour chacune, le stock artificialisé, sa composition et les flux annuels. Les flux sont estimés à partir du cadastre et comparés aux séries de l'IWEPS.
-- **L'étalement vu du ciel.** Sur trois communes pilotes (Gembloux, Herve, Marche-en-Famenne), les bâtiments et revêtements apparus entre 2018 et 2023 : leur zone au plan de secteur, leur parcelle et leur date. Un curseur fait défiler les années sur les photos aériennes de 2018 à 2026.
+- **L'étalement vu du ciel.** Pour chaque commune, les bâtiments et revêtements apparus entre 2018 et 2023 : leur zone au plan de secteur, leur parcelle et leur date. Un curseur fait défiler les années sur les photos aériennes de 2018 à 2026.
 
 La page Méthode du site détaille les sources, les règles de calcul et les limites. La liste complète des fonctionnalités, page par page, est dans [FONCTIONNALITES.md](FONCTIONNALITES.md).
 
