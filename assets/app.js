@@ -603,52 +603,57 @@ GROUPES = [
 ];
 }
 
+/* Une fiche : chiffres clés en tête, un sommaire, puis des sections courtes (titre, une phrase, le visuel).
+   Les explications et les tableaux sont repliés sous chaque section. */
+const repli = (titre, ...contenu) => h("details", { class: "repli" }, h("summary", null, titre), h("div", { class: "repli-corps" }, contenu));
+const replis = (...l) => h("div", { class: "replis" }, l.filter(Boolean));
+const majuscule = (t) => t.charAt(0).toUpperCase() + t.slice(1);
+
 function pageCommune(c, et, ph) {
   const m = etat.meta, der = m.stats.annee_stock, derFlux = m.derniere_annee_flux;
   const [r0, r1] = m.stats.recent, [p0, p1] = m.stats.passe;
   const dernier = (k) => c.parts_estimees[k].at(-1);
   const signal = c.phrases.find((p) => p.regle === "rythme").signal;
+  const R = c.reperes, n = R ? R.population.length - 1 : 0;
+  const bassin = c.bassin ? etat.bassins.find((b) => b.cle === c.bassin_cle) : null;
+
+  // Chiffres clés
+  const cles = h("dl", { class: "tuiles cles" },
+    tuile(tr("Territoire artificialisé"), tr`${nombre(c.part, 1)} %`, c.part_iweps !== null
+      ? tr`Estimation, 1er janvier ${der}. IWEPS : ${nombre(c.part_iweps, 1)} % en ${m.stats.annee_iweps}` : tr`Estimation, 1er janvier ${der}`),
+    tuile(tr("Rythme récent"), tr`${nombre(c.rythme_recent, 1)} ha/an`, tr`${r0}-${r1}, dont ${derFlux} provisoire`),
+    R ? tuile(tr("Par habitant"), tr`${nombre(R.m2_habitant[n])} m²`, bassin
+      ? tr`Bassin ${nombre(bassin.reperes.m2_habitant[n])} m², Wallonie ${nombre(m.region.reperes.m2_habitant[n])} m²`
+      : tr`Wallonie ${nombre(m.region.reperes.m2_habitant[n])} m²`) : null,
+    et ? h("div", { class: "ciel" }, h("dt", null, tr("Vu du ciel")), h("dd", null, tr`${nombre(et.resume.neuf_ha, 1)} ha`), h("small", null, tr("bâtis ou revêtus entre 2018 et 2023"))) : null);
+
+  // Composition du territoire
+  const grouper = (k) => k.reduce((t, x) => t + dernier(x), 0);
+  const groupes = GROUPES.map(([nom, cles, couleur]) => ({ nom, couleur, val: grouper(cles) }));
+  const compo = h("div", { class: "compo" }, h("p", { class: "compo-titre" }, tr`À quoi sert le territoire en ${der}`),
+    h("div", { class: "empile", role: "img", "aria-label": groupes.map((g) => tr`${g.nom} ${nombre(g.val, 1)} %`).join(", ") },
+      groupes.map((g) => h("span", { style: `flex:${Math.max(g.val, 0.01)} 1 0;background:${g.couleur}`, title: tr`${g.nom} : ${nombre(g.val, 1)} %` }))),
+    legende(groupes.map((g) => ["barre", g.couleur, tr`${g.nom} ${nombre(g.val, 1)} %`])),
+    replis(repli(tr("Voir les 16 catégories"),
+      h("p", { class: "note" }, tr("La part « inconnu » regroupe surtout les voiries et les voies d'eau, qui n'ont pas de nature au cadastre.")),
+      h("div", { class: "defile" }, tableSimple([tr("Catégorie"), tr`Estimation ${der} (%)`, tr`Hectares ${der}`, tr`IWEPS ${m.stats.annee_iweps} (%)`, tr`Écart depuis ${m.stats.premiere_annee} (points)`],
+        [...m.artif, ...m.non_artif].map((k) => {
+          const serie = c.parts_estimees[k];
+          const iw = c.parts_iweps ? c.parts_iweps[k].at(-1) : null;
+          return [(enAnglais() ? m.libelles_en : m.libelles)[k], nombre(serie.at(-1), 1), ha(c.ha_estimes[k]), iw === null ? tr("n.d.") : nombre(iw, 1), signe(c.hausses[k], 1)];
+        }))))));
 
   const tete = [
     h("p", { class: "fil" }, c.bassin ? h("a", { href: `#bassin-${c.bassin_cle}` }, tr`Bassin ${c.bassin}`) : tr("Communauté germanophone, hors SDT"), ` · ${c.province}`),
     h("h1", null, c.nom),
-    marqueSignal(signal)];
+    marqueSignal(signal), cles, compo];
 
-  const refMediane = c.mediane_bassin !== null ? [tr("Médiane du bassin"), c.mediane_bassin] : [tr("Médiane wallonne"), m.stats.mediane_wallonie];
-  const tuiles = h("dl", { class: "tuiles" },
-    tuile(tr("Territoire artificialisé"), tr`${nombre(c.part, 1)} %`, tr`Estimation, 1er janvier ${der}`),
-    c.part_iweps !== null ? tuile(tr("Chiffre de l'IWEPS"), tr`${nombre(c.part_iweps, 1)} %`, tr`Dernier publié, 1er janvier ${m.stats.annee_iweps}`) : null,
-    tuile(refMediane[0], tr`${nombre(refMediane[1], 1)} %`, tr`Estimation, 1er janvier ${der}`),
-    tuile(tr("Rythme récent"), tr`${nombre(c.rythme_recent, 1)} ha/an`, tr`${r0}-${r1}, dont ${derFlux} provisoire`));
+  // En bref : la part artificialisée est déjà dans les chiffres clés
+  const bref = h("section", { class: "section", id: "bref" }, h("h2", null, tr("En bref")),
+    h("ul", { class: "retenir" }, c.phrases.filter((p) => p.regle !== "part").map((p) => h("li", { class: p.regle === "saut" || p.regle === "reclassement" ? "alerte" : null }, texteP(p)))),
+    c.phrases.some((p) => p.regle !== "part" && /\bpoints?\b/.test(p.texte)) ? h("p", { class: "note" }, tr("Ici, un point est un point de pourcentage du territoire de la commune.")) : null);
 
-  const retenir = h("section", { class: "section" }, h("h2", null, tr("Ce qu'il faut retenir")),
-    h("ul", { class: "retenir" }, c.phrases.map((p) => h("li", { class: p.regle === "saut" || p.regle === "reclassement" ? "alerte" : null }, texteP(p)))),
-    c.phrases.some((p) => /\bpoints?\b/.test(p.texte)) ? h("p", { class: "note" }, tr("Ici, un point est un point de pourcentage du territoire de la commune.")) : null);
-
-  const grouper = (k) => k.reduce((t, x) => t + dernier(x), 0);
-  const groupes = GROUPES.map(([nom, cles, couleur]) => ({ nom, couleur, val: grouper(cles) }));
-  const compo = h("section", { class: "section" }, h("h2", null, tr`À quoi sert le territoire en ${der}`),
-    h("div", { class: "empile", role: "img", "aria-label": groupes.map((g) => tr`${g.nom} ${nombre(g.val, 1)} %`).join(", ") },
-      groupes.map((g) => h("span", { style: `flex:${Math.max(g.val, 0.01)} 1 0;background:${g.couleur}`, title: tr`${g.nom} : ${nombre(g.val, 1)} %` }))),
-    legende(groupes.map((g) => ["barre", g.couleur, tr`${g.nom} ${nombre(g.val, 1)} %`])),
-    h("p", { class: "note" }, tr("La part « inconnu » regroupe surtout les voiries et les voies d'eau, qui n'ont pas de nature au cadastre.")),
-    tableChiffres(tr("Voir les 16 catégories"), [tr("Catégorie"), tr`Estimation ${der} (%)`, tr`Hectares ${der}`, tr`IWEPS ${m.stats.annee_iweps} (%)`, tr`Écart depuis ${m.stats.premiere_annee} (points)`],
-      [...m.artif, ...m.non_artif].map((k) => {
-        const serie = c.parts_estimees[k];
-        const iw = c.parts_iweps ? c.parts_iweps[k].at(-1) : null;
-        return [(enAnglais() ? m.libelles_en : m.libelles)[k], nombre(serie.at(-1), 1), ha(c.ha_estimes[k]), iw === null ? tr("n.d.") : nombre(iw, 1), signe(c.hausses[k], 1)];
-      })));
-
-  const estim = m.annees_stock.map((a, i) => [a, c.parts_estimees.artif[i]]);
-  const iwSerie = c.parts_iweps ? m.annees_iweps.map((a, i) => [a, c.parts_iweps.artif[i]]) : [];
-  const evo = h("section", { class: "section" }, h("h2", null, tr("Comment la part artificialisée évolue")));
-  courbeParts(evo, {
-    aria: tr`Part artificialisée de ${c.nom} selon l'IWEPS jusqu'en ${m.stats.annee_iweps} et selon l'estimation du portail jusqu'en ${der}.`,
-    series: [{ nom: "IWEPS", classe: "iweps", couleur: "var(--bati)", points: iwSerie }, { nom: tr("Estimation"), classe: "estim", couleur: "var(--encre)", points: estim }].filter((x) => x.points.length),
-  });
-  evo.append(legende([["trait", "solid var(--bati)", tr`IWEPS, publié, ${m.annees_iweps[0]}-${m.stats.annee_iweps}, arrondi à 0,1 point`], ["trait", "dashed var(--encre)", tr`Estimation du portail, ${m.annees_stock[0]}-${der}`]]));
-  evo.append(h("p", { class: "note" }, tr("En % du territoire. L'axe ne commence pas à zéro, pour rendre l'évolution lisible.")));
-
+  // Évolution : deux graphiques, un seul visible à la fois
   const annees = m.annees_flux;
   const sautsAnnees = new Set(c.sauts.map((x) => x[0]));
   const reclassParAn = new Map(c.reclassements.map((x) => [x.annee, x]));
@@ -657,9 +662,8 @@ function pageCommune(c, et, ph) {
   const sautAvant = c.rythme_passe_sans_saut !== c.rythme_passe, sautApres = c.rythme_recent_sans_saut !== c.rythme_recent;
   if (sautAvant) lignes.push(seg("sans-saut", p0, p1, c.rythme_passe_sans_saut));
   if (sautApres) lignes.push(seg("sans-saut", r0, r1, c.rythme_recent_sans_saut));
-  const fluxS = h("section", { class: "section" }, h("h2", null, tr("Terres artificialisées chaque année")),
-    h("p", { class: "note" }, tr("Estimation du portail, en hectares. C'est un solde net : les terrains entrés moins les terrains sortis de la catégorie artificialisée.")));
-  barresFlux(fluxS, {
+  const panFlux = h("div", { class: "panneau", id: "panneau-flux" }, h("p", { class: "chapo" }, tr("Chaque année, le solde net des terrains devenus artificialisés, en hectares.")));
+  barresFlux(panFlux, {
     annees, valeur: (a) => c.flux[annees.indexOf(a)], lignes, hauteur: 250,
     nature: (a) => (sautsAnnees.has(a) || reclassParAn.has(a) ? "saut" : a === derFlux ? "provisoire" : ""),
     corrige: (a) => (reclassParAn.has(a) ? reclassParAn.get(a).corrige : null),
@@ -675,22 +679,51 @@ function pageCommune(c, et, ph) {
   if (sautAvant) entreesLegende.push(["trait", "dotted var(--saut)", tr`${p0}-${p1} sans les variations : ${nombre(c.rythme_passe_sans_saut, 1)} ha/an`]);
   entreesLegende.push(["trait", "solid var(--encre)", tr`Moyenne ${r0}-${r1} : ${nombre(c.rythme_recent, 1)} ha/an`]);
   if (sautApres) entreesLegende.push(["trait", "dotted var(--saut)", tr`${r0}-${r1} sans les variations : ${nombre(c.rythme_recent_sans_saut, 1)} ha/an`]);
-  fluxS.append(legende(entreesLegende));
-  fluxS.append(tableChiffres(tr("Voir les chiffres"), [tr("Année"), tr("Flux net (ha)")], annees.map((a, i) => [String(a) + (a === derFlux ? tr(" (provisoire)") : "") + (reclassParAn.has(a) ? tr(" (reclassement probable)") : "") + (sautsAnnees.has(a) ? tr(" (à vérifier)") : ""), signe(c.flux[i], 2)])));
+  panFlux.append(legende(entreesLegende), replis(
+    repli(tr("Comment lire ce graphique"), h("p", { class: "note" }, tr("Estimation du portail, en hectares. C'est un solde net : les terrains entrés moins les terrains sortis de la catégorie artificialisée."))),
+    tableChiffres(tr("Voir les chiffres"), [tr("Année"), tr("Flux net (ha)")], annees.map((a, i) => [String(a) + (a === derFlux ? tr(" (provisoire)") : "") + (reclassParAn.has(a) ? tr(" (reclassement probable)") : "") + (sautsAnnees.has(a) ? tr(" (à vérifier)") : ""), signe(c.flux[i], 2)]))));
 
-  const voisins = c.voisins.length ? h("section", { class: "section" }, h("h2", null, tr("Communes voisines")),
-    h("div", { class: "defile" }, h("table", null,
-      h("thead", null, h("tr", null, h("th", { scope: "col" }, tr("Commune")), h("th", { scope: "col" }, tr("Part")))),
-      h("tbody", null, [...c.voisins].sort((x, y) => sansAccent(x.nom).localeCompare(sansAccent(y.nom))).map((v) => h("tr", null, h("th", { scope: "row" }, h("a", { href: `#commune-${v.code}` }, v.nom)), h("td", null, tr`${nombre(v.part, 1)} %`))))))) : null;
-  return [grille({ tete, corps: [retenir, compo, evo, fluxS, c.reperes ? sectionReperes(c, et) : null, et ? sectionEtalement(c, et, ph) : null], haut: tuiles, bas: voisins })];
+  const estim = m.annees_stock.map((a, i) => [a, c.parts_estimees.artif[i]]);
+  const iwSerie = c.parts_iweps ? m.annees_iweps.map((a, i) => [a, c.parts_iweps.artif[i]]) : [];
+  const panPart = h("div", { class: "panneau", id: "panneau-part", hidden: true }, h("p", { class: "chapo" }, tr("La part du territoire artificialisée, au 1er janvier de chaque année.")));
+  courbeParts(panPart, {
+    aria: tr`Part artificialisée de ${c.nom} selon l'IWEPS jusqu'en ${m.stats.annee_iweps} et selon l'estimation du portail jusqu'en ${der}.`,
+    series: [{ nom: "IWEPS", classe: "iweps", couleur: "var(--bati)", points: iwSerie }, { nom: tr("Estimation"), classe: "estim", couleur: "var(--encre)", points: estim }].filter((x) => x.points.length),
+  });
+  panPart.append(legende([["trait", "solid var(--bati)", tr`IWEPS, publié, ${m.annees_iweps[0]}-${m.stats.annee_iweps}, arrondi à 0,1 point`], ["trait", "dashed var(--encre)", tr`Estimation du portail, ${m.annees_stock[0]}-${der}`]]),
+    replis(repli(tr("Comment lire ce graphique"), h("p", { class: "note" }, tr("En % du territoire. L'axe ne commence pas à zéro, pour rendre l'évolution lisible.")))));
+
+  const choix = [[tr("Hectares par an"), panFlux], [tr("Part du territoire"), panPart]];
+  const boutons = choix.map(([t, pan], i) => h("button", { type: "button", "aria-pressed": i === 0 ? "true" : "false", "aria-controls": pan.id, onclick: () => {
+    choix.forEach(([, p], j) => { p.hidden = j !== i; boutons[j].setAttribute("aria-pressed", j === i ? "true" : "false"); });
+  } }, t));
+  const evo = h("section", { class: "section", id: "evolution" }, h("h2", null, tr("Évolution")),
+    h("div", { class: "bascule", role: "group", "aria-label": tr("Graphique affiché") }, boutons), panFlux, panPart);
+
+  const reperesS = R ? sectionReperes(c, et, bassin) : null;
+  const ciel = et ? sectionEtalement(c, et, ph) : null;
+
+  const voisins = c.voisins.length ? h("section", { class: "section", id: "voisines" }, h("h2", null, tr("Communes voisines")),
+    h("ul", { class: "voisines" }, [...c.voisins].sort((x, y) => sansAccent(x.nom).localeCompare(sansAccent(y.nom)))
+      .map((v) => h("li", null, h("a", { href: `#commune-${v.code}` }, h("span", null, v.nom), h("b", null, tr`${nombre(v.part, 1)} %`))))),
+    h("p", { class: "note" }, tr`Part du territoire artificialisée au 1er janvier ${der}.`)) : null;
+
+  // Sommaire : des boutons, pour ne pas changer l'adresse de la page
+  const sections = [[tr("En bref"), bref], [tr("Évolution"), evo], [tr("Vu du ciel"), ciel], [tr("Habitants et terres"), reperesS], [tr("Voisines"), voisins]].filter((x) => x[1]);
+  const sommaire = h("nav", { class: "sommaire-fiche", "aria-label": tr("Dans cette fiche") },
+    h("h2", null, tr("Dans cette fiche")),
+    h("ul", { class: "sommaire" }, sections.map(([t, el]) => h("li", null, h("button", { type: "button", onclick: () => el.scrollIntoView({ block: "start" }) }, t)))),
+    h("a", { class: "sommaire-methode", href: "#methode" }, tr("Sources et méthode")));
+
+  return [grille({ tete, corps: [bref, evo, ciel, reperesS, voisins], haut: sommaire, colle: true, classe: "fiche" })];
 }
 
-/* ---------- Habitants, terres agricoles et activités économiques ---------- */
+/* ---------- Habitants et terres ---------- */
 /* Trois repères tirés du cadastre et de la population (Statbel). Constats seulement : ni classement, ni objectif. */
-function sectionReperes(c, et) {
+function sectionReperes(c, et, bassin) {
   const m = etat.meta, der = m.stats.annee_stock, debut = m.annees_stock[0], R = c.reperes, n = R.population.length - 1;
-  const bassin = c.bassin ? etat.bassins.find((b) => b.cle === c.bassin_cle) : null;
   const evolution = (v) => (Math.abs(v) < 0.05 ? tr`autant qu'en ${debut}` : v > 0 ? tr`${nombre(v, 1)} ha de plus qu'en ${debut}` : tr`${nombre(-v, 1)} ha de moins qu'en ${debut}`);
+  const gros = (valeur, petit) => h("p", { class: "gros" }, h("span", null, valeur), h("small", null, petit));
 
   // Par habitant : la commune, son bassin et la Wallonie, à la même échelle
   const lignes = [[c.nom, R.m2_habitant[n], true], bassin ? [tr`Bassin ${bassin.nom}`, bassin.reperes.m2_habitant[n], false] : null,
@@ -714,27 +747,30 @@ function sectionReperes(c, et) {
       : debutPhoto + tr`${nombre(culture)} % étaient une culture en 2018 et ${nombre(prairie)} % une prairie, une pelouse ou une friche.`);
 
   // Activités économiques : industrie et artisanat, commerces, bureaux et services
-  const ind = R.industrie_ha, com = R.commerce_ha;
+  const ind = R.industrie_ha, com = R.commerce_ha, lib = enAnglais() ? m.libelles_en : m.libelles;
   // Part de la hausse des terrains artificialisés : seulement si les deux hausses sont positives et comparables
   const hausseAct = ind[n] - ind[0] + com[n] - com[0], hausseArtif = R.artif_ha[n] - R.artif_ha[0];
   const partAct = hausseArtif >= 1 && hausseAct > 0 && hausseAct <= hausseArtif ? hausseAct / hausseArtif * 100 : null;
+  const activite = (nom, v) => [h("dt", null, nom), h("dd", null, tr`${nombre(v[n], 1)} ha`), h("dd", { class: "ev" }, majuscule(evolution(v[n] - v[0])))];
 
-  const section = h("section", { class: "section", id: "reperes" }, h("h2", null, tr("Habitants, terres agricoles et activités économiques")),
-    h("h3", null, tr("Par habitant")),
-    h("p", null, tr`Au 1er janvier ${der}, ${c.nom} compte ${nombre(R.m2_habitant[n])} m² de terrains artificialisés par habitant, contre ${nombre(R.m2_habitant[0])} m² en ${debut}.`),
-    barres,
-    h("p", { class: "note" }, tr("Habitants au 1er janvier, selon le registre national (Statbel). Tous les terrains artificialisés sont comptés : logements, activités, équipements. Une commune qui accueille un zoning ou un grand équipement a donc un ratio plus élevé.")),
-    h("h3", null, tr("Les terres agricoles")),
-    h("p", null, tr`Le cadastre compte ${nombre(agri[n])} ha de terres agricoles, cultures et prairies, au 1er janvier ${der}, soit ${nombre(partAgri)} % du territoire. C'est ${evolution(agri[n] - agri[0])}.`),
-    photo,
-    h("h3", null, tr("Les terrains d'activités économiques")),
-    h("p", null, tr`Industrie et artisanat : ${nombre(ind[n], 1)} ha au 1er janvier ${der}, ${evolution(ind[n] - ind[0])}. Commerces, bureaux et services : ${nombre(com[n], 1)} ha, ${evolution(com[n] - com[0])}.`),
-    partAct !== null ? h("p", null, tr`Ensemble, ces terrains représentent ${nombre(partAct)} % de la hausse des terrains artificialisés depuis ${debut}.`) : null,
-    h("p", { class: "note" }, tr("Le cadastre classe chaque parcelle selon sa nature. Il ne dit pas si un terrain d'activité a été bâti sur un sol déjà artificialisé.")),
-    h("p", { class: "note" }, tr("Dans le tableau : m² artificialisés par habitant ; industrie et artisanat ; commerces, bureaux et services.")),
-    tableChiffres(tr("Voir les chiffres"), [tr("Année"), tr("Habitants"), tr("m²/hab."), tr("Agricole (ha)"), tr("Industrie (ha)"), tr("Commerces (ha)")],
-      m.annees_stock.map((a, i) => [String(a), nombre(R.population[i]), nombre(R.m2_habitant[i]), nombre(agri[i], 1), nombre(ind[i], 1), nombre(com[i], 1)])));
-  return section;
+  return h("section", { class: "section", id: "reperes" }, h("h2", null, tr("Habitants et terres")),
+    h("div", { class: "cartes" },
+      h("article", { class: "carte" }, h("h3", null, tr("Par habitant")),
+        gros(tr`${nombre(R.m2_habitant[n])} m²`, tr`${nombre(R.m2_habitant[0])} m² en ${debut}`), barres),
+      h("article", { class: "carte" }, h("h3", null, tr("Terres agricoles")),
+        gros(tr`${nombre(agri[n])} ha`, tr`${nombre(partAgri)} % du territoire`),
+        h("p", null, majuscule(evolution(agri[n] - agri[0])) + "."), photo),
+      h("article", { class: "carte" }, h("h3", null, tr("Activités économiques")),
+        h("dl", { class: "activites" }, activite(lib.indus, ind), activite(lib.comm, com)),
+        partAct !== null ? h("p", null, tr`Ensemble, ces terrains représentent ${nombre(partAct)} % de la hausse des terrains artificialisés depuis ${debut}.`) : null)),
+    replis(
+      repli(tr("Comment lire ces repères"),
+        h("p", { class: "note" }, tr`Cadastre et population au 1er janvier ${der}, comparés au 1er janvier ${debut}.`),
+        h("p", { class: "note" }, tr("Habitants au 1er janvier, selon le registre national (Statbel). Tous les terrains artificialisés sont comptés : logements, activités, équipements. Une commune qui accueille un zoning ou un grand équipement a donc un ratio plus élevé.")),
+        h("p", { class: "note" }, tr("Le cadastre classe chaque parcelle selon sa nature. Il ne dit pas si un terrain d'activité a été bâti sur un sol déjà artificialisé.")),
+        h("p", { class: "note" }, tr("Dans le tableau : m² artificialisés par habitant ; industrie et artisanat ; commerces, bureaux et services."))),
+      tableChiffres(tr("Voir les chiffres"), [tr("Année"), tr("Habitants"), tr("m²/hab."), tr("Agricole (ha)"), tr("Industrie (ha)"), tr("Commerces (ha)")],
+        m.annees_stock.map((a, i) => [String(a), nombre(R.population[i]), nombre(R.m2_habitant[i]), nombre(agri[i], 1), nombre(ind[i], 1), nombre(com[i], 1)]))));
 }
 
 /* ---------- Étalement vu du ciel (communes pilotes, WalOUS 2018-2023) ---------- */
@@ -1089,33 +1125,41 @@ function sectionEtalement(c, et, ph) {
   const { commandes, zone } = carteEtalement(et, ph);
   const zonesPresentes = ORDRE_ZONES.filter((k) => et.zones[k]).reverse();
   const bruitPct = (r.bruit.batiments_inverses_ha + r.bruit.abords_inverses_ha) / r.neuf_ha * 100;
+  // La zone du plan de secteur qui reçoit la plus grande part du neuf
+  const [zoneMax, vMax] = Object.entries(r.par_famille).sort((a, b) => (b[1].batiments_ha + b[1].abords_ha) - (a[1].batiments_ha + a[1].abords_ha))[0] || [];
+  const chiffre = (classe, v, t) => h("div", { class: classe }, h("dd", null, v), h("dt", null, t));
   return h("section", { class: "section", id: "etalement" },
-    h("h2", null, tr("Où l'on a bâti, vu du ciel, 2018-2023")),
-    h("p", null, tr`Entre les photos aériennes de 2018 et celles de 2023, ${nombre(r.batiments_ha, 1)} ha de nouveaux bâtiments sont apparus à ${c.nom}, et ${nombre(r.abords_ha, 1)} ha de revêtements à leurs abords. Soit ${nombre(r.neuf_ha, 1)} ha bâtis ou revêtus.`),
-    fl ? h("p", null, tr`Le cadastre compte ${nombre(fl.ha, 1)} ha artificialisés de ${fl.annees[0]} à ${fl.annees[1]}. L'écart est attendu : le cadastre compte toute la parcelle, jardin compris, la photo seulement ce qui est bâti ou revêtu.`) : null,
-    h("h3", null, tr("Dans quelle zone du plan de secteur")),
-    barresZones(r),
-    legende([["barre", "var(--neuf-bati)", tr("Part du neuf")], ["trait", "solid var(--encre)", tr("Trait : part de la commune couverte par cette zone")]]),
-    h("p", null, tr`${nombre(centrPct)} % de ce neuf se trouve dans une centralité du SDT, qui couvre ${nombre(r.centralite.part_territoire_pct)} % de la commune.`),
-    h("h3", null, tr("Année après année")),
-    h("p", null, ph && ph.mode === "direct" ? tr("Faites glisser le curseur, ou lancez la lecture, pour voir les chantiers apparaître sur la photo aérienne de chaque année. Zoomez sur un quartier pour voir le détail.")
+    h("h2", null, tr("Vu du ciel, 2018-2023")),
+    h("p", { class: "chapo" }, ph && ph.mode === "direct" ? tr("Faites glisser le curseur, ou lancez la lecture, pour voir les chantiers apparaître sur la photo aérienne de chaque année. Zoomez sur un quartier pour voir le détail.")
       : ph ? tr("Faites glisser le curseur, ou lancez la lecture, pour voir les chantiers apparaître. Zoomez sur un quartier : la photo aérienne de l'année choisie remplace alors le fond.")
       : tr("Faites glisser le curseur pour voir les chantiers apparaître.")),
+    h("dl", { class: "mini" },
+      chiffre("bati", tr`${nombre(r.batiments_ha, 1)} ha`, tr("de nouveaux bâtiments")),
+      chiffre("revet", tr`${nombre(r.abords_ha, 1)} ha`, tr("de revêtements à leurs abords")),
+      zoneMax && r.neuf_ha > 0 ? chiffre("neutre", tr`${nombre((vMax.batiments_ha + vMax.abords_ha) / r.neuf_ha * 100)} %`, tr`du neuf : ${FAMILLES[zoneMax][0].toLowerCase()}`) : null,
+      r.centralite.part_territoire_pct > 0 ? chiffre("neutre", tr`${nombre(centrPct)} %`, tr("du neuf dans une centralité du SDT")) : null),
     commandes, zone,
     legende([["barre", "var(--neuf-bati)", tr("Nouveau bâtiment")], ["barre", "var(--neuf-revet)", tr("Revêtement neuf aux abords")],
       ["trait", "dashed var(--encre-2)", tr("Pas encore bâti l'année choisie")], ["trait", "dashed var(--encre-2)", tr("Centralité du SDT")]]),
-    h("details", { class: "etal-legende-zones" }, h("summary", null, tr("Couleurs du plan de secteur")),
-      legende(zonesPresentes.map((k) => ["barre", FAMILLES[k][1], FAMILLES[k][0]]))),
     h("p", { class: "note" }, tr("Faites glisser pour vous déplacer. Boutons + et − pour zoomer, ou Ctrl et la molette. Sur téléphone, pincez.")),
-    r.periodes ? [h("h3", null, tr("À quel rythme")), barresPeriodes(r),
-      legende([["barre", "var(--neuf-bati)", tr("Bâtiments")], ["barre", "var(--neuf-revet)", tr("Revêtements aux abords")]]),
-      h("p", { class: "note" }, tr`Surface apparue par an, selon la carte où elle se voit pour la première fois. Le SPW a aussi publié des cartes complètes de 2019 et de 2020, produites un peu autrement. Elles se contredisent parfois : ${nombre(r.controles.datation_incoherente_pct)} % de la surface vue bâtie en 2019 ne l'est plus en 2020. Ces dates sont donc approchées, et les petits chantiers des premières années peuvent avoir été vus en retard.`)] : null,
-    h("p", { class: "note" }, tr`Seuls sont retenus les bâtiments neufs d'au moins 30 m² et les revêtements neufs à moins de 10 m d'eux. Les autres changements de revêtement sont surtout des écarts de classement entre les deux cartes : il en « disparaît » presque autant qu'il en apparaît. Avec la même règle, le mouvement inverse ne fait que ${nombre(bruitPct)} % du neuf retenu. `,
-      h("a", { href: "#methode" }, tr("La méthode"))),
-    tableChiffres(tr("Voir les chiffres par zone"), [tr("Zone du plan de secteur"), tr("Bâtiments neufs (ha)"), tr("Revêtements aux abords (ha)"), tr("Part de la commune (%)")],
-      Object.entries(r.par_famille).sort((a, b) => (b[1].batiments_ha + b[1].abords_ha) - (a[1].batiments_ha + a[1].abords_ha))
-        .map(([k, v]) => [FAMILLES[k][0], nombre(v.batiments_ha, 2), nombre(v.abords_ha, 2), nombre((r.territoire_par_famille_ha[k] || 0) / r.superficie_ha * 100, 1)])),
-    h("p", { class: "note" }, tr("Sources : SPW, WalOUS, cartes d'occupation du sol 2019 et 2020 et changements 2018-2023, orthophotos 2018 à 2026, plan de secteur et centralités (CC BY 4.0) ; SPF Finances, plan parcellaire au 1er janvier 2025.")));
+    replis(
+      repli(tr("Couleurs du plan de secteur"), legende(zonesPresentes.map((k) => ["barre", FAMILLES[k][1], FAMILLES[k][0]]))),
+      repli(tr("Par zone du plan de secteur"),
+        barresZones(r),
+        legende([["barre", "var(--neuf-bati)", tr("Part du neuf")], ["trait", "solid var(--encre)", tr("Trait : part de la commune couverte par cette zone")]]),
+        h("p", null, tr`${nombre(centrPct)} % de ce neuf se trouve dans une centralité du SDT, qui couvre ${nombre(r.centralite.part_territoire_pct)} % de la commune.`)),
+      r.periodes ? repli(tr("À quel rythme"), barresPeriodes(r),
+        legende([["barre", "var(--neuf-bati)", tr("Bâtiments")], ["barre", "var(--neuf-revet)", tr("Revêtements aux abords")]]),
+        h("p", { class: "note" }, tr`Surface apparue par an, selon la carte où elle se voit pour la première fois. Le SPW a aussi publié des cartes complètes de 2019 et de 2020, produites un peu autrement. Elles se contredisent parfois : ${nombre(r.controles.datation_incoherente_pct)} % de la surface vue bâtie en 2019 ne l'est plus en 2020. Ces dates sont donc approchées, et les petits chantiers des premières années peuvent avoir été vus en retard.`)) : null,
+      repli(tr("Comment c'est mesuré"),
+        h("p", null, tr`Entre les photos aériennes de 2018 et celles de 2023, ${nombre(r.batiments_ha, 1)} ha de nouveaux bâtiments sont apparus à ${c.nom}, et ${nombre(r.abords_ha, 1)} ha de revêtements à leurs abords. Soit ${nombre(r.neuf_ha, 1)} ha bâtis ou revêtus.`),
+        fl ? h("p", null, tr`Le cadastre compte ${nombre(fl.ha, 1)} ha artificialisés de ${fl.annees[0]} à ${fl.annees[1]}. L'écart est attendu : le cadastre compte toute la parcelle, jardin compris, la photo seulement ce qui est bâti ou revêtu.`) : null,
+        h("p", { class: "note" }, tr`Seuls sont retenus les bâtiments neufs d'au moins 30 m² et les revêtements neufs à moins de 10 m d'eux. Les autres changements de revêtement sont surtout des écarts de classement entre les deux cartes : il en « disparaît » presque autant qu'il en apparaît. Avec la même règle, le mouvement inverse ne fait que ${nombre(bruitPct)} % du neuf retenu. `,
+          h("a", { href: "#methode" }, tr("La méthode"))),
+        h("p", { class: "note" }, tr("Sources : SPW, WalOUS, cartes d'occupation du sol 2019 et 2020 et changements 2018-2023, orthophotos 2018 à 2026, plan de secteur et centralités (CC BY 4.0) ; SPF Finances, plan parcellaire au 1er janvier 2025."))),
+      tableChiffres(tr("Voir les chiffres par zone"), [tr("Zone du plan de secteur"), tr("Bâtiments neufs (ha)"), tr("Revêtements aux abords (ha)"), tr("Part de la commune (%)")],
+        Object.entries(r.par_famille).sort((a, b) => (b[1].batiments_ha + b[1].abords_ha) - (a[1].batiments_ha + a[1].abords_ha))
+          .map(([k, v]) => [FAMILLES[k][0], nombre(v.batiments_ha, 2), nombre(v.abords_ha, 2), nombre((r.territoire_par_famille_ha[k] || 0) / r.superficie_ha * 100, 1)]))));
 }
 
 /* ---------- Méthode ---------- */

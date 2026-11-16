@@ -367,8 +367,6 @@ tbody tr:nth-child(odd) .jauge { background: var(--filet); }
 .etal-vues image, .etal-carte image { image-rendering: auto; }
 .etal-bouton { align-self: start; font: 700 0.8125rem/1.2 var(--corps); color: var(--encre); background: none; border: 1px solid var(--encre); padding: 0.5rem 0.8rem; cursor: pointer; }
 .etal-bouton:hover { background: var(--surface); }
-.etal-legende-zones summary { cursor: pointer; font-size: 0.8125rem; color: var(--encre-2); }
-.etal-legende-zones[open] summary { margin-bottom: 0.4rem; }
 .etal-periodes .piste span.abords { background: var(--neuf-revet); }
 @media (max-width: 40rem) { .etal-annee { font-size: 1.5rem; } .etal-curseur-annee { font-size: 1.375rem; } }
 .sur-photo .etal-zone { opacity: 0.5; }
@@ -379,3 +377,79 @@ tbody tr:nth-child(odd) .jauge { background: var(--filet); }
 .sur-photo svg.loin .etal-tache.construction { stroke: var(--photo-bati); }
 .etal-carte svg.loin .etal-tache.a-venir { stroke-width: 1; stroke-dasharray: none; opacity: 0.45; }
 @media (max-width: 40rem) { .etal-reperes span:nth-child(even) { visibility: hidden; } }
+
+/* ---------- Fiche commune : chiffres clés, sommaire, sections courtes, détails repliés ---------- */
+.grille.fiche { grid-template-columns: minmax(0, 1fr) 13rem; }
+.fiche .section { scroll-margin-top: 5.5rem; }
+.fiche .section > h2 { font: 600 1.45rem/1.2 var(--titre); text-transform: uppercase; letter-spacing: 0.03em; }
+.tuiles.cles { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.75rem; margin-top: 0.4rem; }
+.tuiles.cles > div, .tuiles.cles > div:first-child { background: var(--surface); padding: 0.85rem 1rem 0.95rem; border-bottom: 0; border-top: 3px solid var(--bati); }
+.tuiles.cles > div.ciel { border-top-color: var(--neuf-bati); }
+.tuiles.cles dd { font-size: 2rem; }
+.tuiles.cles small { font-size: 0.8125rem; color: var(--encre-2); }
+.compo { display: flex; flex-direction: column; gap: 0.5rem; }
+.compo .empile { height: 0.9rem; }
+.compo-titre { margin: 0; font: 900 0.6875rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.14em; color: var(--encre-2); }
+.chapo { margin: 0; max-width: var(--lecture); font-size: 1.0625rem; line-height: 1.6; }
+.panneau { display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+.panneau[hidden] { display: none; }
+.bascule { display: inline-flex; flex-wrap: wrap; width: fit-content; max-width: 100%; border: 1px solid var(--filet-fort); }
+.bascule button { font: 700 0.8125rem/1.4 var(--corps); color: var(--encre-2); background: none; border: 0; padding: 0.4rem 0.9rem; cursor: pointer; }
+.bascule button[aria-pressed="true"] { background: var(--encre); color: var(--papier); }
+
+/* Détails repliés : une rangée de boutons ; celui qu'on ouvre passe dessous, sur toute la largeur */
+.replis { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 0.5rem; }
+.replis > details { min-width: 0; }
+.replis > details > summary { list-style: none; cursor: pointer; width: fit-content; margin: 0; border: 1px solid var(--filet); padding: 0.4rem 0.75rem; font: 700 0.8125rem/1.4 var(--corps); color: var(--encre-2); }
+.replis > details > summary::-webkit-details-marker { display: none; }
+.replis > details > summary::before { content: "+ "; color: var(--bati); }
+.replis > details[open] > summary::before { content: "− "; }
+.replis > details > summary:hover { border-color: var(--filet-fort); color: var(--encre); }
+.replis > details[open] { order: 1; flex-basis: 100%; display: flex; flex-direction: column; gap: 0.75rem; padding-bottom: 0.5rem; }
+.repli-corps { display: flex; flex-direction: column; gap: 0.75rem; min-width: 0; }
+
+/* Vu du ciel : quatre chiffres au-dessus de la carte */
+.mini { display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); gap: 0.75rem 1.5rem; margin: 0; }
+.mini > div { display: flex; flex-direction: column; border-left: 3px solid var(--filet-fort); padding-left: 0.7rem; min-width: 0; }
+.mini > div.bati { border-left-color: var(--neuf-bati); }
+.mini > div.revet { border-left-color: var(--neuf-revet); }
+.mini dd { margin: 0; font: 600 1.6rem/1.2 var(--titre); font-variant-numeric: tabular-nums; }
+.mini dt { font-size: 0.8125rem; line-height: 1.4; font-weight: 400; color: var(--encre-2); }
+
+/* Habitants et terres : trois cartes */
+.cartes { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.75rem; }
+.carte { border: 1px solid var(--filet); padding: 1rem 1.1rem 1.1rem; display: flex; flex-direction: column; gap: 0.6rem; min-width: 0; }
+.carte h3 { margin: 0; font: 900 0.6875rem/1.4 var(--corps); text-transform: uppercase; letter-spacing: 0.14em; color: var(--encre-2); }
+.carte p { margin: 0; font-size: 0.9375rem; line-height: 1.55; }
+.carte .gros { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.6rem; }
+.carte .gros span { font: 600 2rem/1.15 var(--titre); font-variant-numeric: tabular-nums; }
+.carte .gros small { font-size: 0.875rem; color: var(--encre-2); font-weight: 400; }
+.carte .etal-barres { grid-template-columns: auto minmax(3rem, 1fr) auto; font-size: 0.8125rem; }
+.activites { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0.1rem 0.8rem; margin: 0; font-size: 0.9375rem; }
+.activites dd { margin: 0; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.activites dd.ev { grid-column: 1 / -1; text-align: left; font-weight: 400; font-size: 0.8125rem; color: var(--encre-2); margin-bottom: 0.4rem; white-space: normal; }
+
+.voisines { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0; padding: 0; list-style: none; }
+.voisines a { display: inline-flex; gap: 0.5rem; border: 1px solid var(--filet); padding: 0.35rem 0.7rem; font-size: 0.875rem; text-decoration: none; }
+.voisines a:hover { border-color: var(--bati); }
+.voisines b { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.sommaire-fiche { display: flex; flex-direction: column; gap: 0.6rem; }
+.sommaire-methode { font-size: 0.8125rem; color: var(--encre-2); }
+
+/* Écran étroit : le sommaire devient une barre de boutons collée en haut */
+@media (max-width: 68rem) {
+  .fiche .g-haut { position: sticky; top: 4rem; z-index: 5; background: var(--papier); margin-inline: -0.25rem; padding: 0.5rem 0.25rem; border-bottom: 1px solid var(--filet); }
+  .fiche .section { scroll-margin-top: 8rem; }
+  .sommaire-fiche h2, .sommaire-methode { display: none; }
+  .sommaire-fiche .sommaire { display: flex; flex-direction: row; gap: 0.4rem; overflow-x: auto; scrollbar-width: none; }
+  .sommaire-fiche .sommaire button { width: auto; white-space: nowrap; border: 1px solid var(--filet); padding: 0.3rem 0.7rem; font-size: 0.8125rem; }
+}
+@media (max-width: 47.5rem) {
+  .fiche .g-haut { top: env(safe-area-inset-top, 0px); }
+  .fiche .section { scroll-margin-top: 3.75rem; }
+  .tuiles.cles { grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+  .tuiles.cles > div, .tuiles.cles > div:first-child { padding: 0.65rem 0.7rem 0.75rem; }
+  .tuiles.cles dd { font-size: 1.55rem; }
+  .mini { grid-template-columns: 1fr 1fr; }
+}

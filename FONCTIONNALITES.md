@@ -18,12 +18,13 @@ Un tour rapide de ce qu'on trouve sur [Sols wallons](https://francoisleduc.githu
 
 - **Un tableau des 261 communes,** triable par nom, bassin, part artificialisée ou rythme récent.
 - **Une recherche par nom,** accessible de partout dans le site.
-- **Une fiche par commune :**
-  - les chiffres clés : part du territoire artificialisée et rythme récent, avec la valeur publiée par l'IWEPS ;
-  - la composition du territoire artificialisé (habitat, activités, routes…) ;
-  - l'évolution de la part artificialisée depuis 2002 (série de l'IWEPS, prolongée par l'estimation du portail) et les hectares artificialisés chaque année depuis 2011 ;
-  - trois repères : les m² artificialisés par habitant (comparés au bassin et à la Wallonie), les terres agricoles et les terrains d'activités économiques, avec leur évolution depuis 2011 ;
-  - une comparaison avec les communes voisines.
+- **Une fiche par commune,** avec un sommaire pour sauter d'une partie à l'autre (une barre de boutons sur téléphone). Les explications et les tableaux sont repliés sous chaque partie :
+  - en tête, quatre chiffres clés : part du territoire artificialisée (avec la valeur publiée par l'IWEPS), rythme récent, m² artificialisés par habitant et surface bâtie ou revêtue vue du ciel ; puis la composition du territoire (habitat, activités, routes…) ;
+  - en bref, les constats de la commune ;
+  - l'évolution : les hectares artificialisés chaque année depuis 2011, ou la part artificialisée depuis 2002 (série de l'IWEPS, prolongée par l'estimation du portail), au choix ;
+  - l'étalement vu du ciel (voir plus bas) ;
+  - habitants et terres : les m² artificialisés par habitant (comparés au bassin et à la Wallonie), les terres agricoles et les terrains d'activités économiques, avec leur évolution depuis 2011 ;
+  - les communes voisines.
 
 ## L'étalement vu du ciel
 
