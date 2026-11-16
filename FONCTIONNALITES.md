@@ -22,6 +22,7 @@ Un tour rapide de ce qu'on trouve sur [Sols wallons](https://francoisleduc.githu
   - les chiffres clés : part du territoire artificialisée et rythme récent, avec la valeur publiée par l'IWEPS ;
   - la composition du territoire artificialisé (habitat, activités, routes…) ;
   - l'évolution de la part artificialisée depuis 2002 (série de l'IWEPS, prolongée par l'estimation du portail) et les hectares artificialisés chaque année depuis 2011 ;
+  - trois repères : les m² artificialisés par habitant (comparés au bassin et à la Wallonie), les terres agricoles et les terrains d'activités économiques, avec leur évolution depuis 2011 ;
   - une comparaison avec les communes voisines.
 
 ## L'étalement vu du ciel

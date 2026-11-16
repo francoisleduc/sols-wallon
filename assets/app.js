@@ -682,7 +682,59 @@ function pageCommune(c, et, ph) {
     h("div", { class: "defile" }, h("table", null,
       h("thead", null, h("tr", null, h("th", { scope: "col" }, tr("Commune")), h("th", { scope: "col" }, tr("Part")))),
       h("tbody", null, [...c.voisins].sort((x, y) => sansAccent(x.nom).localeCompare(sansAccent(y.nom))).map((v) => h("tr", null, h("th", { scope: "row" }, h("a", { href: `#commune-${v.code}` }, v.nom)), h("td", null, tr`${nombre(v.part, 1)} %`))))))) : null;
-  return [grille({ tete, corps: [retenir, compo, evo, fluxS, et ? sectionEtalement(c, et, ph) : null], haut: tuiles, bas: voisins })];
+  return [grille({ tete, corps: [retenir, compo, evo, fluxS, c.reperes ? sectionReperes(c, et) : null, et ? sectionEtalement(c, et, ph) : null], haut: tuiles, bas: voisins })];
+}
+
+/* ---------- Habitants, terres agricoles et activités économiques ---------- */
+/* Trois repères tirés du cadastre et de la population (Statbel). Constats seulement : ni classement, ni objectif. */
+function sectionReperes(c, et) {
+  const m = etat.meta, der = m.stats.annee_stock, debut = m.annees_stock[0], R = c.reperes, n = R.population.length - 1;
+  const bassin = c.bassin ? etat.bassins.find((b) => b.cle === c.bassin_cle) : null;
+  const evolution = (v) => (Math.abs(v) < 0.05 ? tr`autant qu'en ${debut}` : v > 0 ? tr`${nombre(v, 1)} ha de plus qu'en ${debut}` : tr`${nombre(-v, 1)} ha de moins qu'en ${debut}`);
+
+  // Par habitant : la commune, son bassin et la Wallonie, à la même échelle
+  const lignes = [[c.nom, R.m2_habitant[n], true], bassin ? [tr`Bassin ${bassin.nom}`, bassin.reperes.m2_habitant[n], false] : null,
+    [tr("Wallonie"), m.region.reperes.m2_habitant[n], false]].filter(Boolean);
+  const max = Math.max(...lignes.map((x) => x[1]));
+  const barres = h("dl", { class: "etal-barres reperes-barres" }, lignes.flatMap(([nom, v, moi]) => [
+    h("dt", null, nom),
+    h("dd", { class: moi ? "moi" : null }, h("div", { class: "piste", role: "img", "aria-label": tr`${nom} : ${nombre(v)} m² par habitant` }, h("span", { style: `width:${v / max * 100}%` }))),
+    h("dd", { class: "val" }, tr`${nombre(v)} m²`)]));
+
+  // Terres agricoles : le cadastre, puis ce que les photos montrent sous les constructions récentes
+  const agri = R.agricole_ha, partAgri = c.parts_estimees.arable[n] + c.parts_estimees.herbe[n];
+  const av = et && et.resume.avant, neuf = et && et.resume.neuf_ha;
+  // Une part qui s'arrondit à zéro n'est pas citée
+  const culture = av ? (av.herbe_rotation || 0) / neuf * 100 : 0, prairie = av ? (av.herbe_permanente || 0) / neuf * 100 : 0;
+  const nul = (v) => Math.round(v) === 0;
+  const debutPhoto = tr`Sur les photos aériennes, parmi les ${nombre(neuf, 1)} ha bâtis ou revêtus entre 2018 et 2023, `;
+  const photo = !av || !(neuf > 0) || (nul(culture) && nul(prairie)) ? null
+    : h("p", null, nul(prairie) ? debutPhoto + tr`${nombre(culture)} % étaient une culture en 2018.`
+      : nul(culture) ? debutPhoto + tr`${nombre(prairie)} % étaient une prairie, une pelouse ou une friche en 2018.`
+      : debutPhoto + tr`${nombre(culture)} % étaient une culture en 2018 et ${nombre(prairie)} % une prairie, une pelouse ou une friche.`);
+
+  // Activités économiques : industrie et artisanat, commerces, bureaux et services
+  const ind = R.industrie_ha, com = R.commerce_ha;
+  // Part de la hausse des terrains artificialisés : seulement si les deux hausses sont positives et comparables
+  const hausseAct = ind[n] - ind[0] + com[n] - com[0], hausseArtif = R.artif_ha[n] - R.artif_ha[0];
+  const partAct = hausseArtif >= 1 && hausseAct > 0 && hausseAct <= hausseArtif ? hausseAct / hausseArtif * 100 : null;
+
+  const section = h("section", { class: "section", id: "reperes" }, h("h2", null, tr("Habitants, terres agricoles et activités économiques")),
+    h("h3", null, tr("Par habitant")),
+    h("p", null, tr`Au 1er janvier ${der}, ${c.nom} compte ${nombre(R.m2_habitant[n])} m² de terrains artificialisés par habitant, contre ${nombre(R.m2_habitant[0])} m² en ${debut}.`),
+    barres,
+    h("p", { class: "note" }, tr("Habitants au 1er janvier, selon le registre national (Statbel). Tous les terrains artificialisés sont comptés : logements, activités, équipements. Une commune qui accueille un zoning ou un grand équipement a donc un ratio plus élevé.")),
+    h("h3", null, tr("Les terres agricoles")),
+    h("p", null, tr`Le cadastre compte ${nombre(agri[n])} ha de terres agricoles, cultures et prairies, au 1er janvier ${der}, soit ${nombre(partAgri)} % du territoire. C'est ${evolution(agri[n] - agri[0])}.`),
+    photo,
+    h("h3", null, tr("Les terrains d'activités économiques")),
+    h("p", null, tr`Industrie et artisanat : ${nombre(ind[n], 1)} ha au 1er janvier ${der}, ${evolution(ind[n] - ind[0])}. Commerces, bureaux et services : ${nombre(com[n], 1)} ha, ${evolution(com[n] - com[0])}.`),
+    partAct !== null ? h("p", null, tr`Ensemble, ces terrains représentent ${nombre(partAct)} % de la hausse des terrains artificialisés depuis ${debut}.`) : null,
+    h("p", { class: "note" }, tr("Le cadastre classe chaque parcelle selon sa nature. Il ne dit pas si un terrain d'activité a été bâti sur un sol déjà artificialisé.")),
+    h("p", { class: "note" }, tr("Dans le tableau : m² artificialisés par habitant ; industrie et artisanat ; commerces, bureaux et services.")),
+    tableChiffres(tr("Voir les chiffres"), [tr("Année"), tr("Habitants"), tr("m²/hab."), tr("Agricole (ha)"), tr("Industrie (ha)"), tr("Commerces (ha)")],
+      m.annees_stock.map((a, i) => [String(a), nombre(R.population[i]), nombre(R.m2_habitant[i]), nombre(agri[i], 1), nombre(ind[i], 1), nombre(com[i], 1)])));
+  return section;
 }
 
 /* ---------- Étalement vu du ciel (communes pilotes, WalOUS 2018-2023) ---------- */
@@ -1227,6 +1279,12 @@ function pageMethode() {
       h("li", null, tr`Un bassin est « proche » de sa trajectoire quand son bilan s'en écarte de moins de ${prochePct()} %.`)),
     h("p", null, tr("Un point est un point de pourcentage, c'est-à-dire la différence entre deux pourcentages. Passer de 35,1 à 35,5 % du territoire, c'est gagner 0,4 point, et non 0,4 %. L'arrondi de l'IWEPS à 0,1 point et l'écart à la médiane du bassin s'expriment ainsi.")),
 
+    titre2(tr("Habitants, terres agricoles et activités économiques")),
+    h("p", null, tr("Chaque fiche donne trois repères, sans classement ni objectif :")),
+    h("ul", null,
+      h("li", null, tr("Les m² artificialisés par habitant : le stock artificialisé estimé au 1er janvier, divisé par le nombre d'habitants à la même date selon le registre national (Statbel). Bastogne et Bertogne sont additionnées, et les codes INS changés en 2019 dans le Hainaut sont ramenés aux codes actuels. Le même calcul est fait pour le bassin et pour la Wallonie, en additionnant les communes.")),
+      h("li", null, tr("Les terres agricoles : les catégories « terres arables et cultures permanentes » et « surfaces enherbées et friches agricoles » du cadastre. Leur nature est fiscale : une prairie déclarée peut être un jardin. Sur les communes de l'étalement vu du ciel, la fiche ajoute ce que les photos de 2018 montraient sous les surfaces bâties ou revêtues ensuite.")),
+      h("li", null, tr("Les terrains d'activités économiques : les catégories « industrie et artisanat » et « commerces, bureaux et services ». Leur part dans la hausse des terrains artificialisés n'est donnée que si les deux hausses sont positives, et celle des activités la plus petite."))),
     sectionMethodeEtalement(titre2),
     titre2(tr("Ce que ce portail ne dit pas")),
     h("ul", null,
@@ -1241,6 +1299,7 @@ function pageMethode() {
       h("li", null, h("a", { href: "https://www.geo.be/catalog/details/86999d70-51ca-11eb-9238-3448ed25ad7c?l=fr" }, tr("SPF Finances, Occupation du sol")), tr(", CC BY 4.0, annuel.")),
       h("li", null, h("a", { href: "https://opendata.iweps.be/" }, tr("IWEPS, données ouvertes")), tr(", indicateurs 215700_0 à 215700_16, CC0, et fiche T005 de septembre 2026.")),
       h("li", null, h("a", { href: "https://statbel.fgov.be/fr/open-data/secteurs-statistiques-2025" }, tr("Statbel, secteurs statistiques 2025")), tr(" et occupation du sol, CC BY 4.0. Les limites communales sont fusionnées et simplifiées à partir des secteurs.")),
+      h("li", null, h("a", { href: "https://statbel.fgov.be/fr/open-data" }, tr("Statbel, population par lieu de résidence")), tr(", au 1er janvier, CC BY 4.0.")),
       h("li", null, h("a", { href: "https://territoire.wallonie.be/storage/territoire/documents/content/publication/sdt-web-pages.pdf" }, tr("Schéma de développement du territoire, 2024")), "."),
       h("li", null, h("a", { href: "https://geodata.wallonie.be/id/03300ff8-5e1d-430d-876a-ffd1b9103e78" }, tr("SPW, WalOUS, changements d'occupation du sol 2018-2023")), tr(", CC BY 4.0. Avec le plan de secteur et les centralités du SDT, du SPW, CC BY 4.0.")),
       h("li", null, tr("SPF Finances, plan parcellaire cadastral au 1er janvier 2025, licence open data du SPF.")),
@@ -1253,6 +1312,7 @@ function pageMethode() {
       h("li", null, lien("flux_par_commune.csv", tr("Flux annuels par commune")), tr`, ${m.annees_flux[0]}-${der}, avec les signalements et le flux corrigé.`),
       h("li", null, lien("reclassements_probables.csv", tr("Reclassements probables")), tr(", avec les natures en cause.")),
       h("li", null, lien("flux_par_bassin.csv", tr("Flux et trajectoires par bassin")), "."),
+      h("li", null, lien("habitants_par_commune.csv", tr("Habitants et m² artificialisés par habitant, par commune")), `, ${m.annees_stock[0]}-${m.stats.annee_stock}.`),
       h("li", null, lien("table_natures_categories.csv", tr("Table nature vers catégorie")), ".")));
 
   const sommaire = h("ul", { class: "sommaire" }, titres.map(([t, el]) => h("li", null, h("button", { type: "button", onclick: () => el.scrollIntoView({ block: "start" }) }, t))));

@@ -7,7 +7,7 @@ C'est une étude indépendante. L'IWEPS, le SPF Finances, Statbel, la CPDT et la
 ## Ce que montre le site
 
 - **Les bassins.** Pour chacun des 7 bassins du SDT, l'artificialisation nette de 2021 à 2024 comparée à la trajectoire. C'est le seul niveau où le SDT fixe un objectif. Le site ne porte aucun jugement par commune.
-- **Les communes.** Pour chacune, le stock artificialisé, sa composition et les flux annuels. Les flux sont estimés à partir du cadastre et comparés aux séries de l'IWEPS.
+- **Les communes.** Pour chacune, le stock artificialisé, sa composition et les flux annuels. Les flux sont estimés à partir du cadastre et comparés aux séries de l'IWEPS. Trois repères complètent la fiche : les m² artificialisés par habitant, les terres agricoles et les terrains d'activités économiques.
 - **L'étalement vu du ciel.** Pour chaque commune, les bâtiments et revêtements apparus entre 2018 et 2023 : leur zone au plan de secteur, leur parcelle et leur date. Un curseur fait défiler les années sur les photos aériennes de 2018 à 2026.
 
 La page Méthode du site détaille les sources, les règles de calcul et les limites. La liste complète des fonctionnalités, page par page, est dans [FONCTIONNALITES.md](FONCTIONNALITES.md).
@@ -18,7 +18,7 @@ La page Méthode du site détaille les sources, les règles de calcul et les lim
 |---|---|
 | SPF Finances, occupation du sol (natures cadastrales) et plan parcellaire | CC BY 4.0 et licence open data du SPF |
 | IWEPS, indicateurs d'artificialisation | CC0 |
-| Statbel, secteurs statistiques et occupation du sol | CC BY 4.0 |
+| Statbel, secteurs statistiques, occupation du sol et population au 1er janvier | CC BY 4.0 |
 | SPW, WalOUS (occupation du sol 2018, 2019, 2020, 2023), plan de secteur, centralités du SDT | CC BY 4.0 |
 | SPW, orthophotos annuelles 2018 à 2026, lues en direct sur `geoservices.wallonie.be` | CC BY 4.0 |
 | Schéma de développement du territoire, 2024 | Document public |
